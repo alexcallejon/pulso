@@ -64,6 +64,7 @@ def page(title, desc, body, path, cats, jsonld=""):
     full_title = f"{title} | {NAME}" if path else f"{NAME}: {TAGLINE}"
     return f"""<!doctype html><html lang="es"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="google-site-verification" content="wTLn-ib0hh-Qyzt8CxIecS4HFY691S4ULLLzTWA4nb0" />
 <title>{e(full_title)}</title><meta name="description" content="{e(desc[:155])}">
 <link rel="canonical" href="{SITE_URL}/{path}"><link rel="alternate" type="application/rss+xml" title="{NAME}" href="{url('rss.xml')}">
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc[:155])}"><meta property="og:type" content="website">
