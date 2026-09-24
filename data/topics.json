@@ -1,5 +1,119 @@
 [
  {
+  "id": "49819880",
+  "slug": "tailscale-anuncia-mejoras-de-rendimiento-en-su-plataforma-de-49819880",
+  "fecha": "2026-09-24T16:51:28+00:00",
+  "titulo": "Tailscale anuncia mejoras de rendimiento en su plataforma de conectividad",
+  "resumen": "Tailscale presenta optimizaciones para aumentar la velocidad de transferencia de datos en enrutadores de subred, conectores de aplicaciones y nodos de salida mediante tecnología multi-cola. Las mejoras incluyen reducción de sobrecarga de memoria para paquetes pequeños y optimizaciones en el manejo de colas de espera. Los cambios comenzarán a implementarse en versiones estables de clientes durante la segunda mitad de 2026.",
+  "por_que_importa": "El rendimiento es crucial para que Tailscale sea viable en casos de uso exigentes como integración continua, desarrollo remoto y dispositivos edge. Las optimizaciones permiten que la plataforma gestione mejor el tráfico en redes complejas con múltiples dispositivos independientes.",
+  "puntos_clave": [
+   "Reducción del 5% en consumo de memoria para paquetes pequeños al evitar copias innecesarias en buffers de 64 KiB",
+   "Implementación de procesamiento multi-cola para manejar flujos independientes en paralelo en lugar de secuencial",
+   "Mejoras en overhead de memoria y rendimiento disponibles próximamente en versiones cliente estables"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://tailscale.com/blog/making-tailscale-faster",
+  "fuente_dominio": "tailscale.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49819880",
+  "score": 221,
+  "comentarios": 89
+ },
+ {
+  "id": "49828731",
+  "slug": "apple-retira-proteccion-avanzada-de-datos-en-reino-unido-tra-49828731",
+  "fecha": "2026-09-24T16:51:23+00:00",
+  "titulo": "Apple retira protección avanzada de datos en Reino Unido tras orden gubernamental",
+  "resumen": "Apple ha desactivado su función Advanced Data Protection para nuevos usuarios en Reino Unido tras recibir una orden legal del gobierno británico en enero de 2025. La medida afecta de forma desigual a usuarios con iPhones idénticos: algunos que activaron la función antes de febrero pueden mantenerla, mientras que otros no pueden acceder a ella. La decisión representa un cambio de postura respecto a la defensa histórica de Apple sobre encriptación y privacidad.",
+  "por_que_importa": "Ilustra la tensión entre seguridad nacional y privacidad digital, y cómo las presiones regulatorias pueden llevar a empresas tecnológicas a limitar funciones de protección de datos. Establece un precedente en cómo los gobiernos pueden usar mecanismos legales para forzar cambios en arquitecturas de seguridad.",
+  "puntos_clave": [
+   "El gobierno británico utilizó una Orden de Capacidad Técnica bajo la Ley de Poderes de Investigación de 2016 para exigir acceso a datos encriptados.",
+   "Apple optó por desactivar la función en lugar de crear herramientas de acceso, revirtiendo usuarios UK a protección estándar donde Apple retiene las claves.",
+   "La restricción crea un escenario donde dispositivos idénticos en el mismo país tienen niveles de protección diferentes según cuándo se activó la función."
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://macanorak.com/two-tier-encryption-in-the-uk/",
+  "fuente_dominio": "macanorak.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49828731",
+  "score": 222,
+  "comentarios": 225
+ },
+ {
+  "id": "49831968",
+  "slug": "f-droid-2-0-rediseno-completo-del-repositorio-de-apps-open-s-49831968",
+  "fecha": "2026-09-24T16:51:18+00:00",
+  "titulo": "F-Droid 2.0: rediseño completo del repositorio de apps open source",
+  "resumen": "F-Droid lanzó la versión 2.0 de su aplicación tras más de un año de desarrollo, la actualización más grande en una década. La nueva versión presenta una interfaz modernizada basada en Material Design, mejoras en el descubrimiento de aplicaciones y una navegación simplificada en tres secciones principales. El código fue reescrito con Kotlin Compose para facilitar futuros desarrollos.",
+  "por_que_importa": "F-Droid es una plataforma importante para acceder a aplicaciones Android de código abierto sin depender de Google Play. La actualización busca hacer más accesible el repositorio de miles de aplicaciones libres a usuarios nuevos y experimentados.",
+  "puntos_clave": [
+   "Interfaz rediseñada con navegación simplificada en Discover, Search y My Apps",
+   "Sistema de categorías expandido con subcategorías especializadas para encontrar apps específicas",
+   "Herramientas de búsqueda y descubrimiento mejoradas sin recopilación de datos de usuario"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
+  "fuente_dominio": "f-droid.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49831968",
+  "score": 241,
+  "comentarios": 60
+ },
+ {
+  "id": "49823664",
+  "slug": "arxiv-asegura-17-2-millones-para-convertirse-en-organizacion-49823664",
+  "fecha": "2026-09-24T16:51:14+00:00",
+  "titulo": "ArXiv asegura 17,2 millones para convertirse en organización independiente",
+  "resumen": "ArXiv ha recibido compromisos de financiación plurianual por 17,2 millones de dólares de tres organizaciones filantrópicas para consolidarse como entidad independiente. Los fondos, que se desembolsarán entre tres y cinco años, se destinarán a mejorar la infraestructura técnica, operaciones continuas y servicios para investigadores. La plataforma también utilizará recursos para abordar desafíos emergentes como la gestión de contenido generado por IA y fortalecer su gobernanza como organización sin ánimo de lucro.",
+  "por_que_importa": "ArXiv es una infraestructura crítica para la comunicación científica global que atiende a millones de usuarios anuales en múltiples disciplinas. La transición a independencia y los fondos asegurados garantizan la sostenibilidad de la plataforma frente a nuevos desafíos como la proliferación de papers generados por IA.",
+  "puntos_clave": [
+   "Simons Foundation International, XTX Markets y Siegel Family Endowment financian la autonomía de ArXiv",
+   "Los recursos se dirigirán a infraestructura técnica, operaciones y gestión de contenido generado artificialmente",
+   "La plataforma lleva 35 años facilitando el acceso abierto a investigación en ciencia, matemáticas e ingeniería"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/",
+  "fuente_dominio": "blog.arxiv.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49823664",
+  "score": 276,
+  "comentarios": 37
+ },
+ {
+  "id": "49822555",
+  "slug": "fly-io-analiza-el-agente-ssh-de-vscode-y-sus-implicaciones-d-49822555",
+  "fecha": "2026-09-24T16:51:09+00:00",
+  "titulo": "Fly.io analiza el agente SSH de VSCode y sus implicaciones de seguridad",
+  "resumen": "Fly.io examina cómo VSCode implementa la edición remota a través de SSH, utilizando un agente que descarga Node.js binario y establece conexiones WebSocket para acceder al sistema de archivos remoto. La empresa señala preocupaciones sobre permitir esta funcionalidad en servidores de desarrollo y producción. Los comentarios destacan que el comportamiento es intencional para el caso de uso previsto, aunque algunos usuarios reportan consumo significativo de espacio en disco.",
+  "por_que_importa": "Con VSCode dominando el desarrollo remoto y su integración con herramientas de IA generativa, entender cómo funciona su mecanismo de conexión remota es relevante para evaluar riesgos de seguridad. La discusión refleja la tensión entre funcionalidad práctica y consideraciones de seguridad en entornos de desarrollo.",
+  "puntos_clave": [
+   "VSCode descarga un agente con binario Node.js que establece conexiones WebSocket sobre SSH",
+   "El agente puede navegar el sistema de archivos, editar archivos y ejecutar procesos de shell en la máquina remota",
+   "Los usuarios reportan usos contradictorios: algunos consideran la herramienta esencial, otros expresan preocupación por su consumo de recursos y comportamiento en producción"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://fly.io/blog/vscode-ssh-wtf/",
+  "fuente_dominio": "fly.io",
+  "hn_url": "https://news.ycombinator.com/item?id=49822555",
+  "score": 291,
+  "comentarios": 185
+ },
+ {
+  "id": "49825642",
+  "slug": "experto-en-ux-propone-modernizar-el-escritorio-de-codigo-abi-49825642",
+  "fecha": "2026-09-24T16:51:03+00:00",
+  "titulo": "Experto en UX propone modernizar el escritorio de código abierto",
+  "resumen": "Scott Jenson, especialista en interfaces de usuario con experiencia en empresas como Google y Apple, presentó en la conferencia Akademy 2026 de KDE sus propuestas para evolucionar el diseño del escritorio Linux más allá del modelo tradicional. Jenson argumenta que los proyectos de código abierto necesitan mejorar significativamente en experiencia de usuario, aunque reconoce que enfrentan limitaciones de recursos. Destacó detalles de diseño específicos, como la gestión de clics y arrastres de archivos, donde Linux presenta diferencias que complican la usabilidad respecto a macOS.",
+  "por_que_importa": "El diseño de experiencia de usuario del escritorio Linux afecta directamente la adopción y satisfacción de millones de usuarios, y mejorar estos aspectos podría hacer más accesible el software libre. Las propuestas de Jenson buscan cerrar la brecha entre la sofisticación de interfaces comerciales y la funcionalidad del código abierto.",
+  "puntos_clave": [
+   "Jenson aboga por superar el modelo tradicional de ventanas, iconos, menús y puntero (WIMP) en escritorios Linux",
+   "Identifica problemas específicos de usabilidad en Linux, como la elevación de ventanas durante operaciones de arrastrar y soltar",
+   "El código abierto carece de recursos suficientes para invertir en diseño de UX, lo que frena la innovación en este aspecto"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://lwn.net/SubscriberLink/1095425/2d9f411252325784/",
+  "fuente_dominio": "lwn.net",
+  "hn_url": "https://news.ycombinator.com/item?id=49825642",
+  "score": 315,
+  "comentarios": 380
+ },
+ {
   "id": "49817404",
   "slug": "gpt-6-astra-completa-una-ruta-de-conduccion-en-pruebas-de-be-49817404",
   "fecha": "2026-09-24T11:47:54+00:00",
