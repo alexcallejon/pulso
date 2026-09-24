@@ -1,1 +1,116 @@
-[]
+[
+ {
+  "id": "49817469",
+  "slug": "restauran-el-reloj-de-la-antigua-estacion-de-policia-de-port-49817469",
+  "fecha": "2026-09-24T11:32:28+00:00",
+  "titulo": "Restauran el reloj de la antigua estación de policía de Portobello",
+  "resumen": "Un grupo de voluntarios logró reparar y sincronizar el mecanismo del reloj de la torre de la estación de policía de Portobello, un edificio histórico de finales del siglo XIX que fue adquirido recientemente por la comunidad. El proceso incluyó identificar el sistema de engranajes que mueve las tres esferas del reloj y accionar un pawl para desconectar el motor y ajustar manualmente la hora. También inspeccionaron el sistema de campanadas, que contiene un circuito microcontrolador de principios de los años 2000 aún funcional.",
+  "por_que_importa": "La iniciativa forma parte de la restauración comunitaria de un edificio histórico de importancia local que ahora es de propiedad pública tras su adquisición mediante fondos de patrimonio. Ejemplifica cómo voluntarios pueden resolver problemas técnicos en estructuras antiguas combinando conocimiento mecánico y paciencia con la historia industrial.",
+  "puntos_clave": [
+   "El reloj original data de 1877 y funciona mediante motores eléctricos conectados a un sistema de engranajes que acciona tres esferas",
+   "El equipo de control de campanadas incorpora un microcontrolador PIC de alrededor de 2001 que sigue operativo",
+   "La reparación requirió acceso a través de escaleras de madera hacia la torre del reloj en el ático del edificio"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://pointinthecloud.com/2026-04-11-211700.html",
+  "fuente_dominio": "pointinthecloud.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49817469",
+  "score": 458,
+  "comentarios": 103
+ },
+ {
+  "id": "49814947",
+  "slug": "claude-code-no-leia-agents-md-sin-telemetria-activada-49814947",
+  "fecha": "2026-09-24T11:32:22+00:00",
+  "titulo": "Claude Code no leía AGENTS.md sin telemetría activada",
+  "resumen": "Claude Code 2.1.277 presentó soporte para leer archivos AGENTS.md como instrucciones de proyecto, pero la funcionalidad dependía de un indicador remoto vinculado al estado de telemetría. Los usuarios que desactivaban la telemetría no podían acceder a este archivo local sin ninguna advertencia del sistema. El problema fue identificado y corregido en la versión 2.1.281 lanzada el mismo día.",
+  "por_que_importa": "Afecta especialmente a equipos conscientes de privacidad que desactivan telemetría o usan servicios externos como Bedrock y Vertex, dejándoles sin una función anunciada como disponible. La falta de notificación sobre el bloqueo hace que los usuarios desconozcan por qué sus instrucciones de proyecto no se cargan.",
+  "puntos_clave": [
+   "La carga de AGENTS.md estaba condicionada a un indicador de características remoto que fallaba cuando se desactivaba la telemetría",
+   "Usuarios sin advertencias recibían respuestas del modelo sin las instrucciones de proyecto esperadas",
+   "La solución temporal requería crear un archivo CLAUDE.md adicional que importara AGENTS.md"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
+  "fuente_dominio": "blog.szypowi.cz",
+  "hn_url": "https://news.ycombinator.com/item?id=49814947",
+  "score": 471,
+  "comentarios": 269
+ },
+ {
+  "id": "49812769",
+  "slug": "implementar-jev-en-python-clasificacion-con-probabilidades-l-49812769",
+  "fecha": "2026-09-24T11:32:17+00:00",
+  "titulo": "Implementar Jev en Python: clasificación con probabilidades locales",
+  "resumen": "Un desarrollador presenta una implementación simplificada de Jev, un modelo de clasificación que utiliza probabilidades basadas en logits de modelos de lenguaje. El código carga un modelo GGUF, procesa un prompt con opciones predefinidas y calcula las probabilidades de cada categoría de forma local, sin enviar datos a servidores externos. El artículo reconoce ser una parodia sobre las múltiples interpretaciones de Jev que circulan en la comunidad tecnológica.",
+  "por_que_importa": "Muestra un enfoque práctico y accesible para tareas de clasificación con modelos de lenguaje sin depender de APIs externas. Los comentarios destacan limitaciones técnicas importantes en el uso de logits directos con modelos de chat y la proliferación de implementaciones cuestionables de Jev que generan confusión.",
+  "puntos_clave": [
+   "Ejecuta clasificación de texto de forma local sin transferir datos",
+   "Convierte logits en probabilidades calibradas para múltiples opciones",
+   "Los comentarios advierten sobre problemas de dilución de probabilidades en modelos entrenados para prosa"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+  "fuente_dominio": "nobodywho.ai",
+  "hn_url": "https://news.ycombinator.com/item?id=49812769",
+  "score": 654,
+  "comentarios": 204
+ },
+ {
+  "id": "49820134",
+  "slug": "claude-identifica-un-nuevo-sistema-enzimatico-con-caracteris-49820134",
+  "fecha": "2026-09-24T11:32:12+00:00",
+  "titulo": "Claude identifica un nuevo sistema enzimático con características similares a CRISPR",
+  "resumen": "Anthropic creó un grupo de investigación en biología que utiliza Claude para analizar bases de datos de secuencias de ADN y descubrir nuevas familias de proteínas. En su primer proyecto, el sistema de IA identificó de forma autónoma un novedoso sistema enzimático basado en una transcriptasa inversa, con características que recuerdan a CRISPR. El descubrimiento incluyó la identificación de patrones de repeticiones de ADN no codificante asociados a esta enzima, una combinación de rasgos que solo se había encontrado en sistemas biológicos programables conocidos.",
+  "por_que_importa": "El hallazgo demuestra que los modelos de IA pueden acelerar el descubrimiento científico fundamental en biología, un campo donde identificar nuevos sistemas moleculares puede llevar a innovaciones médicas transformadoras. Sin embargo, la noticia ha generado preocupación sobre la supervisión necesaria en investigación biológica realizada por empresas de IA y sobre la atribución de crédito a investigadores humanos.",
+  "puntos_clave": [
+   "Claude analizó millones de secuencias de ADN en 21 horas mediante 950 agentes para identificar el nuevo sistema enzimático",
+   "El descubrimiento combina una transcriptasa inversa conocida con patrones de repeticiones de ADN nunca antes descritos juntos",
+   "Investigadores como Feng Zhang, pionero de CRISPR, reconocen el potencial de los agentes de IA en descubrimientos biológicos"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+  "fuente_dominio": "anthropic.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49820134",
+  "score": 668,
+  "comentarios": 680
+ },
+ {
+  "id": "49805509",
+  "slug": "openai-presenta-gpt-6-sol-y-luna-con-precios-50-mas-bajos-49805509",
+  "fecha": "2026-09-24T11:32:06+00:00",
+  "titulo": "OpenAI presenta GPT-6 Sol y Luna con precios 50% más bajos",
+  "resumen": "OpenAI lanzó dos nuevos modelos de la familia GPT-6 complementarios a su modelo estrella Astra. Sol y Luna ofrecen mejoras en inteligencia y reducen costos significativamente mediante optimizaciones en caché e inferencia. Los nuevos modelos mantienen avances en trabajo profesional, precisión factual y codificación, pero a un precio accesible para aplicaciones cotidianas.",
+  "por_que_importa": "La reducción de costos del 50% respecto a generaciones anteriores democratiza el acceso a modelos avanzados para más usuarios y empresas. La disponibilidad de opciones a diferentes escalas permite que aplicaciones con presupuestos limitados adopten inteligencia artificial de frontera.",
+  "puntos_clave": [
+   "GPT-6 Sol y Luna cuestan la mitad que sus predecesores de GPT-5.6",
+   "Sol supera a modelos competidores en automatización empresarial con menor costo por tarea",
+   "Luna reduce errores factuales aproximándose al desempeño de Astra a fracción del precio"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+  "fuente_dominio": "openai.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49805509",
+  "score": 1751,
+  "comentarios": 831
+ },
+ {
+  "id": "49803892",
+  "slug": "anthropic-presenta-claude-opus-5-5-con-mejoras-de-rendimient-49803892",
+  "fecha": "2026-09-24T11:32:02+00:00",
+  "titulo": "Anthropic presenta Claude Opus 5.5 con mejoras de rendimiento y reducción de costos",
+  "resumen": "Anthropic lanzó Claude Opus 5.5, primer modelo de una nueva familia que ofrece rendimiento comparable a versiones anteriores con un costo 40% inferior. El modelo incluye mejoras significativas en velocidad de generación, capacidades de codificación y calidad comunicativa, además de pasar evaluaciones rigurosas de alineación y seguridad. También recibirán versiones mejoradas Claude Sonnet 5.5 y Claude Haiku 5.5 en las próximas semanas.",
+  "por_que_importa": "La reducción de precios en un modelo de alta capacidad refleja cambios en la dinámica competitiva del mercado de modelos de lenguaje. Las mejoras en seguridad y comunicación establecen nuevos estándares para modelos de frontera en la industria.",
+  "puntos_clave": [
+   "Reducción de 40% en costos operacionales y velocidad de generación 30% más rápida que versión anterior",
+   "Desempeño mejorado en tareas de codificación complejas, procesamiento de larga duración y trabajos de conocimiento intensivo",
+   "Mejor puntuación en auditorías de alineación y seguridad, con mayor resistencia a inyecciones de indicaciones"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://www.anthropic.com/claude-opus-5-5",
+  "fuente_dominio": "anthropic.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49803892",
+  "score": 1779,
+  "comentarios": 1105
+ }
+]
