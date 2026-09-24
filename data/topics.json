@@ -1,5 +1,119 @@
 [
  {
+  "id": "49817404",
+  "slug": "gpt-6-astra-completa-una-ruta-de-conduccion-en-pruebas-de-be-49817404",
+  "fecha": "2026-09-24T11:47:54+00:00",
+  "titulo": "GPT-6 Astra completa una ruta de conducción en pruebas de benchmark",
+  "resumen": "Un modelo de lenguaje consiguió completar un circuito de conducción en una prueba de rendimiento, superando significativamente a otros modelos como Claude y Grok. Los resultados muestran capacidades avanzadas en visión por computadora y razonamiento espacial. Sin embargo, expertos señalan limitaciones críticas para su aplicación en conducción real, principalmente relacionadas con la latencia.",
+  "por_que_importa": "Demuestra avances en la integración de visión y control de sistemas por parte de modelos de lenguaje grandes. Plantea interrogantes sobre el futuro de los sistemas de conducción autónoma convencionales frente a enfoques basados en inteligencia artificial generativa.",
+  "puntos_clave": [
+   "GPT-6 Astra logró completar la ruta en su segundo intento, mientras que otros modelos solo alcanzaron porcentajes mucho menores de progreso",
+   "Los especialistas destacan que la latencia en entrega en la nube hace inviable esta aproximación para conducción real",
+   "El desempeño sugiere que un único modelo de visión podría reemplazar arquitecturas complejas de conducción autónoma en el futuro"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://drivingbench.com/",
+  "fuente_dominio": "drivingbench.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49817404",
+  "score": 292,
+  "comentarios": 228
+ },
+ {
+  "id": "49824686",
+  "slug": "gobierno-estadounidense-acusa-a-criticos-de-ia-de-actuar-com-49824686",
+  "fecha": "2026-09-24T11:47:50+00:00",
+  "titulo": "Gobierno estadounidense acusa a críticos de IA de actuar como agentes extranjeros",
+  "resumen": "La administración Trump ha vinculado la oposición pública a centros de datos de IA con influencia china, amenazando con responsabilidad criminal a quienes avancen objetivos de potencias extranjeras. El Departamento de Justicia advirtió que cualquier actividad pública, incluyendo manifestaciones, que promueva los intereses de gobiernos externos requiere notificación formal al gobierno. El presidente y legisladores republicanos han identificado a críticos de la infraestructura de IA como conspiradores traidores, citando como evidencia a un empresario tecnológico basado en Shanghái.",
+  "por_que_importa": "La acusación plantea preocupaciones sobre libertades democráticas fundamentales, permitiendo al gobierno clasificar la disidencia tecnológica como traición. Los comentarios sugieren que existen críticas legítimas sobre IA independientemente de cualquier influencia extranjera, cuestionando la justificación de estas medidas.",
+  "puntos_clave": [
+   "Trump vinculó públicamente la oposición a IA con conspiración china y amenazó con consecuencias legales",
+   "El DOJ requiere notificación formal de ciudadanos que participen en actividades públicas favoreciendo intereses extranjeros",
+   "Legisladores republicanos investigaron a activistas y organizaciones sin fines de lucro por presunta influencia del gobierno chino"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
+  "fuente_dominio": "kenklippenstein.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49824686",
+  "score": 301,
+  "comentarios": 314
+ },
+ {
+  "id": "49813482",
+  "slug": "el-costo-de-usar-modelos-de-lenguaje-se-reduce-drasticamente-49813482",
+  "fecha": "2026-09-24T11:47:44+00:00",
+  "titulo": "El costo de usar modelos de lenguaje se reduce drásticamente y podría volverse negligible",
+  "resumen": "El precio de procesar tokens mediante inteligencia artificial está bajando varios órdenes de magnitud anualmente, sin signos de desaceleración. Los modelos de lenguaje se integrarán progresivamente como infraestructura en todos los sistemas computacionales en los próximos años. Los límites del uso de IA pasarán de ser la capacidad de procesamiento a factores como la calidad y el acceso.",
+  "por_que_importa": "Esta tendencia de abaratamiento transformará cómo se desarrolla y despliega software, permitiendo que capacidades avanzadas estén disponibles de forma ubicua. Sin embargo, genera interrogantes sobre la viabilidad financiera de los modelos de negocio actuales, considerando las inversiones masivas en infraestructura que requieren retorno.",
+  "puntos_clave": [
+   "La eficiencia de los procesadores gráficos se duplica aproximadamente cada dos años, comparable al crecimiento histórico de la Ley de Moore.",
+   "El costo por tarea completada disminuye significativamente, aunque el precio por token individual se mantiene relativamente estable.",
+   "Modelos de menor escala podrían ejecutarse en hardware convencional con calidad similar a las versiones actuales de frontera en 3 a 6 años."
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://jyn.dev/tokens-too-cheap-to-meter/",
+  "fuente_dominio": "jyn.dev",
+  "hn_url": "https://news.ycombinator.com/item?id=49813482",
+  "score": 311,
+  "comentarios": 211
+ },
+ {
+  "id": "49817615",
+  "slug": "google-presenta-nuevos-modelos-de-sintesis-de-voz-en-gemini-49817615",
+  "fecha": "2026-09-24T11:47:39+00:00",
+  "titulo": "Google presenta nuevos modelos de síntesis de voz en Gemini 3.8",
+  "resumen": "Google ha lanzado dos nuevos modelos de conversión de texto a voz dentro de la familia Gemini: el Flash TTS, diseñado para crear voces personalizadas desde cero con control detallado, y el Flash-Lite TTS, optimizado para producción a gran escala. Los usuarios pueden generar voces originales mediante indicaciones en lenguaje natural, replicar perfiles vocales existentes a partir de muestras de audio, e incluye medidas de seguridad como marcas de agua. Estos modelos estarán disponibles en Google AI Studio, la API de Gemini, Gemini Enterprise, Gemini Notebook y Google Vids.",
+  "por_que_importa": "Amplía significativamente las capacidades de generación de audio creativo para desarrolladores y empresas, permitiendo producir contenido de audiobooks, podcasts y agentes de voz sin depender de voces pregrabadas. Representa un paso en la democratización de herramientas de síntesis de voz expresiva, aunque usuarios señalan inconsistencias en la disponibilidad y capacidades entre plataformas de Google.",
+  "puntos_clave": [
+   "Dos modelos: Flash TTS para creatividad y control detallado; Flash-Lite TTS para producción a escala",
+   "Capacidad de crear voces desde cero o replicarlas desde muestras de 30 segundos, con soporte en más de 100 idiomas y dialectos",
+   "Incluye herramientas de seguridad como verificación de consentimiento, marca de agua SynthID y credenciales C2PA"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+  "fuente_dominio": "blog.google",
+  "hn_url": "https://news.ycombinator.com/item?id=49817615",
+  "score": 313,
+  "comentarios": 139
+ },
+ {
+  "id": "49816374",
+  "slug": "seattle-prohibe-los-precios-personalizados-en-la-venta-de-al-49816374",
+  "fecha": "2026-09-24T11:47:33+00:00",
+  "titulo": "Seattle prohíbe los precios personalizados en la venta de alimentos",
+  "resumen": "El Consejo Municipal de Seattle aprobó una ley que prohibe el uso de datos personales para establecer precios diferenciados en productos de primera necesidad como alimentos. La medida, la primera de este tipo a nivel municipal en Estados Unidos, impide que minoristas utilicen información sobre historial de navegación, ubicación, ingresos o condiciones de salud para modificar el precio que ve cada consumidor. La iniciativa requiere mayor transparencia en descuentos y limita la creación de perfiles de consumidores, y ahora espera la firma del alcalde.",
+  "por_que_importa": "Los estudios documentados revelan que plataformas como Instacart aplicaban diferencias de precio de hasta el 23% para los mismos productos en el mismo momento, afectando significativamente el gasto familiar. Esta regulación pionera podría servir de modelo para otras ciudades y estados interesados en frenar prácticas de discriminación de precios basadas en vigilancia de datos.",
+  "puntos_clave": [
+   "Prohibe ajustar precios según datos personales como ingresos, ubicación o historial de navegación",
+   "Permite descuentos pero exige mayor transparencia y limita la creación de perfiles de consumidores",
+   "Otros estados como Maryland, Connecticut y Nueva Jersey ya tienen leyes similares"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://advocacy.consumerreports.org/press_release/seattle-city-council-votes-to-ban-surveillance-pricing-in-sale-of-groceries/",
+  "fuente_dominio": "advocacy.consumerreports.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49816374",
+  "score": 351,
+  "comentarios": 213
+ },
+ {
+  "id": "49815466",
+  "slug": "enfoque-en-soluciones-como-mejorar-analisis-de-incidentes-en-49815466",
+  "fecha": "2026-09-24T11:47:24+00:00",
+  "titulo": "Enfoque en soluciones: cómo mejorar análisis de incidentes en tecnología",
+  "resumen": "Un ejecutivo rechaza conocer los detalles de un incidente técnico, argumentando que ya confía en la competencia del equipo y prefiere enfocarse en qué cambios implementar para evitar problemas similares. El artículo propone que los análisis post-incidente deben priorizar preguntas sobre cambios sistémicos en lugar de solo investigar por qué ocurrió el problema. Las soluciones efectivas requieren modificar procesos y sistemas en lugar de depender de que las personas recuerden lecciones pasadas.",
+  "por_que_importa": "Las organizaciones suelen gastar recursos analizando incidentes sin traducir esos aprendizajes en cambios reales, permitiendo que fallos similares se repitan. Reorientar el análisis hacia soluciones sistémicas genera mejoras duraderas que funcionan independientemente de quién integre el equipo.",
+  "puntos_clave": [
+   "Cambiar el enfoque de análisis de incidentes de \"¿por qué pasó?\" a \"¿qué cambiamos para evitarlo?\"",
+   "Las soluciones basadas en cambios de comportamiento individual tienden a fallar si no se institucionalizan en procesos",
+   "Un buen análisis técnico no garantiza acción; la comprensión detallada puede hacer que el equipo se sienta satisfecho sin implementar mejoras"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://michaelheap.com/i-dont-want-the-details/",
+  "fuente_dominio": "michaelheap.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49815466",
+  "score": 411,
+  "comentarios": 212
+ },
+ {
   "id": "49817469",
   "slug": "restauran-el-reloj-de-la-antigua-estacion-de-policia-de-port-49817469",
   "fecha": "2026-09-24T11:32:28+00:00",
