@@ -34,7 +34,7 @@ jobs:
           git config user.name "pulso-bot"
           git config user.email "bot@users.noreply.github.com"
           git add data/topics.json
-          git diff --cached --quiet || (git commit -m "Nuevos temas" && git push)
+          git diff --cached --quiet || (git commit -m "Nuevos temas" && git pull --rebase origin main && git push)
       - run: python build.py
         env:
           ADSENSE_ID: ${{ vars.ADSENSE_ID }}
