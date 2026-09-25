@@ -1,5 +1,119 @@
 [
  {
+  "id": "49836419",
+  "slug": "california-apunta-a-los-billonarios-cuando-la-riqueza-real-e-49836419",
+  "fecha": "2026-09-25T04:17:41+00:00",
+  "titulo": "California apunta a los billonarios cuando la riqueza real está en la tierra",
+  "resumen": "California busca gravar a los multimillonarios con un impuesto del 5% para recaudar $20 mil millones anuales, pero el análisis del Center for Land Economics muestra que el estado posee aproximadamente $8,14 billones en valor de tierra, una base fiscal inmóvil y significativamente mayor. El impuesto sobre la riqueza fallará porque los billonarios pueden mudarse, mientras que la tierra no puede abandonar el estado. Un impuesto a la tierra del 0,25% recaudaría la misma cantidad sin riesgo de evasión.",
+  "por_que_importa": "Revela que California persigue una base fiscal móvil cuando dispone de activos territoriales enormes y no escapables. Plantea una alternativa de política fiscal que no incentiva la reubicación de contribuyentes.",
+  "puntos_clave": [
+   "La tierra de California vale $8,14 billones, ocho veces más que la base billonaria gravable",
+   "Ya seis billonarios se han reubicado antes de que entrara en vigor el impuesto a la riqueza",
+   "Un impuesto a la tierra del 0,25% recaudaría los $20 mil millones sin posibilidad de evasión"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://blog.landeconomics.org/p/california-is-chasing-wealth-that",
+  "fuente_dominio": "blog.landeconomics.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49836419",
+  "score": 179,
+  "comentarios": 504
+ },
+ {
+  "id": "49800085",
+  "slug": "fearless-simd-v1-0-abstraccion-segura-para-operaciones-vecto-49800085",
+  "fecha": "2026-09-25T04:17:36+00:00",
+  "titulo": "Fearless SIMD v1.0: abstracción segura para operaciones vectoriales en Rust",
+  "resumen": "Se lanzó la versión 1.0 de Fearless SIMD, una librería que permite usar instrucciones vectoriales en Rust sin código inseguro, tras ocho años de desarrollo. La herramienta combina rendimiento optimizado, seguridad de memoria garantizada y facilidad de uso mediante macros que simplifican la optimización entre plataformas. Desarrolladores ya la utilizan en proyectos como FFT y búsqueda de patrones de bytes, logrando ejecutar código en Rust estable que antes requería versiones experimentales.",
+  "por_que_importa": "SIMD es crucial para aplicaciones de alto rendimiento, pero tradicionalmente requería código inseguro y complejo. Esta solución elimina esa barrera al proporcionar seguridad verificada sin sacrificar velocidad, permitiendo que más desarrolladores accedan a optimizaciones vectoriales de forma confiable.",
+  "puntos_clave": [
+   "Eliminó el uso de código inseguro en operaciones SIMD mediante el macro kernel! y un módulo de transmute seguro",
+   "Ofrece flexibilidad: autovectorización, abstracción portátil o acceso directo a intrinsics sin sobrecarga",
+   "Incluye macro #[simd] que simplifica la multiversión de funciones sin requerir anotaciones manuales complejas"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://linebender.org/blog/fearless-simd-1-0/",
+  "fuente_dominio": "linebender.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49800085",
+  "score": 212,
+  "comentarios": 32
+ },
+ {
+  "id": "49833867",
+  "slug": "whiteboard-ide-de-codigo-abierto-para-diseno-de-software-con-49833867",
+  "fecha": "2026-09-25T04:17:31+00:00",
+  "titulo": "Whiteboard: IDE de código abierto para diseño de software con agentes IA",
+  "resumen": "Whiteboard es una aplicación de escritorio de código abierto que permite a humanos y agentes de IA colaborar en la arquitectura de software mediante un lienzo visual común. La herramienta se integra con modelos como Claude y GPT, ofreciendo visualizaciones interactivas como diagramas de secuencia y vistas de diferencias semánticas que conectan directamente con el código. El proyecto está disponible para macOS y Fedora, y busca mejorar la comunicación visual entre desarrolladores y agentes de IA durante el proceso de diseño.",
+  "por_que_importa": "Aborda la brecha entre la planificación de arquitectura de software y su implementación, proporcionando un espacio de trabajo visual que facilita la iteración colaborativa con agentes de IA. Representa un enfoque innovador para aprovechar herramientas de IA en tareas de diseño, donde la visualización y el contexto son críticos para tomar mejores decisiones técnicas.",
+  "puntos_clave": [
+   "Permite colaboración visual entre desarrolladores y agentes IA mediante diagramas interactivos",
+   "Incluye visor de diferencias sensible a la sintaxis AST para enfocarse en cambios relevantes",
+   "Se integra con agentes existentes como Claude Code y Codex mediante SDK"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://github.com/devdotfast/whiteboard",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49833867",
+  "score": 232,
+  "comentarios": 87
+ },
+ {
+  "id": "49805344",
+  "slug": "explorar-ciudades-antiguas-en-google-street-view-se-conviert-49805344",
+  "fecha": "2026-09-25T04:17:25+00:00",
+  "titulo": "Explorar ciudades antiguas en Google Street View se convierte en pasatiempo viral",
+  "resumen": "Un usuario comparte su afición de navegar por Street View en ciudades como Tokio, observando detalles arquitectónicos y personajes congelados en el tiempo. La plataforma permite retroceder años atrás para ver cómo han evolucionado los barrios, transformando imágenes satelitales en narrativas sobre vidas reales. Un ejemplo llamó la atención: un automóvil que permaneció en el mismo lugar durante 17 años según los registros, aunque posteriormente fue removido.",
+  "por_que_importa": "Destaca una forma creativa de consumir tecnología cartográfica enfocada en la contemplación y la nostalgia, alejada de su propósito original de navegación. Muestra cómo herramientas digitales pueden convertirse en ventanas para reflexionar sobre el paso del tiempo y la impermanencia en espacios urbanos reales.",
+  "puntos_clave": [
+   "Google Street View permite retroceder décadas en el tiempo para observar cambios urbanos",
+   "Tokio destaca como lugar favorito por su densidad de detalles arquitectónicos y callejuelas",
+   "El archivo histórico actúa como cápsula del tiempo de lugares que desaparecen o se transforman"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://ahmedhossamdev.com/writing/my-weird-new-hobby-wandering-around-tokyo/",
+  "fuente_dominio": "ahmedhossamdev.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49805344",
+  "score": 255,
+  "comentarios": 108
+ },
+ {
+  "id": "49823568",
+  "slug": "toyota-prepara-una-version-electrica-del-corolla-para-2028-49823568",
+  "fecha": "2026-09-25T04:17:20+00:00",
+  "titulo": "Toyota prepara una versión eléctrica del Corolla para 2028",
+  "resumen": "Toyota presentará una nueva generación del Corolla que incluirá versiones eléctricas, híbridas enchufables e híbridas convencionales, además de motores de gasolina. El modelo se espera para 2027 como versión 2028, con un rediseño completo que incluye plataforma renovada e interior tecnológico. La compañía aún no ha confirmado si el Corolla eléctrico llegará al mercado estadounidense, aunque se estima que los precios oscilarán entre 25.000 y 30.000 dólares según el tipo de propulsión.",
+  "por_que_importa": "El Corolla es el automóvil más vendido de la historia con más de 57 millones de unidades, por lo que su transición hacia la electrificación representa un cambio significativo en la estrategia de Toyota. La decisión refleja la presión competitiva que enfrenta la industria automotriz ante nuevas tecnologías y competencia global.",
+  "puntos_clave": [
+   "Se ofrecerán múltiples opciones de propulsión: gasolina, híbrida, híbrida enchufable y eléctrica pura",
+   "El Corolla eléctrico tendrá configuraciones de uno y dos motores con autonomía mínima de 250 millas",
+   "El debut está previsto para 2027 como modelo 2028, con disponibilidad en EE.UU. aún sin confirmar"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://electrek.co/2026/09/23/toyota-best-selling-corolla-electric/",
+  "fuente_dominio": "electrek.co",
+  "hn_url": "https://news.ycombinator.com/item?id=49823568",
+  "score": 264,
+  "comentarios": 436
+ },
+ {
+  "id": "49829960",
+  "slug": "fallo-de-actualizacion-inutiliza-refrigeradores-inteligentes-49829960",
+  "fecha": "2026-09-25T04:17:15+00:00",
+  "titulo": "Fallo de actualización inutiliza refrigeradores inteligentes Samsung en Corea",
+  "resumen": "Un error durante una actualización de firmware dejó sin funcionar varios refrigeradores inteligentes Samsung de la línea Bespoke AI, principalmente modelos de cuatro puertas de 2024 en adelante. Los aparatos perdieron potencia tras intentar instalar la actualización a través de la plataforma SmartThings, lo que causó pérdida de alimentos en múltiples hogares. El problema se limitó a Corea del Sur y ocurrió el 22 de septiembre durante pruebas internas de Samsung.",
+  "por_que_importa": "El incidente afectó a cientos de clientes durante Chuseok, una festividad coreana importante centrada en la gastronomía, agravando las molestias. Expone los riesgos de integrar sistemas inteligentes con funciones críticas como la refrigeración, donde fallos de software pueden destruir alimentos y generar pérdidas significativas.",
+  "puntos_clave": [
+   "El fallo afectó principalmente refrigeradores Samsung Bespoke AI de 2024 o posteriores en Corea",
+   "Samsung activó un protocolo de emergencia y se disculpó, aunque no especificó el número exacto de equipos afectados ni medidas preventivas",
+   "Usuarios reportaron largos tiempos de espera para reparaciones y cuestionaron la necesidad de refrigeradores conectados"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges/",
+  "fuente_dominio": "arstechnica.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49829960",
+  "score": 279,
+  "comentarios": 285
+ },
+ {
   "id": "49826221",
   "slug": "modelos-de-lenguaje-contrastivos-para-toma-de-decisiones-rap-49826221",
   "fecha": "2026-09-24T21:21:33+00:00",
