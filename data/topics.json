@@ -1,5 +1,119 @@
 [
  {
+  "id": "49845952",
+  "slug": "nsa-invierte-miles-de-millones-en-pruebas-de-modelos-de-ia-49845952",
+  "fecha": "2026-09-25T21:20:23+00:00",
+  "titulo": "NSA invierte miles de millones en pruebas de modelos de IA",
+  "resumen": "La Agencia de Seguridad Nacional estadounidense destina varios miles de millones de dólares anuales para evaluar modelos avanzados de inteligencia artificial y detectar vulnerabilidades de seguridad nacional. Esta inversión considerablemente mayor a lo conocido anteriormente ha reavivado el debate sobre la regulación federal de la IA y quién debe financiar estos controles. El gasto plantea interrogantes sobre si las empresas tecnológicas deberían asumir parte de estos costos en lugar de trasladarlos a los contribuyentes.",
+  "por_que_importa": "El costo masivo de la supervisión gubernamental de IA contrasta con propuestas regulatorias previas mucho menos costosas, lo que sugiere que una regulación integral podría requerir decenas de miles de millones anuales. Esta situación intensifica el debate sobre si las grandes empresas de tecnología deberían financiar su propio control en lugar de depender de fondos públicos.",
+  "puntos_clave": [
+   "La NSA gasta miles de millones en evaluación de modelos de IA, cantidad superior a estimaciones anteriores",
+   "Propuestas regulatorias previas estimaban costos anuales de decenas de millones, no miles de millones",
+   "Hay debate sobre si las empresas tecnológicas deben financiar la supervisión de sus propios modelos"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
+  "fuente_dominio": "washingtonsun.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49845952",
+  "score": 165,
+  "comentarios": 97
+ },
+ {
+  "id": "49844736",
+  "slug": "pensamiento-desde-primeros-principios-en-la-era-de-agentes-d-49844736",
+  "fecha": "2026-09-25T21:20:17+00:00",
+  "titulo": "Pensamiento desde primeros principios en la era de agentes de IA",
+  "resumen": "Un ingeniero analiza cómo el pensamiento desde primeros principios—cuestionarse qué se intenta lograr y por qué—es fundamental para los mejores ingenieros senior y especialmente relevante al trabajar con sistemas de IA. Propone que en lugar de aferrarse a experiencias previas, los desarrolladores deben estar dispuestos a examinar problemas con perspectiva fresca, lo que acelera los ciclos de aprendizaje y genera momentum. Esta mentalidad permite entender la tecnología de IA no como fin en sí misma, sino como herramienta alineada con objetivos concretos.",
+  "por_que_importa": "A medida que la desarrollo con agentes de IA se generaliza, la capacidad de pensar desde principios fundamentales permite a los ingenieros aprovechar nuevas posibilidades sin quedar limitados por suposiciones del pasado. Los comentarios sugieren tensión entre esta aproximación y la experiencia acumulada, destacando que requiere equilibrio entre innovación y pragmatismo.",
+  "puntos_clave": [
+   "Los grandes ingenieros senior comparten el hábito de preguntarse qué se construye, por qué importa y cómo conecta con los usuarios",
+   "En la transición hacia desarrollo agentic, los desarrolladores deben apartar temporalmente lo que conocen para explorar nuevas posibilidades sin prejuicios",
+   "El pensamiento desde primeros principios acelera ciclos de aprendizaje y crea momentum al descomponer problemas en pasos pequeños y manejables"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://sunilsadasivan.com/writing/first-principles-thinking/",
+  "fuente_dominio": "sunilsadasivan.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49844736",
+  "score": 179,
+  "comentarios": 78
+ },
+ {
+  "id": "49844786",
+  "slug": "debate-sobre-permitir-portabebes-en-aviones-durante-despegue-49844786",
+  "fecha": "2026-09-25T21:20:11+00:00",
+  "titulo": "Debate sobre permitir portabebés en aviones durante despegue y aterrizaje",
+  "resumen": "La FAA prohíbe el uso de portabebés durante despegue y aterrizaje, exigiendo que los menores de dos años se sostengan en brazos. Esta norma, basada en un estudio de 1994 que no evaluó portabebés modernos, contrasta con la decisión coherente de la agencia de permitir bebés en regazo para evitar que familias conduzcan en lugar de volar. Un proyecto de ley de 2024 intentó cambiar la política pero no avanzó.",
+  "por_que_importa": "La restricción actual refleja inconsistencia regulatoria: la FAA considera el comportamiento sustitutivo (familias que conducen en lugar de volar) al permitir bebés en regazo, pero no aplica este mismo análisis a los portabebés. El debate cuestiona si la normativa se basa en evidencia científica actualizada sobre seguridad infantil durante turbulencias y emergencias.",
+  "puntos_clave": [
+   "La FAA prohibió portabebés en 1995 basándose en un estudio que no incluyó portabebés modernos de tela.",
+   "La agencia permitió bebés en regazo considerando que una prohibición aumentaría viajes en automóvil, menos seguros que volar.",
+   "Expertos debaten si los portabebés actuales podrían ser más seguros que sostener bebés en brazos durante turbulencias y evacuaciones."
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.jefftk.com/p/allow-carriers-on-planes",
+  "fuente_dominio": "jefftk.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49844786",
+  "score": 186,
+  "comentarios": 243
+ },
+ {
+  "id": "49848269",
+  "slug": "ollaya-herramienta-de-codigo-abierto-para-ejecutar-modelos-d-49848269",
+  "fecha": "2026-09-25T21:20:05+00:00",
+  "titulo": "Ollaya: herramienta de código abierto para ejecutar modelos de decisión localmente",
+  "resumen": "Ollaya es una plataforma que permite ejecutar modelos de decisión en equipos locales sin necesidad de conexión a servidores externos. La herramienta procesa preguntas sobre texto o JSON y devuelve respuestas calibradas en milisegundos, manteniendo los datos privados. Es compatible con la API de TypeSafe y ofrece varios modelos abiertos como Laya, decider y nli.",
+  "por_que_importa": "Permite que las organizaciones procesen información sensible de forma privada sin enviar datos a terceros, reduciendo riesgos de privacidad. Su ejecución local en milisegundos facilita la toma de decisiones rápida en aplicaciones de atención al cliente y clasificación de datos.",
+  "puntos_clave": [
+   "Ejecuta modelos de decisión localmente con latencias de 8 a 20 milisegundos según el modelo utilizado",
+   "Compatible con la API de TypeSafe y funciona sin modificaciones con el SDK oficial",
+   "Incluye modelos abiertos de varios autores, desde versiones multilingües hasta especializadas en clasificación"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://ollaya.dev/",
+  "fuente_dominio": "ollaya.dev",
+  "hn_url": "https://news.ycombinator.com/item?id=49848269",
+  "score": 193,
+  "comentarios": 52
+ },
+ {
+  "id": "49845133",
+  "slug": "factorio-crea-modelos-fisicos-imprimibles-de-su-juego-49845133",
+  "fecha": "2026-09-25T21:20:00+00:00",
+  "titulo": "Factorio crea modelos físicos imprimibles de su juego",
+  "resumen": "El equipo de desarrollo de Factorio diseñó y produjo modelos tridimensionales imprimibles basados en elementos del juego, partiendo de una idea surgida durante un evento de pruebas del DLC Space Age. Tras meses de prototipado, iteración y ajustes de precisión, lograron finalizar 15 conjuntos de modelos con un total de 65 piezas individuales en distintos formatos. Los modelos incluyen cintas transportadoras, enemigos, muebles y otros elementos del juego temprano, disponibles en dos versiones según el nivel de precisión requerido.",
+  "por_que_importa": "Representa un esfuerzo único de un estudio de desarrollo por trasladar su juego al mundo físico, demostrando la dedicación del equipo hacia su comunidad. Permite a los jugadores interactuar de forma tangible con elementos icónicos de Factorio más allá del entorno digital.",
+  "puntos_clave": [
+   "Los modelos surgieron de un evento de playtesting del DLC Space Age en colaboración con Prusa Research",
+   "El proyecto incluye 65 modelos en 247 archivos STL, enfocados en la etapa temprana del juego",
+   "Cada modelo fue desarrollado en dos versiones: una con precisión para encaje sin adhesivo y otra con holgura para pegado permanente"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://factorio.com/blog/post/fff-447",
+  "fuente_dominio": "factorio.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49845133",
+  "score": 272,
+  "comentarios": 81
+ },
+ {
+  "id": "49845977",
+  "slug": "tribunal-estadounidense-mantiene-el-veto-del-pentagono-a-ant-49845977",
+  "fecha": "2026-09-25T21:19:54+00:00",
+  "titulo": "Tribunal estadounidense mantiene el veto del Pentágono a Anthropic",
+  "resumen": "Una corte federal de apelaciones en Washington confirmó la decisión del Departamento de Defensa de clasificar a Anthropic como riesgo de cadena de suministro, bloqueando el uso de sus modelos de inteligencia artificial por parte del ejército y contratistas de defensa. La sentencia rechazó los argumentos de la empresa de que la prohibición era arbitraria e inconstitucional. Anthropic manifestó su desacuerdo y señaló que otro tribunal federal ya había declarado ilegal una designación paralela del gobierno.",
+  "por_que_importa": "La decisión limita significativamente el acceso de Anthropic al mercado de defensa estadounidense y marca un precedente sobre cómo se pueden aplicar designaciones de seguridad nacional contra empresas privadas de tecnología. El caso refleja tensiones más amplias entre la administración Trump y Anthropic respecto al desarrollo y control de modelos de inteligencia artificial.",
+  "puntos_clave": [
+   "La corte de apelaciones confirmó que el Pentágono tenía justificación para considerar a Anthropic un riesgo de seguridad nacional",
+   "El veto impide que militares y contratistas de defensa usen los modelos de Claude de Anthropic",
+   "Un tribunal de San Francisco ya había declarado ilegal una de las dos designaciones que fundamentan la decisión"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+  "fuente_dominio": "cnbc.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49845977",
+  "score": 308,
+  "comentarios": 498
+ },
+ {
   "id": "49843174",
   "slug": "git-bug-rastreador-de-errores-distribuido-e-integrado-en-rep-49843174",
   "fecha": "2026-09-25T16:55:32+00:00",
