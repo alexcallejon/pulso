@@ -1,5 +1,119 @@
 [
  {
+  "id": "49829650",
+  "slug": "generacion-alpha-usa-that-s-so-ai-como-insulto-hacia-lo-inau-49829650",
+  "fecha": "2026-09-25T11:31:51+00:00",
+  "titulo": "Generación Alpha usa \"That's so AI\" como insulto hacia lo inauténtico",
+  "resumen": "Entre jóvenes de primaria circula la expresión \"That's so AI\" para referirse a algo falso, de baja calidad o sospechoso, ampliando el significado de inteligencia artificial más allá de su definición técnica. La frase refleja la percepción negativa que tiene la generación Alpha sobre la tecnología, asociando las características de contenido generado por IA —convincente en apariencia pero sin valor real— con otras manifestaciones de falta de autenticidad. Según comentarios de padres, mientras algunos jóvenes descartan críticamente contenido de IA, otros lo usan como herramienta útil para aprender, especialmente en programación.",
+  "por_que_importa": "El término revela cómo la generación más joven percibe la inteligencia artificial no como algo revolucionario, sino como sinónimo de lo superficial e inauténtico, lo que puede influir en la adopción futura de estas tecnologías. Simultáneamente, sugiere que empresas que promocionan productos como impulsados por IA podrían enfrentar rechazo del público joven en los próximos meses.",
+  "puntos_clave": [
+   "La expresión \"That's so AI\" se utiliza para calificar cualquier cosa falsa, barata o de dudoso valor",
+   "Gen Alpha ha redefinido el término IA para equipararlo con lo inauténtico, independientemente de si está realmente generado por máquinas",
+   "Jóvenes muestran capacidad para detectar lo inauténtico, aunque con perspectivas divididas sobre la utilidad práctica de las herramientas de IA"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://www.theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us",
+  "fuente_dominio": "theguardian.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49829650",
+  "score": 164,
+  "comentarios": 225
+ },
+ {
+  "id": "49837006",
+  "slug": "koi-rest-un-estanque-virtual-para-encontrar-calma-y-equilibr-49837006",
+  "fecha": "2026-09-25T11:31:45+00:00",
+  "titulo": "Koi.rest: un estanque virtual para encontrar calma y equilibrio",
+  "resumen": "Un desarrollador creó un sitio web que simula un estanque con peces koi como espacio de relajación compartida en internet. Utilizó inteligencia artificial para desarrollar el proyecto sin conocimientos previos en JavaScript, priorizando que fuera \"suficientemente bueno\" sobre la perfección. La plataforma permite a los visitantes observar peces de manera tranquila, con opciones de temporizador personalizable.",
+  "por_que_importa": "Ejemplifica cómo las herramientas de IA pueden democratizar la creación de proyectos para personas con limitaciones técnicas o de tiempo. Aborda la creciente demanda de espacios digitales orientados al bienestar mental y la reducción de estrés.",
+  "puntos_clave": [
+   "Sitio web que ofrece visualización pasiva de peces como mecanismo de relajación",
+   "Desarrollado con ayuda de IA por alguien sin experiencia previa en JavaScript",
+   "Los usuarios reportan problemas de rendimiento y lag en la carga y navegación"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://koi.rest",
+  "fuente_dominio": "koi.rest",
+  "hn_url": "https://news.ycombinator.com/item?id=49837006",
+  "score": 189,
+  "comentarios": 54
+ },
+ {
+  "id": "49830606",
+  "slug": "google-prueba-infraestructura-de-ia-en-orbita-con-project-su-49830606",
+  "fecha": "2026-09-25T11:31:40+00:00",
+  "titulo": "Google prueba infraestructura de IA en órbita con Project Suncatcher",
+  "resumen": "Google lanzará un satélite prototipo para evaluar si sus procesadores de inteligencia artificial pueden funcionar en las condiciones extremas del espacio. La misión busca determinar cómo sus chips soportan radiación, vibraciones intensas y desafíos de enfriamiento en órbita terrestre baja. El objetivo a largo plazo es establecer constelaciones de satélites interconectados que gestionen cargas de trabajo de IA a mayor escala, aprovechando la energía solar casi constante del espacio.",
+  "por_que_importa": "El proyecto explora si el espacio puede albergar infraestructura escalable de aprendizaje automático, potencialmente ofreciendo ventajas energéticas significativas. Los resultados de esta prueba inicial sentarán las bases para futuras misiones previstas para 2027 y el desarrollo de sistemas de IA más potentes en órbita.",
+  "puntos_clave": [
+   "Prototipo de satélite probará rendimiento de procesadores TPU de Google bajo radiación, vibración térmica extrema y vacío",
+   "Satélites en órbita baja accederían a energía solar casi continua, generando hasta ocho veces más potencia que en tierra",
+   "Planes futuros incluyen conectar múltiples constelaciones satelitales para gestionar cargas de trabajo masivas de inteligencia artificial"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
+  "fuente_dominio": "blog.google",
+  "hn_url": "https://news.ycombinator.com/item?id=49830606",
+  "score": 194,
+  "comentarios": 391
+ },
+ {
+  "id": "49801436",
+  "slug": "galeria-de-arte-pixel-2d-con-tutoriales-mantiene-viva-la-tra-49801436",
+  "fecha": "2026-09-25T11:31:36+00:00",
+  "titulo": "Galería de arte pixel 2D con tutoriales mantiene viva la tradición de sprites",
+  "resumen": "Un sitio web recopila y exhibe trabajos de arte pixel y sprites de videojuegos clásicos, con énfasis en personajes de títulos de luchas, aventuras y arcade de décadas pasadas. La colección incluye trabajos originales y reinterpretaciones de franquicias como Metroid, Mega Man, King of Fighters y Street Fighter. Los comentarios destacan que aunque el arte pixel envejece mejor que la gráfica 3D antigua, la animación de sprites requiere un trabajo manual considerable en comparación con técnicas 3D modernas.",
+  "por_que_importa": "El arte pixel representa un legado técnico que muchos consideran superior en durabilidad estética frente a los primeros intentos de gráfica tridimensional, lo que mantiene relevante este formato décadas después. La documentación y preservación de estas técnicas artísticas es importante dado que el conocimiento especializado en animación sprite tradicional se considera una habilidad cada vez más escasa en la industria.",
+  "puntos_clave": [
+   "Recopilación de sprites de videojuegos clásicos con énfasis en personajes que no aparecieron en versiones finales de juegos populares",
+   "Los comentaristas señalan que la animación de sprites por métodos tradicionales es más laboriosa que generar assets 3D modernos",
+   "El arte pixel mantiene mejor apariencia visual con el paso del tiempo comparado con gráfica 3D temprana"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://2dwillneverdie.com/",
+  "fuente_dominio": "2dwillneverdie.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49801436",
+  "score": 256,
+  "comentarios": 56
+ },
+ {
+  "id": "49841563",
+  "slug": "paises-bajos-desarrolla-alternativa-a-microsoft-usando-nixos-49841563",
+  "fecha": "2026-09-25T11:31:30+00:00",
+  "titulo": "Países Bajos desarrolla alternativa a Microsoft usando NixOS",
+  "resumen": "El gobierno holandés impulsa DAWO, una iniciativa comunitaria para construir un entorno de trabajo digital autónomo basado en NixOS, un sistema operativo de código abierto. El proyecto reúne a organismos públicos, empresas e industria con el objetivo de reducir la dependencia tecnológica de proveedores estadounidenses. La plataforma se estructura en componentes modulares e intercambiables enfocados en autonomía digital, seguridad, verificabilidad e innovación.",
+  "por_que_importa": "Representa un movimiento europeo hacia la soberanía digital y la reducción de dependencia de grandes tecnológicas. Se suma a iniciativas similares de otros gobiernos europeos como Francia y Alemania que buscan alternativas de código abierto verificables.",
+  "puntos_clave": [
+   "DAWO utiliza componentes modulares reemplazables en lugar de soluciones monolíticas de un único proveedor",
+   "El proyecto incluye bloques de construcción para sistema operativo, nube, inteligencia artificial y herramientas de colaboración",
+   "Es una iniciativa colaborativa abierta donde gobierno, industria y sociedad civil participan conjuntamente en su desarrollo"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.dawo.community/en/",
+  "fuente_dominio": "dawo.community",
+  "hn_url": "https://news.ycombinator.com/item?id=49841563",
+  "score": 285,
+  "comentarios": 127
+ },
+ {
+  "id": "49836374",
+  "slug": "opus-5-5-genera-videos-explicativos-automaticamente-desde-co-49836374",
+  "fecha": "2026-09-25T11:31:25+00:00",
+  "titulo": "Opus 5.5 genera videos explicativos automáticamente desde código",
+  "resumen": "Se ha desarrollado una herramienta que utiliza el modelo Opus 5.5 para generar videos explicativos de forma automática a partir de URLs o descripciones textuales. El sistema funciona sin edición manual, convirtiendo instrucciones en videos MP4 mediante un agente serverless que ejecuta tareas de captura web, validación y renderizado. Los usuarios pueden desplegar su propia versión del proyecto en minutos utilizando una plataforma de infraestructura serverless.",
+  "por_que_importa": "Reduce significativamente el tiempo y costo de producción de contenido video explicativo, permitiendo que pequeños equipos generen videos de producto profesionales sin conocimientos especializados en edición. Demuestra las capacidades de generación de código de los modelos de lenguaje actuales aplicadas a la creación de contenido multimedia.",
+  "puntos_clave": [
+   "El modelo genera videos en resolución 1920x1080 a 30fps sin intervención manual en el proceso",
+   "La infraestructura se basa en máquinas virtuales efímeras que se descartan tras cada ejecución, minimizando costos",
+   "El proyecto está disponible como código abierto para que usuarios creen sus propias versiones personalizadas"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://launchvideo.io",
+  "fuente_dominio": "launchvideo.io",
+  "hn_url": "https://news.ycombinator.com/item?id=49836374",
+  "score": 287,
+  "comentarios": 147
+ },
+ {
   "id": "49836419",
   "slug": "california-apunta-a-los-billonarios-cuando-la-riqueza-real-e-49836419",
   "fecha": "2026-09-25T04:17:41+00:00",
