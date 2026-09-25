@@ -1,5 +1,81 @@
 [
  {
+  "id": "49843174",
+  "slug": "git-bug-rastreador-de-errores-distribuido-e-integrado-en-rep-49843174",
+  "fecha": "2026-09-25T16:55:32+00:00",
+  "titulo": "Git-bug: rastreador de errores distribuido e integrado en repositorios Git",
+  "resumen": "Git-bug es una herramienta que convierte los repositorios Git en rastreadores de errores descentralizados, permitiendo gestionar problemas sin depender de servicios externos. Funciona completamente sin conexión y se sincroniza entre equipos mediante los mismos mecanismos de colaboración que se usan para código. El proyecto ofrece múltiples interfaces de usuario (línea de comandos, terminal interactiva y web) y puede integrarse con otros rastreadores mediante puentes.",
+  "por_que_importa": "Elimina la dependencia de plataformas externas y reduce el riesgo de pérdida de datos al almacenar todo en el repositorio local. Facilita la colaboración offline y permite trabajar con errores usando las mismas herramientas y flujos que ya se emplean para gestionar código.",
+  "puntos_clave": [
+   "Funciona completamente embebido en Git y no requiere servicios adicionales",
+   "Permite sincronizar errores entre equipos mediante push y pull, igual que con código",
+   "Ofrece múltiples interfaces (CLI, terminal interactiva, web) y acceso vía GraphQL API"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://github.com/git-bug/git-bug",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49843174",
+  "score": 177,
+  "comentarios": 50
+ },
+ {
+  "id": "49841285",
+  "slug": "mac-mini-m6-emula-pentium-ii-a-600mhz-con-precision-de-hardw-49841285",
+  "fecha": "2026-09-25T16:55:27+00:00",
+  "titulo": "Mac Mini M6 emula Pentium II a 600MHz con precisión de hardware",
+  "resumen": "Un análisis técnico demuestra que el Mac Mini M6 puede emular un ordenador retro con procesador Pentium II a 600MHz utilizando 86Box, un emulador que replica el comportamiento de hardware antiguo a nivel de chipset, buses y periféricos. El rendimiento depende casi exclusivamente del desempeño de un único núcleo, donde Apple Silicon destaca especialmente. La actualización de 86Box 6.0 incluyó mejoras en la emulación de CPU en arquitecturas ARM y un compilador optimizado para la tarjeta gráfica Voodoo 3.",
+  "por_que_importa": "La capacidad de emular sistemas retro con alta fidelidad permite preservar software histórico y experiencias informáticas antiguas en hardware moderno. El resultado evidencia cómo el diseño de Apple Silicon, enfocado en núcleos muy rápidos, se adapta mejor a tareas que requieren máximo desempeño monohilo.",
+  "puntos_clave": [
+   "86Box emula hardware a nivel de chipset, buses y periféricos para reproducir fidedignamente sistemas antiguos",
+   "El rendimiento depende del desempeño de un único núcleo, no del número total de núcleos disponibles",
+   "La versión 6.0 de 86Box optimizó la emulación de CPU en ARM e incorporó un recompilador para gráficos Voodoo 3"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://nyaa.sh/reviews/mac-mini-m6-emulation",
+  "fuente_dominio": "nyaa.sh",
+  "hn_url": "https://news.ycombinator.com/item?id=49841285",
+  "score": 189,
+  "comentarios": 85
+ },
+ {
+  "id": "49843269",
+  "slug": "go-1-26-y-1-27-incorporan-apis-experimentales-para-operacion-49843269",
+  "fecha": "2026-09-25T16:55:22+00:00",
+  "titulo": "Go 1.26 y 1.27 incorporan APIs experimentales para operaciones SIMD",
+  "resumen": "Las nuevas versiones de Go introducen interfaces de programación para acceder a operaciones SIMD (instrucciones múltiples sobre datos múltiples), una capacidad nativa de procesadores modernos que acelera tareas computacionales intensivas. Mientras Go 1.26 añadió soporte para arquitecturas amd64, la versión 1.27 expandió el alcance a arm64, WebAssembly y presentó una interfaz portable agnóstica a la arquitectura. Esta aproximación busca permitir código de alto rendimiento sin depender de ensamblador, con emulación para plataformas sin SIMD nativo.",
+  "por_que_importa": "Hasta ahora, acceder a SIMD desde Go requería escribir ensamblador, limitando su uso a kernels críticos y dejando capacidades de procesamiento sin explotar en muchas aplicaciones. Un ejemplo práctico muestra que SIMD portable es aproximadamente cinco veces más rápido que código sin SIMD, con un costo de rendimiento mínimo respecto a variantes no portables.",
+  "puntos_clave": [
+   "Interfaz portable SIMD agnóstica a arquitectura complementa APIs específicas para amd64, arm64 y WebAssembly",
+   "Soporta AVX/AVX2/AVX512 en amd64, NEON en arm64, e incluye emulación para plataformas sin SIMD nativo",
+   "Aborda variaciones arquitectónicas significativas en tamaños vectoriales, manejo de máscaras y operaciones disponibles"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://go.dev/blog/simd-experiment",
+  "fuente_dominio": "go.dev",
+  "hn_url": "https://news.ycombinator.com/item?id=49843269",
+  "score": 199,
+  "comentarios": 75
+ },
+ {
+  "id": "49839664",
+  "slug": "rails-pierde-protagonismo-en-la-estrategia-de-su-creador-49839664",
+  "fecha": "2026-09-25T16:55:16+00:00",
+  "titulo": "Rails pierde protagonismo en la estrategia de su creador",
+  "resumen": "David Heinemeier Hansson, creador de Ruby on Rails, presentó en la conferencia Rails World 2026 una visión donde los modelos de lenguaje generativo reemplazan la codificación manual, reduciendo la importancia de Rails. La empresa 37signals está reescribiendo su aplicación Hey usando aplicaciones nativas y Rust en lugar del stack Rails tradicional, argumentando que las limitaciones tecnológicas ya no existen. Hansson señala que la generación de código por IA será dominante en todas las empresas antes de fin de año, reposicionando Rails como una herramienta para aplicaciones web específicas.",
+  "por_que_importa": "Rails ha sido durante dos décadas el marco de referencia para que equipos pequeños crearan productos ambiciosos; su desplazamiento indica un cambio fundamental en cómo se concibe el desarrollo de software. La postura de Hansson sobre depender de código generado sin revisión humana genera debate sobre la viabilidad y riesgos de esta estrategia en la industria.",
+  "puntos_clave": [
+   "Hansson propone que los LLMs generen código sin necesidad de que los desarrolladores lo lean",
+   "Ruby representa apenas el 3% del trabajo anual de Hansson, frente al 50% histórico",
+   "37signals abandona Rails para Hey, usando aplicaciones nativas y Rust en su lugar"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://jardo.dev/what-about-rails",
+  "fuente_dominio": "jardo.dev",
+  "hn_url": "https://news.ycombinator.com/item?id=49839664",
+  "score": 202,
+  "comentarios": 126
+ },
+ {
   "id": "49829650",
   "slug": "generacion-alpha-usa-that-s-so-ai-como-insulto-hacia-lo-inau-49829650",
   "fecha": "2026-09-25T11:31:51+00:00",
