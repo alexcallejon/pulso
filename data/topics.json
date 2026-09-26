@@ -1,5 +1,43 @@
 [
  {
+  "id": "49855018",
+  "slug": "un-desarrollador-abandona-las-herramientas-de-ia-tras-un-mes-49855018",
+  "fecha": "2026-09-26T16:06:43+00:00",
+  "titulo": "Un desarrollador abandona las herramientas de IA tras un mes de reflexión",
+  "resumen": "Un programador que utilizaba ampliamente herramientas de inteligencia artificial en su trabajo decidió dejar de usarlas tras percatarse de que estaba perdiendo control sobre su código y sus habilidades técnicas se deterioraban. Durante su experiencia, comenzó delegando tareas simples a los agentes de IA, pero gradualmente les encomendaba proyectos complejos que no terminaba de comprender completamente. El autor reflexiona sobre cómo esta dependencia lo hacía sentirse menos capaz y responsable de su propio trabajo.",
+  "por_que_importa": "Plantea una discusión crítica sobre los riesgos de depender excesivamente de herramientas generativas en el desarrollo de software, especialmente en entornos profesionales donde se requiere comprensión profunda del código. Toca aspectos importantes como la calidad, la responsabilidad del código en producción y el deterioro de las habilidades técnicas a largo plazo.",
+  "puntos_clave": [
+   "El autor experimentó una pérdida progresiva de control sobre los cambios de código que enviaba a producción",
+   "La delegación excesiva en IA afectó su capacidad de comprender y justificar las modificaciones ante colegas",
+   "Reconoce que ni él ni otros desarrolladores logran verificar completamente qué hace el código generado antes de desplegarlo"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+  "fuente_dominio": "blog.bustikiller.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49855018",
+  "score": 150,
+  "comentarios": 163
+ },
+ {
+  "id": "49855315",
+  "slug": "conversations-abandona-google-play-y-se-vuelve-gratuita-tras-49855315",
+  "fecha": "2026-09-26T16:06:34+00:00",
+  "titulo": "Conversations abandona Google Play y se vuelve gratuita tras años de conflictos",
+  "resumen": "El desarrollador de Conversations, una aplicación de mensajería instantánea federada, ha decidido retirar su aplicación de Google Play después de más de una década. La decisión responde a problemas recurrentes con la plataforma, incluyendo rechazos de actualizaciones sin justificación clara, retrasos en revisiones de seguridad que alcanzan dos semanas y retenciones inesperadas del servicio. Aunque Google le genera ingresos mensuales estables mediante la comisión del 15%, el desarrollador considera insuficiente la relación costo-beneficio frente a la falta de soporte técnico real y la ausencia de comunicación directa con la plataforma.",
+  "por_que_importa": "Refleja la frustración creciente de desarrolladores independientes con los monopolios de distribución móvil, donde pequeños creadores carecen de canales de comunicación efectiva con las plataformas que controlan el acceso al mercado. El caso evidencia cómo los tiempos de revisión lenta pueden comprometer la seguridad de los usuarios al retrasar parches críticos.",
+  "puntos_clave": [
+   "Conversations pasará a ser gratuita tras dejar de depender de ingresos de Google Play",
+   "El desarrollador espera acelerar lanzamientos de actualizaciones de seguridad sin revisiones intermedias",
+   "La decisión ilustra la ausencia de soporte humano en plataformas grandes y el impacto en desarrolladores de aplicaciones legítimas"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://gultsch.de/posts/breaking-up-with-google-play/",
+  "fuente_dominio": "gultsch.de",
+  "hn_url": "https://news.ycombinator.com/item?id=49855315",
+  "score": 393,
+  "comentarios": 144
+ },
+ {
   "id": "49852717",
   "slug": "la-matematica-necesitara-mas-investigadores-humanos-en-la-er-49852717",
   "fecha": "2026-09-26T11:06:41+00:00",
