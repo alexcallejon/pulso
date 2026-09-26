@@ -1,5 +1,43 @@
 [
  {
+  "id": "49842764",
+  "slug": "pipepipe-un-fork-de-newpipe-con-sponsorblock-integrado-49842764",
+  "fecha": "2026-09-26T20:52:15+00:00",
+  "titulo": "PipePipe: un fork de NewPipe con SponsorBlock integrado",
+  "resumen": "PipePipe es una aplicación Android de código abierto derivada de NewPipe que permite navegar por YouTube y otros servicios sin limitaciones. La aplicación incluye características como integración de SponsorBlock para saltar segmentos patrocinados, restauración de dislikes, reproducción en segundo plano y filtros avanzados de búsqueda. Se trata de un desarrollo independiente que divergió de NewPipe en 2022 para implementar cambios con mayor rapidez.",
+  "por_que_importa": "Ofrece a usuarios de Android una alternativa para acceder a YouTube con características de privacidad y control que no están disponibles en la aplicación oficial. El modelo de fork independiente permite desarrollar y desplegar mejoras sin las limitaciones de seguir el ritmo de actualizaciones del proyecto original.",
+  "puntos_clave": [
+   "Integra SponsorBlock, ReturnYouTubeDislike y permite acceso a contenido restringido mediante login",
+   "Incluye funciones avanzadas como reproducción en segundo plano, filtros por palabras clave, bloques de shorts y controles de reproducción personalizados",
+   "Funciona de forma independiente desde 2022, permitiendo iteraciones rápidas sin coordinación con NewPipe"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://github.com/InfinityLoop1308/PipePipe",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49842764",
+  "score": 236,
+  "comentarios": 113
+ },
+ {
+  "id": "49854693",
+  "slug": "la-historia-detras-de-apple-cards-el-proyecto-iniciado-por-s-49854693",
+  "fecha": "2026-09-26T20:52:06+00:00",
+  "titulo": "La historia detrás de Apple Cards, el proyecto iniciado por Steve Jobs",
+  "resumen": "Apple lanzó en 2011 la aplicación Cards, que permitía diseñar y enviar tarjetas impresas personalizadas. El proyecto fue iniciativa directa de Steve Jobs y se desarrolló durante el último año de su vida. Aunque la aplicación funcionó, su desarrollo enfrentó desafíos técnicos significativos y problemas de gestión en la cadena de producción e impresión internacional.",
+  "por_que_importa": "La historia revela cómo las decisiones de líderes fundadores pueden generar proyectos ambiciosos pero problemáticos, incluso en empresas tecnológicas de élite. También muestra que Apple competía directamente con startups como Sincerely, que ya desarrollaban aplicaciones similares de tarjetas impresas.",
+  "puntos_clave": [
+   "El producto fue ideado por Steve Jobs durante una caminata informal, buscando enviar tarjetas de agradecimiento desde el iPhone",
+   "La impresión en algodón con técnica letterpress requirió colaboración con imprentas históricas de Nueva York y operaciones en múltiples países",
+   "Apple implementó códigos de barras invisibles en los sobres para rastrear entregas sin comprometer la estética visual de las tarjetas"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story",
+  "fuente_dominio": "lexontech.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49854693",
+  "score": 298,
+  "comentarios": 64
+ },
+ {
   "id": "49855018",
   "slug": "un-desarrollador-abandona-las-herramientas-de-ia-tras-un-mes-49855018",
   "fecha": "2026-09-26T16:06:43+00:00",
