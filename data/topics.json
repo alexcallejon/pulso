@@ -1,5 +1,100 @@
 [
  {
+  "id": "49852717",
+  "slug": "la-matematica-necesitara-mas-investigadores-humanos-en-la-er-49852717",
+  "fecha": "2026-09-26T11:06:41+00:00",
+  "titulo": "La matemática necesitará más investigadores humanos en la era de la IA",
+  "resumen": "Un matemático argumenta que los sistemas de inteligencia artificial están generando ideas matemáticas cada vez más complejas que los humanos no pueden seguir al ritmo actual. Ante este desafío, propone expandir significativamente la comunidad de investigadores matemáticos para que puedan comprender y validar los descubrimientos generados por máquinas. Esta comprensión humana es esencial tanto para garantizar la seguridad de innovaciones críticas como para mantener la agencia humana en un futuro dirigido por IA.",
+  "por_que_importa": "Sin investigadores que comprendan profundamente las ideas generadas por IA, la sociedad no podrá validar ni confiar en soluciones tecnológicas críticas como nuevos diseños de fusión nuclear o sistemas de alto riesgo. La comprensión humana del conocimiento matemático no es un lujo cultural, sino una necesidad práctica para mantener el control y la seguridad en un mundo transformado por inteligencia artificial.",
+  "puntos_clave": [
+   "Los sistemas de IA ya producen conceptos matemáticos demasiado avanzados para que los humanos los verifiquen a ritmo actual",
+   "Se necesita expandir la inversión y el número de investigadores matemáticos capacitados a nivel mundial",
+   "La comprensión humana de los hallazgos de IA es fundamental para tomar decisiones seguras sobre tecnologías transformadoras"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/",
+  "fuente_dominio": "terrytao.wordpress.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49852717",
+  "score": 154,
+  "comentarios": 186
+ },
+ {
+  "id": "49852065",
+  "slug": "mujer-detenida-13-dias-por-error-de-camara-de-lectura-de-pla-49852065",
+  "fecha": "2026-09-26T11:06:36+00:00",
+  "titulo": "Mujer detenida 13 días por error de cámara de lectura de placas",
+  "resumen": "Una mujer de Florida fue arrestada y encarcelada durante 13 días, incluido tiempo en aislamiento, tras ser identificada erróneamente por un sistema de cámara Flock como sospechosa de un accidente mortal. La policía ignoró evidencia obvia: su vehículo era de diferente color al reportado y no tenía daños visibles. El caso ha generado debate sobre cómo las autoridades utilizan datos automatizados sin verificación adecuada.",
+  "por_que_importa": "Expone los riesgos de las lectores automatizados de placas cuando se implementan sin protecciones suficientes y se confía en ellos sin validación. Ilustra cómo la tecnología de vigilancia puede vulnerar libertades civiles cuando las instituciones no aplican diligencia básica.",
+  "puntos_clave": [
+   "El sistema Flock identificó un vehículo por proximidad temporal, sin confirmar características físicas como color o daños",
+   "Testigos reportaron un vehículo de distinto color al que fue arrestado, información que no detuvo el proceso",
+   "La policía tardó siete meses en emitir una orden de arresto sin evidencia física adicional"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide",
+  "fuente_dominio": "jezebel.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49852065",
+  "score": 183,
+  "comentarios": 83
+ },
+ {
+  "id": "49850305",
+  "slug": "que-es-un-sistema-operativo-en-la-era-de-la-ia-49850305",
+  "fecha": "2026-09-26T11:06:27+00:00",
+  "titulo": "¿Qué es un sistema operativo en la era de la IA?",
+  "resumen": "Un desarrollador reflexiona sobre cómo la inteligencia artificial está transformando el panorama informático al disolver las fronteras entre programadores y usuarios finales. Sostiene que los usuarios comunes podrán crear aplicaciones personalizadas utilizando lenguaje natural, sin necesidad de conocimientos técnicos tradicionales. Esto podría cambiar fundamentalmente cómo se distribuye, desarrolla y ejecuta el software, eliminando el modelo actual de aplicaciones prefabricadas con audiencias masivas.",
+  "por_que_importa": "Este cambio representaría una alteración radical en cómo las personas interactúan con la tecnología y cómo se concibe el desarrollo de software. La capacidad de usuarios no especializados para crear herramientas personalizadas podría reconfigurar toda la industria del software y los sistemas operativos.",
+  "puntos_clave": [
+   "La IA está borrando la distinción entre programadores y usuarios al permitir crear aplicaciones con lenguaje natural",
+   "El software futuro atendería problemas específicos de audiencias pequeñas en lugar de soluciones masivas genéricas",
+   "El modelo tradicional de distribución de software prefabricado podría volverse obsoleto"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/",
+  "fuente_dominio": "sockpuppet.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49850305",
+  "score": 208,
+  "comentarios": 287
+ },
+ {
+  "id": "49845998",
+  "slug": "la-gravedad-podria-ser-holografica-que-significaria-para-nue-49845998",
+  "fecha": "2026-09-26T11:06:22+00:00",
+  "titulo": "La gravedad podría ser holográfica: qué significaría para nuestra comprensión del universo",
+  "resumen": "Investigadores en física teórica han descubierto que la gravedad puede colapsar las dimensiones del espacio, lo que sugiere que la información de un volumen tridimensional podría codificarse completamente en una superficie bidimensional. Este concepto, conocido como principio holográfico y formalizado mediante la correspondencia AdS/CFT, representa uno de los avances más significativos de la física teórica moderna. A pesar de su importancia, sus implicaciones completas aún no se comprenden totalmente entre la comunidad científica.",
+  "por_que_importa": "La teoría holográfica establece una conexión inesperada entre la gravedad y la mecánica cuántica, campos que parecían incompatibles. Además, ha proporcionado una respuesta ampliamente aceptada sobre la naturaleza de los agujeros negros, demostrando que contrario a lo propuesto anteriormente, no son prisiones inescapables.",
+  "puntos_clave": [
+   "La correspondencia AdS/CFT, presentada a finales de los años 1990, es el trabajo teórico más citado de la era digital",
+   "El principio holográfico sugiere que la cantidad de información en un volumen es equivalente a la de su superficie, desafiando la lógica geométrica convencional",
+   "La teoría permanece parcialmente especulativa: se describe tanto como un hecho matemático como una propuesta especulativa sobre la naturaleza del espacio"
+  ],
+  "categoria": "Ciencia",
+  "fuente_url": "https://www.quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925/",
+  "fuente_dominio": "quantamagazine.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49845998",
+  "score": 209,
+  "comentarios": 174
+ },
+ {
+  "id": "49852302",
+  "slug": "jurado-condena-a-facebook-por-enganar-a-usuarios-en-caso-cam-49852302",
+  "fecha": "2026-09-26T11:06:16+00:00",
+  "titulo": "Jurado condena a Facebook por engañar a usuarios en caso Cambridge Analytica",
+  "resumen": "Un jurado de Nuevo México determinó que Facebook fue responsable de engañar a sus usuarios respecto a las protecciones de privacidad tras la filtración de datos de Cambridge Analytica. El escándalo involucró aproximadamente 87 millones de perfiles cuya información fue vendida a una consultora política. Los jurados hallaron más de 2 millones de violaciones, siendo responsabilidad del juez determinar la indemnización solicitada.",
+  "por_que_importa": "Constituye un precedente significativo contra las grandes tecnológicas, siendo Nuevo México el único estado que persiguió este caso específico tras retirarse otros estados en acuerdos de liquidación. El veredicto refleja un creciente escrutinio legal sobre cómo las plataformas digitales manejan datos personales.",
+  "puntos_clave": [
+   "Facebook fue encontrado responsable de engañar a usuarios sobre protecciones de privacidad relacionadas con una filtración de datos de un cuestionario de terceros.",
+   "El jurado determinó que las violaciones afectaron a toda la población de Nuevo México, superior a 2 millones de personas.",
+   "Meta rechaza el veredicto y argumenta que existían consideraciones sobre libertad de expresión en el caso."
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/",
+  "fuente_dominio": "cbsnews.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49852302",
+  "score": 244,
+  "comentarios": 59
+ },
+ {
   "id": "49849141",
   "slug": "mit-instala-cientos-de-camaras-de-vigilancia-con-capacidades-49849141",
   "fecha": "2026-09-26T04:21:38+00:00",
