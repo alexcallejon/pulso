@@ -1,5 +1,100 @@
 [
  {
+  "id": "49857729",
+  "slug": "drawgent-agente-de-codigo-que-trabaja-en-lienzo-excalidraw-49857729",
+  "fecha": "2026-09-27T11:45:31+00:00",
+  "titulo": "Drawgent: agente de código que trabaja en lienzo Excalidraw",
+  "resumen": "Drawgent es un proyecto que permite a un agente de IA interactuar y colaborar en tiempo real sobre diagramas en Excalidraw. El proyecto añade capacidades recientes como almacenamiento de diagramas en repositorio y compilaciones para macOS. Los desarrolladores señalan que existen alternativas como soluciones basadas en Mermaid y otras plataformas de pizarras digitales para este tipo de colaboración.",
+  "por_que_importa": "Facilita la colaboración entre humanos e IA en tareas de arquitectura y diseño visual mediante una interfaz gráfica compartida. Refleja un creciente interés en herramientas que permitan a los agentes de IA participar en procesos de pensamiento y documentación técnica.",
+  "puntos_clave": [
+   "Permite sincronización bidireccional entre el lienzo de Excalidraw y archivos de diagrama en el repositorio",
+   "Incluye soporte para compilaciones multiplataforma, incluyendo binarios universal macOS desde Linux",
+   "Existen alternativas complementarias como Mermaid Relay para Obsidian y otras soluciones de pizarra digital"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+  "fuente_dominio": "tangled.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49857729",
+  "score": 157,
+  "comentarios": 42
+ },
+ {
+  "id": "49858810",
+  "slug": "japon-endurece-requisitos-para-residencia-permanente-de-extr-49858810",
+  "fecha": "2026-09-27T11:45:25+00:00",
+  "titulo": "Japón endurece requisitos para residencia permanente de extranjeros",
+  "resumen": "Japón implementará nuevas normas a partir de octubre que exigen a los solicitantes de residencia permanente demostrar ingresos superiores al promedio nacional, competencia en idioma japonés y poseer fondos de pensión equivalentes a 30 años de prestaciones. Los cambios, aplicables retroactivamente desde abril, generan incertidumbre entre residentes extranjeros de larga data que temen no calificar y consideran abandonar el país. Las nuevas reglas reflejan un giro hacia una política migratoria selectiva que contrasta con la necesidad de mano de obra que tiene Japón ante su población en declive.",
+  "por_que_importa": "Japón enfrenta una contradicción entre atraer trabajadores extranjeros para compensar su escasez laboral y simultáneamente implementar restricciones que podrían ahuyentar talento internacional. Los cambios afectan directamente a profesionales establecidos desde hace años que corren riesgo de perder su estatus migratorio.",
+  "puntos_clave": [
+   "Nuevas exigencias incluyen ingresos superiores al promedio nacional y acreditación de idioma japonés",
+   "Residentes de larga data enfrentan rechazo potencial y consideran dejar Japón o renunciar a su ciudadanía anterior",
+   "Economistas advierten que las restricciones pueden reducir el atractivo de Japón para trabajadores extranjeros a largo plazo"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.aljazeera.com/economy/2026/9/25/japan-moves-to-tighten-rules-for-foreigners-throwing-futures-into-doubt",
+  "fuente_dominio": "aljazeera.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49858810",
+  "score": 175,
+  "comentarios": 490
+ },
+ {
+  "id": "49829202",
+  "slug": "guia-moderna-de-object-pascal-para-programadores-experimenta-49829202",
+  "fecha": "2026-09-27T11:45:20+00:00",
+  "titulo": "Guía moderna de Object Pascal para programadores experimentados",
+  "resumen": "Se ha publicado una introducción comprehensiva a Object Pascal moderno, dirigida a desarrolladores con experiencia previa en programación. El documento cubre desde conceptos básicos hasta características avanzadas como clases, interfaces, genéricos y manejo de excepciones. La guía enfatiza cómo Pascal ha evolucionado significativamente y ahora incluye capacidades comparables a lenguajes contemporáneos como C++ o Java.",
+  "por_que_importa": "Object Pascal sigue siendo relevante para desarrollo de software, con un legado que incluye aplicaciones notables como Photoshop 1.0 y herramientas modernas que permiten compilar a código nativo y JavaScript. El recurso facilita que desarrolladores familiarizados con otros lenguajes accedan a las capacidades actuales de Pascal sin comenzar desde conceptos elementales.",
+  "puntos_clave": [
+   "La guía estructura el aprendizaje en temas progresivos: desde lo básico hasta características avanzadas como interfaces y genéricos",
+   "Pascal moderno es compilado a código nativo rápido, fuertemente tipado y compatible con herramientas contemporáneas como Lazarus",
+   "El lenguaje ha evolucionado significativamente desde versiones antiguas como Turbo Pascal, incorporando paradigmas modernos de programación"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://castle-engine.io/modern_pascal",
+  "fuente_dominio": "castle-engine.io",
+  "hn_url": "https://news.ycombinator.com/item?id=49829202",
+  "score": 176,
+  "comentarios": 77
+ },
+ {
+  "id": "49856988",
+  "slug": "guia-interactiva-sobre-concurrencia-en-go-49856988",
+  "fecha": "2026-09-27T11:45:15+00:00",
+  "titulo": "Guía interactiva sobre concurrencia en Go",
+  "resumen": "Se ha publicado un mini-libro que ofrece una revisión de los conceptos principales de concurrencia en Go, incluyendo gorrutinas, canales, sincronización y patrones avanzados. El material incluye ejemplos interactivos que permiten experimentar modificando el código, además de una versión en PDF con ejemplos estáticos. La guía está dirigida a quienes ya tienen conocimientos previos de concurrencia en Go, no a principiantes.",
+  "por_que_importa": "La concurrencia es fundamental en Go y su modelo de gorrutinas es considerado diferente al de otros lenguajes de programación. Contar con recursos educativos que combinen teoría e interactividad facilita el aprendizaje y refuerzo de conceptos que muchos desarrolladores encuentran desafiantes.",
+  "puntos_clave": [
+   "El recurso cubre gorrutinas, canales, select, pipelines, context, mutexes y otros temas de concurrencia con ejemplos ejecutables",
+   "Los usuarios pueden modificar y ejecutar código interactivamente para experimentar con los conceptos",
+   "Está disponible tanto en formato web interactivo como en PDF estático"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://antonz.org/go-concurrency-distilled/",
+  "fuente_dominio": "antonz.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49856988",
+  "score": 236,
+  "comentarios": 94
+ },
+ {
+  "id": "49863864",
+  "slug": "documentos-judiciales-revelan-que-openai-conocia-los-danos-l-49863864",
+  "fecha": "2026-09-27T11:45:09+00:00",
+  "titulo": "Documentos judiciales revelan que OpenAI conocía los daños legales de entrenar modelos con libros pirateados",
+  "resumen": "Escritos desclasificados en el litigio de la Authors Guild contra OpenAI muestran que ejecutivos de la empresa sabían que entrenaban sus modelos con libros obtenidos ilegalmente de fuentes cuestionables y que sus sistemas reemplazarían a autores humanos. Los documentos citan a empleados de OpenAI expresando preocupación por cómo se vería públicamente usar datos de sitios no autorizados, además de reconocer que sus productos causarían desempleo en la industria editorial. La empresa continuó adelante con sus planes a pesar de estas advertencias internas sobre el daño cultural y económico.",
+  "por_que_importa": "El caso evidencia tensiones entre el desarrollo de tecnología disruptiva y la protección legal de derechos de autor, con implicaciones para cómo se regulará el entrenamiento de sistemas de IA en el futuro. Los hallazgos podrían sentar precedentes importantes sobre responsabilidad corporativa cuando las empresas tienen conocimiento previo del impacto negativo de sus acciones.",
+  "puntos_clave": [
+   "Directivos de OpenAI reconocieron internamente que sus modelos sustituirían el trabajo de escritores y generarían desempleo en la industria creativa.",
+   "La empresa utilizó materiales de fuentes no autorizadas para entrenar sus sistemas mientras se preocupaba por la percepción pública de estas prácticas.",
+   "Los documentos judiciales incluyen testimonios de empleados que caracterizaban las consecuencias negativas para autores como una 'disrupción económica aceptable'."
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+  "fuente_dominio": "authorsguild.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49863864",
+  "score": 265,
+  "comentarios": 234
+ },
+ {
   "id": "49854416",
   "slug": "floci-emuladores-locales-para-probar-codigo-en-multiples-nub-49854416",
   "fecha": "2026-09-27T04:38:47+00:00",
