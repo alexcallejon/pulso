@@ -1,5 +1,119 @@
 [
  {
+  "id": "49854416",
+  "slug": "floci-emuladores-locales-para-probar-codigo-en-multiples-nub-49854416",
+  "fecha": "2026-09-27T04:38:47+00:00",
+  "titulo": "Floci: emuladores locales para probar código en múltiples nubes",
+  "resumen": "Floci es una herramienta de código abierto que permite ejecutar localmente servicios de AWS, Azure, GCP y OCI sin necesidad de credenciales ni cuentas en la nube. Diseñada específicamente para agentes de IA, ofrece inicios rápidos (24 milisegundos) y es gratuita bajo licencia MIT. Compatible con herramientas existentes como SDKs, CLIs y Terraform, sin cambios de código.",
+  "por_que_importa": "Resuelve la necesidad de probar código en la nube de forma local y segura, evitando costos, riesgos de seguridad y dependencias de cuentas reales. Es especialmente relevante para el desarrollo asistido por IA, permitiendo que los agentes iteten rápidamente sin riesgo de afectar entornos reales.",
+  "puntos_clave": [
+   "Emula 119 servicios de AWS, 28 de Azure, 25 de GCP y 8 de OCI en binarios nativos sin autenticación.",
+   "Inicia en 24 milisegundos y consume 13 MiB en reposo, facilitando ciclos rápidos de desarrollo.",
+   "Permanentemente gratuito y de código abierto (MIT), sin capas de pago ni restricciones futuras."
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://floci.io",
+  "fuente_dominio": "floci.io",
+  "hn_url": "https://news.ycombinator.com/item?id=49854416",
+  "score": 171,
+  "comentarios": 39
+ },
+ {
+  "id": "49854875",
+  "slug": "como-mantener-el-disfrute-en-la-programacion-ante-la-era-de-49854875",
+  "fecha": "2026-09-27T04:38:42+00:00",
+  "titulo": "Cómo mantener el disfrute en la programación ante la era de los modelos de lenguaje",
+  "resumen": "Un programador reflexiona sobre cómo preservar el placer de programar mientras se adoptan herramientas de inteligencia artificial en el desarrollo de software. Propone mantener la escritura manual de código para evitar perder habilidades y la propiedad del proyecto, en lugar de delegar completamente la generación a modelos automáticos. Sugiere un equilibrio entre usar estas herramientas de forma selectiva sin renunciar al proceso creativo fundamental de la programación.",
+  "por_que_importa": "A medida que los modelos de lenguaje se integran en los flujos de trabajo, existe riesgo real de que programadores pierdan competencias si dependen demasiado de la generación automática. La discusión aborda una preocupación creciente en la industria sobre cómo mantener la calidad y la autonomía técnica en un entorno con adopción masiva de IA.",
+  "puntos_clave": [
+   "Escribir código manualmente es esencial para preservar habilidades y mantener la calidad del proyecto",
+   "Delegar completamente la programación a agentes de IA degrada el codebase y elimina el disfrute del desarrollo",
+   "Usar modelos de lenguaje de forma estratégica y selectiva permite ganar productividad sin sacrificar el proceso creativo"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+  "fuente_dominio": "discourse.haskell.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49854875",
+  "score": 179,
+  "comentarios": 232
+ },
+ {
+  "id": "49844663",
+  "slug": "asml-no-vendio-equipos-de-litografia-en-europa-durante-2026-49844663",
+  "fecha": "2026-09-27T04:38:37+00:00",
+  "titulo": "ASML no vendió equipos de litografía en Europa durante 2026",
+  "resumen": "ASML, el principal fabricante mundial de sistemas de litografía para semiconductores, registró cero ventas en Europa en 2026, con una caída drástica respecto al 1% de ganancias del año anterior. La compañía ha pedido a las autoridades europeas que impulsen la demanda de chips fabricados en la región. Esta situación contrasta con el crecimiento que experimenta la empresa en otros mercados como India.",
+  "por_que_importa": "El resultado revela una crisis en la capacidad de manufactura semiconductora europea y la dificultad de competir globalmente en este sector estratégico. La situación refleja que las regulaciones y entorno regulatorio europeo pueden estar desalentando la inversión en fabricación de chips en la región.",
+  "puntos_clave": [
+   "ASML no recibió pedidos de equipos de litografía de fabricantes europeos en 2026",
+   "Las ventas en Europa cayeron de 5% en 2024 a 1% en 2025 y a cero en 2026",
+   "La empresa busca apoyo de autoridades europeas para crear demanda interna de semiconductores"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand",
+  "fuente_dominio": "tomshardware.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49844663",
+  "score": 196,
+  "comentarios": 509
+ },
+ {
+  "id": "49859112",
+  "slug": "deepseek-presenta-infraestructura-de-sandbox-para-entrenar-m-49859112",
+  "fecha": "2026-09-27T04:38:32+00:00",
+  "titulo": "DeepSeek presenta infraestructura de sandbox para entrenar modelos de IA a escala",
+  "resumen": "DeepSeek ha desarrollado DSec, una plataforma de sandbox en producción que permite entrenar y evaluar modelos de lenguaje grandes con capacidades de agentes de forma masiva. La infraestructura gestiona millones de entornos aislados simultáneamente mediante contenedores, máquinas virtuales y otros backends, coordinando su ciclo de vida con el aprendizaje por refuerzo. Una unidad de producción con aproximadamente 160 nodos gestiona alrededor de 3 millones de sandboxes diarios y soporta más de 380.000 concurrentes.",
+  "por_que_importa": "El entrenamiento de agentes de IA requiere entornos aislados y complejos que ejecuten código, accedan a repositorios e interactúen con servicios; una infraestructura eficiente es esencial para escalar estos sistemas. Esta plataforma demuestra cómo DeepSeek resuelve retos de ingeniería críticos para el desarrollo de modelos de IA avanzados.",
+  "puntos_clave": [
+   "DSec unifica múltiples tipos de sandbox (funciones, contenedores, microVMs y máquinas virtuales) en una única plataforma",
+   "Gestiona más de 380.000 sandboxes concurrentes en 160 nodos, procesando millones diarios",
+   "Se integra con un framework de aprendizaje por refuerzo para preservar estado mientras recupera recursos ociosos"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://arxiv.org/abs/2609.22978",
+  "fuente_dominio": "arxiv.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49859112",
+  "score": 198,
+  "comentarios": 58
+ },
+ {
+  "id": "49844657",
+  "slug": "georgismo-cinco-anos-despues-de-su-debate-inicial-49844657",
+  "fecha": "2026-09-27T04:38:27+00:00",
+  "titulo": "Georgismo: cinco años después de su debate inicial",
+  "resumen": "Lars Doucet reflexiona sobre el avance del georgismo desde sus escritos de 2021, destacando que la política de impuesto a la tierra ha pasado de ser una idea teórica a obtener impulso legislativo real. Virginia y Kentucky aprobaron leyes que permiten impuestos progresivos sobre la tierra en 2026, y líderes favorables a esta política fueron elegidos en Reino Unido y Corea del Sur. El autor señala que el enfoque debe dirigirse hacia gobiernos locales y estatales en lugar de debates en línea, y que existe consenso económico sobre la superioridad del impuesto a la tierra frente al impuesto a la renta.",
+  "por_que_importa": "El impuesto a la tierra ha ganado tracción política significativa después de décadas de ser una propuesta marginal, con estados estadounidenses y gobiernos internacionales implementando políticas relacionadas. Existe amplio consenso académico entre economistas de diversas escuelas sobre que gravar la tierra es superior a gravar el trabajo o el capital.",
+  "puntos_clave": [
+   "Dos estados estadounidenses aprobaron leyes de impuesto a la tierra en 2026, permitiendo que municipios implementen tasas diferenciadas",
+   "El georgismo pasó de ser debatido principalmente en línea a obtener impulso legislativo real en múltiples jurisdicciones",
+   "La estrategia más efectiva implica trabajar con gobiernos locales interesados en lugar de intentar convencer a opositores declarados"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.astralcodexten.com/p/does-georgism-work-five-years-later",
+  "fuente_dominio": "astralcodexten.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49844657",
+  "score": 209,
+  "comentarios": 141
+ },
+ {
+  "id": "49858513",
+  "slug": "reladraw-lenguaje-de-diagramas-con-posicionamiento-relativo-49858513",
+  "fecha": "2026-09-27T04:38:22+00:00",
+  "titulo": "Reladraw: lenguaje de diagramas con posicionamiento relativo",
+  "resumen": "Reladraw es un lenguaje textual que permite crear diagramas especificando la posición relativa de los elementos sin necesidad de coordenadas. A diferencia de herramientas como Mermaid o Graphviz que distribuyen automáticamente los elementos, este proyecto busca un equilibrio permitiendo control manual sobre la disposición a través de declaraciones sobre relaciones espaciales. El enfoque resulta especialmente útil para agentes de IA que necesitan editar diagramas existentes, ya que pueden leer y modificar instrucciones textuales en lugar de recalcular coordenadas de píxeles.",
+  "por_que_importa": "En la era de desarrollo asistido por IA, poder comunicar la estructura de un sistema mediante diagramas editables por máquinas es fundamental para alinear modelos mentales entre humanos y agentes. Las herramientas de posicionamiento absoluto requieren recálculos complejos para cambios, mientras que los lenguajes de distribución automática no permiten especificar dónde ir cuando el diseño es importante.",
+  "puntos_clave": [
+   "Usa posicionamiento relativo mediante declaraciones textuales sin coordenadas numéricas",
+   "Proporciona control manual de disposición más accesible que herramientas gráficas para agentes de IA",
+   "Equilibra la automatización completa de Mermaid con el control total de draw.io y Figma"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://github.com/reladraw/reladraw",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49858513",
+  "score": 227,
+  "comentarios": 63
+ },
+ {
   "id": "49842764",
   "slug": "pipepipe-un-fork-de-newpipe-con-sponsorblock-integrado-49842764",
   "fecha": "2026-09-26T20:52:15+00:00",
