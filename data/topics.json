@@ -1,5 +1,62 @@
 [
  {
+  "id": "49826087",
+  "slug": "ingeniero-logra-actualizar-almacenamiento-de-ipod-nano-3g-a-49826087",
+  "fecha": "2026-09-27T16:43:25+00:00",
+  "titulo": "Ingeniero logra actualizar almacenamiento de iPod Nano 3G a 16GB",
+  "resumen": "Un desarrollador completó un proyecto de modificación para aumentar la capacidad de almacenamiento de un iPod Nano de tercera generación mediante el reemplazo de su chip NAND. El proceso requirió aprender desde cero técnicas de soldadura y ingeniería inversa, así como modificar el firmware del dispositivo para reconocer el nuevo componente. El proyecto, iniciado en 2020, demuestra que es posible actualizar hardware en dispositivos antiguos que Apple consideraba sellados.",
+  "por_que_importa": "Muestra que los dispositivos heredados de Apple pueden ser modificados y actualizados por usuarios con los conocimientos técnicos adecuados, reviviendo el interés en aparatos antiguos. Genera nostalgia en torno a los iPods y abre posibilidades para restaurar equipos considerados obsoletos.",
+  "puntos_clave": [
+   "El proyecto implicó desolder y soldar componentes NAND de forma manual tras múltiples intentos fallidos",
+   "Fue necesario modificar el firmware para que el dispositivo reconociera el nuevo chip de almacenamiento",
+   "El trabajo tomó años de desarrollo pero demostró que la actualización es técnicamente viable"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://tuckerosman.com/projects/16gb-ipod-nano",
+  "fuente_dominio": "tuckerosman.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49826087",
+  "score": 158,
+  "comentarios": 30
+ },
+ {
+  "id": "49867038",
+  "slug": "los-problemas-visuales-de-las-interfaces-disenadas-por-ia-49867038",
+  "fecha": "2026-09-27T16:43:20+00:00",
+  "titulo": "Los problemas visuales de las interfaces diseñadas por IA",
+  "resumen": "Un desarrollador critica las características recurrentes de interfaces de usuario generadas por inteligencia artificial, a las que denomina «slop UI», señalando elementos como gradientes excesivos, paletas de colores desorganizadas, insignias pulsantes innecesarias y texto redundante. El fenómeno se observa en actualizaciones de aplicaciones populares como la de su universidad y sitios de empresas tecnológicas importantes. Los comentarios debaten si estas prácticas representan un retroceso real respecto a diseños anteriores o simplemente otra forma de estandarización visual.",
+  "por_que_importa": "La adopción masiva de herramientas de IA para diseño de interfaces está generando patrones visuales repetitivos y poco funcionales que afectan la experiencia del usuario. La discusión plantea interrogantes sobre la calidad del diseño generado automáticamente y cómo las empresas están implementando estas soluciones sin supervisión adecuada.",
+  "puntos_clave": [
+   "Las interfaces generadas por IA presentan gradientes, colores discordantes, insignias innecesarias y alineaciones defectuosas de forma sistemática",
+   "El texto redundante y elementos visuales genéricos aparecen frecuentemente debido a que el contexto del prompt se filtra hacia el diseño final",
+   "Los expertos debaten si este fenómeno es realmente peor que los estándares de diseño previos o representa simplemente una nueva forma de uniformidad"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://hereticpleb.vercel.app/blog/10-tells-of-slop",
+  "fuente_dominio": "hereticpleb.vercel.app",
+  "hn_url": "https://news.ycombinator.com/item?id=49867038",
+  "score": 200,
+  "comentarios": 147
+ },
+ {
+  "id": "49867067",
+  "slug": "neovim-elimino-historial-de-deshacer-sin-compatibilidad-con-49867067",
+  "fecha": "2026-09-27T16:43:14+00:00",
+  "titulo": "NeoVim eliminó historial de deshacer sin compatibilidad con Vim",
+  "resumen": "Un usuario documentó cómo NeoVim cambió el formato de sus archivos de historial de deshacer sin migrar los datos existentes, lo que resultó en pérdida de información. Los desarrolladores justificaron la acción argumentando que el formato era inestable y los usuarios no deberían confiar en esa funcionalidad. El incidente generó debate sobre la responsabilidad de los desarrolladores de software respecto a la preservación de datos.",
+  "por_que_importa": "Ilustra un conflicto fundamental entre mantener compatibilidad hacia atrás y modernizar herramientas. Ejemplifica cómo las decisiones de diseño de software pueden afectar directamente el trabajo de usuarios sin previo aviso.",
+  "puntos_clave": [
+   "NeoVim modificó el formato de archivos de deshacer persistente sin convertir datos anteriores",
+   "Los desarrolladores reconocieron el cambio sería destructivo pero lo implementaron de todas formas",
+   "El incidente reavivó discusiones sobre el deber de cuidado de los creadores hacia los datos de usuarios"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users/",
+  "fuente_dominio": "unsung.aresluna.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49867067",
+  "score": 227,
+  "comentarios": 168
+ },
+ {
   "id": "49857729",
   "slug": "drawgent-agente-de-codigo-que-trabaja-en-lienzo-excalidraw-49857729",
   "fecha": "2026-09-27T11:45:31+00:00",
