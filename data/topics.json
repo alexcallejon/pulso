@@ -1,5 +1,62 @@
 [
  {
+  "id": "49868404",
+  "slug": "evita-acoplar-tu-codigo-go-a-github-usando-dominios-personal-49868404",
+  "fecha": "2026-09-28T04:40:20+00:00",
+  "titulo": "Evita acoplar tu código Go a GitHub usando dominios personalizados",
+  "resumen": "El artículo advierte sobre los riesgos de vincular directamente el código Go a proveedores de hosting como GitHub en los imports, lo que dificulta cambiar de plataforma en el futuro. Propone usar dominios personalizados que apunten al repositorio, permitiendo migraciones sin modificar el código. Se incluyen ejemplos de configuración con Nginx para implementar esta solución.",
+  "por_que_importa": "Usar dominios propios desacopla el código del proveedor de hosting, evitando gastos innecesarios y facilitando migraciones futuras entre plataformas. Los comentarios señalan que esta práctica debería aplicarse más allá de Go y advierten sobre riesgos de redirecciones permanentes y dominios que podrían ser eliminados.",
+  "puntos_clave": [
+   "Acoplar imports directamente a GitHub obliga a cambiar código si se migra a otro servicio",
+   "Los dominios personalizados permiten cambiar el destino del repositorio transparentemente",
+   "La solución requiere configurar metadatos de importación en el servidor con Nginx u otra herramienta"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://iain.rocks/blog/dont-couple-your-go-code-to-github",
+  "fuente_dominio": "iain.rocks",
+  "hn_url": "https://news.ycombinator.com/item?id=49868404",
+  "score": 175,
+  "comentarios": 86
+ },
+ {
+  "id": "49869574",
+  "slug": "lofi-cities-generador-de-ciudades-pixel-art-con-musica-lofi-49869574",
+  "fecha": "2026-09-28T04:40:16+00:00",
+  "titulo": "Lofi Cities: generador de ciudades pixel art con música lofi en navegador",
+  "resumen": "Lofi Cities es una aplicación web gratuita que combina animaciones de ciudades pixeladas con música lofi generada en tiempo real en el navegador. Ofrece múltiples escenarios urbanos que cambian automáticamente, incluyen efectos climáticos y sonidos ambientales, y permiten personalizar el estilo musical. Los usuarios pueden interactuar mediante chat, capturar pantallas y exportar videos de las animaciones.",
+  "por_que_importa": "Representa una alternativa creativa y accesible para ambientar espacios de trabajo o estudio, combinando arte visual y composición musical procedural. Demuestra el potencial de las tecnologías generativas para crear experiencias relajantes sin requerir instalación ni cuentas de usuario.",
+  "puntos_clave": [
+   "Genera música lofi original en cada sesión mediante algoritmos en el navegador",
+   "Incluye 12 ciudades con características visuales únicas, efectos de clima y sonidos contextuales",
+   "Funciona en dispositivos múltiples y permite descargar escenas como imágenes y videos"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://loficities.com/",
+  "fuente_dominio": "loficities.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49869574",
+  "score": 200,
+  "comentarios": 87
+ },
+ {
+  "id": "49872723",
+  "slug": "un-cofundador-de-sense8-reclama-mil-millones-en-acciones-de-49872723",
+  "fecha": "2026-09-28T04:40:11+00:00",
+  "titulo": "Un cofundador de Sense8 reclama mil millones en acciones de Nvidia por vencimiento de opciones",
+  "resumen": "Un asesor técnico de Nvidia desde 1993 descubrió tres décadas después que sus opciones de compra de acciones debieron haberse ejecutado completamente en un año, no en cuatro como interpretó la empresa. La discrepancia, tras múltiples divisiones de acciones, representa actualmente 4.5 millones de títulos valuados en aproximadamente mil millones de dólares. Nvidia y sus abogados rechazaron el reclamo argumentando que había prescrito por el tiempo transcurrido.",
+  "por_que_importa": "Ilustra los riesgos legales y financieros de malinterpretaciones en acuerdos de opciones de compra de acciones, especialmente en empresas en fase temprana. Refleja cómo decisiones contractuales en startups pueden generar reclamos significativos décadas después cuando esas compañías alcanzan valuaciones masivas.",
+  "puntos_clave": [
+   "El acuerdo original especificaba vencimiento trimestral en un año, pero Nvidia lo interpretó como vencimiento en cuatro años",
+   "Las múltiples divisiones de acciones convirtieron 9,375 opciones no ejercidas en 4.5 millones de títulos actuales",
+   "La defensa legal de Nvidia se basó en la prescripción por los treinta años de inacción, no en disputar el contenido del contrato"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://colo.to/nvidia-stock-narrative.html",
+  "fuente_dominio": "colo.to",
+  "hn_url": "https://news.ycombinator.com/item?id=49872723",
+  "score": 273,
+  "comentarios": 141
+ },
+ {
   "id": "49853137",
   "slug": "agente-de-ia-accedio-a-servicio-externo-mediante-dns-durante-49853137",
   "fecha": "2026-09-27T21:09:15+00:00",
