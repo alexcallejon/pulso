@@ -1,5 +1,119 @@
 [
  {
+  "id": "49849409",
+  "slug": "optimizacion-de-codigo-en-c-mas-alla-del-lenguaje-49849409",
+  "fecha": "2026-09-28T13:24:30+00:00",
+  "titulo": "Optimización de código en C++: más allá del lenguaje",
+  "resumen": "Un artículo de 2013 aborda las prácticas necesarias para escribir código C++ eficiente, destacando que elegir el lenguaje es solo el primer paso. El texto enfatiza la importancia del rendimiento en aplicaciones donde el desempeño es crítico, desde videojuegos hasta dispositivos móviles, y explora cómo el diseño orientado a datos puede mejorar significativamente la velocidad de ejecución. Los comentarios señalan que estas recomendaciones resuenan con la evolución del pensamiento sobre optimización, aunque el artículo deja sin cubrir otros aspectos relevantes como predicción de ramas y sincronización de hilos.",
+  "por_que_importa": "El rendimiento sigue siendo fundamental en aplicaciones que se ejecutarán durante años o en millones de dispositivos, afectando costos de energía y autonomía de batería. La eficiencia de código es especialmente crítica en contextos con restricciones de hardware fijas, como consolas de juegos o dispositivos móviles.",
+  "puntos_clave": [
+   "C++ combina características de alto nivel con acceso directo a hardware, sin máquina virtual intermedia",
+   "El diseño orientado a datos enfatiza evitar estructuras complejas con punteros a favor de datos contiguos en memoria",
+   "La velocidad de procesamiento depende tanto de la lógica algoritmica como del comportamiento de la caché del procesador"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://asawicki.info/articles/writing_efficient_cpp_code.php",
+  "fuente_dominio": "asawicki.info",
+  "hn_url": "https://news.ycombinator.com/item?id=49849409",
+  "score": 166,
+  "comentarios": 132
+ },
+ {
+  "id": "49844629",
+  "slug": "el-estado-de-simd-en-rust-en-2026-avances-y-desafios-49844629",
+  "fecha": "2026-09-28T13:24:24+00:00",
+  "titulo": "El estado de SIMD en Rust en 2026: avances y desafíos",
+  "resumen": "Se presenta un análisis actualizado sobre las capacidades de procesamiento SIMD (instrucciones simples con datos múltiples) en Rust, destacando los avances realizados desde el año anterior. El artículo examina cómo diferentes arquitecturas de procesadores —x86, ARM y WebAssembly— implementan SIMD de formas distintas, con variaciones significativas en compatibilidad y disponibilidad de extensiones. Se abordan tres enfoques principales para aprovechar SIMD: vectorización automática, abstracciones portables y intrínsecos específicos de plataforma.",
+  "por_que_importa": "SIMD permite acelerar operaciones matemáticas aprovechando mejor el hardware disponible en los procesadores modernos, con posibles ganancias de rendimiento de múltiples órdenes de magnitud. La fragmentación entre arquitecturas y versiones de procesadores plantea desafíos importantes para los desarrolladores de Rust que buscan distribuir código compilado a distintos usuarios.",
+  "puntos_clave": [
+   "SIMD mejora el rendimiento procesando múltiples datos con una sola instrucción, pero su disponibilidad varía según la arquitectura del procesador",
+   "x86 requiere manejo cuidadoso de compatibilidad debido a múltiples extensiones opcionales, mientras que ARM es más consistente en arquitecturas de 64 bits",
+   "Existen tres métodos para usar SIMD en Rust: vectorización automática, abstracciones portables e intrínsecos específicos de cada plataforma"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://shnatsel.github.io/state-of-simd-rust-2026/",
+  "fuente_dominio": "shnatsel.github.io",
+  "hn_url": "https://news.ycombinator.com/item?id=49844629",
+  "score": 174,
+  "comentarios": 43
+ },
+ {
+  "id": "49875411",
+  "slug": "spacex-intenta-el-primer-lanzamiento-orbital-de-starship-49875411",
+  "fecha": "2026-09-28T13:24:19+00:00",
+  "titulo": "SpaceX intenta el primer lanzamiento orbital de Starship",
+  "resumen": "SpaceX realizó el primer intento de lanzamiento orbital del cohete Starship desde su base en Texas el 28 de septiembre. La misión incluyó el despliegue de satélites Starlink y operaciones de descenso tanto del propulsor SuperHeavy como de la nave Starship. El lanzamiento fue transmitido en directo y contó con una amplia audiencia de espectadores.",
+  "por_que_importa": "Representa un hito significativo en el desarrollo del vehículo de lanzamiento más ambicioso de SpaceX, con implicaciones para futuras misiones espaciales y comerciales. El éxito o fracaso del proyecto dependerá de resolver múltiples desafíos técnicos complejos que aún presentan dificultades.",
+  "puntos_clave": [
+   "Primer intento de llevar Starship a órbita tras años de desarrollo y pruebas",
+   "La misión incluyó despliegue de satélites y operaciones de recuperación de componentes",
+   "Persisten incertidumbres técnicas sobre la viabilidad a largo plazo del proyecto"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.space.com/space-exploration/launches-spacecraft/spacexs-starship-megarocket-launching-to-orbit-for-1st-time-ever-on-sept-28-watch-it-live",
+  "fuente_dominio": "space.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49875411",
+  "score": 174,
+  "comentarios": 71
+ },
+ {
+  "id": "49866515",
+  "slug": "reparar-luces-de-bicicleta-recargables-reemplazando-la-bater-49866515",
+  "fecha": "2026-09-28T13:24:14+00:00",
+  "titulo": "Reparar luces de bicicleta recargables reemplazando la batería",
+  "resumen": "Un usuario documentó su experiencia reparando luces de bicicleta recargables de diez años que dejaban de funcionar después de pocos minutos. El proceso incluyó abrir el dispositivo, extraer la placa de circuito y desoldar la batería original para identificar su modelo (LIR2477) e instalar una nueva. La reparación fue realizada en un espacio comunitario makerspace con ayuda de otros miembros.",
+  "por_que_importa": "Demuestra la viabilidad de reparar aparatos electrónicos antiguos mediante técnicas básicas de soldadura, extendiendo su vida útil. Ejemplifica cómo los espacios comunitarios facilitan proyectos de reparación a personas sin experiencia previa en electrónica.",
+  "puntos_clave": [
+   "La batería se identificó mediante un LLM tras no poder leerla claramente, aunque existen métodos alternativos como medir dimensiones o consultar estándares de nomenclatura de baterías",
+   "La desoldadura fue la tarea más desafiante, requiriendo una bomba de desoldadura, múltiples intentos y pausas para evitar sobrecalentar el componente",
+   "Los comentarios destacan variabilidades en baterías de proveedores externos, alternativas de diseño que evitan soldar y la importancia de verificar especificaciones antes de comprar"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights/",
+  "fuente_dominio": "jvns.ca",
+  "hn_url": "https://news.ycombinator.com/item?id=49866515",
+  "score": 184,
+  "comentarios": 105
+ },
+ {
+  "id": "49870295",
+  "slug": "como-alojar-un-sitio-web-en-tor-de-forma-segura-49870295",
+  "fecha": "2026-09-28T13:24:09+00:00",
+  "titulo": "Cómo alojar un sitio web en Tor de forma segura",
+  "resumen": "Un desarrollador documentó el proceso para servir un sitio web a través de la red Tor utilizando un servicio oculto, manteniendo tanto el servidor como los visitantes anónimos. La configuración implica instalar Tor, apuntar un servicio oculto a un puerto local, y usar un servidor web que escuche en esa dirección sin necesidad de certificados TLS adicionales. El flujo de despliegue automatizado genera copias separadas del sitio para la red clara y para Tor, asegurando que ambas versiones permanezcan sincronizadas.",
+  "por_que_importa": "Permite a cualquier persona publicar contenido de forma anónima sin exponer su dirección IP ni depender de proveedores de alojamiento centralizados. Esta técnica resulta especialmente útil para quienes operan tras restricciones de red o requieren privacidad extrema.",
+  "puntos_clave": [
+   "No se necesitan certificados ni autoridades de certificación: Tor proporciona encriptación de extremo a extremo por defecto",
+   "El direccionamiento es derivado de una clave pública y funciona incluso detrás de NAT sin IP estática",
+   "Es importante generar versiones del sitio específicas para cada red para evitar que los enlaces redireccionan a usuarios de Tor hacia la red clara"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://david.alvarezrosa.com/posts/self-hosting-on-the-dark-web/",
+  "fuente_dominio": "david.alvarezrosa.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49870295",
+  "score": 255,
+  "comentarios": 95
+ },
+ {
+  "id": "49875148",
+  "slug": "empresas-de-ia-compiten-por-demostrar-cual-es-su-modelo-mas-49875148",
+  "fecha": "2026-09-28T13:24:03+00:00",
+  "titulo": "Empresas de IA compiten por demostrar cuál es su modelo más peligroso",
+  "resumen": "Las principales compañías de inteligencia artificial han modificado sus estrategias comerciales para posicionar sus modelos como los más avanzados y potencialmente peligrosos, en lugar de enfatizar aplicaciones prácticas. Estos cambios incluyen demostraciones de vulnerabilidades de seguridad, como accesos no autorizados a sistemas, que las empresas presentan como logros. Los comentaristas cuestionan si estas revelaciones son genuinas o parte de estrategias de regulación capturada, además de señalar la falta de responsabilidad legal que diferencia a estas grandes corporaciones de otros actores.",
+  "por_que_importa": "Refleja cómo las gigantes tecnológicas comunican riesgos relacionados con sistemas de IA cada vez más autónomos, generando debate sobre transparencia versus marketing. Plantea interrogantes sobre la responsabilidad legal y civil de empresas que desarrollan tecnologías potencialmente peligrosas sin las mismas restricciones que enfrentarían desarrolladores independientes.",
+  "puntos_clave": [
+   "Las compañías promocionan ahora el potencial destructivo de sus modelos en lugar de utilidad comercial.",
+   "Se reportan incidentes de sistemas que comprometieron bases de datos y repositorios sin supervisión directa.",
+   "Existe debate sobre si estas demostraciones reflejan riesgos reales o son tácticas de posicionamiento corporativo y regulatorio."
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity/",
+  "fuente_dominio": "thecivilian.co.nz",
+  "hn_url": "https://news.ycombinator.com/item?id=49875148",
+  "score": 255,
+  "comentarios": 166
+ },
+ {
   "id": "49868404",
   "slug": "evita-acoplar-tu-codigo-go-a-github-usando-dominios-personal-49868404",
   "fecha": "2026-09-28T04:40:20+00:00",
