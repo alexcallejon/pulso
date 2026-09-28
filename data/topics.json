@@ -1,5 +1,119 @@
 [
  {
+  "id": "49875913",
+  "slug": "parley-chat-federado-y-descentralizado-compatible-con-irc-49875913",
+  "fecha": "2026-09-28T23:05:59+00:00",
+  "titulo": "Parley: chat federado y descentralizado compatible con IRC",
+  "resumen": "Parley es un proyecto de comunicación federada que permite a los usuarios ejecutar instancias propias y comunicarse a través de clientes IRC estándar usando direcciones de tipo usuario@dominio. El sistema funciona de manera descentralizada, sin servidores centrales. Recientemente se ha corregido un problema técnico relacionado con la detección de versiones entre instancias federadas.",
+  "por_que_importa": "Ofrece una alternativa a plataformas de chat centralizadas, permitiendo a usuarios y organizaciones mantener control sobre sus propios servidores. La compatibilidad con IRC lo hace accesible a través de clientes ampliamente utilizados.",
+  "puntos_clave": [
+   "Permite crear instancias independientes por dominio para comunicación federada",
+   "Compatible con clientes IRC estándar existentes",
+   "Sistema global de canales sin operadores designados, usando bloqueos por persona e instancia"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://git.mills.io/prologic/parley",
+  "fuente_dominio": "git.mills.io",
+  "hn_url": "https://news.ycombinator.com/item?id=49875913",
+  "score": 286,
+  "comentarios": 146
+ },
+ {
+  "id": "49880312",
+  "slug": "el-verdadero-problema-no-es-el-codigo-ia-sino-desconocer-la-49880312",
+  "fecha": "2026-09-28T23:05:54+00:00",
+  "titulo": "El verdadero problema no es el código IA, sino desconocer la arquitectura del sistema",
+  "resumen": "Expertos advierten que aunque la IA genera código funcional, el mayor riesgo es que los equipos pierdan comprensión sobre la arquitectura de sistemas y las razones detrás de decisiones técnicas. En startups de rápido crecimiento, la presión por entregar volumen de código sin revisar ni entender ha generado equipos que dependen completamente de herramientas de IA sin pensar críticamente. El mantenimiento y evolución futura de estos sistemas se convierte en un desafío cuando nadie entiende las bases sobre las que fueron construidos.",
+  "por_que_importa": "La falta de comprensión arquitectónica dificulta la resolución de problemas, el mantenimiento y la comunicación entre equipos, pilares fundamentales para software sostenible a largo plazo. Sin conocimiento interno del sistema, los equipos pierden la capacidad de razonar críticamente y colaborar efectivamente, reduciendo la calidad técnica más allá del código generado.",
+  "puntos_clave": [
+   "La IA mejora código promedio, pero equipos sin entendimiento arquitectónico terminan sin visión clara de sus sistemas",
+   "En empresas bajo presión de velocidad, revisar código y documentación se sacrifica, perpetuando la ignorancia técnica",
+   "El conocimiento adquirido mediante escritura y refactorización manual permite razonar y comunicar decisiones arquitectónicas críticas"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/",
+  "fuente_dominio": "ssp.sh",
+  "hn_url": "https://news.ycombinator.com/item?id=49880312",
+  "score": 338,
+  "comentarios": 220
+ },
+ {
+  "id": "49880036",
+  "slug": "el-dilema-de-la-preservacion-cinematografica-en-la-era-digit-49880036",
+  "fecha": "2026-09-28T23:05:48+00:00",
+  "titulo": "El dilema de la preservación cinematográfica en la era digital",
+  "resumen": "Los estudios hollywoodenses frecuentemente alteran películas clásicas mediante restauraciones que modifican aspectos técnicos y creativos de las obras originales, desde cambios de duración y remasterización de audio hasta ajustes de imagen, sin que existan versiones comerciales auténticas. Cinéfilos y expertos recurren a métodos ilegales para acceder a versiones más cercanas a la intención original de los cineastas, ya que las versiones autorizadas suelen ser deficientes o han sido descontinuadas. Las empresas especializadas como Arrow, Kino y Eureka intentan restaurar obras con rigor histórico y técnico, pero el panorama general refleja una indiferencia corporativa hacia la preservación fidedigna del patrimonio audiovisual.",
+  "por_que_importa": "La disponibilidad de versiones alteradas como únicas opciones comerciales impide que el público acceda a las obras en su forma original, afectando la relación entre audiencias y patrimonio cultural. La falta de acceso legal a versiones auténticas genera un dilema ético donde preservar la integridad artística requiere métodos ilícitos.",
+  "puntos_clave": [
+   "Los estudios modifican películas clásicas con restauraciones que cambian duración, audio, imagen y aspectos creativos.",
+   "Las versiones originales frecuentemente quedan fuera de catálogos comerciales durante décadas, obligando a usuarios a recurrir a descargas ilegales.",
+   "Especialistas en análisis técnico de lanzamientos digitales documentan errores persistentes que perduran en múltiples reissues."
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://mubi.com/en/notebook/posts/pirating-the-pirates",
+  "fuente_dominio": "mubi.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49880036",
+  "score": 362,
+  "comentarios": 186
+ },
+ {
+  "id": "49877988",
+  "slug": "por-que-la-programacion-aun-no-esta-resuelta-con-ia-49877988",
+  "fecha": "2026-09-28T23:05:42+00:00",
+  "titulo": "Por qué la programación aún no está resuelta con IA",
+  "resumen": "Un ingeniero de software cuestiona la narrativa que afirma que los modelos de lenguaje han resuelto la programación, argumentando que el desarrollo de código va más allá de la mera creación. Señala que los verdaderos desafíos radican en el mantenimiento, confiabilidad y seguridad del software en producción, aspectos que requieren responsabilidad y control. Sostiene que la IA no puede ser responsabilizada por sus fallos, lo que la hace inadecuada para sectores críticos como finanzas, salud o aviación.",
+  "por_que_importa": "Distingue entre desarrollo trivial y software de misión crítica, donde las consecuencias de errores son graves y legales. Plantea un debate fundamental sobre los límites actuales de la IA en tareas que exigen lógica rigurosa y rendición de cuentas.",
+  "puntos_clave": [
+   "La creación de código es más barata con IA, pero la mayoría del costo está en mantenimiento y confiabilidad",
+   "La IA no puede ser responsabilizada legalmente por fallos en sistemas críticos de salud, finanzas o aviación",
+   "Los modelos de lenguaje excelen en tareas de lenguaje natural pero encuentran limitaciones en lógica rigurosa"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://blog.alexewerlof.com/p/coding-is-not-solved",
+  "fuente_dominio": "blog.alexewerlof.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49877988",
+  "score": 394,
+  "comentarios": 417
+ },
+ {
+  "id": "49881747",
+  "slug": "crean-parodia-de-windows-11-para-satirizar-practicas-de-micr-49881747",
+  "fecha": "2026-09-28T23:05:36+00:00",
+  "titulo": "Crean parodia de Windows 11 para satirizar prácticas de Microsoft",
+  "resumen": "Un proyecto satírico independiente simula una versión ficticia de Windows 11 para burlarse de características actuales del sistema operativo de Microsoft, como suscripciones, publicidades, funciones de inteligencia artificial y actualizaciones intrusivas. La parodia incluye elementos como el regreso de Clippy, aplicaciones bloatware preinstaladas y diálogos de activación repetitivos. Los usuarios comentan que la sátira refleja fielmente experiencias reales con Windows, destacando problemas de rendimiento, notificaciones constantes y la dificultad para evitar software no deseado.",
+  "por_que_importa": "El proyecto expone de forma humorística las frustraciones comunes que enfrentan los usuarios de Windows moderno, generando reflexión sobre prácticas comerciales de Microsoft. Los comentarios sugieren que estas críticas resuenan porque representan problemas genuinos en la experiencia actual del sistema operativo.",
+  "puntos_clave": [
+   "Proyecto paródico no oficial que satiriza suscripciones, anuncios e inteligencia artificial en Windows",
+   "Usuarios comentan que la sátira captura con precisión problemas reales como notificaciones excesivas y rendimiento lento",
+   "Algunos comparan negativamente con alternativas como Linux, que carece de activación obligatoria y rastreo de usuarios"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://definitelynotwindows.com/",
+  "fuente_dominio": "definitelynotwindows.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49881747",
+  "score": 402,
+  "comentarios": 126
+ },
+ {
+  "id": "49881850",
+  "slug": "anthropic-presenta-claude-sonnet-5-5-mas-rapido-y-economico-49881850",
+  "fecha": "2026-09-28T23:05:30+00:00",
+  "titulo": "Anthropic presenta Claude Sonnet 5.5, más rápido y económico",
+  "resumen": "Anthropic ha lanzado Claude Sonnet 5.5, la segunda versión de su familia de modelos de IA. El nuevo modelo es 30% más rápido que su antecesor, mantiene precios similares pero consume menos tokens, lo que resulta en un ahorro de hasta el 30% por tarea. Sonnet 5.5 se posiciona como complemento más accesible a Opus 5.5, optimizado para tareas cotidianas, corrección de errores y creación de documentos.",
+  "por_que_importa": "Ofrece una alternativa más eficiente en costos para usuarios que no requieren las capacidades complejas de Opus 5.5, ampliando el acceso a modelos de IA avanzados. Su mejora significativa en velocidad y eficiencia de tokens lo hace más viable para aplicaciones de alto volumen y sensibles al costo.",
+  "puntos_clave": [
+   "Mejora dramática en tareas de codificación: 70.6% en Terminal-Bench 4.0 frente al 10.3% de Sonnet 5",
+   "Incluye salvaguardas de ciberseguridad similares a Opus 5.5, aunque algunas tareas riesgosas se derivarán a versiones anteriores",
+   "Genera salidas 30% más rápido al mismo precio de entrada, optimizando el costo por token consumido"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://www.anthropic.com/claude-sonnet-5-5",
+  "fuente_dominio": "anthropic.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49881850",
+  "score": 510,
+  "comentarios": 343
+ },
+ {
   "id": "49849409",
   "slug": "optimizacion-de-codigo-en-c-mas-alla-del-lenguaje-49849409",
   "fecha": "2026-09-28T13:24:30+00:00",
