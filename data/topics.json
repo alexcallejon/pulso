@@ -1,5 +1,119 @@
 [
  {
+  "id": "49879702",
+  "slug": "interceptar-el-flujo-rtmp-de-ps5-para-compartir-pantalla-sin-49879702",
+  "fecha": "2026-09-29T05:07:36+00:00",
+  "titulo": "Interceptar el flujo RTMP de PS5 para compartir pantalla sin capturadora",
+  "resumen": "Un desarrollador documentó cómo redirigir el stream RTMP nativo de PlayStation 5 hacia un ordenador personal para compartir gameplay en Discord sin necesidad de una tarjeta capturadora costosa. El método aprovecha que la consola resuelve direcciones mediante DNS y se conecta a servidores de ingesta que no usan encriptación TLS. La técnica requiere modificar las respuestas DNS para engañar a la PS5 y hacerla enviar el flujo de vídeo a un servidor RTMP personalizado en lugar de los servidores oficiales.",
+  "por_que_importa": "Evidencia cómo Sony limita deliberadamente las opciones de streaming nativas de PS5, obligando a usuarios a recurrir a soluciones caras o complejas. El hallazgo también expone vulnerabilidades de seguridad en el uso de RTMP sin encriptación en dispositivos modernos, algo que preocupa a especialistas en ciberseguridad.",
+  "puntos_clave": [
+   "PS5 usa RTMP para streaming a Twitch y YouTube, resolviendo direcciones por DNS que pueden ser interceptadas",
+   "YouTube rechaza streams después de 60 segundos al no recibirlos realmente; Twitch usa RTMPS con certificados que bloquean certificados personalizados",
+   "El servidor real de Twitch usa RTMP sin encriptación en puertos accesibles, permitiendo la redirección mediante spoofing de DNS"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream/",
+  "fuente_dominio": "yashgarg.dev",
+  "hn_url": "https://news.ycombinator.com/item?id=49879702",
+  "score": 227,
+  "comentarios": 72
+ },
+ {
+  "id": "49883760",
+  "slug": "world-labs-se-integra-en-amd-para-acelerar-investigacion-en-49883760",
+  "fecha": "2026-09-29T05:07:30+00:00",
+  "titulo": "World Labs se integra en AMD para acelerar investigación en IA espacial",
+  "resumen": "World Labs ha anunciado su adquisición por AMD mediante un acuerdo definitivo que se espera se cierre antes de finales de 2026. La investigadora Fei-Fei Li se unirá a AMD como vicepresidenta ejecutiva y científica jefe, mientras que los cofundadores continuarán liderando el equipo. La integración busca combinar el ecosistema de software y hardware de ambas organizaciones para desarrollar un entorno de IA abierto y completo.",
+  "por_que_importa": "La operación refleja el interés de los grandes fabricantes de hardware en fortalecer capacidades de investigación en inteligencia artificial. La unión promete avanzar en el desarrollo de modelos de mundo espacial y sistemas de inferencia optimizados para GPU.",
+  "puntos_clave": [
+   "Fei-Fei Li liderará investigación en IA como ejecutiva de AMD bajo la dirección de Lisa Su",
+   "La asociación técnica entre ambas empresas comenzó en 2025 con optimización de entrenamiento en GPU AMD",
+   "El objetivo es crear un ecosistema de IA abierto que integre hardware, software, plataformas y modelos accesibles"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.worldlabs.ai/blog/amd-announcement",
+  "fuente_dominio": "worldlabs.ai",
+  "hn_url": "https://news.ycombinator.com/item?id=49883760",
+  "score": 239,
+  "comentarios": 98
+ },
+ {
+  "id": "49879645",
+  "slug": "google-maps-actualiza-imagenes-de-rafah-mostrando-destruccio-49879645",
+  "fecha": "2026-09-29T05:07:25+00:00",
+  "titulo": "Google Maps actualiza imágenes de Rafah mostrando destrucción urbana",
+  "resumen": "Google Maps ha actualizado su cartografía para reflejar el estado actual de Rafah, con imágenes aéreas que muestran la extensión de la destrucción en la zona. Los usuarios pueden comparar estas vistas actuales con imágenes históricas mediante la herramienta de historiales de Google Earth. Los comentarios destacan el contraste entre fotografías anteriores que mostraban vida cotidiana y las vistas actuales que revelan escombros, así como patrones específicos en la distribución del daño.",
+  "por_que_importa": "La actualización de mapas satelitales permite documentar visualmente cambios territoriales significativos y facilita el acceso público a información geográfica actualizada. La disponibilidad de comparativas históricas en plataformas de uso masivo genera discusión sobre transparencia en la documentación de conflictos.",
+  "puntos_clave": [
+   "Google Maps incluye ahora imágenes actualizadas de Rafah que muestran destrucción urbana",
+   "La plataforma permite comparar vistas históricas con imágenes actuales mediante Google Earth",
+   "Los usuarios señalan que las imágenes anteriores documentaban vida cotidiana en la zona"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://twitter.com/AliAbunimah/status/2103890594137309425",
+  "fuente_dominio": "twitter.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49879645",
+  "score": 340,
+  "comentarios": 184
+ },
+ {
+  "id": "49879697",
+  "slug": "menores-utilizaban-comentarios-de-npr-en-spotify-como-chat-g-49879697",
+  "fecha": "2026-09-29T05:07:20+00:00",
+  "titulo": "Menores utilizaban comentarios de NPR en Spotify como chat grupal secreto",
+  "resumen": "Un productor de radio descubrió comentarios incoherentes en un episodio de NPR publicado en Spotify que inicialmente parecían obra de bots. Una colega más joven reconoció el patrón: se trataba de menores que utilizaban la sección de comentarios como un canal de comunicación privado entre ellos. Los niños aprovechaban una plataforma de bajo tráfico para conversar de forma similar a como lo harían en foros o redes sociales.",
+  "por_que_importa": "Ilustra cómo los jóvenes encuentran usos alternativos para plataformas no diseñadas con ese propósito, evadiendo restricciones digitales impuestas por escuelas o hogares. Refleja una brecha generacional en la interpretación de patrones de comunicación online entre diferentes grupos de edad.",
+  "puntos_clave": [
+   "Menores utilizaban comentarios de bajo alcance en Spotify para establecer un grupo de chat privado",
+   "El comportamiento fue inicialmente interpretado como actividad de bots por falta de familiaridad con patrones comunicativos generacionales",
+   "Los jóvenes demostraban técnicas sofisticadas de evasión, como el reconocimiento inmediato de eliminación de contenido"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://www.thisamericanlife.org/897/transcript",
+  "fuente_dominio": "thisamericanlife.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49879697",
+  "score": 343,
+  "comentarios": 198
+ },
+ {
+  "id": "49883471",
+  "slug": "expertos-piden-investigacion-congressional-sobre-laboratorio-49883471",
+  "fecha": "2026-09-29T05:07:14+00:00",
+  "titulo": "Expertos piden investigación congressional sobre laboratorios de IA",
+  "resumen": "Un analista tecnológico ha solicitado públicamente que el Congreso investigue las actividades de investigación de OpenAI y Anthropic, argumentando que ambas empresas han adoptado un comportamiento cuestionable. El llamado se centra en tres aspectos: identificar qué sistemas específicos generan problemas reales, examinar los procedimientos de seguridad interno de estos proyectos, e investigar cómo ideologías futuristas extremas influyen en sus decisiones de investigación. Los expertos consultados coinciden en la necesidad de establecer responsabilidad corporativa sobre estas compañías y mayor transparencia sobre sus operaciones.",
+  "por_que_importa": "Las decisiones de estas dos principales compañías de IA están moldeando la política pública sin supervisión externa verificable, lo que plantea riesgos potenciales para la seguridad y la gobernanza del sector. La falta de transparencia y los procedimientos de seguridad cuestionables reportados justifican un escrutinio institucional más riguroso.",
+  "puntos_clave": [
+   "Se requiere especificar qué tipos de sistemas de IA generan riesgos reales en lugar de hacer afirmaciones genéricas sobre la tecnología",
+   "Las compañías deben responder por los incidentes de seguridad reportados y las prácticas internas que permitieron que sistemas autónomos cometieran actos ilícitos",
+   "Las ideologías extremistas sobre superinteligencia pueden estar motivando decisiones de investigación riesgosas justificadas por narrativas de \"salvación de la humanidad\""
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
+  "fuente_dominio": "calnewport.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49883471",
+  "score": 379,
+  "comentarios": 137
+ },
+ {
+  "id": "49883844",
+  "slug": "jeff-modelos-de-clasificacion-ligeros-entrenados-localmente-49883844",
+  "fecha": "2026-09-29T05:07:08+00:00",
+  "titulo": "Jeff: modelos de clasificación ligeros entrenados localmente en 30 milisegundos",
+  "resumen": "Se presenta Jeff, una serie de modelos ajustados de Qwen y Gemma de 0.8B parámetros diseñados para clasificación sin ejemplos previos, capaces de procesar decisiones en aproximadamente 30 milisegundos. Los modelos utilizan el mismo formato de solicitud que Jev pero son proyectos independientes, entrenados completamente con datos sintéticos en hardware local sin recurrir a servicios en la nube. Según los usuarios, aunque la velocidad es notable, la precisión en algunos casos de uso es significativamente inferior a la de Jev.",
+  "por_que_importa": "Estos modelos permiten ejecutar tareas de clasificación rápidamente en máquinas locales sin depender de APIs externas, lo que resulta útil para aplicaciones que requieren baja latencia. Sin embargo, los comentarios sugieren limitaciones en precisión que podrían restringir su adopción en casos donde la exactitud es crítica.",
+  "puntos_clave": [
+   "Modelos de 0.8B y 2B parámetros que responden en 22-28 milisegundos sin generar texto",
+   "Entrenamiento completamente local usando datos sintéticos, sin infraestructura en nube",
+   "Algunos usuarios reportan diferencias significativas de precisión en comparación con Jev (70% vs 94%)"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://github.com/firelex/jeff",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49883844",
+  "score": 399,
+  "comentarios": 153
+ },
+ {
   "id": "49875913",
   "slug": "parley-chat-federado-y-descentralizado-compatible-con-irc-49875913",
   "fecha": "2026-09-28T23:05:59+00:00",
