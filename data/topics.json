@@ -1,5 +1,119 @@
 [
  {
+  "id": "49896604",
+  "slug": "openai-presenta-dots-agentes-de-ia-que-trabajan-autonomament-49896604",
+  "fecha": "2026-09-29T22:04:24+00:00",
+  "titulo": "OpenAI presenta Dots, agentes de IA que trabajan autónomamente 24/7",
+  "resumen": "OpenAI lanzó Dots, agentes de inteligencia artificial siempre activos que funcionan de manera autónoma en la nube usando GPT-6 Astra. Estos agentes pueden conectarse a más de 4.000 aplicaciones, aprender del comportamiento del usuario y ejecutar tareas sin supervisión constante. El servicio se implementará gradualmente en planes Pro, Business Premium y Enterprise, con posibilidad de crear equipos de múltiples agentes en el futuro.",
+  "por_que_importa": "Representa un cambio en la relación entre usuarios e IA, pasando de herramientas puntuales a asistentes permanentes integrados en flujos de trabajo. Sin embargo, genera preocupaciones sobre la dependencia de plataformas cerradas y la confiabilidad de estos sistemas para tareas críticas.",
+  "puntos_clave": [
+   "Los Dots operan continuamente en su propio entorno en la nube y pueden acceder a dispositivos del usuario con permiso",
+   "Se integran con servicios populares como ChatGPT, Slack y Teams, y funcionan con miles de aplicaciones externas",
+   "La adopción progresiva comienza con usuarios individuales y evoluciona hacia agentes especializados para equipos empresariales"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://openai.com/index/introducing-dots/",
+  "fuente_dominio": "openai.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49896604",
+  "score": 406,
+  "comentarios": 313
+ },
+ {
+  "id": "49894005",
+  "slug": "macos-golden-gate-presenta-multiples-fallos-tras-enfocarse-e-49894005",
+  "fecha": "2026-09-29T22:04:20+00:00",
+  "titulo": "macOS Golden Gate presenta múltiples fallos tras enfocarse en estabilidad",
+  "resumen": "macOS 27 Golden Gate fue diseñado como una versión correctiva tras los problemas de Tahoe, pero usuarios reportan numerosos defectos en funcionalidades básicas. Los problemas incluyen errores de alineación visual, incompatibilidades con aplicaciones de terceros en la barra de menú, fallos en búsquedas y crashes ocasionales. Mientras algunos usuarios consideran las críticas exageradas y reportan mejoras generales, otros confirman problemas significativos especialmente en Mission Control.",
+  "por_que_importa": "Los defectos afectan experiencias cotidianas en macOS y erosionan la reputación de pulido de Apple en software. La versión pretendía mejorar la estabilidad del sistema, pero en su lugar presenta regresiones que impactan tanto en funciones centrales como en aplicaciones de terceros.",
+  "puntos_clave": [
+   "Errores de alineación visual, menús no centrados y problemas con iconos inconsistentes en la interfaz",
+   "Fallos funcionales como crashes en la barra de menú, búsqueda que no responde y enlaces con ventanas de interacción muy breve",
+   "Mission Control reporta múltiples problemas incluyendo atajos rotos, reorganización aleatoria de ventanas y animaciones defectuosas"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://www.squareorbits.com/blog/2026/09/macos-golden-gate-is-a-buggy-mess/",
+  "fuente_dominio": "squareorbits.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49894005",
+  "score": 423,
+  "comentarios": 298
+ },
+ {
+  "id": "49891480",
+  "slug": "reconocimiento-facial-en-estaciones-de-londres-500-000-escan-49891480",
+  "fecha": "2026-09-29T22:04:14+00:00",
+  "titulo": "Reconocimiento facial en estaciones de Londres: 500.000 escaneos sin detenciones",
+  "resumen": "Una prueba de seis meses de tecnología de reconocimiento facial en estaciones de ferrocarril londinenses costó más de 320.000 libras e implicó casi 100 horas de trabajo policial, pero solo generó una alerta que resultó ser una identificación incorrecta y ninguna detención. Se escanearon más de medio millón de rostros en los principales centros de transporte de la capital. La policía de transporte británica ha anunciado la extensión del programa por cuatro meses adicionales y su expansión a estaciones del metro de Londres.",
+  "por_que_importa": "El resultado cuestiona la eficacia del uso de esta tecnología de vigilancia en espacios públicos masivos, considerando el coste y los recursos invertidos frente a los resultados obtenidos. Los expertos subrayan la necesidad de demostrar que tales despliegues son proporcionales y necesarios, especialmente cuando procesan datos de categoría especial.",
+  "puntos_clave": [
+   "La prueba tuvo un único resultado positivo que fue identificado erróneamente, sin generar detenciones",
+   "El coste de 320.000 libras y casi 100 horas policiales generaron resultados mínimos",
+   "Expertos señalan que la tecnología debe cumplir criterios de proporcionalidad y necesidad en espacios de transporte público"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://www.theguardian.com/technology/2026/sep/29/trial-live-facial-recognition-cameras-london-stations-false-positive",
+  "fuente_dominio": "theguardian.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49891480",
+  "score": 457,
+  "comentarios": 275
+ },
+ {
+  "id": "49896050",
+  "slug": "draftkings-utiliza-inteligencia-artificial-para-dirigirse-a-49896050",
+  "fecha": "2026-09-29T22:04:09+00:00",
+  "titulo": "DraftKings utiliza inteligencia artificial para dirigirse a apostadores problemáticos",
+  "resumen": "La plataforma de apuestas deportivas DraftKings emplea algoritmos de aprendizaje automático entrenados con datos de sus usuarios para identificar a jugadores que pierden dinero habitualmente y enviarles publicidad personalizada diseñada para atraerlos de vuelta. Este enfoque representa un uso de la publicidad conductual en línea amplificado por inteligencia artificial, que permite procesar grandes volúmenes de datos más rápidamente y con mayor precisión. La práctica capitaliza la vulnerabilidad de jugadores problemáticos en lugar de mitigar los riesgos asociados al juego patológico.",
+  "por_que_importa": "El caso expone cómo la inteligencia artificial intensifica los daños potenciales de la publicidad dirigida al explotar datos personales para lucrar con comportamientos adictivos. Evidencia una brecha regulatoria significativa: mientras que inversores deben acreditar su sofisticación para acceder a instrumentos financieros riesgosos, cualquier persona puede acceder a plataformas de juego que utilizan técnicas de explotación psicológica.",
+  "puntos_clave": [
+   "DraftKings entrena modelos con registros de apuestas para identificar jugadores que pierden dinero y maximizar su rentabilidad dirigiéndose a ellos",
+   "La inteligencia artificial acelera la recopilación y procesamiento de datos personales, amplificando los riesgos de la publicidad conductual tradicional",
+   "Los datos generados por publicidad dirigida se venden a empresas de seguros, bancos y agencias gubernamentales, alimentando la industria de vigilancia"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising",
+  "fuente_dominio": "eff.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49896050",
+  "score": 506,
+  "comentarios": 353
+ },
+ {
+  "id": "49896586",
+  "slug": "openai-presenta-gpt-6-1-sol-con-rendimiento-cercano-a-astra-49896586",
+  "fecha": "2026-09-29T22:04:04+00:00",
+  "titulo": "OpenAI presenta GPT-6.1 Sol con rendimiento cercano a Astra a menor costo",
+  "resumen": "OpenAI lanzó GPT-6.1 Sol, una versión mejorada que iguala el desempeño de GPT-6 Astra en programación y tareas profesionales con un precio cinco veces inferior. El modelo reduce significativamente el costo de entradas en caché a $0.10 por millón de tokens, una reducción del 95% respecto al precio estándar. Según evaluaciones en ingeniería de software, documentos complejos y flujos de trabajo empresariales, GPT-6.1 Sol logra resultados competitivos manteniendo una relación costo-rendimiento favorable.",
+  "por_que_importa": "La accesibilidad económica de modelos con alto rendimiento permite a más desarrolladores y empresas implementar sistemas basados en IA sin inversiones prohibitivas. La reducción en costos de caché beneficia especialmente a aplicaciones que reutilizan contexto extenso, como agentes de software y procesamiento de documentos.",
+  "puntos_clave": [
+   "Iguala el rendimiento de Astra en tareas de programación a una quinta parte del costo",
+   "Reduce el precio de entradas en caché a $0.10 por millón de tokens, 50% más barato que GPT-6 Sol",
+   "Mejora sustancial en tareas profesionales, análisis científico y automatización de flujos de trabajo"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+  "fuente_dominio": "openai.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49896586",
+  "score": 671,
+  "comentarios": 603
+ },
+ {
+  "id": "49891295",
+  "slug": "la-invitacion-a-cenar-desaparece-en-estados-unidos-49891295",
+  "fecha": "2026-09-29T22:03:58+00:00",
+  "titulo": "La invitación a cenar desaparece en Estados Unidos",
+  "resumen": "La proporción de estadounidenses que reciben amigos regularmente en casa ha caído un 70% desde 1975, pasando de cerca del 42% en ese año a solo el 12% en 2026. El fenómeno va más allá de las cenas: todas las formas de socialización presencial han disminuido significativamente en las últimas décadas, incluyendo asistencia a eventos deportivos, bares y voluntariado. La tendencia no se debe simplemente a que las personas hayan trasladado sus encuentros a restaurantes o bares, sino que la socialización cara a cara está desapareciendo en general.",
+  "por_que_importa": "El colapso en las reuniones sociales presenciales refleja un cambio profundo en la vida comunitaria americana que afecta el tejido social más allá del entretenimiento. Los comentarios sugieren que el fenómeno tiene raíces complejas que preceden a internet y redes sociales, incluyendo factores como la pandemia, la tecnología de pantallas y cambios culturales en cómo las personas gastan su tiempo.",
+  "puntos_clave": [
+   "La proporción de adultos que organizan cenas mensuales pasó del 42% en 1975 al 12% en 2026",
+   "El declive afecta múltiples formas de socialización presencial: bares, eventos deportivos y voluntariado también han disminuido",
+   "El cambio no es resultado de trasladar las reuniones a espacios públicos, sino de una reducción general en la interacción cara a cara"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.derekthompson.org/p/the-death-of-the-american-host",
+  "fuente_dominio": "derekthompson.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49891295",
+  "score": 684,
+  "comentarios": 622
+ },
+ {
   "id": "49875142",
   "slug": "37-500-dibujos-de-fronteras-revelan-como-recordamos-el-mapa-49875142",
   "fecha": "2026-09-29T12:29:03+00:00",
