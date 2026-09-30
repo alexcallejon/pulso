@@ -1,5 +1,119 @@
 [
  {
+  "id": "49891290",
+  "slug": "jeeves-modelo-de-decision-que-mejora-precision-con-razonamie-49891290",
+  "fecha": "2026-09-30T04:54:52+00:00",
+  "titulo": "Jeeves: modelo de decisión que mejora precisión con razonamiento previo",
+  "resumen": "PostHog presenta Jeeves, un modelo de clasificación basado en arquitectura Jev que incorpora razonamiento antes de tomar decisiones. Utiliza una versión de 9B de Qwen con técnicas de entrenamiento especializado (SFT y CISPO) y un módulo de razonamiento por difusión. En benchmarks de prueba, supera a modelos comparables, aunque con latencias más altas que los sistemas Jev tradicionales.",
+  "por_que_importa": "Mejora la precisión en tareas fuera del dominio de entrenamiento, alcanzando mayor exactitud que versiones anteriores de Jev en evaluaciones públicas. Sin embargo, la comunidad cuestiona si el aumento de latencia (hasta 17 segundos en percentil 90) justifica los beneficios, considerando que la propuesta original de estos modelos era ser rápidos y económicos.",
+  "puntos_clave": [
+   "Combina un modelo de 9B con razonamiento mediante difusión para mejorar decisiones calibradas",
+   "Alcanza 88.9% de precisión en datos no vistos durante entrenamiento, superando versiones anteriores",
+   "Los tiempos de respuesta aumentan significativamente con razonamiento activado, cuestionando su viabilidad práctica"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://github.com/PostHog/jeeves",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49891290",
+  "score": 233,
+  "comentarios": 89
+ },
+ {
+  "id": "49896712",
+  "slug": "tcl-tk-9-1-anade-nuevas-herramientas-y-mejora-accesibilidad-49896712",
+  "fecha": "2026-09-30T04:54:35+00:00",
+  "titulo": "Tcl/Tk 9.1 añade nuevas herramientas y mejora accesibilidad",
+  "resumen": "Se ha lanzado Tcl/Tk 9.1.0, la versión actual de desarrollo que busca alcanzar versiones estables en septiembre de 2026. La actualización incorpora nuevos comandos para procesamiento de Unicode, gestión de temporizadores y operaciones con listas, además de rutinas C99 mejoradas. En Tk destaca el soporte para lectores de pantalla, manejo de texto bidireccional y un nuevo widget de alternancia, entre otras mejoras visuales.",
+  "por_que_importa": "Tcl/Tk sigue siendo relevante para desarrollo de interfaces gráficas con código abierto, y estas mejoras lo actualizan con características modernas como accesibilidad y soporte multiidioma. La plataforma mantiene su reconocida facilidad de uso para crear aplicaciones gráficas, lo que la hace valiosa para desarrolladores que valoran la simplicidad.",
+  "puntos_clave": [
+   "Nuevas funcionalidades: normalización Unicode, reloj monotónico en microsegundos y comando para filtrar listas",
+   "Mejoras en Tk: soporte para lectores de pantalla, texto bidireccional y nuevo widget ttk::toggleswitch",
+   "Optimizaciones internas: mejor eficiencia de memoria en listas grandes y extensión de soporte para tamaños de 64 bits"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://www.tcl-lang.org/software/tcltk/9.1.html",
+  "fuente_dominio": "tcl-lang.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49896712",
+  "score": 255,
+  "comentarios": 98
+ },
+ {
+  "id": "49895304",
+  "slug": "publican-exploit-para-ps5-compatible-con-versiones-7-00-a-13-49895304",
+  "fecha": "2026-09-30T04:54:31+00:00",
+  "titulo": "Publican exploit para PS5 compatible con versiones 7.00 a 13.60",
+  "resumen": "Se ha hecho público un exploit para PlayStation 5 que funciona en un amplio rango de versiones del firmware. La cadena de explotación aprovecha vulnerabilidades en el motor JavaScript WebKit y en el kernel del sistema. Los desarrolladores advierten que el proyecto es solo para propósitos educativos y de investigación en seguridad.",
+  "por_que_importa": "El hallazgo evidencia vulnerabilidades significativas en la seguridad de la PS5 que afectan a millones de consolas en circulación. Plantea debates sobre el control de datos personales, como la imposibilidad de respaldar guardos de juegos sin servicios de suscripción.",
+  "puntos_clave": [
+   "Exploita fallos en JavaScriptCore del navegador WebKit y una condición de carrera en funciones del kernel",
+   "Compatible con versiones de firmware desde 7.00 hasta 13.60 de la consola",
+   "Los creadores enfatizan su uso exclusivo para fines de investigación y no respaldan actividades ilícitas"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://github.com/ntfargo/Relapse-Exploit",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49895304",
+  "score": 263,
+  "comentarios": 146
+ },
+ {
+  "id": "49880411",
+  "slug": "pantalla-led-reactiva-al-audio-inspirada-en-patrones-de-la-n-49880411",
+  "fecha": "2026-09-30T04:54:27+00:00",
+  "titulo": "Pantalla LED reactiva al audio inspirada en patrones de la naturaleza",
+  "resumen": "Un desarrollador creó una matriz de LEDs direccionables basada en la filotaxis, el patrón espiral que aparece en los girasoles. El proyecto partió de código que genera puntos mediante la proporción áurea, se convirtió en geometría física mediante modelado 3D e impresión, y finalmente se ensambló con 89 LEDs controlados por un microcontrolador STM32. El resultado es una pantalla con capacidad de mostrar patrones dinámicos y reactivos al audio.",
+  "por_que_importa": "Combina conceptos matemáticos y biológicos con electrónica práctica, demostrando cómo la programación puede materializar patrones naturales en objetos funcionales. La comunidad señala que el diseño modular con simetría de cinco puntas y la disponibilidad del código abierto lo hacen reproducible y personalizable.",
+  "puntos_clave": [
+   "Estructura basada en la filotaxis: un patrón natural generado con la proporción áurea",
+   "Proceso que va desde simulación digital a objeto físico impreso en 3D con 89 LEDs integrados",
+   "Sistema de control mediante microcontrolador y marco de programación visual similar a shaders"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://jagi.studio/posts/phyllotaxis/",
+  "fuente_dominio": "jagi.studio",
+  "hn_url": "https://news.ycombinator.com/item?id=49880411",
+  "score": 268,
+  "comentarios": 45
+ },
+ {
+  "id": "49901736",
+  "slug": "livenerf-un-proyecto-para-detectar-cambios-de-rendimiento-en-49901736",
+  "fecha": "2026-09-30T04:54:22+00:00",
+  "titulo": "Livenerf: un proyecto para detectar cambios de rendimiento en modelos tras su lanzamiento",
+  "resumen": "Se ha creado un sistema de evaluación continua llamado Livenerf que busca determinar si los modelos de lenguaje experimentan degradación de rendimiento después de su lanzamiento inicial. El proyecto utiliza un enfoque estadístico riguroso con pruebas diarias durante 30 días sobre un conjunto de preguntas seleccionadas donde Claude Opus 5.5 presenta resultados variables. Otros proyectos similares ya han detectado casos de degradación en modelos anteriores, aunque existe debate en la comunidad sobre si estos cambios son reales o responden a percepciones sesgadas.",
+  "por_que_importa": "Existe una percepción generalizada de que los modelos de IA se debilitan después del lanzamiento, pero hasta ahora no había una metodología estandarizada para verificarlo objetivamente. Este tipo de benchmarks permiten distinguir entre cambios reales y artefactos estadísticos causados por patrones de uso o percepciones de usuarios.",
+  "puntos_clave": [
+   "El sistema realiza mediciones diarias durante 30 días utilizando un conjunto fijo de preguntas donde el modelo presenta resultados inconsistentes",
+   "La metodología se basa en estadísticas rigurosas y pre-registro de protocolos para evitar sesgos en la interpretación",
+   "Proyectos anteriores han identificado degradación en algunos modelos, aunque existe debate sobre la prevalencia real del fenómeno"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://github.com/ninjahawk/livenerf",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49901736",
+  "score": 381,
+  "comentarios": 157
+ },
+ {
+  "id": "49892245",
+  "slug": "delhi-redujo-sus-perdidas-de-electricidad-del-50-al-5-por-ci-49892245",
+  "fecha": "2026-09-30T04:54:15+00:00",
+  "titulo": "Delhi redujo sus pérdidas de electricidad del 50 al 5 por ciento",
+  "resumen": "Delhi logró una transformación significativa en su sistema eléctrico, disminuyendo drásticamente las pérdidas de energía. El cambio incluyó medidas contra el robo de electricidad, que era generalizado entre usuarios residenciales, comerciales y empleados de las empresas distribuidoras. La mejora también eliminó los cortes de energía no planificados que eran comunes en la ciudad hace dos décadas.",
+  "por_que_importa": "Este logro es relevante porque muestra cómo una ciudad con infraestructura deficiente puede modernizar su red eléctrica y mejorar significativamente el servicio a la población. El caso de Delhi es especialmente importante para otras ciudades en desarrollo que enfrentan problemas similares de pérdidas de energía y acceso confiable a la electricidad.",
+  "puntos_clave": [
+   "Las pérdidas de electricidad cayeron de un 50% a un 5% en Delhi",
+   "El robo de electricidad era un problema extendido que afectaba a residentes, negocios y funcionarios",
+   "Se eliminaron los apagones frecuentes e inesperados que caracterizaban la vida en la ciudad"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://spectrum.ieee.org/delhi-electricity-loss",
+  "fuente_dominio": "spectrum.ieee.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49892245",
+  "score": 469,
+  "comentarios": 273
+ },
+ {
   "id": "49896604",
   "slug": "openai-presenta-dots-agentes-de-ia-que-trabajan-autonomament-49896604",
   "fecha": "2026-09-29T22:04:24+00:00",
