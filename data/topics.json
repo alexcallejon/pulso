@@ -1,5 +1,119 @@
 [
  {
+  "id": "49908394",
+  "slug": "cuando-la-tecnologia-transforma-profesiones-la-leccion-de-un-49908394",
+  "fecha": "2026-09-30T22:03:27+00:00",
+  "titulo": "Cuando la tecnología transforma profesiones: la lección de un bisabuelo herrador",
+  "resumen": "Un desarrollador reflexiona sobre cómo su bisabuelo cambió de herrador a mecánico cuando llegaron los automóviles, manteniendo su propósito de ayudar a las personas a desplazarse. Plantea que los programadores actuales podrían aplicar una lógica similar: enfocarse en lo que realmente los motiva —resolver problemas y crear soluciones— en lugar de identificarse exclusivamente con la programación. El texto reconoce que las transiciones tecnológicas son difíciles, pero sugiere que redefinir el rol profesional sin perder el propósito puede ser una estrategia viable.",
+  "por_que_importa": "Las preocupaciones actuales de los desarrolladores sobre ser reemplazados por IA no son únicas; profesiones enteras han navegado transformaciones similares en el pasado. Comprender que el valor profesional puede residir en la solución de problemas más que en la herramienta específica utilizada ofrece perspectiva a quienes temen por su futuro laboral.",
+  "puntos_clave": [
+   "Los cambios tecnológicos disruptivos ya han ocurrido en el pasado; muchas profesiones se reinventaron en lugar de desaparecer",
+   "El propósito profesional puede mantenerse incluso cuando cambia la tecnología o el método de trabajo",
+   "Distinguir entre la herramienta (código) y el objetivo (resolver problemas) permite adaptarse mejor a las transformaciones"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://manuel.darcemont.fr/posts/the-last-time-my-family-was-replaced-by-technology/",
+  "fuente_dominio": "manuel.darcemont.fr",
+  "hn_url": "https://news.ycombinator.com/item?id=49908394",
+  "score": 153,
+  "comentarios": 357
+ },
+ {
+  "id": "49909583",
+  "slug": "la-historia-del-terminal-bloomberg-y-su-impacto-en-los-merca-49909583",
+  "fecha": "2026-09-30T22:03:22+00:00",
+  "titulo": "La historia del terminal Bloomberg y su impacto en los mercados financieros",
+  "resumen": "IEEE Spectrum publica un artículo sobre la evolución del terminal Bloomberg, herramienta que revolucionó el acceso a información de mercados financieros para operadores y analistas de Wall Street. El dispositivo, cuyo teclado de principios de los años noventa incluía trackball y puertos de audio, representa un hito en la historia de la tecnología financiera. La empresa ha mantenido compatibilidad hacia atrás tan rigurosa que aún soporta hardware de mediados de los años ochenta, con ejemplares preservados en museos.",
+  "por_que_importa": "El terminal Bloomberg ejemplifica cómo las herramientas tecnológicas se adaptan a necesidades específicas de industrias críticas, en este caso facilitando decisiones financieras con información en tiempo real. Su énfasis en interfaces densas pero legibles y compatibilidad a largo plazo ofrece lecciones sobre diseño de sistemas que perduren décadas.",
+  "puntos_clave": [
+   "Dispositivo que permitió a operadores financieros acceder a información global de mercados de forma sin precedentes",
+   "El diseño prioriza mostrar información esencial de forma compacta, similar a los sistemas de aviación moderna",
+   "La arquitectura actual se basa en un navegador Chromium personalizado que mantiene compatibilidad con terminales de 1985"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://spectrum.ieee.org/bloomberg-terminal",
+  "fuente_dominio": "spectrum.ieee.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49909583",
+  "score": 193,
+  "comentarios": 76
+ },
+ {
+  "id": "49883970",
+  "slug": "adolescente-descubre-vulnerabilidad-que-permitia-acceder-a-b-49883970",
+  "fecha": "2026-09-30T22:03:17+00:00",
+  "titulo": "Adolescente descubre vulnerabilidad que permitía acceder a billones de registros de Microsoft",
+  "resumen": "Un investigador de seguridad identificó una falla en un servicio analítico interno de Microsoft que habría permitido acceder a aproximadamente 17 billones de filas de datos sin validar correctamente los tokens de autenticación. La vulnerabilidad fue reportada responsablemente sin que se accediera a información de clientes. Microsoft reconoció el hallazgo a través de su programa de recompensas por bugs, aunque se señala que el premio monetario fue considerado bajo por la comunidad en relación al alcance del problema.",
+  "por_que_importa": "Demuestra que sistemas críticos de grandes empresas tecnológicas pueden contener fallos graves de autenticación que expongan volúmenes masivos de datos. Ilustra la importancia de la divulgación responsable de vulnerabilidades, aunque también plantea preocupaciones sobre la interferencia de las empresas en la publicación de estos hallazgos.",
+  "puntos_clave": [
+   "La falla permitía eludir validaciones de firma en tokens de acceso para un servicio con datos masivos",
+   "El investigador utilizó herramientas de inteligencia artificial para automatizar la búsqueda de vulnerabilidades",
+   "Microsoft editó y modificó partes del reporte antes de su publicación pública"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://blog.faav.net/how-i-couldve-accessed-17-trillion-microsoft-records",
+  "fuente_dominio": "blog.faav.net",
+  "hn_url": "https://news.ycombinator.com/item?id=49883970",
+  "score": 226,
+  "comentarios": 98
+ },
+ {
+  "id": "49887343",
+  "slug": "matematicas-detras-del-sistema-de-calidad-en-factorio-49887343",
+  "fecha": "2026-09-30T22:03:12+00:00",
+  "titulo": "Matemáticas detrás del sistema de calidad en Factorio",
+  "resumen": "Un jugador analiza el sistema de calidad introducido en la expansión Space Age de Factorio, que añade cinco niveles de rareza a los objetos del juego. El mecanismo utiliza módulos de calidad para aumentar la probabilidad de obtener items de mayor nivel, aunque con bajas chances de saltos significativos. El autor desarrolló herramientas de cálculo para planificar cadenas de producción que reciclen y mejoren items hasta alcanzar la calidad deseada.",
+  "por_que_importa": "El sistema de calidad introduce aleatoriedad a un juego históricamente determinista, requiriendo que jugadores planifiquen estrategias complejas de reciclaje. Los jugadores más dedicados han creado scripts y calculadoras externas para optimizar la producción, reflejando cómo los juegos de estrategia compleja generan comunidades que desarrollan herramientas propias.",
+  "puntos_clave": [
+   "Cinco niveles de calidad (normal, poco común, raro, épico, legendario) modifican estadísticas de máquinas y módulos.",
+   "La probabilidad máxima de mejora de calidad en una máquina es 24.8%, haciendo los saltos grandes extremadamente raros.",
+   "Los jugadores usan recicladores para crear bucles de producción que mejoran items gradualmente, consumiendo más recursos."
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://exyr.org/2026/solving-factorio-quality/",
+  "fuente_dominio": "exyr.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49887343",
+  "score": 246,
+  "comentarios": 94
+ },
+ {
+  "id": "49906637",
+  "slug": "pi-integra-mcp-en-su-nucleo-tras-reconsiderar-su-postura-ini-49906637",
+  "fecha": "2026-09-30T22:03:07+00:00",
+  "titulo": "Pi integra MCP en su núcleo tras reconsiderar su postura inicial",
+  "resumen": "El equipo de Earendil ha incorporado MCP (Model Context Protocol) como funcionalidad central en Pi, revirtiendo su anterior posición de rechazo público hacia el estándar. La decisión responde tanto a la evolución de MCP en el último año como a que los cambios técnicos necesarios para su integración resultaron útiles para otras capacidades de la plataforma, como facilitar el uso de Jev. El equipo considera que MCP, aunque sigue teniendo limitaciones en composición de herramientas, ahora funciona mejor integrado con Codemode y puede contribuir a mejorar el estándar desde dentro en lugar de criticarlo desde fuera.",
+  "por_que_importa": "Representa un cambio estratégico de una plataforma relevante que reconoce públicamente el valor de un protocolo que había rechazado, lo que valida el rol de MCP en el ecosistema de herramientas para modelos de lenguaje. La integración de MCP en el núcleo de Pi podría acelerar la mejora del estándar y su adopción en aplicaciones complejas más allá del ámbito de programación.",
+  "puntos_clave": [
+   "Pi pasó de rechazar explícitamente MCP a incorporarlo como parte central, reconociendo su evolución positiva",
+   "Los cambios arquitectónicos para integrar MCP también beneficiaron otras funcionalidades como Codemode y deferred tool loading",
+   "El equipo argumenta que mejorar un estándar desde dentro es más efectivo que criticarlo desde fuera"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://earendil.com/posts/you-said-no-mcp/",
+  "fuente_dominio": "earendil.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49906637",
+  "score": 568,
+  "comentarios": 325
+ },
+ {
+  "id": "49913571",
+  "slug": "google-presenta-gemini-4-argon-modelo-con-razonamiento-avanz-49913571",
+  "fecha": "2026-09-30T22:03:01+00:00",
+  "titulo": "Google presenta Gemini 4 Argon, modelo con razonamiento avanzado para tareas profesionales",
+  "resumen": "Google anunció Gemini 4 Argon, un nuevo modelo de inteligencia artificial diseñado para resolver problemas complejos y de largo horizonte en ingeniería de software, finanzas, derecho y ciberseguridad. El modelo cuenta con un límite de 1 millón de tokens y se está distribuyendo inicialmente a defensores cibernéticos seleccionados a través del programa Fairwind, con planes de ampliar el acceso tras completar pruebas de seguridad. Google estableció precios introductorios de 2 dólares por millón de tokens de entrada y 10 dólares por millón de salida.",
+  "por_que_importa": "Representa un avance significativo en capacidades de razonamiento para tareas profesionales especializadas, con aplicaciones inmediatas dentro de Google en optimización cuántica, eficiencia de memoria y migraciones de código a gran escala. La competencia en modelos fronterizos continúa intensificándose entre múltiples actores de la industria, cuestionando teorías previas sobre la concentración del poder en la inteligencia artificial.",
+  "puntos_clave": [
+   "Gemini 4 Argon cuenta con 1 millón de tokens de contexto para resolver problemas multietapa",
+   "Lanzamiento inicial restringido a un grupo de defensores cibernéticos seleccionados con expansión gradual",
+   "Ya impulsa internamente en Google tareas de codificación, optimización de recursos y migraciones de código"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+  "fuente_dominio": "blog.google",
+  "hn_url": "https://news.ycombinator.com/item?id=49913571",
+  "score": 658,
+  "comentarios": 409
+ },
+ {
   "id": "49893002",
   "slug": "backblaze-reporta-tasas-de-fallo-de-discos-duros-en-q2-2026-49893002",
   "fecha": "2026-09-30T12:14:47+00:00",
