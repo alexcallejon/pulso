@@ -1,5 +1,119 @@
 [
  {
+  "id": "49893002",
+  "slug": "backblaze-reporta-tasas-de-fallo-de-discos-duros-en-q2-2026-49893002",
+  "fecha": "2026-09-30T12:14:47+00:00",
+  "titulo": "Backblaze reporta tasas de fallo de discos duros en Q2 2026",
+  "resumen": "Backblaze publicó su análisis trimestral sobre fiabilidad de discos duros, monitoreando más de 354.000 unidades durante el segundo trimestre de 2026. La tasa de fallo anualizada alcanzó el 1,73%, la más alta registrada en varios trimestres. El informe examina el desempeño de diferentes modelos y capacidades, incluyendo unidades de mayor capacidad que están ganando relevancia en infraestructuras de almacenamiento.",
+  "por_que_importa": "Los datos de Backblaze son referencia industria para entender la durabilidad de discos duros en operación. La información ayuda a organizaciones a planificar estrategias de mantenimiento y reemplazo de equipos de almacenamiento.",
+  "puntos_clave": [
+   "Tasa de fallo anualizada del 1,73% en Q2 2026, nivel elevado comparado con períodos anteriores",
+   "Análisis abarca más de 354.000 discos duros de múltiples fabricantes con diferentes capacidades",
+   "Evaluación incluye modelos de alta capacidad y tecnologías emergentes que impactan futuras infraestructuras"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://www.backblaze.com/blog/backblaze-drive-stats-for-q2-2026/",
+  "fuente_dominio": "backblaze.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49893002",
+  "score": 216,
+  "comentarios": 66
+ },
+ {
+  "id": "49897993",
+  "slug": "vermont-convierte-baterias-domesticas-en-su-mayor-fuente-de-49897993",
+  "fecha": "2026-09-30T12:14:42+00:00",
+  "titulo": "Vermont convierte baterías domésticas en su mayor fuente de energía",
+  "resumen": "Vermont ha implementado un programa de baterías instaladas en viviendas particulares que funciona como una planta virtual de energía, convirtiéndose en la mayor fuente de generación del estado. Más de 5.500 residentes participan en el esquema de Green Mountain Power, pagando una cuota mensual a cambio de protección contra apagones y energía más económica. El modelo permite almacenar energía en horas de baja demanda y distribuirla en momentos de pico, evitando la necesidad de construir nuevas plantas tradicionales.",
+  "por_que_importa": "Este sistema demuestra cómo la tecnología de baterías distribuidas puede reemplazar infraestructura energética convencional, mejorando la resiliencia ante eventos climáticos extremos. La capacidad de plantas virtuales de energía en Estados Unidos podría alcanzar niveles significativos en los próximos años, representando una alternativa viable a la generación basada en combustibles fósiles.",
+  "puntos_clave": [
+   "Más de 5.500 hogares en Vermont participan en el programa de baterías de Green Mountain Power",
+   "Las plantas virtuales de energía en EE.UU. podrían aportar el 20% de la demanda máxima esperada hacia 2030",
+   "El modelo cierra plantas de energía tradicionales al reducir la necesidad de generación en horas pico"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.bbc.com/future/article/20260928-a-virtual-power-plant-hidden-in-vermont-homes-is-keeping-the-lights-on-during-storms",
+  "fuente_dominio": "bbc.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49897993",
+  "score": 235,
+  "comentarios": 184
+ },
+ {
+  "id": "49899090",
+  "slug": "autoridades-estadounidenses-cierran-sitio-que-vendia-sellos-49899090",
+  "fecha": "2026-09-30T12:14:37+00:00",
+  "titulo": "Autoridades estadounidenses cierran sitio que vendía sellos postales falsificados",
+  "resumen": "Las autoridades postales estadounidenses clausuraron un sitio web operado por un ciudadano pakistaní que vendía millones de etiquetas de franqueo falsificadas a precios fijos muy reducidos. El operador fue acusado de defraudar al servicio postal, generando pérdidas superiores a los 126 millones de dólares mediante más de cinco millones de etiquetas contrafechas distribuidas entre miles de clientes. El dominio fue confiscado y se presentaron cargos penales contra el sospechoso.",
+  "por_que_importa": "Este caso ilustra cómo la venta de franqueo falso en línea puede causar daños financieros masivos a servicios públicos y afectar a consumidores que participan en esquemas fraudulentos sin saberlo. Demuestra también que las autoridades de distintos países pueden coordinar operaciones para detener actividades criminales transnacionales dirigidas contra instituciones estadounidenses.",
+  "puntos_clave": [
+   "Un sitio web vendía etiquetas de franqueo falsas a 2 dólares por unidad, sin considerar peso ni destino",
+   "Más de 5 millones de etiquetas contrafechas fueron adquiridas por aproximadamente 5 mil clientes",
+   "El operador fue acusado de conspiración para defraudar, venta de franqueo falsificado y fraude electrónico"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://postalemployeenetwork.com/news/2026/09/26/u-s-postal-inspectors-shut-down-website-selling-millions-of-counterfeit-postage-labels/",
+  "fuente_dominio": "postalemployeenetwork.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49899090",
+  "score": 241,
+  "comentarios": 139
+ },
+ {
+  "id": "49898778",
+  "slug": "visualizador-del-sistema-solar-en-tiempo-real-con-medio-mill-49898778",
+  "fecha": "2026-09-30T12:14:13+00:00",
+  "titulo": "Visualizador del Sistema Solar en tiempo real con medio millón de asteroides",
+  "resumen": "Se ha desarrollado una visualización interactiva del Sistema Solar a escala real en navegador web que integra más de 500.000 asteroides, satélites activos y naves espaciales. La herramienta utiliza datos actualizados diariamente de catálogos como CelesTrak y JPL, con rendering en WebGL2 y cálculos orbitales ejecutados en segundo plano. El proyecto logra mantener un rendimiento fluido incluso con este volumen masivo de objetos celestes.",
+  "por_que_importa": "Demuestra el avance en capacidades de procesamiento web moderno, permitiendo visualizaciones científicas complejas directamente en navegadores sin aplicaciones especializadas. Ofrece una perspectiva única sobre la verdadera densidad del cinturón de asteroides y permite seguimiento en tiempo real de misiones espaciales como la sonda Europa Clipper.",
+  "puntos_clave": [
+   "Incluye 526.000 asteroides, satélites activos y naves, actualizado diariamente",
+   "Utiliza tecnologías WebGL2 y web workers para mantener rendimiento a 60+ fps",
+   "Integra datos de fuentes científicas como CelesTrak, JPL SBDB y JPL Horizons"
+  ],
+  "categoria": "Ciencia",
+  "fuente_url": "https://space.bl2.net/",
+  "fuente_dominio": "space.bl2.net",
+  "hn_url": "https://news.ycombinator.com/item?id=49898778",
+  "score": 276,
+  "comentarios": 67
+ },
+ {
+  "id": "49878857",
+  "slug": "como-los-ingenieros-senior-descubren-que-construir-en-equipo-49878857",
+  "fecha": "2026-09-30T12:14:09+00:00",
+  "titulo": "Cómo los ingenieros senior descubren qué construir en equipos de plataforma",
+  "resumen": "Un ingeniero senior en equipos de plataforma debe identificar proactivamente qué trabajar, ya que no cuenta con un gestor de producto que establezca la hoja de ruta. Las señales para definir el trabajo provienen de cuatro fuentes: el sistema (fallos, costos), los usuarios (conversaciones continuas), la organización y la industria. El desafío principal radica en encontrar patrones en estos datos para priorizar iniciativas que realmente agreguen valor.",
+  "por_que_importa": "Los equipos de plataforma carecen de indicadores tradicionales como ingresos o mercado competitivo, por lo que necesitan métodos sistemáticos para justificar y priorizar el trabajo. Reconocer estas señales ayuda a evitar que los equipos se enfoquen en problemas secundarios o se pierdan oportunidades significativas de mejora.",
+  "puntos_clave": [
+   "Los fallos y postmortems revelan problemas sistémicos, pero tienden a sesgar hacia los fallos más recientes en lugar de las mayores oportunidades.",
+   "El análisis de costos operativos y toil interno son indicadores económicos clave, aunque mejorar el toil interno no siempre mejora la experiencia del usuario.",
+   "Las conversaciones continuas con usuarios son esenciales, pero sus sugerencias directas frecuentemente no reflejan soluciones ideales; es necesario interrogar los problemas de fondo."
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://sujithjay.com/inventing-work",
+  "fuente_dominio": "sujithjay.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49878857",
+  "score": 289,
+  "comentarios": 58
+ },
+ {
+  "id": "49905487",
+  "slug": "las-crisis-simultaneas-de-2026-como-la-interdependencia-glob-49905487",
+  "fecha": "2026-09-30T12:14:03+00:00",
+  "titulo": "Las crisis simultáneas de 2026: cómo la interdependencia global amplifica los riesgos",
+  "resumen": "Un análisis desde Polonia examina cómo múltiples crisis ocurren simultáneamente en 2026: el cierre del Estrecho de Ormuz por operaciones militares contra Irán ha reducido el tráfico de petróleo en más del 90%, provocando aumentos de precios en combustible, alimentos y calefacción. El conflicto también afecta indirectamente a través de ataques a refinerías rusas y disrupciones en el suministro europeo, con casos como la escasez puntual de combustible en Francia. El texto sostiene que décadas de reemplazo de reservas estratégicas por dependencias comerciales han dejado a los países vulnerables cuando varios puntos de falla se activan simultáneamente.",
+  "por_que_importa": "La interdependencia global en sectores críticos como energía y alimentos crea un efecto cascada donde una crisis regional impacta precios y disponibilidad en todo el mundo. La estrategia de reducir costos mediante proveedores únicos, en lugar de mantener buffers de seguridad, ha expuesto vulnerabilidades sistémicas que se manifiestan cuando múltiples crisis convergen.",
+  "puntos_clave": [
+   "El cierre del Estrecho de Ormuz desde marzo de 2026 es descrito como la mayor disrupción de oferta de petróleo registrada, elevando el precio del crudo de Brent hacia $108 por barril",
+   "Los fondos de transporte de petróleo registraron ganancias de más del 2.300% en lo que va de 2026, mientras que tasas de supertanqueros alcanzaron récords de $860.000 diarios",
+   "Las disrupciones se propagan hacia alimentos, combustible y calefacción, con ejemplos como ataques a refinerías rusas que empujan el diésel estadounidense a máximos históricos y desabastecimientos puntuales en gasolineras francesas"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://tomwojcik.com/posts/2026-09-21/september-2026-the-world-today/",
+  "fuente_dominio": "tomwojcik.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49905487",
+  "score": 322,
+  "comentarios": 189
+ },
+ {
   "id": "49891290",
   "slug": "jeeves-modelo-de-decision-que-mejora-precision-con-razonamie-49891290",
   "fecha": "2026-09-30T04:54:52+00:00",
