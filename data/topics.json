@@ -1,5 +1,119 @@
 [
  {
+  "id": "49904314",
+  "slug": "la-saturacion-de-proyectos-de-ia-superficiales-en-linkedin-49904314",
+  "fecha": "2026-10-01T05:07:46+00:00",
+  "titulo": "La saturación de proyectos de IA superficiales en LinkedIn",
+  "resumen": "Un desarrollador critica la proliferación de proyectos de visión por computadora repetitivos y poco prácticos que inundan LinkedIn, descritos como contenido performativo diseñado para impresionar sin utilidad real. Para demostrar la facilidad de crear estos proyectos, desarrolló en menos de dos horas un detector automático de posts sobre modelos YOLO entrenado con capturas de su propio feed. El análisis evidencia que muchos de estos proyectos carecen de aplicación funcional más allá de generar engagement en la plataforma.",
+  "por_que_importa": "Refleja un problema más amplio de sobre-ingeniería y marketing personal en redes profesionales, donde la apariencia de productividad importa más que resultados tangibles. Cuestiona la calidad del contenido técnico que circula en espacios profesionales y cómo algoritmos pueden reforzar ciclos de contenido superficial.",
+  "puntos_clave": [
+   "Proyectos similares de visión por computadora dominan el feed sin aportar valor práctico",
+   "El autor desarrolló un modelo de detección en 90 minutos para evidenciar la facilidad de crear contenido llamativo",
+   "LinkedIn prioriza posts performativos sobre información útil, generando un ciclo de contenido repetitivo"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://hereticpleb.vercel.app/blog/linkedin-larpmaxxing/",
+  "fuente_dominio": "hereticpleb.vercel.app",
+  "hn_url": "https://news.ycombinator.com/item?id=49904314",
+  "score": 150,
+  "comentarios": 155
+ },
+ {
+  "id": "49912955",
+  "slug": "ondas-cerebrales-complejas-revelan-como-procesa-informacion-49912955",
+  "fecha": "2026-10-01T05:07:41+00:00",
+  "titulo": "Ondas cerebrales complejas revelan cómo procesa información el cerebro",
+  "resumen": "Investigadores han identificado patrones de ondas eléctricas más complejos de lo que se creía en la corteza cerebral, incluyendo ondas espirales y convergentes, no solo oscilaciones simples. Estos patrones se asocian con diferentes tareas conductuales y podrían reorganizar la actividad cerebral en tiempo real para adaptarse a demandas inmediatas. El hallazgo, basado en mediciones con electrodos intracerebrales, sugiere que estas ondas juegan un papel central en cómo el cerebro procesa información, más allá de ser un simple reflejo de la actividad neuronal.",
+  "por_que_importa": "Comprender los mecanismos de estas ondas cerebrales podría explicar cómo el cerebro se adapta rápidamente a nuevas situaciones, un proceso que va más allá de los cambios neurales lentos. Los hallazgos abren nuevas líneas de investigación sobre el funcionamiento fundamental del córtex cerebral.",
+  "puntos_clave": [
+   "Se identificaron ondas con patrones diversos: origen, convergencia y espirales, asociadas a tareas específicas",
+   "Las ondas podrían reorganizar la actividad cerebral en segundos para responder a demandas conductuales",
+   "El estudio utiliza electrodos intracerebrales en pacientes con epilepsia realizando tareas de memoria"
+  ],
+  "categoria": "Ciencia",
+  "fuente_url": "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930/",
+  "fuente_dominio": "quantamagazine.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49912955",
+  "score": 150,
+  "comentarios": 49
+ },
+ {
+  "id": "49909056",
+  "slug": "tla-tiene-limites-que-puede-y-que-no-puede-verificar-49909056",
+  "fecha": "2026-10-01T05:07:36+00:00",
+  "titulo": "TLA+ tiene límites: qué puede y qué no puede verificar",
+  "resumen": "Un experto en métodos formales advierte contra el entusiasmo excesivo sobre las capacidades de TLA+ para resolver problemas de verificación en sistemas de IA. Aunque TLA+ es efectivo para detectar condiciones de carrera en diseños concurrentes complejos, no puede expresar todas las propiedades de un sistema ni garantiza que un diseño correcto se traduzca en código correcto. La herramienta funciona mediante lógica temporal para verificar invariantes y propiedades de seguridad, pero requiere que los desarrolladores definan explícitamente qué propiedades desean verificar.",
+  "por_que_importa": "Tras el reciente anuncio de que sistemas de IA pueden usar TLA+ para encontrar errores, se ha generado expectativa sobre los métodos formales como solución definitiva para software autónomo. Es importante entender las limitaciones reales de estas herramientas para no depositar confianza excesiva en ellas como salvaguarda única durante el desarrollo.",
+  "puntos_clave": [
+   "TLA+ verifica propiedades de sistemas mediante secuencias de estados y operadores lógicos temporales, siendo especialmente útil para invariantes y propiedades de seguridad",
+   "No puede modelar correctamente semánticas de memoria débil ni garantiza que un diseño verificado se implemente sin errores en código real",
+   "Requiere que los desarrolladores definan explícitamente qué propiedades verificar, lo que limita su aplicabilidad a problemas donde estas propiedades no son obvias"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://buttondown.com/hillelwayne/archive/what-tla-can-and-cant-check/",
+  "fuente_dominio": "buttondown.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49909056",
+  "score": 161,
+  "comentarios": 35
+ },
+ {
+  "id": "49915082",
+  "slug": "desclasificados-satelites-espias-estadounidenses-de-vigilanc-49915082",
+  "fecha": "2026-10-01T05:07:31+00:00",
+  "titulo": "Desclasificados satélites espías estadounidenses de vigilancia electrónica",
+  "resumen": "El gobierno estadounidense ha revelado recientemente detalles sobre satélites de inteligencia electrónica que operaron durante más de cuatro décadas bajo nombres como URSALA, RAQUEL y FARRAH. Estos vehículos, de tamaño reducido, fueron lanzados como cargas secundarias desde satélites más grandes para captar señales de radar y datos de inteligencia electrónica. El programa evolucionó desde responder a amenazas puntuales en los años sesenta a una operación estandarizada en los setenta que proporcionaba apoyo táctico a fuerzas militares.",
+  "por_que_importa": "La revelación muestra la capacidad tecnológica que Estados Unidos desarrolló décadas antes que sus competidores en vigilancia satelital, con implicaciones aún relevantes para entender el espionaje espacial actual. El acceso público a esta información histórica permite comprender mejor cómo evolucionó la recolección de inteligencia desde órbita durante la Guerra Fría.",
+  "puntos_clave": [
+   "El programa de satélites pequeños comenzó en 1963 y continuó operativo durante más de cuarenta años con múltiples designaciones oficiales.",
+   "Los satélites fueron desplegados como subsatélites desde vehículos de reconocimiento fotográfico más grandes entre los años setenta y ochenta.",
+   "La transición del programa reflejó un cambio desde colectar datos para liderazgo nacional hacia proporcionar inteligencia táctica a militares."
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://www.thespacereview.com/article/4951/1",
+  "fuente_dominio": "thespacereview.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49915082",
+  "score": 171,
+  "comentarios": 76
+ },
+ {
+  "id": "49913192",
+  "slug": "el-compilador-c-de-edg-se-convierte-en-proyecto-de-codigo-ab-49913192",
+  "fecha": "2026-10-01T05:07:25+00:00",
+  "titulo": "El compilador C++ de EDG se convierte en proyecto de código abierto",
+  "resumen": "El motor frontal de C++ de EDG, utilizado durante tres décadas en la compilación industrial, pasó a ser código abierto el 30 de septiembre de 2026 bajo la custodia de la Alianza de C++. La transición mantiene la misma tecnología y estándares, pero cambia el modelo de financiación y ubicación del código. El desarrollo se organiza en tres vías: contribuciones comunitarias, mantenimiento continuo y características financiadas colectivamente.",
+  "por_que_importa": "EDG ha sido el único motor de compilación C++ de calidad productiva ampliamente utilizado en la industria, incluyendo su uso en herramientas como Visual C++ Intellisense. La apertura del código permite que la comunidad de desarrolladores contribuya directamente al desarrollo de una herramienta fundamental en la infraestructura de software de C++.",
+  "puntos_clave": [
+   "La Alianza de C++ proporciona patrocinio fiscal, continuidad técnica y experiencia en compiladores",
+   "Todas las contribuciones, independientemente de su origen, se publican simultáneamente en el repositorio público sin acceso prioritario",
+   "El comité de supervisión está presidido por John Spicer e incluye voluntarios de la comunidad de usuarios de EDG"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://edgcpp.org/#transition",
+  "fuente_dominio": "edgcpp.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49913192",
+  "score": 183,
+  "comentarios": 83
+ },
+ {
+  "id": "49906432",
+  "slug": "singapur-lanza-app-de-citas-estatal-basada-en-algoritmo-gana-49906432",
+  "fecha": "2026-10-01T05:07:20+00:00",
+  "titulo": "Singapur lanza app de citas estatal basada en algoritmo ganador del Nobel",
+  "resumen": "El gobierno de Singapur ha desarrollado FirstDate, una aplicación de citas para funcionarios públicos que utiliza el algoritmo de matrimonio estable de Gale-Shapley, galardonado con el Premio Nobel de Economía en 2012. La plataforma funciona mediante un sistema de preferencias clasificadas donde los usuarios reciben un emparejamiento por ciclo con ventanas de decisión de 72 horas, diseñada para lograr coincidencias matemáticamente estables. A diferencia de aplicaciones comerciales, el éxito de esta plataforma se mide por la cantidad de usuarios que la abandonan tras encontrar pareja.",
+  "por_que_importa": "Representa un cambio conceptual en el diseño de aplicaciones de citas: mientras que plataformas comerciales incentivan el uso continuo, esta busca desvincularse de los usuarios mediante parejas estables verificadas. Plantea un contraste entre algoritmos teóricos comprobados y su aplicación práctica a comportamientos humanos complejos, generando cuestionamientos sobre si las preferencias declaradas predicen compatibilidad real.",
+  "puntos_clave": [
+   "Usa el algoritmo Gale-Shapley, aplicado también en asignaciones hospitalarias e intercambios de órganos",
+   "Ofrece un emparejamiento por ciclo sin desplazamiento infinito y requiere consentimiento mutuo para compartir contactos",
+   "Disponible solo para empleados públicos de 21 a 35 años, lo que suscita debate sobre los objetivos reales del programa"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://twitter.com/tuakdotsol/status/2105105417760391258",
+  "fuente_dominio": "twitter.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49906432",
+  "score": 289,
+  "comentarios": 216
+ },
+ {
   "id": "49908394",
   "slug": "cuando-la-tecnologia-transforma-profesiones-la-leccion-de-un-49908394",
   "fecha": "2026-09-30T22:03:27+00:00",
