@@ -1,5 +1,119 @@
 [
  {
+  "id": "49908962",
+  "slug": "comparativa-de-tecnicas-de-renderizado-de-texto-en-gpu-sdf-m-49908962",
+  "fecha": "2026-10-01T12:48:45+00:00",
+  "titulo": "Comparativa de técnicas de renderizado de texto en GPU: SDF, MSDF y Slug",
+  "resumen": "El artículo examina diferentes métodos para renderizar texto en unidades de procesamiento gráfico, desde atlases de texturas tradicionales hasta técnicas modernas como Slug. Slug, un algoritmo desarrollado en 2017 que fue liberado al dominio público en 2026, permite renderizar glifos directamente desde sus contornos sin necesidad de texturas precalculadas. Cada técnica presenta ventajas y limitaciones según el caso de uso, con compensaciones entre velocidad, calidad y flexibilidad.",
+  "por_que_importa": "El renderizado eficiente de texto en GPU es fundamental para aplicaciones gráficas de alto rendimiento, videojuegos y experiencias 3D interactivas. La liberación de la patente de Slug al dominio público ha permitido que desarrolladores implementen esta técnica sin restricciones legales, democratizando el acceso a métodos de renderizado de texto más avanzados.",
+  "puntos_clave": [
+   "Los atlases de texturas son el método más común pero pierden calidad al escalar; SDF mejora esto mediante campos de distancia con bajo costo computacional",
+   "Slug renderiza glifos directamente en el shader sin precálculo de texturas, funcionando a cualquier escala y transformación 3D sin necesidad de tessellation por fotograma",
+   "Cada técnica implica compensaciones: velocidad versus calidad, compatibilidad versus complejidad, y capacidad de añadir efectos visuales adicionales"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://alphapixeldev.com/sdf-vs-msdf-vs-slug-vs-rive-gpu-text-rendering/",
+  "fuente_dominio": "alphapixeldev.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49908962",
+  "score": 161,
+  "comentarios": 60
+ },
+ {
+  "id": "49911995",
+  "slug": "magnitude-motor-de-inferencia-que-se-auto-optimiza-para-cada-49911995",
+  "fecha": "2026-10-01T12:48:40+00:00",
+  "titulo": "Magnitude: motor de inferencia que se auto-optimiza para cada hardware",
+  "resumen": "Magnitude es un motor de inferencia de código abierto diseñado para ejecutar modelos locales compilando y ajustando sus kernels según el hardware específico del dispositivo. La herramienta promete velocidades hasta dos veces superiores a llama.cpp y funciona como aplicación de escritorio compatible con procesadores Apple Silicon, NVIDIA, AMD o CPU estándar. Se integra con agentes populares mediante una conexión de un clic y mantiene toda la información local sin costos de tokens.",
+  "por_que_importa": "Permite optimizar el rendimiento de modelos abiertos locales adaptándose al hardware real de cada usuario, algo que otros motores no hacen al usar kernels precompilados genéricos. Ofrece una alternativa privada y gratuita para quienes ejecutan agentes de inteligencia artificial en sus propias máquinas.",
+  "puntos_clave": [
+   "Compila y ajusta kernels en el dispositivo antes de ejecutar modelos, no utiliza compilaciones genéricas",
+   "Disponible como aplicación de escritorio para macOS, Linux y Windows; compatible con múltiples arquitecturas de hardware",
+   "Integración directa con agentes populares como Pi, OpenCode, Hermes y Codex sin reconfiguración"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://github.com/magnitudedev/magnitude",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49911995",
+  "score": 174,
+  "comentarios": 86
+ },
+ {
+  "id": "49912444",
+  "slug": "netlify-acelera-edge-functions-cinco-veces-al-migrar-a-maqui-49912444",
+  "fecha": "2026-10-01T12:48:35+00:00",
+  "titulo": "Netlify acelera Edge Functions cinco veces al migrar a máquinas virtuales",
+  "resumen": "Netlify rediseñó su infraestructura de Edge Functions, pasando de aislamientos V8 a máquinas virtuales Firecracker ejecutadas dentro de su propia red. El cambio reduce la latencia mediana de 25-40 milisegundos a 5-6 milisegundos, manteniendo la misma experiencia de desarrollo para los usuarios. La plataforma ahora procesa alrededor de mil millones de funciones diarias con mejor rendimiento, seguridad y confiabilidad.",
+  "por_que_importa": "La latencia en funciones edge impacta directamente el tiempo de espera del usuario final, por lo que estas mejoras de velocidad tienen consecuencias tangibles en la experiencia. El cambio de arquitectura también beneficia la seguridad y la capacidad de ejecución de cargas de trabajo complejas sin alterar cómo los desarrolladores escriben o despliegan sus funciones.",
+  "puntos_clave": [
+   "La latencia mediana bajó de 25-40ms a 5-6ms en invocaciones activas",
+   "Los cambios son transparentes para desarrolladores; el código y flujos de trabajo funcionan igual",
+   "Las máquinas virtuales se ejecutan dentro de la red de Netlify, eliminando saltos externos"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.netlify.com/blog/edge-functions-firecracker-microvms/",
+  "fuente_dominio": "netlify.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49912444",
+  "score": 191,
+  "comentarios": 85
+ },
+ {
+  "id": "49912792",
+  "slug": "paneles-de-control-modulares-industriales-diseno-analogico-o-49912792",
+  "fecha": "2026-10-01T12:48:31+00:00",
+  "titulo": "Paneles de control modulares industriales: diseño analógico olvidado",
+  "resumen": "Un diseñador documenta paneles de control modulares descubiertos en museos alemanes y polacos, utilizados históricamente en control aéreo, monitoreo de ferrocarriles y transporte público. Estos sistemas combinaban componentes intercambiables con indicadores luminosos y botones para mostrar estado e interactuar con la información. Los comentarios destacan la claridad comunicativa de estos diseños frente a interfaces modernas, y plantean preguntas sobre su funcionamiento técnico interno.",
+  "por_que_importa": "Estos sistemas representan un enfoque de diseño de interfaz centrado en la usabilidad y la comunicación clara, contraste que usuarios actuales encuentran relevante ante la complejidad de las interfaces contemporáneas. El análisis de estos paneles ofrece perspectiva histórica sobre evolución del diseño industrial y las decisiones que llevaron a la transición hacia soluciones basadas en software.",
+  "puntos_clave": [
+   "Paneles físicos modulares con componentes intercambiables para monitoreo industrial ahora reemplazados por sistemas digitales",
+   "Diseño que prioriza la legibilidad mediante indicadores luminosos y controles táctiles directos",
+   "Refleja diferencias entre diseño analógico funcional e interfaces digitales contemporáneas en claridad de uso"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://unsung.aresluna.org/before-pixels-modular-industrial-dashboards/",
+  "fuente_dominio": "unsung.aresluna.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49912792",
+  "score": 199,
+  "comentarios": 41
+ },
+ {
+  "id": "49915126",
+  "slug": "56k-rip-una-simulacion-del-internet-de-1996-en-el-navegador-49915126",
+  "fecha": "2026-10-01T12:48:26+00:00",
+  "titulo": "56k.rip: una simulación del internet de 1996 en el navegador",
+  "resumen": "56k.rip es un simulador interactivo que recrea la experiencia de conexión a internet mediante módem en 1996, incluyendo los sonidos, ritmos de carga y limitaciones de velocidad de aquella época. Los usuarios pueden seleccionar diferentes velocidades de conexión (14.4, 28.8 o 56k) y experimentar cómo las páginas se cargan progresivamente, las imágenes se descargan línea a línea y las desconexiones interrumpen la navegación. El proyecto incluye servicios simulados de la era como foros, chat, juegos y otras aplicaciones típicas de aquella época, todo funcionando en el navegador sin necesidad de cuentas ni almacenamiento externo.",
+  "por_que_importa": "Representa una forma nostálgica de documentar y experimentar cómo era internet hace casi tres décadas, permitiendo a nuevas generaciones comprender las limitaciones tecnológicas que marcaron los primeros años de la web. El proyecto destaca el contraste entre la conectividad siempre activa de hoy y el modelo de conexión bajo demanda que dominaba entonces.",
+  "puntos_clave": [
+   "Simula velocidades de conexión reales con presupuesto de bytes, haciendo que las páginas carguen más lentamente según la velocidad seleccionada",
+   "Incluye interfaz visual, sonidos sintetizados y fenómenos auténticos como desconexiones cuando alguien usa el teléfono",
+   "Funciona completamente en el navegador sin dependencias externas ni almacenamiento en servidores"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://56k.rip/",
+  "fuente_dominio": "56k.rip",
+  "hn_url": "https://news.ycombinator.com/item?id=49915126",
+  "score": 202,
+  "comentarios": 85
+ },
+ {
+  "id": "49890732",
+  "slug": "el-colapso-de-la-edad-de-bronce-mas-alla-de-sequias-e-invasi-49890732",
+  "fecha": "2026-10-01T12:48:21+00:00",
+  "titulo": "El colapso de la Edad de Bronce: más allá de sequías e invasiones",
+  "resumen": "Hace tres mil años, grandes imperios mediterráneos como el egipcio y el hitita controlaban vastos territorios mediante estructuras burocráticas complejas. Sin embargo, pocos siglos después desaparecieron o se redujeron drásticamente, fenómeno conocido como el colapso de la Edad de Bronce. Mientras la historiografía tradicional atribuye esta caída a sequías, hambres e invasores externos, el verdadero problema fue que los imperios nunca se recuperaron, lo que sugiere cambios más profundos en el equilibrio político.",
+  "por_que_importa": "La caída simultánea de múltiples potencias regionales desafía las explicaciones convencionales sobre colapsos civilizacionales y obliga a repensar cómo se sostienen las estructuras de poder. El fenómeno plantea interrogantes sobre la dificultad de construir y mantener imperios una vez que la tecnología y los recursos dejan de estar concentrados en las élites.",
+  "puntos_clave": [
+   "La accesibilidad del hierro a poblaciones locales redujo la ventaja militar de los centros imperiales que dependían del bronce importado",
+   "Las catástrofes naturales e invasiones por sí solas no explican la ausencia de nuevas potencias imperiales durante siglos posteriores",
+   "Los imperios operaban bajo economías de palacio donde el acceso a comercio y recursos estaba controlado por la realeza y sus allegados"
+  ],
+  "categoria": "Ciencia",
+  "fuente_url": "https://www.worksinprogress.news/p/why-really-caused-the-bronze-age",
+  "fuente_dominio": "worksinprogress.news",
+  "hn_url": "https://news.ycombinator.com/item?id=49890732",
+  "score": 285,
+  "comentarios": 188
+ },
+ {
   "id": "49904314",
   "slug": "la-saturacion-de-proyectos-de-ia-superficiales-en-linkedin-49904314",
   "fecha": "2026-10-01T05:07:46+00:00",
