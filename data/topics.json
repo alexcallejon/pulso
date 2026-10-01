@@ -1,5 +1,119 @@
 [
  {
+  "id": "49923466",
+  "slug": "turbopuffer-v3-rediseno-de-arquitectura-para-superar-limites-49923466",
+  "fecha": "2026-10-01T22:31:18+00:00",
+  "titulo": "Turbopuffer v3: rediseño de arquitectura para superar límites de bases de datos vectoriales",
+  "resumen": "Turbopuffer anuncia una nueva versión que modifica su arquitectura de almacenamiento para mejorar el rendimiento en búsquedas de texto, expresiones regulares y vectores. El cambio principal consiste en dejar de usar el índice de búsqueda por aproximación de vecinos como índice primario, convirtiéndolo en un índice secundario más. Esta transformación busca resolver limitaciones en operaciones como agregaciones y GROUP BY que la arquitectura anterior no permitía optimizar adecuadamente.",
+  "por_que_importa": "El rediseño permite que Turbopuffer soporte un rango más amplio de consultas SQL y mejore su rendimiento general, ampliando sus casos de uso más allá de búsquedas vectoriales puras. La decisión refleja una evolución en cómo las bases de datos vectoriales deben estructurarse para competir con sistemas de bases de datos tradicionales en versatilidad.",
+  "puntos_clave": [
+   "Turbopuffer cambia de un índice ANN primario a una arquitectura donde ANN es solo un índice secundario",
+   "La nueva versión mejora búsquedas de texto, regex y vectores, y habilitará más operaciones SQL optimizadas",
+   "El cambio arquitectónico es comparado con la evolución de diseños entre Postgres y MySQL en cuanto a equilibrio entre velocidad de lectura e indexación"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://turbopuffer.com/blog/rip-vector-database",
+  "fuente_dominio": "turbopuffer.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49923466",
+  "score": 248,
+  "comentarios": 66
+ },
+ {
+  "id": "49920932",
+  "slug": "micron-preve-escasez-critica-de-memoria-en-2027-y-2028-49920932",
+  "fecha": "2026-10-01T22:31:13+00:00",
+  "titulo": "Micron prevé escasez crítica de memoria en 2027 y 2028",
+  "resumen": "El consejero delegado de Micron anunció durante la presentación de resultados del cuarto trimestre fiscal que la oferta de memoria y almacenamiento será significativamente más limitada en 2027 y 2028 comparado con 2026, a pesar de los planes de expansión industrial. La demanda impulsada por inteligencia artificial supera las previsiones de capacidad, y la empresa señala que ya tiene comprometido más del 75% de su producción de 2027. Los precios de DRAM subieron entre un 15% y 20% el trimestre anterior, mientras que NAND aumentó aproximadamente un 30%.",
+  "por_que_importa": "El anuncio refleja que la escasez de componentes críticos para servidores e infraestructura de IA continuará presionando los precios al alza, afectando a fabricantes y consumidores. La situación genera debate sobre posible coordinación entre fabricantes para mantener márgenes de ganancia elevados en lugar de expandir la oferta.",
+  "puntos_clave": [
+   "Micron pronostica condiciones de oferta mucho más restrictivas en 2027-2028 que en 2026",
+   "La demanda de IA excede la capacidad proyectada incluso con nuevas instalaciones de manufactura planificadas",
+   "Los precios de memoria han aumentado significativamente en el último trimestre sin perspectiva de alivio próximo"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.techpowerup.com/353296/micron-ceo-says-memory-supply-will-be-much-tighter-in-2027-and-2028-than-in-2026",
+  "fuente_dominio": "techpowerup.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49920932",
+  "score": 317,
+  "comentarios": 374
+ },
+ {
+  "id": "49920234",
+  "slug": "autoridades-estadounidenses-pueden-revisar-telefonos-en-fron-49920234",
+  "fecha": "2026-10-01T22:31:07+00:00",
+  "titulo": "Autoridades estadounidenses pueden revisar teléfonos en fronteras sin orden judicial",
+  "resumen": "Un activista de derechos migratorios demandó al gobierno federal tras alegar que agentes de aduanas copiaron datos de su teléfono al regresar a Estados Unidos sin su consentimiento voluntario. La agencia sostiene que posee autoridad legal para realizar búsquedas de dispositivos electrónicos en puntos de entrada fronterizos sin orden de registro. El caso reaviva el debate sobre los poderes de los agentes fronterizos y la privacidad de los ciudadanos.",
+  "por_que_importa": "Ilustra una práctica legal permitida en la frontera estadounidense que genera controversia sobre derechos constitucionales y privacidad digital. Plantea interrogantes sobre la posible orientación política de estas búsquedas y la falta de transparencia en su aplicación.",
+  "puntos_clave": [
+   "Agentes fronterizos pueden inspeccionar dispositivos sin orden judicial bajo la excepción de frontera de la Cuarta Enmienda",
+   "La agencia de aduanas reporta que estas búsquedas afectan a menos del 0,002% de viajeros procesados",
+   "El demandante sostiene haber sido objetivo por su trabajo en defensa de derechos de migrantes"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://arstechnica.com/tech-policy/2026/09/immigration-advocate-sues-border-agents-for-demanding-his-cell-phone/",
+  "fuente_dominio": "arstechnica.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49920234",
+  "score": 347,
+  "comentarios": 321
+ },
+ {
+  "id": "49923692",
+  "slug": "cloudflare-presenta-clef-modelos-de-decision-de-codigo-abier-49923692",
+  "fecha": "2026-10-01T22:31:02+00:00",
+  "titulo": "Cloudflare presenta Clef, modelos de decisión de código abierto con plataforma de aprendizaje reforzado",
+  "resumen": "Cloudflare lanzó Clef y Clef-flash, dos modelos de decisión entrenados que clasifican información de forma estructurada y determinística, diseñados para automatizar decisiones en flujos de trabajo de agentes sin necesidad de reentrenamiento constante. Los modelos están disponibles en Workers AI y se distribuyen bajo licencia Apache 2.0 en Hugging Face, con capacidades como procesamiento de imágenes y una ventana de contexto ampliada. La compañía también introdujo una plataforma de aprendizaje reforzado que permite a los usuarios ajustar Clef según sus necesidades específicas.",
+  "por_que_importa": "Los modelos de decisión ofrecen una alternativa más rápida y predecible a los grandes modelos de lenguaje para tareas de clasificación automática, lo que acelera la toma de decisiones en aplicaciones como inteligencia de amenazas. La disponibilidad de código abierto democratiza el acceso a esta tecnología, aunque los costos operativos varían significativamente según la versión utilizada.",
+  "puntos_clave": [
+   "Clef lidera el benchmark de modelos de decisión Jev y procesa clasificaciones hasta 2 veces más rápido que modelos de lenguaje general",
+   "Incluye características únicas como codificador de visión para clasificar contenido visual y una ventana de contexto de 64k tokens",
+   "Disponible tanto en versión hospedada como de código abierto, con opciones de precio variable según la variante del modelo"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://blog.cloudflare.com/clef-decision-models/",
+  "fuente_dominio": "blog.cloudflare.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49923692",
+  "score": 368,
+  "comentarios": 146
+ },
+ {
+  "id": "49920160",
+  "slug": "streetcomplete-llega-a-beta-publica-en-ios-49920160",
+  "fecha": "2026-10-01T22:30:57+00:00",
+  "titulo": "StreetComplete llega a beta pública en iOS",
+  "resumen": "StreetComplete, la aplicación de edición de OpenStreetMap disponible para Android, está en fase de prueba pública para iOS. El desarrollo utiliza Kotlin Multiplatform y Compose Multiplatform para compartir código entre plataformas, evitando reescribir la aplicación desde cero. La migración se encuentra aproximadamente al 50% de completitud tras recibir financiación de organismos alemanes durante los primeros meses de 2024.",
+  "por_que_importa": "Permite que usuarios de iPhone contribuyan a mejorar datos geográficos de OpenStreetMap sin conocimientos técnicos previos. El enfoque técnico elegido minimiza el mantenimiento futuro al mantener una única base de código compartida entre plataformas.",
+  "puntos_clave": [
+   "La aplicación utiliza Kotlin Multiplatform y Compose Multiplatform para la versión iOS",
+   "El proyecto recibió financiación del gobierno alemán para acelerar el desarrollo durante 2024",
+   "Se estima que el trabajo completo requeriría aproximadamente un año de desarrollo a tiempo completo"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://github.com/streetcomplete/StreetComplete/issues/5421",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49920160",
+  "score": 493,
+  "comentarios": 109
+ },
+ {
+  "id": "49926069",
+  "slug": "earendil-lanza-pi-1-0-un-entorno-minimalista-para-agentes-de-49926069",
+  "fecha": "2026-10-01T22:30:52+00:00",
+  "titulo": "Earendil lanza Pi 1.0, un entorno minimalista para agentes de IA",
+  "resumen": "Earendil ha liberado Pi 1.0, una herramienta de código abierto diseñada como plataforma minimalista y extensible para ejecutar agentes de IA. La versión incorpora nuevas funcionalidades como soporte nativo para MCP, carga diferida de herramientas y mensajes de sistema durante la conversación. Simultáneamente, la empresa presenta Pi Durable, un paquete experimental para aplicaciones de agentes de larga duración que mantiene los principios de minimalismo de Pi pero los extiende a nuevos casos de uso.",
+  "por_que_importa": "Pi 1.0 representa un enfoque diferente en herramientas de IA al priorizar la estabilidad y la simpleza sobre la adopción rápida de todas las tendencias emergentes. La disponibilidad de ambos productos bajo licencia MIT permite que desarrolladores construyan y personalicen soluciones de IA según sus necesidades específicas.",
+  "puntos_clave": [
+   "Pi 1.0 añade compatibilidad con MCP, modelos virtuales y soporte mejorado para diferentes proveedores de lenguaje",
+   "Pi Durable permite crear aplicaciones de agentes de ejecución prolongada manteniendo la filosofía minimalista",
+   "Ambos productos están disponibles gratuitamente bajo licencia MIT con documentación en pi.dev"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://earendil.com/posts/pi-1-0/",
+  "fuente_dominio": "earendil.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49926069",
+  "score": 502,
+  "comentarios": 176
+ },
+ {
   "id": "49908962",
   "slug": "comparativa-de-tecnicas-de-renderizado-de-texto-en-gpu-sdf-m-49908962",
   "fecha": "2026-10-01T12:48:45+00:00",
