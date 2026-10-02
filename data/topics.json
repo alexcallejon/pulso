@@ -1,5 +1,119 @@
 [
  {
+  "id": "49928566",
+  "slug": "modelos-de-ia-generan-pinturas-escribiendo-codigo-de-simulac-49928566",
+  "fecha": "2026-10-02T22:00:55+00:00",
+  "titulo": "Modelos de IA generan pinturas escribiendo código de simulación de óleo",
+  "resumen": "Un proyecto experimental permite que modelos de lenguaje grandes como Claude Opus 5.5 y GPT-6.1 creen pinturas escribiendo código que controla una simulación de pintura al óleo sobre lienzo, sin usar generadores de imágenes. Se han realizado múltiples rondas de pruebas donde distintos modelos pintan obras inspiradas en artistas como Caspar David Friedrich y Edward Hopper. Los comentarios destacan que esta aproximación representa una alternativa interesante a los modelos de difusión tradicionales, demostrando capacidades creativas en el manejo de procesos artísticos complejos.",
+  "por_que_importa": "Muestra una metodología diferente para que la IA genere contenido visual enfocándose en reproducir el proceso creativo mediante código en lugar de síntesis directa de imágenes. Abre un campo de exploración sobre cómo los modelos de lenguaje pueden aplicarse a tareas creativas que requieren simulación de técnicas tradicionales.",
+  "puntos_clave": [
+   "Los modelos escriben instrucciones de pinceladas que una simulación de óleo ejecuta y reproduce",
+   "Distintos modelos tienden a elegir temas similares cuando tienen libertad creativa, como jarrones con limones",
+   "Algunos modelos produjeron obras incompletas por límites en acceso a API o recursos"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://stillwet.art/",
+  "fuente_dominio": "stillwet.art",
+  "hn_url": "https://news.ycombinator.com/item?id=49928566",
+  "score": 167,
+  "comentarios": 54
+ },
+ {
+  "id": "49934784",
+  "slug": "supabase-adquiere-turso-para-fortalecer-infraestructura-de-b-49934784",
+  "fecha": "2026-10-02T22:00:50+00:00",
+  "titulo": "Supabase adquiere Turso para fortalecer infraestructura de bases de datos",
+  "resumen": "Supabase ha anunciado la adquisición de Turso, plataforma especializada en SQLite en la nube, para evolucionar su oferta de infraestructura de bases de datos orientada a agentes de IA. Ambas empresas mantendrán sus productos actuales: Supabase continuará con Postgres mientras Turso sigue con SQLite, pero trabajarán conjuntamente en una solución integrada. La combinación busca resolver el desafío de escala que representan los millones de bases de datos que los agentes de IA crean semanalmente.",
+  "por_que_importa": "La explosión de software generado por agentes de IA requiere una infraestructura de bases de datos más flexible y económica que la actual, capaz de crear instancias bajo demanda sin costos prohibitivos. Esta adquisición refuerza el ecosistema de herramientas de código abierto para desarrolladores que necesitan soluciones autoalojables y escalables.",
+  "puntos_clave": [
+   "Supabase lanza más de un millón de bases de datos por semana, cifra que seguirá creciendo con la adopción de agentes de IA",
+   "Turso ofrece una arquitectura que permite gestionar millones de bases de datos SQLite en un único servidor, activándolas bajo demanda",
+   "Ambas plataformas mantienen su compromiso con el código abierto y la experiencia de desarrollador desde prototipo hasta producción"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://supabase.com/blog/supabase-is-acquiring-turso",
+  "fuente_dominio": "supabase.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49934784",
+  "score": 185,
+  "comentarios": 97
+ },
+ {
+  "id": "49937276",
+  "slug": "apple-lanza-pass-designer-para-crear-pases-digitales-en-wall-49937276",
+  "fecha": "2026-10-02T22:00:45+00:00",
+  "titulo": "Apple lanza Pass Designer para crear pases digitales en Wallet",
+  "resumen": "Apple presenta Pass Designer, una herramienta de diseño para desarrolladores que simplifica la creación de pases digitales para Apple Wallet. La aplicación ofrece plantillas, edición en tiempo real con vista previa en iPhone y Apple Watch, validación automática de elementos y soporte para etiquetas semánticas en pases de embarque y entradas. Está disponible en versión beta para macOS 27 o posterior.",
+  "por_que_importa": "Facilita a empresas de diversos sectores (aerolíneas, eventos, comercios) la creación de pases sin requisitos técnicos complejos. La integración con funciones del sistema como Siri Suggestions y Maps aumenta la utilidad de los pases digitales para usuarios finales.",
+  "puntos_clave": [
+   "Incluye plantillas predefinidas y permite importar diseños personalizados desde otras herramientas",
+   "Valida automáticamente el contenido y genera versiones compatibles con dispositivos más antiguos",
+   "Soporta etiquetas semánticas para datos estructurados como fechas, ubicaciones y detalles de vuelos"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://developer.apple.com/pass-designer/",
+  "fuente_dominio": "developer.apple.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49937276",
+  "score": 220,
+  "comentarios": 143
+ },
+ {
+  "id": "49925974",
+  "slug": "black-forest-labs-presenta-flux-3-image-con-control-preciso-49925974",
+  "fecha": "2026-10-02T22:00:40+00:00",
+  "titulo": "Black Forest Labs presenta FLUX 3 Image con control preciso de elementos",
+  "resumen": "Black Forest Labs lanzó FLUX 3 Image, un modelo de generación de imágenes que permite posicionar elementos específicos mediante cuadros delimitadores. La herramienta destaca por su interfaz de usuario intuitiva que facilita el control sobre la composición final. El modelo compite con alternativas como Ideogram V4, ofreciendo una experiencia más accesible para definir la ubicación de componentes en las imágenes.",
+  "por_que_importa": "El control granular sobre la composición de imágenes generadas por IA resulta crucial para casos de uso profesionales donde la disposición de elementos es determinante. La interfaz mejorada representa un avance en la usabilidad de herramientas de generación de contenido visual.",
+  "puntos_clave": [
+   "Permite definir la posición exacta de elementos mediante cuadros delimitadores en lugar de descripciones textuales",
+   "Ofrece una interfaz de usuario más intuitiva comparada con soluciones que requieren estructuras JSON complejas",
+   "Representa un desarrollo significativo de un laboratorio de IA fuera de Estados Unidos y China"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://bfl.ai/models/flux-3-image",
+  "fuente_dominio": "bfl.ai",
+  "hn_url": "https://news.ycombinator.com/item?id=49925974",
+  "score": 233,
+  "comentarios": 53
+ },
+ {
+  "id": "49930047",
+  "slug": "el-museo-de-bicicletas-shimano-prioriza-la-historia-del-cicl-49930047",
+  "fecha": "2026-10-02T22:00:36+00:00",
+  "titulo": "El Museo de Bicicletas Shimano prioriza la historia del ciclismo sobre la corporativa",
+  "resumen": "El museo de Shimano en la región de Kansai, Japón, alberga una amplia colección de bicicletas en un edificio moderno de cristal y acero. La exposición recorre la evolución de la bicicleta desde sus primeros modelos hasta diseños contemporáneos, incluyendo máquinas históricas y de uso cotidiano, sin estar protegidas tras cristales. El espacio educativo enfatiza las múltiples formas de disfrutar el ciclismo más que los orígenes corporativos de Shimano.",
+  "por_que_importa": "Ofrece una perspectiva única sobre la historia de la bicicleta en un contexto más amplio que incluye sociedad, industrialización y deporte. Representa un enfoque museístico accesible donde los visitantes pueden apreciar de cerca objetos históricos y educativos sin barreras físicas.",
+  "puntos_clave": [
+   "Colección cronológica de bicicletas que muestra la evolución técnica desde modelos primitivos hasta actuales",
+   "Exhibiciones interactivas sobre materiales (acero, aluminio, titanio) y experiencias de peso y ligereza",
+   "Énfasis en la diversidad de uso del ciclismo: competición, transporte, deporte paralímpico y recreación infantil"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://inrng.com/2026/10/shimano-bicycle-museum/",
+  "fuente_dominio": "inrng.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49930047",
+  "score": 280,
+  "comentarios": 71
+ },
+ {
+  "id": "49927754",
+  "slug": "un-tribunal-bloquea-la-ley-de-utah-que-intentaba-prohibir-la-49927754",
+  "fecha": "2026-10-02T22:00:31+00:00",
+  "titulo": "Un tribunal bloquea la ley de Utah que intentaba prohibir las VPN",
+  "resumen": "Un juzgado federal ha emitido una orden preliminar para detener la aplicación de la ley SB 73 de Utah, que requería a sitios de contenido para adultos detectar y bloquear usuarios de VPN o verificar su ubicación física. El tribunal determinó que la norma viola la Constitución estadounidense al imponer cargas desproporcionadas a empresas y usuarios fuera del estado. La decisión reconoce que es técnicamente imposible cumplir con estos requisitos de manera universal.",
+  "por_que_importa": "La sentencia protege los derechos digitales de usuarios en toda la web al reconocer que las leyes estatales no pueden reescribir las capacidades técnicas de internet. Establece un precedente importante contra intentos legislativos de regular herramientas de privacidad que afectarían globalmente a plataformas en línea.",
+  "puntos_clave": [
+   "La ley obligaba a sitios web a bloquear VPN o identificar la ubicación física de visitantes, lo que requeriría verificación de edad para todos los usuarios mundiales",
+   "El tribunal falló que Utah tiene alternativas menos gravosas para proteger a menores, sin necesidad de imponer obligaciones a usuarios fuera del estado",
+   "La norma era la primera en EE.UU. en dirigirse específicamente al uso de VPN para eludir comprobaciones de edad obligadas por ley"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
+  "fuente_dominio": "eff.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49927754",
+  "score": 399,
+  "comentarios": 174
+ },
+ {
   "id": "49923056",
   "slug": "red-hat-enfrenta-una-progresiva-disolucion-bajo-el-control-d-49923056",
   "fecha": "2026-10-02T12:12:23+00:00",
