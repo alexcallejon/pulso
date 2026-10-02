@@ -1,5 +1,119 @@
 [
  {
+  "id": "49921923",
+  "slug": "cloudflare-k2-servicio-de-flujos-de-eventos-sin-servidor-49921923",
+  "fecha": "2026-10-02T04:57:00+00:00",
+  "titulo": "Cloudflare K2: servicio de flujos de eventos sin servidor",
+  "resumen": "Cloudflare ha lanzado K2 en versión beta pública, un servicio de streaming de eventos que desacopla productores y consumidores de datos, evitando pérdidas cuando hay desajustes de capacidad o indisponibilidad. El sistema funciona como un registro ordenado alojado en el almacenamiento de objetos R2, escalable a grandes volúmenes de datos y con capacidad de retención a largo plazo. Fue desarrollado inicialmente para servir como capa de ingesta en Basin Pipelines, aprovechando la infraestructura global de Cloudflare en más de 335 ciudades.",
+  "por_que_importa": "Permite resolver un problema fundamental en arquitecturas de datos distribuidos: cuando múltiples consumidores necesitan procesar independientemente los mismos eventos sin que se pierdan datos en caso de indisponibilidad temporal. Su enfoque de usar almacenamiento de objetos en lugar de sistemas distribuidos tradicionales abre un camino alternativo para construir infraestructura de datos escalable y duradera.",
+  "puntos_clave": [
+   "Desacopla productores y consumidores permitiendo que procesen datos a su propio ritmo sin pérdidas",
+   "Construido sobre R2 con replicación y consenso delegados al almacenamiento, simplificando la capa de aplicación",
+   "Soporta múltiples modelos de consumo: lectura distribuida entre consumidores o entrega a todos con capacidad de retención prolongada"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
+  "fuente_dominio": "blog.cloudflare.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49921923",
+  "score": 218,
+  "comentarios": 89
+ },
+ {
+  "id": "49920896",
+  "slug": "rust-mejora-la-velocidad-del-compilador-4-57-en-dos-meses-49920896",
+  "fecha": "2026-10-02T04:56:55+00:00",
+  "titulo": "Rust mejora la velocidad del compilador 4.57% en dos meses",
+  "resumen": "El compilador de Rust experimentó mejoras significativas entre julio y septiembre de 2026, con una reducción media del tiempo de compilación del 4.57%. De 629 mediciones de rendimiento, 555 mostraron mejoras mientras que solo 74 registraron regresiones. Los avances provienen de múltiples frentes: optimizaciones en rustdoc, activación de PGO en Clippy, actualización a LLVM 23, y refinamientos en el nuevo verificador de préstamos y el nuevo solucionador de traits.",
+  "por_que_importa": "La optimización del compilador de Rust impacta directamente en la experiencia de desarrollo, reduciendo tiempos de espera que afectan la productividad de miles de programadores. Estos avances demuestran que es posible mejorar la velocidad sin sacrificar características, como la mayor precisión del nuevo verificador de préstamos.",
+  "puntos_clave": [
+   "Reducción media de 4.57% en tiempo de compilación en dos meses",
+   "Nuevas características del compilador (verificador de préstamos y solucionador de traits mejorados) optimizadas para minimizar impacto en rendimiento",
+   "Contribuciones específicas de múltiples desarrolladores lograron mejoras de hasta 18% en casos puntuales"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html",
+  "fuente_dominio": "nnethercote.github.io",
+  "hn_url": "https://news.ycombinator.com/item?id=49920896",
+  "score": 238,
+  "comentarios": 123
+ },
+ {
+  "id": "49906100",
+  "slug": "opendlss-implementacion-en-vulkan-del-sistema-neural-de-dlss-49906100",
+  "fecha": "2026-10-02T04:56:50+00:00",
+  "titulo": "OpenDLSS: implementación en Vulkan del sistema neural de DLSS 5",
+  "resumen": "Un desarrollador ha creado una reimplementación de la tecnología de renderizado neural DLSS 5 de Nvidia utilizando Vulkan, logrando resultados idénticos a nivel de byte con respecto al original. El proyecto incluye una red neuronal de 71 bloques que procesa fotogramas sin aumentar resolución, funcionando con precisión FP8 en núcleos tensores. También disponibiliza una versión alternativa en WebGPU que funciona en navegadores sin requerir hardware especializado.",
+  "por_que_importa": "Permite que desarrolladores independientes comprendan y utilicen la tecnología de renderizado neural de Nvidia sin depender exclusivamente de sus herramientas propietarias. Demuestra que es posible replicar sistemas de IA complejos mediante ingeniería inversa y ofrece transparencia sobre cómo funcionan estos algoritmos de optimización gráfica.",
+  "puntos_clave": [
+   "Red neuronal de 71 bloques transformer que rerrenderiza fotogramas en tiempo real",
+   "Verificación byte-exacta: todos los 75 límites de bloques coinciden exactamente con DLSS 5 original",
+   "Rendimiento de 2.8 ms a 768x768 y 29.3 ms a 4K en RTX 4070 Super"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://github.com/maanHimself/OpenDLSS-NR",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49906100",
+  "score": 250,
+  "comentarios": 118
+ },
+ {
+  "id": "49922278",
+  "slug": "empresa-de-seguridad-desarrolla-herramienta-para-eludir-el-r-49922278",
+  "fecha": "2026-10-02T04:56:44+00:00",
+  "titulo": "Empresa de seguridad desarrolla herramienta para eludir el reinicio automático de iPhone",
+  "resumen": "Magnet Forensics, fabricante de herramientas de desbloqueo telefónico, habría creado una solución para contrarrestar el reinicio automático que Apple introdujo en iPhones tras 72 horas sin desbloquear. Esta funcionalidad, llamada GrayKey Preserve y Evidence Preservation Mode, permitiría a las fuerzas de seguridad mantener acceso a dispositivos incautados mientras obtienen autorización judicial. La medida intensifica el enfrentamiento entre Apple y compañías que desarrollan tecnología forense para acceder a datos en iPhones.",
+  "por_que_importa": "El reinicio automático de Apple representa una barrera de privacidad diseñada para obstaculizar el acceso no autorizado a dispositivos; su elusión reaviva el debate sobre vigilancia policial y protección de datos personales. Este desarrollo muestra la carrera continua entre fabricantes de dispositivos y empresas de seguridad por controlar el acceso a información sensible en teléfonos.",
+  "puntos_clave": [
+   "Apple implementó un reinicio automático a los 72 horas sin desbloqueo para proteger datos en iPhones incautados",
+   "Magnet Forensics desarrolló herramientas para eludir esta medida mientras la policía espera autorización judicial",
+   "El conflicto refleja la tensión permanente entre privacidad del usuario y capacidades de aplicación de la ley"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://www.404media.co/cops-can-bypass-iphone-automatic-inactivity-reboot-graykey/",
+  "fuente_dominio": "404media.co",
+  "hn_url": "https://news.ycombinator.com/item?id=49922278",
+  "score": 251,
+  "comentarios": 203
+ },
+ {
+  "id": "49924179",
+  "slug": "git-3-0-enfrentara-costos-significativos-al-cambiar-a-sha-25-49924179",
+  "fecha": "2026-10-02T04:56:39+00:00",
+  "titulo": "Git 3.0 enfrentará costos significativos al cambiar a SHA-256",
+  "resumen": "Git 3.0 planea cambiar su algoritmo de hash predeterminado de SHA-1 a SHA-256 debido a vulnerabilidades teóricas descubiertas en años recientes. Aunque SHA-1 ha funcionado durante dos décadas sin colisiones prácticas documentadas, los desarrolladores consideran necesario migrar a un algoritmo más seguro. Sin embargo, los comentarios señalan que la implementación podría realizarse de manera más eficiente y que existen soluciones técnicas para mantener compatibilidad entre repositorios antiguos y nuevos.",
+  "por_que_importa": "La transición afectará potencialmente a millones de desarrolladores y repositorios en todo el mundo, generando costos significativos en tiempo y recursos. Los comentarios cuestionan si los riesgos reales justifican una migración tan disruptiva, considerando que SHA-1 nunca ha sufrido colisiones accidentales en la práctica a lo largo de veinte años.",
+  "puntos_clave": [
+   "Git usa hashes SHA-1 desde 2005 como base de su sistema de base de datos de contenidos, con éxito durante dos décadas",
+   "SHA-1 es considerado matemáticamente vulnerable aunque los ataques de colisión permanecen principalmente teóricos",
+   "La comunidad debate si los costos de migración a SHA-256 en Git 3.0 compensan los riesgos de seguridad evitados"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://blog.gitbutler.com/git-3-sha-256",
+  "fuente_dominio": "blog.gitbutler.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49924179",
+  "score": 277,
+  "comentarios": 275
+ },
+ {
+  "id": "49925969",
+  "slug": "earendil-presenta-pi-durable-un-marco-para-agentes-de-ia-res-49925969",
+  "fecha": "2026-10-02T04:56:34+00:00",
+  "titulo": "Earendil presenta Pi Durable, un marco para agentes de IA resilientes",
+  "resumen": "Earendil lanzó Pi Durable, un nuevo marco complementario a Pi 1.0 diseñado para ejecutar agentes de IA duraderos y resistentes que funcionen en cualquier entorno con runtime JavaScript. A diferencia de Pi, que opera en terminales locales, Pi Durable proporciona almacenamiento persistente, manejo de fallos y soporte para conversaciones prolongadas sin supervisión. El proyecto cuenta con aproximadamente 15.000 líneas de código fuente y utiliza principios de minimalismo y flexibilidad.",
+  "por_que_importa": "Permite ejecutar agentes de IA de forma confiable en producción sin intervención humana constante, una capacidad que otros proveedores como LangChain, OpenAI y Anthropic también están desarrollando. Abre nuevas posibilidades para aplicaciones agenticas duraderas que pueden recuperarse de fallos internos y externos.",
+  "puntos_clave": [
+   "Pi Durable funciona como harness (almacenamiento más infraestructura) para ejecutar conversaciones paralelas con modelos de lenguaje",
+   "Compatible con múltiples backends (memoria, SQLite, JSONL) y runtimes JavaScript (Node, Bun, Cloudflare)",
+   "Mantiene solo datos activos en memoria y compacta transcripciones antiguas para optimizar recursos"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://earendil.com/posts/pi-durable/",
+  "fuente_dominio": "earendil.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49925969",
+  "score": 287,
+  "comentarios": 35
+ },
+ {
   "id": "49923466",
   "slug": "turbopuffer-v3-rediseno-de-arquitectura-para-superar-limites-49923466",
   "fecha": "2026-10-01T22:31:18+00:00",
