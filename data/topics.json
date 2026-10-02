@@ -1,5 +1,119 @@
 [
  {
+  "id": "49923056",
+  "slug": "red-hat-enfrenta-una-progresiva-disolucion-bajo-el-control-d-49923056",
+  "fecha": "2026-10-02T12:12:23+00:00",
+  "titulo": "Red Hat enfrenta una progresiva disolución bajo el control de IBM",
+  "resumen": "Según reportes, IBM está eliminando gradualmente la marca Red Hat mediante cambios organizacionales y despidos que afectan su identidad corporativa. El proceso incluye pérdida de personal y cambios en la orientación de contenidos, modificando la cultura de la organización de código abierto. Empleados habrían recibido compensación para abandonar voluntariamente la empresa.",
+  "por_que_importa": "Red Hat es un actor fundamental en proyectos Linux críticos, incluyendo contribuciones kernel que muchos desconocen. Este cambio refleja un patrón de IBM de transformar empresas adquiridas, potencialmente afectando la estabilidad del ecosistema de software abierto.",
+  "puntos_clave": [
+   "La marca Red Hat estaría siendo progresivamente reemplazada por identidad IBM",
+   "Reportes indican reestructuraciones, despidos y salidas voluntarias compensadas",
+   "Red Hat sustenta proyectos Linux críticos de bajo perfil pero alta importancia"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://techrights.org/n/2026/10/01/Red_Hat_Being_Phased_Out_of_Existence_Like_Many_Other_Companies.shtml",
+  "fuente_dominio": "techrights.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49923056",
+  "score": 202,
+  "comentarios": 120
+ },
+ {
+  "id": "49927100",
+  "slug": "la-crisis-de-la-educacion-en-desarrollo-web-por-inteligencia-49927100",
+  "fecha": "2026-10-02T12:12:18+00:00",
+  "titulo": "La crisis de la educación en desarrollo web por inteligencia artificial",
+  "resumen": "Educadores y creadores de contenido especializado en desarrollo web reportan una caída drástica en sus ingresos y audiencias tras la proliferación de herramientas de IA generativa. Profesionales como Axel Rauschmayer y Josh Comeau, referentes en la enseñanza de tecnologías web, han visto desaparecer sus modelos de negocio mientras sus contenidos son utilizados sin consentimiento para entrenar sistemas de chatbots. La situación ha llevado a muchos instructores a abandonar la educación tecnológica, generando preocupación sobre la calidad futura de la formación en el sector.",
+  "por_que_importa": "La desaparición de educadores independientes amenaza con reducir la disponibilidad de contenido de calidad y especializado en desarrollo web, consolidando un modelo de aprendizaje basado en herramientas genéricas de IA. Este cambio refleja un conflicto más amplio entre la capacidad de las máquinas para generar contenido rápidamente y la necesidad de formación humana rigurosa para desarrollar sistemas de calidad.",
+  "puntos_clave": [
+   "Ingresos de educadores en desarrollo web han colapsado: desde ser viables a prácticamente cero en dos años",
+   "Los contenidos educativos son extraídos y reutilizados por sistemas de IA sin compensación ni consentimiento",
+   "Desarrolladores migran hacia chatbots para aprendizaje, abandonando espacios colaborativos y comunidades de enseñanza"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://molily.de/web-dev-education/",
+  "fuente_dominio": "molily.de",
+  "hn_url": "https://news.ycombinator.com/item?id=49927100",
+  "score": 206,
+  "comentarios": 162
+ },
+ {
+  "id": "49922674",
+  "slug": "esp32-revela-capacidades-sdr-ocultas-para-captura-de-senales-49922674",
+  "fecha": "2026-10-02T12:12:12+00:00",
+  "titulo": "ESP32 revela capacidades SDR ocultas para captura de señales de radio",
+  "resumen": "Múltiples proyectos han descubierto de forma independiente que varios modelos de ESP32 poseen una característica no documentada que permite capturar muestras IQ sin procesar, convirtiéndolos en receptores SDR para frecuencias de 2.2 a 2.7 GHz y hasta 6.0 GHz en el ESP32-C5. El nuevo ESP32-S31 destaca por poder transmitir datos continuamente a través de Ethernet Gigabit, facilitando análisis espectral y demodulación en PC. Proyectos como ESPARGOS, h0m3us3r y C5VRX han aprovechado estos descubrimientos para aplicaciones que van desde análisis de dirección de señal WiFi hasta recepción de vídeo FPV.",
+  "por_que_importa": "Estos microcontroladores de bajo costo abren nuevas posibilidades para la radioafición, aplicaciones de transporte inteligente y procesamiento de señales RF sin necesidad de equipos SDR especializados. La disponibilidad de herramientas como ESP-WebSDR y controladores para GNU Radio democratiza el acceso a capacidades de radio definida por software.",
+  "puntos_clave": [
+   "Varias funcionalidades SDR no documentadas permiten capturar datos IQ en rango de 2.2 a 6.0 GHz con tasas hasta 80 MS/s",
+   "El ESP32-S31 permite transmisión continua de datos por Ethernet Gigabit, superando las limitaciones de captura por snapshots de generaciones anteriores",
+   "Proyectos independientes aplican el hallazgo a casos de uso distintos: WiFi beamforming, receptores FPV y análisis espectrales"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://www.rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers/",
+  "fuente_dominio": "rtl-sdr.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49922674",
+  "score": 242,
+  "comentarios": 44
+ },
+ {
+  "id": "49929489",
+  "slug": "deepseek-harness-llega-en-vista-previa-publica-con-arquitect-49929489",
+  "fecha": "2026-10-02T12:12:06+00:00",
+  "titulo": "DeepSeek Harness llega en vista previa pública con arquitectura modular",
+  "resumen": "DeepSeek ha lanzado Harness en vista previa pública mundial como herramienta de código abierto disponible para escritorio en macOS y Windows. La plataforma permite automatizar tareas cotidianas, programación e investigación mediante una arquitectura basada en complementos extensibles. Los usuarios pueden crear plugins personalizados directamente desde la interfaz o instalar complementos existentes para adaptar la funcionalidad a sus necesidades.",
+  "por_que_importa": "Representa un enfoque diferenciado en herramientas de agentes de IA al priorizar la extensibilidad modular sobre características precargadas, permitiendo a usuarios avanzados personalizar completamente la experiencia. La disponibilidad de código abierto y la capacidad de crear plugins mediante conversación reducen las barreras técnicas para la personalización.",
+  "puntos_clave": [
+   "Disponible en vista previa pública con versiones de escritorio y interfaz web, de código abierto",
+   "Basada en arquitectura Cordis donde todo funciona como complementos instalables o creables por usuarios",
+   "Soporta tareas de productividad, desarrollo de código, investigación, procesamiento en segundo plano y automatización programada"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://www.deepseek.com/en/harness/",
+  "fuente_dominio": "deepseek.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49929489",
+  "score": 263,
+  "comentarios": 133
+ },
+ {
+  "id": "49926536",
+  "slug": "sveltekit-3-ya-esta-disponible-con-mejoras-en-seguridad-de-t-49926536",
+  "fecha": "2026-10-02T12:12:01+00:00",
+  "titulo": "SvelteKit 3 ya está disponible con mejoras en seguridad de tipos",
+  "resumen": "Se lanzó la versión 3 del framework Svelte, que mantiene la familiaridad del framework anterior pero añade mayor pulido, seguridad de tipos y menos código innecesario. La migración desde versiones anteriores se facilita con el comando sv migrate, que automatiza gran parte del proceso. Entre los cambios principales destacan la reubicación de configuración, nuevos alias de importación y mejoras en el manejo de errores.",
+  "por_que_importa": "SvelteKit 3 representa una evolución significativa del framework frontend, ofreciendo herramientas mejoradas para desarrolladores que buscan alternativas a otros frameworks. Los comentarios de la comunidad muestran creciente adopción y satisfacción, incluso entre desarrolladores procedentes de otros ecosistemas como React o Vue.",
+  "puntos_clave": [
+   "La configuración se traslada a vite.config.ts y los alias de importación cambian de $lib a #lib",
+   "El comando sv migrate automatiza la mayoría de cambios necesarios para actualizar proyectos existentes",
+   "Las funciones remotas, principales para comunicación cliente-servidor segura, aún están en desarrollo experimental"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://svelte.dev/blog/sveltekit-3-is-here",
+  "fuente_dominio": "svelte.dev",
+  "hn_url": "https://news.ycombinator.com/item?id=49926536",
+  "score": 312,
+  "comentarios": 123
+ },
+ {
+  "id": "49928121",
+  "slug": "debian-publica-actualizacion-de-seguridad-para-el-kernel-lin-49928121",
+  "fecha": "2026-10-02T12:11:57+00:00",
+  "titulo": "Debian publica actualización de seguridad para el kernel Linux",
+  "resumen": "Debian ha publicado un aviso de seguridad que aborda múltiples vulnerabilidades en el kernel Linux. La actualización incluye parches para decenas de identificadores CVE asignados durante varios años. Según comentarios de la comunidad, la mayoría de estos identificadores corresponden a correcciones de errores rutinarias, ya que el equipo de asignación CVE aplica criterios cautelosos al kernel debido a su posición crítica en el sistema.",
+  "por_que_importa": "El kernel Linux es fundamental para la seguridad de cualquier sistema, por lo que las actualizaciones de seguridad son esenciales para mantener la protección de los usuarios. Sin embargo, el alto número de CVE asignados refleja una práctica de asignación preventiva más que indicador de riesgo real.",
+  "puntos_clave": [
+   "Debian liberó el parche DSA-6528-1 dirigido al kernel de Linux",
+   "La notificación agrupa vulnerabilidades identificadas durante varios años con identificadores CVE",
+   "La comunidad señala que la cantidad de CVEs no es un indicador confiable de severidad en el caso del kernel"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://lwn.net/Articles/1097401/",
+  "fuente_dominio": "lwn.net",
+  "hn_url": "https://news.ycombinator.com/item?id=49928121",
+  "score": 363,
+  "comentarios": 267
+ },
+ {
   "id": "49921923",
   "slug": "cloudflare-k2-servicio-de-flujos-de-eventos-sin-servidor-49921923",
   "fecha": "2026-10-02T04:57:00+00:00",
