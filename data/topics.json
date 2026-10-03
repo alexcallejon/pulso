@@ -1,5 +1,100 @@
 [
  {
+  "id": "49928192",
+  "slug": "tiny-brutalism-un-juego-de-construccion-inspirado-en-la-arqu-49928192",
+  "fecha": "2026-10-03T11:22:29+00:00",
+  "titulo": "Tiny Brutalism: Un juego de construcción inspirado en la arquitectura brutalista",
+  "resumen": "Tiny Brutalism es un juego de construcción en sandbox disponible para Windows, macOS y Linux que permite crear estructuras de arquitectura brutalista sin objetivos ni restricciones. El título, desarrollado con Unity y asistencia de IA, ofrece una experiencia relajante donde los usuarios pueden diseñar monumentos, torres de hormigón o cualquier estructura que imaginen. La comunidad destaca positivamente la estética lograda, aunque señala inconsistencias en el sistema de control entre elementos colocados manualmente y decoraciones automáticas.",
+  "por_que_importa": "Representa una propuesta creativa dentro del género de juegos de construcción casual, capturando la estética brutalista de manera accesible. La retroalimentación de usuarios revela oportunidades de mejora en la experiencia de juego que pueden servir como referencia para futuros desarrollos en este tipo de títulos.",
+  "puntos_clave": [
+   "Juego de construcción sin metas donde el jugador crea libremente monumentos y estructuras brutalistas",
+   "Disponible por 5 USD con soporte multiplataforma y ha recibido valoraciones positivas de usuarios",
+   "Los comentarios sugieren mejorar la coherencia entre elementos controlables y decorativos automáticos, además de expandir opciones de controles"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://placeholders.itch.io/tiny-brutalism",
+  "fuente_dominio": "placeholders.itch.io",
+  "hn_url": "https://news.ycombinator.com/item?id=49928192",
+  "score": 159,
+  "comentarios": 32
+ },
+ {
+  "id": "49934620",
+  "slug": "experimento-de-un-mes-programando-solo-con-glm-5-3-flash-49934620",
+  "fecha": "2026-10-03T11:22:24+00:00",
+  "titulo": "Experimento de un mes programando solo con GLM 5.3 Flash",
+  "resumen": "Un equipo intentó utilizar exclusivamente el modelo GLM 5.3 Flash durante septiembre, pero solo logró mantener este objetivo en la primera mitad del mes. El gasto se distribuyó entre múltiples modelos debido a problemas de disponibilidad de infraestructura y decisiones subóptimas en la selección de modelos para ciertos prototipos. El ejercicio reveló la importancia de la planificación cuidadosa en el uso de modelos de inteligencia artificial y la necesidad de considerar tanto costos como emisiones.",
+  "por_que_importa": "Ilustra los desafíos prácticos y costos ocultos de trabajar con modelos de lenguaje en producción, más allá de las métricas de rendimiento. Demuestra cómo decisiones de ingeniería aparentemente menores pueden multiplicar significativamente los gastos en infraestructura de inteligencia artificial.",
+  "puntos_clave": [
+   "Solo la primera mitad del mes se mantuvo con el modelo objetivo; 1.000 millones de tokens migraron a otros modelos en la segunda mitad",
+   "Un prototipo mal diseñado consumió 450 millones de tokens en poco tiempo, lo que pudo haberse optimizado hasta 5 veces menos",
+   "Problemas de capacidad en proveedores de inferencia obligaron a cambiar a modelos alternativos como DeepSeek y Qwen"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://wagtail.org/blog/one-month-on-glm-53-flash/",
+  "fuente_dominio": "wagtail.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49934620",
+  "score": 167,
+  "comentarios": 125
+ },
+ {
+  "id": "49940219",
+  "slug": "cuestionan-metodologia-de-estudios-de-harvard-sobre-plantas-49940219",
+  "fecha": "2026-10-03T11:22:19+00:00",
+  "titulo": "Cuestionan metodología de estudios de Harvard sobre plantas nucleares y cáncer",
+  "resumen": "Investigadores critican la validez de una metodología utilizada por Harvard para vincular la proximidad a plantas nucleares con aumentos de cáncer. Los autores demuestran que el mismo método produce asociaciones absurdas cuando se aplica a otros lugares como centros comerciales o estadios deportivos. Señalan que la proximidad geográfica no equivale a exposición real de radiación, especialmente considerando que trabajadores de plantas nucleares monitoreados reciben dosis mínimas o nulas.",
+  "por_que_importa": "Cuestiona la solidez científica de estudios influyentes publicados en revistas de alto impacto que podrían moldear políticas públicas sobre energía nuclear. Ilustra cómo metodologías estadísticas pueden producir conclusiones engañosas si no distinguen entre asociación y exposición real.",
+  "puntos_clave": [
+   "La metodología genera resultados espurios al aplicarla a lugares no relacionados con radiación",
+   "Proximidad geográfica no implica exposición medible a radiación, como demuestran los datos de trabajadores nucleares",
+   "Los estudios de Harvard se basan en análisis ecológico sin medir exposición real a radiación en residentes cercanos"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://www.breakthroughjournal.org/p/things-that-apparently-cause-cancer",
+  "fuente_dominio": "breakthroughjournal.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49940219",
+  "score": 182,
+  "comentarios": 66
+ },
+ {
+  "id": "49937631",
+  "slug": "apple-refuerza-controles-de-acceso-a-disco-completo-en-macos-49937631",
+  "fecha": "2026-10-03T11:22:14+00:00",
+  "titulo": "Apple refuerza controles de acceso a disco completo en macOS",
+  "resumen": "Apple planea introducir controles adicionales para el acceso completo al disco en macOS, una función que algunos desarrolladores utilizan de formas que podrían comprometer la privacidad del usuario. La compañía busca que los usuarios realicen acciones explícitas y conscientes antes de otorgar este nivel de acceso extraordinario. La medida responde a preocupaciones sobre el riesgo que representan los agentes de IA cada vez más autónomos.",
+  "por_que_importa": "El acceso completo al disco permite que las aplicaciones accedan sin restricción a archivos sensibles, correos, mensajes e historial de navegación, exponiendo datos tanto del usuario como de sus contactos. Con el avance de los agentes de IA autónomos, estos riesgos aumentarán significativamente si no se implementan salvaguardas adecuadas.",
+  "puntos_clave": [
+   "Apple detectó que algunos desarrolladores usan el acceso completo al disco de formas que ponen en riesgo la privacidad de los usuarios",
+   "Se implementarán controles más estrictos que requieran acciones explícitas del usuario para otorgar este permiso",
+   "La medida busca que los usuarios comprendan los riesgos antes de conceder acceso extraordinario a sus datos"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://developer.apple.com/news/?id=p6zjojqw",
+  "fuente_dominio": "developer.apple.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49937631",
+  "score": 210,
+  "comentarios": 141
+ },
+ {
+  "id": "49933869",
+  "slug": "ejecutar-linux-en-mac-mini-m4-los-desafios-tecnicos-superado-49933869",
+  "fecha": "2026-10-03T11:22:10+00:00",
+  "titulo": "Ejecutar Linux en Mac mini M4: los desafíos técnicos superados",
+  "resumen": "Un desarrollador logró arrancar Linux en un Mac mini con chip M4 tras enfrentar obstáculos derivados de nuevas características de seguridad del hardware. El proceso requirió adaptaciones en m1n1, el hipervisor utilizado para este tipo de proyectos, y técnicas de depuración manual para identificar conflictos durante la inicialización del kernel. El trabajo se suma a los esfuerzos del proyecto Asahi Linux por ampliar la compatibilidad con arquitectura Apple Silicon.",
+  "por_que_importa": "Ampliar el soporte de Linux en máquinas Apple es relevante para usuarios que buscan alternativas de sistemas operativos libres en hardware de alto rendimiento. Demuestra las barreras técnicas que impone el cierre del ecosistema de Apple y la importancia de la documentación abierta en el desarrollo multiplataforma.",
+  "puntos_clave": [
+   "El M4 introdujo SPTM, una característica de seguridad que complica significativamente el proceso de arranque de sistemas alternativos.",
+   "Registros bloqueados como GXF y RVBAR requirieron cambios en el código de inicialización para evitar bloqueos del sistema.",
+   "Se emplearon técnicas de depuración primitivas, como insertar caracteres de prueba en el código del kernel, para localizar fallos en la inicialización de la MMU."
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://yuka.dev/blog-2026-10-02-linux-m4.html",
+  "fuente_dominio": "yuka.dev",
+  "hn_url": "https://news.ycombinator.com/item?id=49933869",
+  "score": 226,
+  "comentarios": 149
+ },
+ {
   "id": "49937504",
   "slug": "meta-abre-hardware-de-codigo-abierto-para-conectar-dispositi-49937504",
   "fecha": "2026-10-03T04:40:21+00:00",
