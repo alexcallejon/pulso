@@ -1,5 +1,62 @@
 [
  {
+  "id": "49919676",
+  "slug": "matematicos-dividen-opiniones-frente-a-la-ia-que-resuelve-pr-49919676",
+  "fecha": "2026-10-03T16:00:11+00:00",
+  "titulo": "Matemáticos dividen opiniones frente a la IA que resuelve problemas complejos",
+  "resumen": "La inteligencia artificial está transformando rápidamente el campo de las matemáticas al resolver problemas difíciles que los humanos no podían. Los matemáticos responden de formas muy diversas a este cambio, pasando por etapas similares a las del duelo: negación, ira, negociación y depresión. Mientras algunos ven oportunidades futuras emocionantes, otros temen por el impacto en el empleo, la identidad profesional y la comprensión humana de los resultados matemáticos.",
+  "por_que_importa": "El desplazamiento de la demanda laboral matemática representa una crisis profesional fundamental, ya que las pruebas y demostraciones eran históricamente la moneda de cambio para la contratación y el reconocimiento. La comunidad matemática debe redefining cómo valida la competencia y qué significa entender un resultado en la era de la IA.",
+  "puntos_clave": [
+   "Organismos como la Asociación para Matemáticas Humanas rechazan publicar salidas generadas por IA y ofrecen opciones sin IA",
+   "Comités independientes de matemáticos de alto nivel piden a laboratorios de IA que publiquen resultados responsablemente",
+   "El debate abarca cuestiones filosóficas sobre la comprensión matemática y presiones económicas sobre los empleos en la disciplina"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://xenaproject.wordpress.com/2026/10/01/to-grieve-or-not-to-grieve/",
+  "fuente_dominio": "xenaproject.wordpress.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49919676",
+  "score": 152,
+  "comentarios": 132
+ },
+ {
+  "id": "49933230",
+  "slug": "como-un-desastre-militar-veneciano-del-siglo-xii-origino-el-49933230",
+  "fecha": "2026-10-03T16:00:06+00:00",
+  "titulo": "Cómo un desastre militar veneciano del siglo XII originó el mercado de bonos",
+  "resumen": "Un conflicto militar fallido de Venecia contra Constantinopla en el siglo XII marcó un punto de inflexión en la historia financiera global. La república utilizó la deuda acumulada de las Cruzadas para financiar expediciones militares de represalia, lo que llevó al saqueo de Constantinopla en 1204. Este episodio ilustra cómo muchas innovaciones financieras surgieron como soluciones improvisadas ante crisis.",
+  "por_que_importa": "El evento demuestra los orígenes pragmáticos de mecanismos financieros fundamentales que moldean los mercados modernos. Comprender cómo las necesidades militares y económicas del pasado generaron innovaciones financieras ayuda a contextualizar la evolución de las estructuras económicas actuales.",
+  "puntos_clave": [
+   "Venecia financió operaciones militares explotando deudas contraídas en conflictos previos",
+   "El saqueo de Constantinopla en 1204 fue consecuencia de esta estrategia de cobro de deudas",
+   "Muchas innovaciones financieras surgieron como respuestas improvisadas a emergencias"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://bigthink.com/books/a-fabulous-debt/",
+  "fuente_dominio": "bigthink.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49933230",
+  "score": 157,
+  "comentarios": 50
+ },
+ {
+  "id": "49943034",
+  "slug": "kolibri-el-modelo-de-lenguaje-abierto-aleman-de-aleph-alpha-49943034",
+  "fecha": "2026-10-03T16:00:01+00:00",
+  "titulo": "Kolibri: el modelo de lenguaje abierto alemán de Aleph Alpha",
+  "resumen": "Aleph Alpha ha lanzado Kolibri, un modelo de lenguaje abierto entrenado en Alemania y Finlandia para alemán e inglés. Con 78 mil millones de parámetros totales pero solo 3,5 mil millones activos por token, utiliza arquitectura de mezcla de expertos para optimizar eficiencia. Fue desarrollado respetando la normativa de la UE y permite a usuarios ejecutarlo en servidores propios sin cesión de control.",
+  "por_que_importa": "Representa un esfuerzo europeo por desarrollar modelos de lenguaje soberanos que equilibren innovación con regulación de privacidad y sostenibilidad. La apertura completa de su documentación técnica establece un estándar poco común de transparencia en el desarrollo de modelos de IA.",
+  "puntos_clave": [
+   "Arquitectura de mezcla de expertos con 384 especialistas que reduce computación activa a 4,4% del total de parámetros",
+   "Entrenado bajo infraestructura europea con más de una quinta parte de datos en alemán y licencia Apache 2.0",
+   "Permite despliegue soberano en servidores locales sin control externo, garantizando privacidad de datos y cumplimiento normativo"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://tej.as/blog/aleph-alpha-kolibri",
+  "fuente_dominio": "tej.as",
+  "hn_url": "https://news.ycombinator.com/item?id=49943034",
+  "score": 251,
+  "comentarios": 114
+ },
+ {
   "id": "49928192",
   "slug": "tiny-brutalism-un-juego-de-construccion-inspirado-en-la-arqu-49928192",
   "fecha": "2026-10-03T11:22:29+00:00",
