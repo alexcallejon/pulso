@@ -1,5 +1,119 @@
 [
  {
+  "id": "49937504",
+  "slug": "meta-abre-hardware-de-codigo-abierto-para-conectar-dispositi-49937504",
+  "fecha": "2026-10-03T04:40:21+00:00",
+  "titulo": "Meta abre hardware de código abierto para conectar dispositivos personalizados a sus agentes",
+  "resumen": "Meta ha puesto a disposición del público el código fuente y herramientas de desarrollo para crear gadgets de hardware abierto basados en plataformas como ESP32 y Raspberry Pi. Los usuarios pueden construir sus propios dispositivos y conectarlos a los agentes de Meta mediante las interfaces proporcionadas. La iniciativa busca permitir que desarrolladores experimenten con integraciones de hardware personalizadas.",
+  "por_que_importa": "Representa un enfoque diferenciado de Meta para competir en IA, asumiendo riesgos que otras empresas evitan al liberar herramientas de desarrollo. Democratiza el acceso a la tecnología de agentes, permitiendo a entusiastas y hackers crear soluciones IoT sin necesidad de hardware propietario.",
+  "puntos_clave": [
+   "Meta proporciona SDKs de código abierto para programar dispositivos conectados a sus agentes",
+   "Compatible con plataformas económicas como ESP32 y Raspberry Pi",
+   "Orientado a desarrolladores y entusiastas del hardware que quieran crear integraciones personalizadas"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://gadgets.muse.ai",
+  "fuente_dominio": "gadgets.muse.ai",
+  "hn_url": "https://news.ycombinator.com/item?id=49937504",
+  "score": 158,
+  "comentarios": 75
+ },
+ {
+  "id": "49932402",
+  "slug": "diferencias-culturales-chinas-que-afectan-la-comunicacion-so-49932402",
+  "fecha": "2026-10-03T04:40:16+00:00",
+  "titulo": "Diferencias culturales chinas que afectan la comunicación sobre seguridad en IA",
+  "resumen": "Un análisis explora cuatro dimensiones culturales que distinguen a China de Occidente: la omnipresencia de filtros en redes sociales, la primacía de la vergüenza como mecanismo social, una visión cínica de la naturaleza humana, y un nacionalismo impulsado por inseguridad histórica. El autor, chino-estadounidense de primera generación, advierte que estas diferencias podrían obstaculizar iniciativas internacionales de concienciación sobre seguridad en IA. Los comentarios señalan que las generaciones más jóvenes difieren significativamente en estos rasgos, y que factores económicos históricos explican mejor estas dinámicas que suposiciones sobre identidad nacional.",
+  "por_que_importa": "Comprender las diferencias culturales es esencial para que los mensajes sobre riesgos de IA resuenen efectivamente en China y para construir cooperación internacional en seguridad tecnológica. El análisis cuestiona narrativas simplistas sobre China y subraya la importancia de considerar contextos históricos y generacionales en lugar de generalizaciones monolíticas.",
+  "puntos_clave": [
+   "Las redes sociales chinas priorizan la estética y la apariencia de formas que los occidentales pueden percibir como excesivas o artificiales.",
+   "La vergüenza funciona como mecanismo de control social más efectivo que conceptos de virtud individual en contextos chinos.",
+   "El nacionalismo chino se arraiga en experiencias históricas de vulnerabilidad económica y humillación, no simplemente en orgullo nacional."
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.lesswrong.com/posts/b5cSYh4emQb2qrGmK/on-social-reality-in-china",
+  "fuente_dominio": "lesswrong.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49932402",
+  "score": 170,
+  "comentarios": 165
+ },
+ {
+  "id": "49936575",
+  "slug": "dwarfstar-4-ejecutar-modelos-de-ia-avanzados-en-local-con-es-49936575",
+  "fecha": "2026-10-03T04:40:11+00:00",
+  "titulo": "DwarfStar 4: ejecutar modelos de IA avanzados en local con esta herramienta",
+  "resumen": "DwarfStar 4 (ds4) es un motor de inferencia en C creado por el autor de Redis que permite ejecutar modelos de lenguaje grandes como DeepSeek V4.1, Qwen y GLM de forma local en máquinas con mucha memoria. Utiliza técnicas de compresión asimétrica de 2 bits y cachés persistentes en SSD para hacer estos modelos prácticos en equipos de alto rendimiento. La herramienta ofrece una interfaz de línea de comandos, APIs locales y un agente nativo, compatibles con procesadores Apple Silicon, NVIDIA CUDA y AMD ROCm.",
+  "por_que_importa": "Permite ejecutar modelos de IA frontales sin depender de servidores remotos, manteniendo el control total de los datos y reduciendo la latencia. Demuestra cómo optimizar modelos complejos de mezcla de expertos para hardware convencional de alto rendimiento, abriendo nuevas posibilidades para la inferencia local eficiente.",
+  "puntos_clave": [
+   "Soporta modelos grandes como DeepSeek V4/V4.1, Qwen 3.8 y GLM 5.x con compresión inteligente",
+   "Requiere máquinas con al menos 32-64 GB de RAM según el modelo, usando Metal, CUDA o ROCm",
+   "Las cachés de prefijos se guardan en disco y se recuperan por hash, eliminando recomputaciones tras reinicios"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://dwarfstar.sh/",
+  "fuente_dominio": "dwarfstar.sh",
+  "hn_url": "https://news.ycombinator.com/item?id=49936575",
+  "score": 188,
+  "comentarios": 53
+ },
+ {
+  "id": "49933740",
+  "slug": "un-sistema-de-ia-logra-vencer-al-mejor-jugador-de-stratego-d-49933740",
+  "fecha": "2026-10-03T04:40:06+00:00",
+  "titulo": "Un sistema de IA logra vencer al mejor jugador de Stratego del mundo",
+  "resumen": "Investigadores de universidades estadounidenses desarrollaron Ataraxos, un sistema de inteligencia artificial que derrotó al campeón mundial de Stratego, Pim Niemeijer, en una serie de partidas. El logro resulta relevante porque Stratego, a diferencia de otros juegos clásicos dominados por máquinas, presenta desafíos computacionales extremos debido a la enorme cantidad de información oculta y la duración de las partidas. El entrenamiento requirió solo 16 procesadores gráficos y algunos miles de dólares, pero incorporó innovaciones como un modelo de creencia para inferir las piezas del adversario.",
+  "por_que_importa": "Stratego representaba uno de los últimos juegos de estrategia clásicos sin resolver por máquinas, incluso después de intentos previos de DeepMind. El éxito demuestra avances en el manejo de información incompleta y abre nuevas posibilidades para resolver problemas complejos del mundo real con características similares.",
+  "puntos_clave": [
+   "Ataraxos venció 15 a 1 al jugador considerado el mejor de todos los tiempos, con cuatro empates",
+   "La innovación clave fue una red neuronal secundaria que estima las piezas ocultas del rival para hacer búsquedas anticipadas viables",
+   "El sistema aprendió más rápidamente que su predecesor DeepNash, jugando 34 veces menos partidas durante el entrenamiento"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+  "fuente_dominio": "arstechnica.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49933740",
+  "score": 196,
+  "comentarios": 95
+ },
+ {
+  "id": "49938521",
+  "slug": "zig-0-17-0-mejoras-en-el-compilador-y-sistema-de-compilacion-49938521",
+  "fecha": "2026-10-03T04:40:00+00:00",
+  "titulo": "Zig 0.17.0: mejoras en el compilador y sistema de compilación",
+  "resumen": "Se lanzó la versión 0.17.0 de Zig, resultado de cinco meses de trabajo con contribuciones de más de 200 desarrolladores. La actualización incluye una reorganización del sistema de compilación, introducción del Protocolo de Servidor de Compilación y mejoras en el enlazador ELF que permiten la compilación incremental en x86_64-linux. El lenguaje también añade nuevas características en la biblioteca estándar y expande su soporte para múltiples arquitecturas y sistemas operativos.",
+  "por_que_importa": "Zig busca consolidarse como un lenguaje de propósito general competitivo con C en términos de portabilidad y rendimiento, lo que lo posiciona como alternativa viable para desarrollo de software robusto. El avance en herramientas de compilación y la estabilidad incremental acercan el proyecto más hacia su versión 1.0.",
+  "puntos_clave": [
+   "Reescritura del sistema de compilación con introducción del Protocolo de Servidor de Compilación",
+   "Compilación incremental funcional para x86_64-linux y mejor soporte en arquitecturas como aarch64",
+   "Cambios extensos en la biblioteca estándar con deprecaciones y nuevas funcionalidades"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://ziglang.org/download/0.17.0/release-notes.html",
+  "fuente_dominio": "ziglang.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49938521",
+  "score": 227,
+  "comentarios": 152
+ },
+ {
+  "id": "49927747",
+  "slug": "chatgpt-sites-crear-webs-y-aplicaciones-sin-programacion-49927747",
+  "fecha": "2026-10-03T04:39:55+00:00",
+  "titulo": "ChatGPT Sites: crear webs y aplicaciones sin programación",
+  "resumen": "OpenAI ha lanzado una función en beta que permite construir sitios web y aplicaciones directamente desde ChatGPT sin necesidad de conocimientos de programación. Los usuarios describen lo que desean crear en lenguaje natural, refinan el proyecto con el modelo de IA y publican el resultado con controles de acceso personalizables. La herramienta está disponible para usuarios de planes Plus, Pro, Business, Enterprise y Edu, con capacidades que incluyen almacenamiento integrado, autenticación y conexión con herramientas externas.",
+  "por_que_importa": "Democratiza la creación de sitios web al eliminar barreras técnicas, permitiendo que cualquier persona con una idea pueda publicar un proyecto funcional sin intermediarios. Plantea cuestionamientos sobre el impacto en profesiones como el diseño web, aunque la calidad de los resultados generados genera debate entre usuarios.",
+  "puntos_clave": [
+   "No requiere conocimientos de código; los usuarios describen sus ideas y ChatGPT genera el sitio",
+   "Incluye funciones como almacenamiento de datos, inicio de sesión de usuarios y posibilidad de conectar dominios personalizados",
+   "Disponible en beta para planes pagos de ChatGPT con variaciones de acceso según la región"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://chatgpt.com/features/sites/",
+  "fuente_dominio": "chatgpt.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49927747",
+  "score": 238,
+  "comentarios": 229
+ },
+ {
   "id": "49928566",
   "slug": "modelos-de-ia-generan-pinturas-escribiendo-codigo-de-simulac-49928566",
   "fecha": "2026-10-02T22:00:55+00:00",
