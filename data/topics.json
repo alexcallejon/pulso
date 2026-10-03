@@ -1,5 +1,81 @@
 [
  {
+  "id": "49941447",
+  "slug": "kagi-abandona-desarrollo-de-orion-para-linux-y-windows-y-abr-49941447",
+  "fecha": "2026-10-03T20:50:08+00:00",
+  "titulo": "Kagi abandona desarrollo de Orion para Linux y Windows y abre su código",
+  "resumen": "Kagi ha decidido discontinuar el desarrollo del navegador Orion en Linux y Windows para concentrar recursos en las versiones de macOS e iOS. La empresa publicará el código fuente de ambas plataformas para que la comunidad continúe con su desarrollo. Los usuarios actuales de Linux recibirán actualizaciones hasta octubre de 2026, mientras que la versión de Windows nunca llegará al mercado bajo la marca de Kagi.",
+  "por_que_importa": "La decisión refleja los desafíos que enfrenta una empresa pequeña e independiente al intentar desarrollar un navegador multiplataforma sin respaldo de capital de riesgo. El anuncio genera cuestionamientos sobre la viabilidad a largo plazo de otros proyectos de Kagi y su capacidad para mantener compromisos con usuarios.",
+  "puntos_clave": [
+   "Kagi cierra desarrollo multiplataforma para enfocarse en ecosistema Apple",
+   "Código de Orion Linux y Windows será liberado al público en los próximos 30 días",
+   "Versión Linux dejará de recibir actualizaciones en octubre de 2026"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://blog.kagi.com/update-orion-linux-windows",
+  "fuente_dominio": "blog.kagi.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49941447",
+  "score": 167,
+  "comentarios": 96
+ },
+ {
+  "id": "49937540",
+  "slug": "repensando-la-gestion-de-ventanas-hacia-un-sistema-operativo-49937540",
+  "fecha": "2026-10-03T20:50:03+00:00",
+  "titulo": "Repensando la gestión de ventanas: hacia un sistema operativo más flexible",
+  "resumen": "Un desarrollador reflexiona sobre las limitaciones del diseño actual de escritorio, argumentando que los sistemas operativos modernos no se adaptan a cómo trabajan realmente los usuarios. Propone aplicar conceptos de tmux (como sesiones persistentes y desacoplamiento de tareas) a una interfaz accesible para usuarios no técnicos. El análisis identifica problemas clave: cambios frecuentes de pantalla, falta de distinción entre monitores primarios y secundarios, y diferentes patrones de uso de ventanas según el usuario.",
+  "por_que_importa": "Los sistemas operativos siguen perpetuando soluciones que fueron compromisos tecnológicos en hardware obsoleto, sin innovar en experiencia de usuario. Mejorar la gestión de ventanas podría aumentar significativamente la productividad de usuarios que cambian constantemente entre dispositivos y configuraciones de pantalla.",
+  "puntos_clave": [
+   "Los usuarios cambian entre diferentes configuraciones de pantalla múltiples veces al día, pero el SO trata estos cambios como eventos inesperados en lugar de predecibles",
+   "Existen al menos tres grupos de usuarios con necesidades distintas (maximizadores, casi-maximizadores y usuarios de ventanas coordinadas) que los sistemas actuales no atienden",
+   "Conceptos del software para terminal como sesiones persistentes y tareas desacoplables podrían mejorar la experiencia de escritorio si se implementan de forma accesible"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://matduggan.com/what-does-my-dream-os-ui-look-like/",
+  "fuente_dominio": "matduggan.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49937540",
+  "score": 172,
+  "comentarios": 109
+ },
+ {
+  "id": "49941091",
+  "slug": "cloudflare-lanza-puerta-de-enlace-ohttp-para-mejorar-privaci-49941091",
+  "fecha": "2026-10-03T20:49:58+00:00",
+  "titulo": "Cloudflare lanza puerta de enlace OHTTP para mejorar privacidad en línea",
+  "resumen": "Cloudflare presenta su nueva puerta de enlace OHTTP en fase beta cerrada, complementando su relé de privacidad existente. El servicio permite que los desarrolladores oculten las direcciones IP de los usuarios a sus servidores backend mediante el estándar OHTTP del IETF. La solución está diseñada para aplicaciones que ya operan en la infraestructura de Cloudflare y buscan implementar privacidad de red sin complejidad operativa.",
+  "por_que_importa": "OHTTP aborda el problema de que los desarrolladores actualmente reciben demasiada información del usuario (IP, identificadores) en las comunicaciones cliente-servidor estándar. La herramienta democratiza la implementación de privacidad en aplicaciones, reduciendo las barreras técnicas para que desarrolladores protejan datos de usuarios sin sacrificar funcionalidad.",
+  "puntos_clave": [
+   "La puerta de enlace OHTTP de Cloudflare está disponible como complemento pagado con activación mediante formulario de registro",
+   "El servicio funciona separando el relé (que oculta identificadores) de la puerta de enlace (que desencripta solicitudes), evitando que una sola entidad vea tanto datos del usuario como contenido de solicitudes",
+   "Es particularmente útil para servidores ya protegidos por Cloudflare que necesitan arquitectura OHTTP con separación de confianza"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
+  "fuente_dominio": "blog.cloudflare.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49941091",
+  "score": 176,
+  "comentarios": 81
+ },
+ {
+  "id": "49942706",
+  "slug": "kolibri-modelo-de-ia-abierto-y-soberano-de-aleph-alpha-49942706",
+  "fecha": "2026-10-03T20:49:51+00:00",
+  "titulo": "Kolibri: modelo de IA abierto y soberano de Aleph Alpha",
+  "resumen": "Aleph Alpha ha presentado Kolibri, un modelo de lenguaje bilingüe (inglés-alemán) de 78 mil millones de parámetros totales con solo 3 mil millones activos, diseñado para aplicaciones críticas en sectores regulados como administración pública e industria aeroespacial. El modelo está disponible con código abierto bajo licencia Apache 2.0 y ofrece compatibilidad con contextos de hasta 1 millón de tokens. Su desarrollo se fundamentó en una metodología de iteración rápida que permitió la ejecución de cientos de experimentos de ablación y un entrenamiento estable sin intervención manual.",
+  "por_que_importa": "El modelo representa un cambio hacia la transparencia en el desarrollo de IA, documentando detalladamente cada fase del proceso desde la ingesta de datos hasta las evaluaciones finales, lo que facilita la adopción en organizaciones que requieren trazabilidad completa. Su especialización en alemán, razonamiento matemático y tareas agénticas lo posiciona como alternativa viable para empresas europeas que necesitan ejecutar modelos localmente sin enviar datos a terceros.",
+  "puntos_clave": [
+   "Modelo de 78B parámetros totales optimizado para soberanía de datos y despliegue en infraestructura propia",
+   "Documentación exhaustiva del proceso de entrenamiento que incluye metodología de curación de datos y protocolos para reducir alucinaciones",
+   "Desempeño equiparable a modelos cuatro veces más grandes en tareas de matemática, programación y contexto extendido"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+  "fuente_dominio": "aleph-alpha.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49942706",
+  "score": 398,
+  "comentarios": 254
+ },
+ {
   "id": "49919676",
   "slug": "matematicos-dividen-opiniones-frente-a-la-ia-que-resuelve-pr-49919676",
   "fecha": "2026-10-03T16:00:11+00:00",
