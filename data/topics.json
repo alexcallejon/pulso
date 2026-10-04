@@ -1,5 +1,100 @@
 [
  {
+  "id": "49944912",
+  "slug": "ftl-un-nuevo-sistema-operativo-disenado-para-entornos-en-la-49944912",
+  "fecha": "2026-10-04T05:11:14+00:00",
+  "titulo": "FTL: un nuevo sistema operativo diseñado para entornos en la nube",
+  "resumen": "FTL es un sistema operativo que se implementa como biblioteca de usuario en lugar de kernel monolítico tradicional, permitiendo que cada contenedor ejecute su propia instancia del sistema operativo. El proyecto busca combinar la flexibilidad y seguridad de los microkernels con el rendimiento de los kernels monolíticos, manteniendo compatibilidad con binarios Linux. Su desarrollo está en fase temprana con un roadmap que se extiende hasta enero de 2027.",
+  "por_que_importa": "Este enfoque podría hacer que los contenedores ligeros sean tan seguros como máquinas virtuales sin sacrificar rendimiento, transformando cómo se ejecutan aplicaciones en infraestructuras en la nube. El diseño como biblioteca permite agregar características y actualizaciones de seguridad de forma más ágil que en kernels tradicionales.",
+  "puntos_clave": [
+   "Cada contenedor ejecuta un sistema operativo de usuario que actúa como biblioteca compartida implementando conceptos como procesos, VFS y TCP/IP",
+   "Utiliza aislamiento basado en hardware ligero similar a un hipervisor, sin requerir máquinas bare-metal",
+   "Mantiene compatibilidad con aplicaciones Linux existentes mientras permite ejecutar aplicaciones especializadas tipo unikernel"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://ftl-os.org/",
+  "fuente_dominio": "ftl-os.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49944912",
+  "score": 160,
+  "comentarios": 63
+ },
+ {
+  "id": "49923873",
+  "slug": "celebra-48-anos-con-el-rinon-donado-por-su-madre-hace-casi-c-49923873",
+  "fecha": "2026-10-04T05:11:09+00:00",
+  "titulo": "Celebra 48 años con el riñón donado por su madre hace casi cinco décadas",
+  "resumen": "Un hombre de Nueva York conmemora el trasplante de riñón que recibió de su madre a los 16 años en 1978, el cual sigue funcionando después de casi cinco décadas. El órgano alcanzaría este año los 100 años de edad biológica de la donante, quien falleció, convirtiendo a este paciente en el receptor con mayor tiempo de supervivencia en el historial del hospital donde se realizó la intervención. Los médicos indican que los trasplantes renales de donante vivo típicamente duran entre 15 y 20 años, por lo que este caso representa una excepción notable.",
+  "por_que_importa": "El caso ilustra la importancia de las donaciones de órganos vivos y cómo la compatibilidad genética y emocional puede influir en la duración de un trasplante. Actualmente hay cientos de personas en la región esperando un trasplante renal, lo que subraya la necesidad de aumentar el registro de donantes.",
+  "puntos_clave": [
+   "El riñón transplantado en 1978 continúa funcionando después de 48 años, superando la expectativa típica de 15-20 años",
+   "La donante fue la madre del receptor, quien falleció pero habría cumplido 100 años este año",
+   "Los especialistas señalan que la compatibilidad genética y el vínculo emocional entre donante y receptor influyeron en la duración excepcional del órgano"
+  ],
+  "categoria": "Ciencia",
+  "fuente_url": "https://www.whec.com/top-news/webster-man-celebrating-the-100th-birthday-of-the-kidney-his-mom-donated-to-him-as-a-teenager/",
+  "fuente_dominio": "whec.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49923873",
+  "score": 171,
+  "comentarios": 42
+ },
+ {
+  "id": "49946567",
+  "slug": "como-optimizar-opus-5-5-en-claude-y-claude-code-49946567",
+  "fecha": "2026-10-04T05:11:05+00:00",
+  "titulo": "Cómo optimizar Opus 5.5 en Claude y Claude Code",
+  "resumen": "Anthropic ha publicado una guía sobre cómo aprovechar mejor el modelo Opus 5.5 en sus plataformas Claude. El documento recomienda proporcionar tareas completas con objetivos claros, eliminar instrucciones redundantes sobre reflexión y permitir que el modelo trabaje de forma más autónoma en proyectos extensos. Los usuarios reportan mejoras significativas en tareas de programación, diseño y análisis de documentos.",
+  "por_que_importa": "Opus 5.5 mejora su capacidad para trabajos multi-paso largos comparado con versiones anteriores, permitiendo que complete proyectos complejos con menos supervisión. Entender cómo interactuar correctamente con el modelo puede aumentar significativamente la productividad y reducir costos de uso.",
+  "puntos_clave": [
+   "Define objetivos claros (qué significa \"terminado\") al inicio para que el modelo sepa cuándo detener",
+   "Elimina frases redundantes como \"piensa cuidadosamente\" pues Opus 5.5 reflexiona automáticamente antes de responder",
+   "Puedes agregar instrucciones durante tareas largas sin necesidad de reiniciar, reduciendo el costo de interrupciones"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
+  "fuente_dominio": "claude.dev",
+  "hn_url": "https://news.ycombinator.com/item?id=49946567",
+  "score": 196,
+  "comentarios": 133
+ },
+ {
+  "id": "49949235",
+  "slug": "limites-de-gasto-obligatorios-en-servicios-en-la-nube-49949235",
+  "fecha": "2026-10-04T05:11:00+00:00",
+  "titulo": "Límites de gasto obligatorios en servicios en la nube",
+  "resumen": "Un analista tecnológico argumenta que los proveedores de servicios en la nube deberían establecer límites de gasto duros y obligatorios para evitar sorpresas de facturación, especialmente con el auge de agentes de IA que pueden generar costos inesperados. AWS y Google Cloud han comenzado a implementar estas características recientemente, aunque con limitaciones en su alcance y disponibilidad. La propuesta es que estos límites sean la opción predeterminada, permitiendo a usuarios avanzados desactivarlos voluntariamente bajo su responsabilidad.",
+  "por_que_importa": "Los agentes de IA reducen la barrera para crear aplicaciones que consumen recursos pagos, lo que puede resultar en facturas inesperadas de miles de dólares si un servicio se descontrola mientras el usuario duerme. La ausencia de límites obligatorios ha impedido que muchas personas utilicen plataformas de nube para proyectos personales por miedo a incurrir en costos catastróficos.",
+  "puntos_clave": [
+   "Los límites de gasto deben ser límites duros que detengan el servicio, no solo advertencias por correo",
+   "AWS lanzó recientemente límites de gasto con disponibilidad limitada; Google Cloud ofrece una función similar pero con cobertura restringida",
+   "Debería ser obligatorio por defecto, con opción para usuarios experimentados de desactivarlo expresamente"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+  "fuente_dominio": "simonwillison.net",
+  "hn_url": "https://news.ycombinator.com/item?id=49949235",
+  "score": 310,
+  "comentarios": 159
+ },
+ {
+  "id": "49948254",
+  "slug": "juez-federal-descalifica-busquedas-sin-orden-en-flock-como-v-49948254",
+  "fecha": "2026-10-04T05:10:55+00:00",
+  "titulo": "Juez federal descalifica búsquedas sin orden en Flock como vigilancia masiva",
+  "resumen": "Un tribunal federal dictaminó que un agente de policía violó derechos constitucionales al consultar una base de datos de lectores de placas vehiculares sin autorización judicial. La decisión, aunque no establece precedente vinculante, marca uno de los primeros casos en que un juez cuestiona la constitucionalidad de Flock Safety. El tribunal señaló que el seguimiento pasivo de ubicaciones de vehículos durante períodos prolongados sin orden específica constituye vigilancia indiscriminada.",
+  "por_que_importa": "La sentencia refleja creciente preocupación sobre el uso de tecnología de reconocimiento de placas por parte de autoridades sin supervisión judicial, un tema que genera críticas en múltiples ámbitos políticos. Varios gobiernos estatales ya han suspendido o cuestionado el uso de estas plataformas, y existe iniciativa legislativa para limitar su adopción federal.",
+  "puntos_clave": [
+   "El juez consideró que consultar la base de datos sin motivo específico y solo por procedencia de matrícula constituye vigilancia inconstitucional",
+   "Las pruebas obtenidas tras la búsqueda fueron declaradas inadmisibles al considerarlas fruto de un proceso viciado",
+   "Gobiernos locales en Florida, Texas y otros estados han anunciado el cese del uso de la tecnología"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
+  "fuente_dominio": "techcrunch.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49948254",
+  "score": 386,
+  "comentarios": 218
+ },
+ {
   "id": "49941447",
   "slug": "kagi-abandona-desarrollo-de-orion-para-linux-y-windows-y-abr-49941447",
   "fecha": "2026-10-03T20:50:08+00:00",
