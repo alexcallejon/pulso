@@ -1,5 +1,119 @@
 [
  {
+  "id": "49928361",
+  "slug": "c-insights-herramienta-que-revela-lo-que-hace-el-compilador-49928361",
+  "fecha": "2026-10-04T12:04:09+00:00",
+  "titulo": "C++ Insights: herramienta que revela lo que hace el compilador",
+  "resumen": "C++ Insights es una herramienta basada en Clang que transforma código fuente para mostrar las operaciones implícitas que el compilador ejecuta automáticamente. Permite visualizar elementos como funciones miembro generadas, conversiones de tipos y otras transformaciones que normalmente permanecen ocultas. La herramienta ayuda a programadores a entender mejor el comportamiento real del código C++ que escriben.",
+  "por_que_importa": "Comprender qué hace el compilador detrás de escenas es fundamental para depuración y optimización en C++. Especialmente útil para aprender características modernas de C++ como lambdas, bucles basados en rango y enlazamiento de estructuras.",
+  "puntos_clave": [
+   "Muestra funciones especiales generadas automáticamente por el compilador que no aparecen en el código fuente",
+   "Revela conversiones de tipos implícitas y otras transformaciones que ocurren durante la compilación",
+   "Accesible en línea en cppinsights.io para probar sin instalación local"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://github.com/andreasfertig/cppinsights",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49928361",
+  "score": 160,
+  "comentarios": 32
+ },
+ {
+  "id": "49947631",
+  "slug": "de-ingeniero-de-software-a-tecnico-en-emergencias-los-obstac-49947631",
+  "fecha": "2026-10-04T12:04:04+00:00",
+  "titulo": "De ingeniero de software a técnico en emergencias: los obstáculos reales",
+  "resumen": "Un ingeniero de software comparte las razones por las que tardó años en obtener su certificación como Técnico en Emergencias Médicas, a pesar de su interés en la medicina. Entre los obstáculos principales figuran la demanda de tiempo, las preocupaciones sobre la cultura laboral en servicios de emergencia y dudas sobre su encaje en el sector. Finalmente logró completar un curso intensivo en 2024 y reflexiona sobre cómo superó cada barrera.",
+  "por_que_importa": "La historia ilustra los desafíos reales para profesionales de tecnología que buscan transiciones a otros campos, más allá de las barreras técnicas. También visibiliza problemas estructurales en los servicios de emergencia, como la cultura tóxica y el agotamiento profesional, que afectan incluso a quienes desean incorporarse al sector.",
+  "puntos_clave": [
+   "La formación requiere tiempo significativo; el autor necesitó un mes de licencia y recursos económicos para acceder a un programa intensivo",
+   "La cultura y entorno laboral en servicios de emergencia fue la barrera más importante, con reportes de burnout y dinámicas excluyentes",
+   "No es necesario trabajar en ambulancias tras certificarse; la habilidad técnica es valiosa en otros contextos"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked/",
+  "fuente_dominio": "ben.stolovitz.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49947631",
+  "score": 163,
+  "comentarios": 78
+ },
+ {
+  "id": "49950554",
+  "slug": "por-que-los-desarrolladores-desconfian-de-usar-las-capacidad-49950554",
+  "fecha": "2026-10-04T12:03:59+00:00",
+  "titulo": "Por qué los desarrolladores desconfían de usar las capacidades nativas del navegador",
+  "resumen": "Un análisis explora las razones por las que muchos desarrolladores web prefieren construir soluciones personalizadas en lugar de usar las funcionalidades que ya ofrece el navegador. Históricamente, los navegadores rezagados y la fragmentación obligaron a crear herramientas propias, pero incluso con navegadores modernos, la familiaridad con marcos como React, la documentación inconsistente de APIs nativas y la preferencia personal por código personalizado siguen impulsando esta práctica. Los comentarios destacan que las implementaciones nativas a menudo tienen limitaciones reales, que algunas APIs de plataforma son difíciles de usar, y que existen funcionalidades donde el navegador simplemente no cumple con las expectativas de los usuarios.",
+  "por_que_importa": "Entender estas barreras es fundamental para mejorar la adopción de estándares web y optimizar el rendimiento de las aplicaciones. La brecha entre lo que el navegador ofrece y lo que los desarrolladores necesitan refleja desafíos genuinos en el diseño de APIs y documentación que la industria debe resolver.",
+  "puntos_clave": [
+   "El contexto histórico de navegadores lentos creó hábitos que persisten incluso con plataformas modernas más robustas.",
+   "La familiaridad con ecosistemas como npm y React genera un sesgo hacia soluciones de terceros aunque existan alternativas nativas.",
+   "Las limitaciones reales de algunas APIs nativas y la falta de accesibilidad en componentes complejos justifican parcialmente la construcción personalizada."
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+  "fuente_dominio": "nolanlawson.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49950554",
+  "score": 164,
+  "comentarios": 136
+ },
+ {
+  "id": "49946228",
+  "slug": "lecun-minimiza-riesgos-de-extincion-por-ia-y-critica-a-exper-49946228",
+  "fecha": "2026-10-04T12:03:53+00:00",
+  "titulo": "LeCun minimiza riesgos de extinción por IA y critica a expertos en seguridad",
+  "resumen": "Yann LeCun, ganador del Premio Turing, sostiene que los riesgos de extinción por inteligencia artificial están sobrevalorados y que los incidentes recientes con agentes autónomos se deben a fallos de diseño humano, no a amenazas existenciales. Contrasta su postura con la de otros «padrinos de la IA» como Geoffrey Hinton y Yoshua Bengio, quienes sí expresan preocupación por los riesgos. LeCun critica a los investigadores de seguridad en IA por tener una agenda ideológica y tacha el movimiento del altruismo efectivo de «tóxico» y perjudicial.",
+  "por_que_importa": "Representa un debate fundamental sobre cómo la industria de IA debe equilibrar la innovación con la gestión de riesgos, con posiciones encontradas entre figuras clave del sector. La perspectiva de LeCun influye en decisiones de inversión y regulación, mientras que afecta el bienestar de trabajadores que reportan estrés relacionado con estas preocupaciones.",
+  "puntos_clave": [
+   "LeCun atribuye incidentes de IA autónoma a deficiencias en supervisión y diseño de sistemas, no a riesgos inherentes de la tecnología",
+   "Critica a expertos en seguridad de IA por tener agendas ideológicas vinculadas al altruismo efectivo",
+   "Su posición contrasta con la de otros Premios Turing en IA que expresan mayor preocupación por los riesgos potenciales"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+  "fuente_dominio": "fortune.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49946228",
+  "score": 172,
+  "comentarios": 247
+ },
+ {
+  "id": "49910462",
+  "slug": "el-verdadero-costo-de-trabajar-en-los-oficios-especializados-49910462",
+  "fecha": "2026-10-04T12:03:48+00:00",
+  "titulo": "El verdadero costo de trabajar en los oficios especializados",
+  "resumen": "Un artesano con décadas de experiencia cuestiona la narrativa popular que promueve las profesiones técnicas como alternativa superior a la universidad. Aunque se presenta como carreras con salarios altos y seguras ante la automatización, la realidad es más compleja: los graduados universitarios siguen ganando sustancialmente más a lo largo de sus carreras, y los trabajos técnicos conllevan riesgos físicos significativos. El costo real de la educación superior es menor al anunciado y ha ido disminuyendo, por lo que sigue siendo una inversión sólida desde el punto de vista económico.",
+  "por_que_importa": "La promoción de oficios técnicos proviene mayormente de personas con títulos universitarios, sin reconocer los peligros físicos reales del trabajo manual. La decisión educativa afecta directamente ingresos de por vida y calidad de vida, por lo que es crucial evaluar ambas opciones con información equilibrada.",
+  "puntos_clave": [
+   "Los graduados universitarios ganan cientos de miles de dólares más durante sus carreras que quienes no tienen grado, según investigación rigurosa.",
+   "Los oficios especializados presentan riesgos sustanciales de lesiones físicas que frecuentemente se omiten en la narrativa promocional.",
+   "El costo neto actual de la universidad pública es bajo y ha estado bajando desde 2016, haciendo menos válido el argumento de precio prohibitivo."
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://asteriskmag.com/issues/15/so-you-think-you-could-be-an-electrician",
+  "fuente_dominio": "asteriskmag.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49910462",
+  "score": 280,
+  "comentarios": 206
+ },
+ {
+  "id": "49946895",
+  "slug": "valve-mejora-el-soporte-de-gpus-amd-antiguas-en-linux-49946895",
+  "fecha": "2026-10-04T12:03:42+00:00",
+  "titulo": "Valve mejora el soporte de GPUs AMD antiguas en Linux",
+  "resumen": "Timur Kristóf, ingeniero del equipo de gráficos Linux de Valve, ha realizado mejoras significativas al controlador del kernel AMDGPU para tarjetas gráficas AMD de hace una década. Su trabajo permite que estos dispositivos antiguos funcionen mejor en juegos y tareas de Linux mediante la migración del controlador Radeon heredado al moderno AMDGPU. Las optimizaciones incluyen correcciones en código de pantalla, gestión de energía y soporte de reinicio suave.",
+  "por_que_importa": "AMD ha dedicado pocos recursos a mantener el soporte de estas tarjetas antiguas, por lo que el aporte de Valve resulta crucial para extender la vida útil de hardware que de otro modo quedaría obsoleto. Los usuarios reportan mejoras de rendimiento sustanciales y una mejor experiencia general en Linux gaming con estos dispositivos.",
+  "puntos_clave": [
+   "El trabajo se enfoca en GPUs GCN 1.0/1.1 de hace aproximadamente una década",
+   "Logró migraciones exitosas del controlador legacy Radeon al moderno AMDGPU con mejoras de rendimiento",
+   "Abordó problemas de pantalla, gestión de energía y añadió funcionalidades como soporte de reinicio suave"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+  "fuente_dominio": "phoronix.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49946895",
+  "score": 324,
+  "comentarios": 53
+ },
+ {
   "id": "49944912",
   "slug": "ftl-un-nuevo-sistema-operativo-disenado-para-entornos-en-la-49944912",
   "fecha": "2026-10-04T05:11:14+00:00",
