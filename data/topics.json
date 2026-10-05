@@ -1,5 +1,119 @@
 [
  {
+  "id": "49958569",
+  "slug": "tuneles-http-autohospedados-con-ssh-y-nginx-49958569",
+  "fecha": "2026-10-05T14:08:48+00:00",
+  "titulo": "Túneles HTTP autohospedados con SSH y Nginx",
+  "resumen": "Se presenta una solución para exponer servicios locales en internet utilizando únicamente OpenSSH y Nginx, sin depender de herramientas comerciales. El sistema asigna puertos dinámicamente mediante redirección SSH y los expone a través de Nginx con certificados wildcard. Se implementa un mecanismo de control de acceso mediante hashes y timestamps para limitar la exposición a puertos con baja entropía.",
+  "por_que_importa": "Permite compartir servicios en desarrollo de forma segura sin intermediarios comerciales, utilizando herramientas estándar ya disponibles en la mayoría de sistemas. Representa una alternativa autohospedada a soluciones como ngrok o Cloudflare, manteniendo control total de la infraestructura.",
+  "puntos_clave": [
+   "Combina redirección SSH remota con Nginx para proxificar conexiones a servicios locales",
+   "Implementa autenticación mediante hashes con expiración temporal para proteger acceso",
+   "Requiere configuración de DNS con comodín y certificado wildcard de Let's Encrypt"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://vincent.bernat.ch/en/blog/2026-http-over-ssh",
+  "fuente_dominio": "vincent.bernat.ch",
+  "hn_url": "https://news.ycombinator.com/item?id=49958569",
+  "score": 168,
+  "comentarios": 35
+ },
+ {
+  "id": "49948300",
+  "slug": "portan-el-doom-original-a-sql-y-lo-ejecutan-dentro-de-una-ba-49948300",
+  "fecha": "2026-10-05T14:08:42+00:00",
+  "titulo": "Portan el Doom original a SQL y lo ejecutan dentro de una base de datos",
+  "resumen": "Un desarrollador ha implementado completamente la lógica de juego y el renderizador del Doom de 1993 utilizando SQL, ejecutándose íntegramente dentro de una base de datos. El juego mantiene los 35 fotogramas por segundo originales en el bucle de juego, mientras que el renderizador genera fotogramas completos de 320x200 píxeles a hasta 60 Hz. Python se limita a manejar entrada, sincronización y visualización, mientras que toda la lógica del juego y el estado residen en tablas SQL.",
+  "por_que_importa": "El proyecto demuestra capacidades sorprendentes de SQL moderno para implementar lógica compleja más allá de consultas tradicionales, desafiando percepciones sobre qué puede hacer una base de datos. Ilustra cómo SQL puede descomponer y expresar sistemas complicados de forma que mejora la mantenibilidad y el acceso concurrente a datos.",
+  "puntos_clave": [
+   "El juego es totalmente jugable en línea con modo multijugador y almacenamiento de estado en tablas de base de datos.",
+   "Utiliza árboles BSP para renderización correcta de profundidad, texturas y geometría variable como el Doom auténtico.",
+   "La implementación consta de aproximadamente 5900 líneas de SQL, menos que versiones procedurales equivalentes."
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://cedardb.com/blog/sqldoom/",
+  "fuente_dominio": "cedardb.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49948300",
+  "score": 210,
+  "comentarios": 35
+ },
+ {
+  "id": "49930439",
+  "slug": "un-reloj-de-pendulo-funcional-construido-con-materiales-reci-49930439",
+  "fecha": "2026-10-05T14:08:37+00:00",
+  "titulo": "Un reloj de péndulo funcional construido con materiales reciclados",
+  "resumen": "Un artista realizó una residencia en Glashütte, Alemania, donde construyó un reloj mecánico completamente funcional utilizando objetos encontrados y desechos. El dispositivo funciona durante aproximadamente treinta minutos, mostrando solo segundos y minutos, y emite un sonido al llegar la aguja de minutos a las 12. Como parte del proyecto, el creador también desarrolló una nueva escala de tiempo inspirada en estándares internacionales.",
+  "por_que_importa": "El proyecto conecta tradición horológica familiar con una aproximación experimental y accesible a la mecánica de relojes. Demuestra cómo principios físicos fundamentales pueden materializarse con recursos limitados, desafiando la idea de que la relojería requiere equipos y materiales sofisticados.",
+  "puntos_clave": [
+   "Reloj mecánico funcional construido enteramente con materiales reciclados y herramientas básicas",
+   "La duración de funcionamiento de treinta minutos se debe al mecanismo de péndulo utilizado",
+   "El proyecto incluye investigación sobre física de péndulos basada en fórmulas históricas de Christiaan Huygens"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://niklasroy.com/gtc/",
+  "fuente_dominio": "niklasroy.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49930439",
+  "score": 216,
+  "comentarios": 34
+ },
+ {
+  "id": "49960084",
+  "slug": "cerca-de-200-personas-en-observacion-tras-muerte-de-trabajad-49960084",
+  "fecha": "2026-10-05T14:08:32+00:00",
+  "titulo": "Cerca de 200 personas en observación tras muerte de trabajadora de laboratorio por peste",
+  "resumen": "Una empleada de un instituto de investigación en Siberia falleció después de contraer peste, desencadenando la puesta en cuarentena de casi 200 personas que tuvieron contacto con ella. Las autoridades sanitarias colocaron bajo vigilancia médica a los posibles expuestos, incluyendo más de cien hospitalizados, mientras se investigan posibles fallos en los protocolos de seguridad. Según reportes, la trabajadora habría sufrido un accidente con una muestra de bacterias vivas durante su labor.",
+  "por_que_importa": "El incidente evidencia riesgos de seguridad en instalaciones que almacenan patógenos peligrosos y cuestiona la efectividad de los protocolos de contención. El caso plantea debate sobre el balance entre la investigación científica en estos laboratorios y el potencial riesgo para la salud pública.",
+  "puntos_clave": [
+   "Una trabajadora de laboratorio murió por peste, probablemente la forma neumónica que se transmite entre personas",
+   "Casi 200 contactos cercanos fueron puestos bajo vigilancia médica sin mostrar síntomas hasta el momento",
+   "Se abrió investigación criminal por posibles violaciones de seguridad en el instituto especializado"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://www.themoscowtimes.com/2026/10/02/nearly-200-people-under-observation-after-irkutsk-lab-worker-dies-from-plague-a93857",
+  "fuente_dominio": "themoscowtimes.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49960084",
+  "score": 256,
+  "comentarios": 242
+ },
+ {
+  "id": "49962012",
+  "slug": "filtracion-de-datos-personales-de-8-8-millones-de-ciudadanos-49962012",
+  "fecha": "2026-10-05T14:08:27+00:00",
+  "titulo": "Filtración de datos personales de 8,8 millones de ciudadanos en Dinamarca",
+  "resumen": "El registro central de población danés sufrió un acceso no autorizado mediante la explotación de credenciales legítimas de una empresa privada. Los atacantes obtuvieron nombres, direcciones, números de identificación personal y otros datos de aproximadamente 8,8 millones de registros. Las autoridades han suspendido el acceso de la empresa comprometida e iniciado investigaciones con policía y agencias especializadas.",
+  "por_que_importa": "El incidente expone la vulnerabilidad de bases de datos críticas que contienen información sensible de poblaciones completas, incluso cuando cuentan con protecciones formales. El caso genera preocupación sobre el riesgo de robo de identidad y fraude financiero a gran escala entre ciudadanos afectados.",
+  "puntos_clave": [
+   "Acceso no autorizado al registro de población mediante credenciales robadas de una empresa legítima",
+   "Datos comprometidos incluyen número de identificación personal, dirección, edad, sexo y relaciones familiares",
+   "Personas con protección de privacidad registrada no fueron incluidas en la filtración"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
+  "fuente_dominio": "cpr.dk",
+  "hn_url": "https://news.ycombinator.com/item?id=49962012",
+  "score": 281,
+  "comentarios": 222
+ },
+ {
+  "id": "49917536",
+  "slug": "el-caos-del-diseno-moderno-de-ventiladores-de-techo-49917536",
+  "fecha": "2026-10-05T14:08:22+00:00",
+  "titulo": "El caos del diseño moderno de ventiladores de techo",
+  "resumen": "El mercado de ventiladores de techo ha experimentado una transformación radical en los últimos años, generando híbridos confusos como los «fandeliers» (candelabros con ventilador) que combinan elementos de iluminación LED con aspas retráctiles. Esta proliferación responde al auge del comercio directo al consumidor y a la flexibilidad de diseño que permite la tecnología LED, eliminando la necesidad de resolver el problema tradicional de la bombilla. Sin embargo, estos productos presentan problemas de durabilidad, ya que los LEDs no son reemplazables, obligando al descarte de toda la unidad.",
+  "por_que_importa": "Refleja cómo plataformas como Wayfair y Amazon han eliminado filtros de calidad tradicionales (como el criterio del especialista en marketing) al automatizar la producción y distribución. Ilustra la tensión entre asequibilidad inicial y sostenibilidad a largo plazo en el diseño de productos de consumo.",
+  "puntos_clave": [
+   "Los ventiladores modernos mezclan funciones decorativas y prácticas de formas extravagantes debido a la flexibilidad del LED",
+   "El modelo de venta directa al consumidor prioriza volumen y costos bajos sobre criterios estéticos tradicionales",
+   "Las LEDs integradas no reemplazables convierten estos aparatos en desechables tras fallar la iluminación"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://mcmansionhell.com/post/829127919552151552/what-is-going-on-with-ceiling-fans",
+  "fuente_dominio": "mcmansionhell.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49917536",
+  "score": 368,
+  "comentarios": 316
+ },
+ {
   "id": "49957068",
   "slug": "filtracion-de-datos-revela-consumo-de-agua-y-electricidad-de-49957068",
   "fecha": "2026-10-05T04:56:00+00:00",
