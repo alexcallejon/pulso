@@ -1,5 +1,43 @@
 [
  {
+  "id": "49957068",
+  "slug": "filtracion-de-datos-revela-consumo-de-agua-y-electricidad-de-49957068",
+  "fecha": "2026-10-05T04:56:00+00:00",
+  "titulo": "Filtración de datos revela consumo de agua y electricidad de centros Google en Nebraska",
+  "resumen": "Un fallo en la redacción de documentos permitió acceder a información que Google había marcado como confidencial sobre sus tres centros de datos en Nebraska. El centro de Lincoln (Agate LLC) consume 52.65 megavatios de electricidad en demanda máxima y 13.3 millones de galones de agua anuales, mientras que el de Papillion utiliza 547.88 millones de galones, siendo el mayor consumidor. Los documentos también revelaron que Google espera recibir reembolsos fiscales superiores a los 117 millones de dólares combinados en los tres centros.",
+  "por_que_importa": "El incidente expone vulnerabilidades en los procesos de redacción de documentos públicos y cuestiona la opacidad regulatoria en torno al impacto ambiental de la infraestructura de datos. Los datos revelados permiten evaluar el consumo de recursos de instalaciones que reciben beneficios fiscales significativos del estado.",
+  "puntos_clave": [
+   "Fallos en la redacción permitieron recuperar información mediante copiar y pegar texto desde documentos PDF",
+   "Seis centros de datos en Nebraska consumieron 765 millones de galones de agua en el último año",
+   "Google espera reembolsos fiscales de aproximadamente 117.5 millones de dólares entre sus tres centros estatales"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.1011now.com/2026/09/30/more-questions-than-answers-about-lincolns-google-data-center-water-electricity-usage/",
+  "fuente_dominio": "1011now.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49957068",
+  "score": 309,
+  "comentarios": 426
+ },
+ {
+  "id": "49957116",
+  "slug": "herramienta-para-desactivar-apple-intelligence-y-recuperar-e-49957116",
+  "fecha": "2026-10-05T04:55:54+00:00",
+  "titulo": "Herramienta para desactivar Apple Intelligence y recuperar espacio en macOS",
+  "resumen": "Un desarrollador ha creado RemoveMacAI, un script que desactiva las funciones de Apple Intelligence en macOS y elimina los modelos descargados del sistema, recuperando espacio en disco. La herramienta funciona mediante un perfil de configuración que bloquea la descarga de modelos y permite revertir los cambios completamente. Los usuarios señalan que esto refleja una necesidad creciente de \"limpiar\" sistemas operativos modernos, similar a lo que ocurre hace años en Windows.",
+  "por_que_importa": "Apple Intelligence no cuenta con un interruptor único en macOS para desactivarlo completamente, dejando los modelos en el disco incluso cuando las funciones están apagadas, lo que genera frustración entre usuarios que desean controlar sus recursos. La existencia de este script evidencia una brecha en las opciones de control que ofrecen otros fabricantes como Microsoft, que proporcionan desactivaciones globales más accesibles.",
+  "puntos_clave": [
+   "RemoveMacAI desactiva múltiples funciones (Siri, herramientas de escritura, Genmoji, Image Playground) y elimina sus modelos del sistema",
+   "El proceso es completamente reversible mediante un comando y utiliza un perfil de configuración que persiste tras actualizaciones de macOS",
+   "La herramienta no realiza conexiones de red, no recopila datos y está disponible en GitHub con instalación mediante una línea de comandos"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://github.com/omlahore/RemoveMacAI",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49957116",
+  "score": 459,
+  "comentarios": 284
+ },
+ {
   "id": "49945323",
   "slug": "critica-a-la-estetica-sterile-de-los-juegos-de-construccion-49945323",
   "fecha": "2026-10-04T21:05:50+00:00",
