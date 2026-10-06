@@ -1,5 +1,100 @@
 [
  {
+  "id": "49980715",
+  "slug": "opentpu-acelerador-de-ia-de-codigo-abierto-desarrollado-por-49980715",
+  "fecha": "2026-10-06T22:32:31+00:00",
+  "titulo": "OpenTPU: acelerador de IA de código abierto desarrollado por IA",
+  "resumen": "OpenTPU es un acelerador de inteligencia artificial completamente de código abierto que incluye diseño de hardware, compilador y simulador en un único repositorio. El proyecto ejecuta modelos modernos como Qwen3, LFM2.5 y Qwen3.5 en tarjetas FPGA Kintex-7, logrando velocidades de generación de tokens que varían según el modelo y su precisión. Según los comentarios, el proyecto surgió de técnicas de desarrollo automatizado de hardware similares a las utilizadas previamente para núcleos RISC-V.",
+  "por_que_importa": "Representa un avance en el diseño de hardware impulsado por IA, demostrando que sistemas inteligentes pueden crear aceleradores funcionales para ejecutar modelos de inferencia. El código abierto permite que desarrolladores comprendan el funcionamiento completo de un acelerador de IA, desde operaciones matemáticas hasta implementación física en silicio.",
+  "puntos_clave": [
+   "Repositorio unificado con hardware (SystemVerilog), conjunto de instrucciones, simulador y compilador",
+   "Ejecuta más de diez modelos modernos con velocidades de entre 3.78 y 85.8 tokens por segundo según especificaciones",
+   "Desarrollado mediante técnicas de automatización de diseño, mejorando iterativamente desde velocidades iniciales bajas"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://github.com/FeSens/openTPU",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49980715",
+  "score": 191,
+  "comentarios": 246
+ },
+ {
+  "id": "49950653",
+  "slug": "comparativa-de-12-sensores-zigbee-de-temperatura-mas-vendido-49950653",
+  "fecha": "2026-10-06T22:32:26+00:00",
+  "titulo": "Comparativa de 12 sensores Zigbee de temperatura más vendidos",
+  "resumen": "Un análisis comparativo evalúa doce sensores Zigbee de temperatura y humedad de marcas populares como Aqara, Sonoff, Tuya y otras, todos ellos sin pantalla, alimentados por batería y disponibles a menos de 15 dólares. La prueba utiliza un sensor de referencia calibrado en laboratorio para medir la precisión, rango de medición, calidad de construcción y tipo de batería de cada dispositivo bajo condiciones idénticas. El estudio busca reflejar qué sensores están siendo realmente utilizados en hogares inteligentes, más allá de recomendaciones de una sola marca.",
+  "por_que_importa": "La elección del sensor Zigbee correcto afecta la confiabilidad de la automatización del hogar, ya que la precisión y la duración de la batería varían significativamente entre modelos. Una comparación directa con calibración profesional permite a los usuarios identificar cuál es la opción más adecuada según sus necesidades específicas.",
+  "puntos_clave": [
+   "Se evalúan 12 modelos de seis marcas diferentes bajo las mismas condiciones con sensor de referencia certificado",
+   "Los parámetros medidos incluyen precisión, rango de temperatura, calidad de construcción, tipo de batería y rendimiento en condiciones extremas",
+   "Todos los dispositivos probados cuestan menos de 15 dólares, excepto uno, y funcionan sin pantalla con conectividad Zigbee"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://smarthomescene.com/reviews/best-selling-zigbee-temperature-sensors-tested/",
+  "fuente_dominio": "smarthomescene.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49950653",
+  "score": 230,
+  "comentarios": 118
+ },
+ {
+  "id": "49975619",
+  "slug": "gleam-v1-19-0-cambia-su-compilacion-a-formatos-abstractos-de-49975619",
+  "fecha": "2026-10-06T22:32:20+00:00",
+  "titulo": "Gleam v1.19.0 cambia su compilación a formatos abstractos de Erlang",
+  "resumen": "La versión 1.19.0 de Gleam introduce un reescrito completo del generador de código Erlang, que ahora produce formatos abstractos de Erlang en lugar de código fuente. Este cambio permite que el compilador salte la etapa inicial del compilador Erlang, cargando el código directamente en la máquina virtual. Los beneficios incluyen tiempos de compilación significativamente más rápidos, metadatos de ubicación más precisos en reportes de errores y una base de código de mejor calidad.",
+  "por_que_importa": "La mejora en velocidad de compilación impacta directamente la experiencia de desarrollo al reducir los tiempos de construcción en proyectos Gleam. Los metadatos precisos en las trazas de error facilitan el debugging y abren la posibilidad de integración con herramientas de depuración especializadas.",
+  "puntos_clave": [
+   "El generador Erlang ahora produce formatos abstractos binarios en lugar de código fuente textual",
+   "Los tiempos de compilación se redujeron considerablemente entre versiones 1.17 y 1.19",
+   "Los números de línea en reportes de fallos ahora coinciden con el código Gleam original, no con el código generado"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
+  "fuente_dominio": "gleam.run",
+  "hn_url": "https://news.ycombinator.com/item?id=49975619",
+  "score": 281,
+  "comentarios": 119
+ },
+ {
+  "id": "49977588",
+  "slug": "muse-de-meta-enfrenta-multiples-fallos-de-privacidad-y-segur-49977588",
+  "fecha": "2026-10-06T22:32:13+00:00",
+  "titulo": "Muse de Meta enfrenta múltiples fallos de privacidad y seguridad tras su lanzamiento",
+  "resumen": "El asistente de inteligencia artificial agentico Muse de Meta ha presentado diversos problemas de seguridad desde su lanzamiento, incluyendo acceso no autorizado a mensajes privados, vulnerabilidades que permiten obtener acceso de administrador y filtraciones de información personal. La empresa aceleró parches de seguridad incompletos para no retrasar el lanzamiento del producto, según reportes internos. Los expertos advierten sobre los riesgos de otorgar a agentes de inteligencia artificial acceso generalizado a datos sensibles como correos, mensajes y cuentas bancarias.",
+  "por_que_importa": "Expone la tensión entre la velocidad de desarrollo de productos de inteligencia artificial y la implementación adecuada de medidas de seguridad en herramientas que acceden a información altamente sensible de usuarios. Genera interrogantes sobre si las grandes empresas tecnológicas de publicidad pueden ser confiables con datos íntimos recopilados a través de asistentes de inteligencia artificial.",
+  "puntos_clave": [
+   "Muse accedió a mensajes privados sin permiso y subió información a la nube ignorando configuraciones de privacidad",
+   "Se detectaron vulnerabilidades que permiten obtener acceso de administrador y crear perfiles detallados de contactos",
+   "Meta priorizó el lanzamiento sobre solucionar completamente los fallos de seguridad identificados"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://www.techdirt.com/2026/10/06/metas-muse-is-an-adorable-privacy-and-security-dumpster-fire/",
+  "fuente_dominio": "techdirt.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49977588",
+  "score": 361,
+  "comentarios": 251
+ },
+ {
+  "id": "49977177",
+  "slug": "polars-2-0-soporte-sql-nativo-y-mejoras-de-rendimiento-49977177",
+  "fecha": "2026-10-06T22:32:07+00:00",
+  "titulo": "Polars 2.0: soporte SQL nativo y mejoras de rendimiento",
+  "resumen": "Polars ha lanzado su versión 2.0 con soporte para SQL como funcionalidad de primera clase, capacidad de procesamiento fuera de memoria y optimizaciones significativas en su motor de consultas. La nueva versión incluye un nuevo tipo de dato Map y cambios en el motor de streaming que ahora es el predeterminado. Según pruebas internas en benchmarks TPC-H y TPC-DS, Polars obtiene mejor rendimiento que DuckDB y DataFusion en la mayoría de los casos evaluados.",
+  "por_que_importa": "Esta versión posiciona a Polars como una alternativa competitiva a herramientas de procesamiento de datos tradicionales, ofreciendo mejor rendimiento y facilidad de uso en notebooks y scripts. El enfoque en SQL como ciudadano de primera clase amplía el alcance de Polars más allá de usuarios que prefieren APIs de programación.",
+  "puntos_clave": [
+   "SQL ahora es una funcionalidad central con cobertura ampliada y optimizaciones en el planificador de consultas.",
+   "Soporte inicial para procesamiento fuera de memoria habilitado por defecto, mejorando uso de recursos.",
+   "Motor de streaming como predeterminado con cambios en garantías de orden de filas en operaciones como join y group_by."
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://pola.rs/posts/release-polars-2/",
+  "fuente_dominio": "pola.rs",
+  "hn_url": "https://news.ycombinator.com/item?id=49977177",
+  "score": 394,
+  "comentarios": 94
+ },
+ {
   "id": "49965308",
   "slug": "crear-aplicaciones-gtk-en-haskell-introduccion-practica-49965308",
   "fecha": "2026-10-06T13:05:12+00:00",
