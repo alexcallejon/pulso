@@ -1,5 +1,81 @@
 [
  {
+  "id": "49965308",
+  "slug": "crear-aplicaciones-gtk-en-haskell-introduccion-practica-49965308",
+  "fecha": "2026-10-06T13:05:12+00:00",
+  "titulo": "Crear aplicaciones GTK en Haskell: introducción práctica",
+  "resumen": "Un tutorial que guía a desarrolladores experimentados en Haskell para construir una aplicación de lista de tareas usando GTK 4 y la biblioteca Adwaita. El artículo presenta los fundamentos de la arquitectura Elm (Model-View-Update) aplicada a interfaces gráficas con Haskell, utilizando el generador automático de bindings haskell-gi. Se incluye código de ejemplo para crear ventanas básicas y se estructura la aplicación mediante modelos de datos que representan el estado y las acciones del usuario.",
+  "por_que_importa": "Demuestra cómo aplicar patrones funcionales modernos a desarrollo de interfaz gráfica en Haskell, ofreciendo una alternativa estructurada a los enfoques imperativos tradicionales. GTK 4 sigue siendo una opción viable para crear aplicaciones de escritorio con herramientas modernas en el ecosistema de Haskell.",
+  "puntos_clave": [
+   "Adwaita proporciona componentes GTK alineados con directrices de accesibilidad y diseño de GNOME, incluyendo soporte para temas oscuros y diseño responsivo",
+   "El patrón Elm Architecture separa el estado (Model), la presentación (View) y las actualizaciones (Update) para mejorar la predictibilidad del código",
+   "haskell-gi genera automáticamente bindings que mantienen compatibilidad con la API de C de GTK mientras ofrecen una interfaz idiomática en Haskell"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://floreal.tech/blog/2026/making-a-gtk-app-in-haskell-part-1/",
+  "fuente_dominio": "floreal.tech",
+  "hn_url": "https://news.ycombinator.com/item?id=49965308",
+  "score": 165,
+  "comentarios": 47
+ },
+ {
+  "id": "49976265",
+  "slug": "francis-halzen-recibe-el-nobel-de-fisica-2026-por-el-detecto-49976265",
+  "fecha": "2026-10-06T13:05:07+00:00",
+  "titulo": "Francis Halzen recibe el Nobel de Física 2026 por el detector de neutrinos IceCube",
+  "resumen": "Francis Halzen ha sido galardonado con el Premio Nobel de Física 2026 por su contribución decisiva al Observatorio de Neutrinos IceCube y al descubrimiento de neutrinos de alta energía de origen astrofísico. El proyecto consiste en un detector del tamaño de un kilómetro cúbico instalado en la Antártida que detecta neutrinos mediante la conversión de estas partículas en partículas cargadas. La detección se realiza a través de la radiación de Cherenkov, producida cuando las partículas cargadas se mueven a velocidades superiores a la de la luz en el medio, aunque siempre inferiores a la velocidad de la luz en el vacío.",
+  "por_que_importa": "El descubrimiento de neutrinos de alta energía de origen astrofísico representa un avance significativo en la comprensión del universo y las fuerzas cósmicas. El proyecto IceCube es notable por su ambición técnica y científica, requiriendo infraestructura compleja en condiciones extremas para detectar partículas esquivas.",
+  "puntos_clave": [
+   "Detector de neutrinos IceCube ubicado en la Antártida con dimensiones de un kilómetro cúbico",
+   "Funcionamiento basado en la conversión de neutrinos en partículas cargadas detectables mediante radiación de Cherenkov",
+   "Halzen es el único galardonado en esta edición del Nobel de Física"
+  ],
+  "categoria": "Ciencia",
+  "fuente_url": "https://www.nobelprize.org/prizes/physics/2026/",
+  "fuente_dominio": "nobelprize.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49976265",
+  "score": 194,
+  "comentarios": 57
+ },
+ {
+  "id": "49971719",
+  "slug": "desarrollador-retorna-a-node-js-tras-anos-usando-deno-49971719",
+  "fecha": "2026-10-06T13:05:02+00:00",
+  "titulo": "Desarrollador retorna a Node.js tras años usando Deno",
+  "resumen": "Un desarrollador web comparte su experiencia al migrar de Deno a Node.js, encontrando que la plataforma ha mejorado significativamente con soporte moderno de ECMAScript y APIs renovadas. Destaca cambios en la gestión de paquetes utilizando PNPM en lugar de NPM, así como la configuración necesaria para trabajar con TypeScript. La migración de su generador de sitios estáticos reveló que el cambio requería ajustes mínimos gracias a las mejoras recientes en Node.js versión 26.10.0.",
+  "por_que_importa": "Refleja la evolución continua del ecosistema JavaScript y cómo Node.js sigue siendo relevante a pesar de la emergencia de alternativas como Deno y Bun. Ilustra las consideraciones prácticas que enfrentan los desarrolladores al elegir herramientas, incluyendo seguridad en gestión de dependencias y compatibilidad de proyectos.",
+  "puntos_clave": [
+   "Node.js ha modernizado sus APIs y soporte de lenguaje, haciendo innecesario require() clásico",
+   "El uso de PNPM como gestor de paquetes alternativo añade capas de seguridad contra dependencias maliciosas",
+   "La restricción de Node.js para publicar paquetes TypeScript es filosofía, no limitación técnica"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://dbushell.com/2026/10/03/deno-to-node/",
+  "fuente_dominio": "dbushell.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49971719",
+  "score": 218,
+  "comentarios": 136
+ },
+ {
+  "id": "49970871",
+  "slug": "dust-un-metodo-para-entrenar-transformers-sin-retropropagaci-49970871",
+  "fecha": "2026-10-06T13:04:55+00:00",
+  "titulo": "Dust: un método para entrenar transformers sin retropropagación",
+  "resumen": "Investigadores presentan Dust, un algoritmo de optimización que entrena modelos de lenguaje basados en transformers sin utilizar retropropagación tradicional. El método perturba activaciones de forma independiente en cada token y estima gradientes a través de perturbaciones ponderadas por su impacto en la pérdida. Dust demuestra ser miles de veces más eficiente que otros métodos de búsqueda en el espacio de pesos y, sorprendentemente, modelos más grandes resultan más eficientes en población que modelos pequeños.",
+  "por_que_importa": "Cuestiona si los métodos basados en diferenciabilidad y retropropagación seguirán siendo óptimos conforme aumente el poder computacional disponible. Los resultados sugieren que en regímenes con abundancia de recursos computacionales podrían existir alternativas competitivas o superiores a la retropropagación convencional.",
+  "puntos_clave": [
+   "Dust es un método zeroth-order que no requiere retropropagación ni diferenciabilidad",
+   "Modelos de mayor tamaño muestran mejor eficiencia de población que modelos más pequeños",
+   "Es órdenes de magnitud más eficiente que métodos tradicionales de estrategias evolutivas"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://qlabs.sh/research/dust",
+  "fuente_dominio": "qlabs.sh",
+  "hn_url": "https://news.ycombinator.com/item?id=49970871",
+  "score": 229,
+  "comentarios": 61
+ },
+ {
   "id": "49971921",
   "slug": "example-com-redisena-su-interfaz-despues-de-mas-de-dos-decad-49971921",
   "fecha": "2026-10-06T05:43:45+00:00",
