@@ -1,5 +1,119 @@
 [
  {
+  "id": "49971921",
+  "slug": "example-com-redisena-su-interfaz-despues-de-mas-de-dos-decad-49971921",
+  "fecha": "2026-10-06T05:43:45+00:00",
+  "titulo": "Example.com rediseña su interfaz después de más de dos décadas",
+  "resumen": "El dominio example.com, reservado por IANA para fines documentales, implementó su mayor actualización visual en décadas el 28 de septiembre de 2026. El rediseño añade compatibilidad multiidioma mediante JavaScript que alterna el contenido cada 5 segundos entre seis idiomas, con transiciones animadas carácter por carácter. IANA justificó los cambios en la optimización del ancho de banda, separando el contenido básico del código JavaScript para reducir la descarga en tráfico automatizado.",
+  "por_que_importa": "Example.com es un dominio fundamental en la documentación técnica desde los años noventa, por lo que cambios en su funcionamiento pueden afectar a herramientas y pruebas automatizadas que lo utilizan como referencia. La actualización refleja cómo incluso servicios de infraestructura mínima evolucionan con nuevas tecnologías y consideraciones de eficiencia.",
+  "puntos_clave": [
+   "El sitio pasó de ser estático en inglés a multiidioma con transiciones suaves entre seis lenguajes",
+   "IANA reorganizó la arquitectura para optimizar el consumo de ancho de banda en el tráfico automatizado",
+   "El cambio incluye animaciones CSS con transiciones de opacidad aplicadas a nivel de carácter individual"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
+  "fuente_dominio": "debugbear.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49971921",
+  "score": 150,
+  "comentarios": 89
+ },
+ {
+  "id": "49971230",
+  "slug": "herramienta-para-encontrar-rutas-planas-entre-puntos-de-san-49971230",
+  "fecha": "2026-10-06T05:43:40+00:00",
+  "titulo": "Herramienta para encontrar rutas planas entre puntos de San Francisco",
+  "resumen": "Se ha creado una aplicación web que permite calcular rutas entre dos ubicaciones en San Francisco priorizando el terreno plano sobre la distancia más corta. La herramienta utiliza datos de elevación de alta resolución y un gráfico de calles de OpenStreetMap, permitiendo ajustar mediante un control deslizante el balance entre distancia y desnivel acumulado. Los cálculos se realizan directamente en el navegador del usuario sin necesidad de servidores externos.",
+  "por_que_importa": "Facilita la planificación de desplazamientos en una ciudad con topografía montañosa, beneficiando especialmente a ciclistas y peatones que prefieren evitar pendientes pronunciadas. La iniciativa demuestra cómo datos geoespaciales públicos pueden aplicarse a problemas cotidianos de movilidad urbana.",
+  "puntos_clave": [
+   "Permite elegir entre ruta más corta o más plana usando un deslizador interactivo",
+   "Procesa más de 160.000 segmentos de calles con datos de elevación de 1 metro de resolución",
+   "Incluye búsqueda offline de intersecciones, lugares y direcciones de San Francisco"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://flattensf.com/",
+  "fuente_dominio": "flattensf.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49971230",
+  "score": 154,
+  "comentarios": 50
+ },
+ {
+  "id": "49965152",
+  "slug": "un-recorrido-por-las-lamparas-de-diseno-de-una-coleccion-per-49965152",
+  "fecha": "2026-10-06T05:43:35+00:00",
+  "titulo": "Un recorrido por las lámparas de diseño de una colección personal",
+  "resumen": "Un aficionado a las lámparas de diseño comparte su colección de piezas clásicas, incluyendo modelos de marcas como Artemide, diseñadores reconocidos como Richard Sapper e Isamu Noguchi. Explica que aunque estas lámparas tienen precios elevados, para él representan más una actividad de coleccionismo que una simple solución de iluminación. También señala que existen alternativas de mejor precio en el mercado actual, incluso en tiendas de diseño asequible.",
+  "por_que_importa": "Ilustra cómo el diseño industrial de calidad trasciende su función utilitaria y se convierte en objeto de apreciación. Muestra la influencia histórica de ciertos diseños icónicos que han sido replicados ampliamente en la industria.",
+  "puntos_clave": [
+   "La colección incluye piezas de diseñadores reconocidos como Michele De Lucchi, Richard Sapper e Isamu Noguchi, algunas ganadoras de premios internacionales",
+   "Las lámparas Akari de Noguchi se fabrican aún con métodos tradicionales en un taller familiar en Gifu, Japón",
+   "Algunos modelos icónicos como el Tolomeo han sido ampliamente copiados por marcas comerciales y grandes fabricantes"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://arslan.io/2026/10/05/the-lamps-in-my-house/",
+  "fuente_dominio": "arslan.io",
+  "hn_url": "https://news.ycombinator.com/item?id=49965152",
+  "score": 167,
+  "comentarios": 77
+ },
+ {
+  "id": "49962857",
+  "slug": "un-agente-de-ia-detecta-un-ataque-a-macos-mientras-el-usuari-49962857",
+  "fecha": "2026-10-06T05:43:29+00:00",
+  "titulo": "Un agente de IA detecta un ataque a macOS mientras el usuario lo ignora",
+  "resumen": "Un investigador tecnológico sufrió un compromiso de seguridad en su Mac Mini debido a una vulnerabilidad en el protocolo de compartir pantalla que estaba expuesto a internet. Un agente de IA basado en Claude detectó anomalías en los permisos del sistema y alertó al usuario antes de que descubriera la brecha, permitiendo identificar exactamente cuándo ocurrió el acceso no autorizado. La vulnerabilidad CVE-2026-65400, que permite ejecutar código malicioso de forma remota, fue parcheada por Apple tras ser presentada en una conferencia de seguridad.",
+  "por_que_importa": "El incidente evidencia tanto las capacidades de los agentes de IA para detectar amenazas como los riesgos de seguridad que conlleva otorgarles acceso profundo a sistemas operativos. Genera debate sobre el equilibrio entre la productividad que ofrecen estos agentes y los riesgos de privacidad y compromiso de datos que representa su implementación.",
+  "puntos_clave": [
+   "Una vulnerabilidad en el compartir pantalla de macOS permitía ejecución remota de código si el puerto estaba expuesto a internet",
+   "El agente de IA alertó sobre cambios sospechosos en permisos administrativos y detuvo sus funciones preventivamente",
+   "Los comentarios cuestionan si los usuarios están asumiendo riesgos de seguridad desproporcionados por adoptar agentes de IA"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://stratechery.com/2026/apple-and-a-hackers-future/",
+  "fuente_dominio": "stratechery.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49962857",
+  "score": 236,
+  "comentarios": 206
+ },
+ {
+  "id": "49970667",
+  "slug": "agentes-de-ia-descubren-semiconductores-magneticos-candidato-49970667",
+  "fecha": "2026-10-06T05:43:24+00:00",
+  "titulo": "Agentes de IA descubren semiconductores magnéticos candidatos a temperatura ambiente",
+  "resumen": "Un equipo de agentes de inteligencia artificial basados en Claude Opus 5.5 identificó dos materiales antiferromagnéticos semiconductores potenciales para aplicaciones en memoria informática de próxima generación. Ambos candidatos presentarían magnetismo neto cero mientras mantienen la capacidad de clasificar electrones por espín. Los investigadores compartieron los cálculos completos, código y limitaciones conocidas del descubrimiento.",
+  "por_que_importa": "Estos materiales representan un punto medio entre dos tipos de magnetos extremos, lo que podría resolver limitaciones actuales en tecnologías de almacenamiento basadas en espín. El hallazgo demuestra el potencial de sistemas de IA para explorar espacios de investigación científica a velocidades y escala superiores a las capacidades humanas.",
+  "puntos_clave": [
+   "Los agentes de IA identificaron un compuesto diseñado recientemente y otro material sintetizado en 1999 con propiedades magnéticas buscadas",
+   "Los candidatos combinan la falta de campo magnético externo de los antiferroimanes con la capacidad de clasificar electrones por espín",
+   "Se utilizaron simulaciones de mecánica cuántica mediante teoría funcional de la densidad para validar las propiedades predichas"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+  "fuente_dominio": "vals.ai",
+  "hn_url": "https://news.ycombinator.com/item?id=49970667",
+  "score": 278,
+  "comentarios": 187
+ },
+ {
+  "id": "49971846",
+  "slug": "chatgpt-genera-caricaturas-falsas-firmadas-con-nombres-de-di-49971846",
+  "fecha": "2026-10-06T05:43:19+00:00",
+  "titulo": "ChatGPT genera caricaturas falsas firmadas con nombres de dibujantes reales",
+  "resumen": "ChatGPT está creando viñetas en el estilo de The New Yorker y añadiendo las firmas de caricaturistas reales sin su consentimiento. Un dibujante identificó múltiples ocasiones en las que su nombre aparecía en imágenes generadas por la IA, incluyendo una que se hizo viral en redes sociales tras la muerte de dos celebridades. El artista describe la experiencia como una violación de su identidad, más allá de la preocupación habitual sobre el uso de su trabajo en el entrenamiento de sistemas de IA.",
+  "por_que_importa": "Expone un nuevo problema de atribución falsa en los sistemas de IA generativa, donde no solo se imita el estilo de creadores reales sino que se falsifica su autoría. Plantea interrogantes legales y éticas sobre la responsabilidad de las plataformas de IA respecto a la suplantación de identidad y el uso de nombres de artistas sin autorización.",
+  "puntos_clave": [
+   "Caricaturas generadas por ChatGPT incluyen firmas de dibujantes reales como si fueran autores",
+   "Un caricaturista de The New Yorker recibió múltiples contactos de desconocidos preguntando por viñetas que no había creado",
+   "Las imágenes circularon ampliamente en redes sociales, incluida una que acumuló decenas de miles de interacciones"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
+  "fuente_dominio": "niemanlab.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49971846",
+  "score": 362,
+  "comentarios": 265
+ },
+ {
   "id": "49956290",
   "slug": "la-tecnologia-para-erradicar-enfermedades-transmitidas-por-m-49956290",
   "fecha": "2026-10-05T23:55:03+00:00",
