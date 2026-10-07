@@ -1,5 +1,119 @@
 [
  {
+  "id": "49985664",
+  "slug": "herramienta-convierte-ejecutables-de-ps5-a-pc-sin-emulacion-49985664",
+  "fecha": "2026-10-07T05:14:50+00:00",
+  "titulo": "Herramienta convierte ejecutables de PS5 a PC sin emulación",
+  "resumen": "Un proyecto de código abierto permite portar automáticamente juegos de PS5 a Windows y Linux mediante un relindker que convierte los ejecutables al formato nativo del sistema destino, sin necesidad de emulación ni procesos de ejecución separados. La herramienta tiene mapeadas el 87% de las librerías del sistema y ya ha logrado que algunos títulos funcionen de forma estable en hardware convencional de PC. El proyecto incluye un recompilador de shaders que genera código SPIR-V compatible con Vulkan.",
+  "por_que_importa": "Representa un avance significativo en ingeniería inversa que desafía el bloqueo de plataformas propietarias y podría influir en cómo los fabricantes de consolas abordan la distribución de juegos en el futuro. Los comentarios de la comunidad subrayan preocupaciones sobre posibles respuestas legales de grandes productoras y el impulso hacia modelos de juego en la nube.",
+  "puntos_clave": [
+   "Convierte binarios de PS5 a ejecutables nativos de Windows y Linux sin usar emulación",
+   "Ha logrado que juegos como Dreaming Sarah corran a 60 fps estables en hardware modesto de PC",
+   "Se distribuye bajo licencia GPL-2.0 con fines de investigación, interoperabilidad y preservación"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://github.com/boykopovar/AnyPS5",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49985664",
+  "score": 171,
+  "comentarios": 126
+ },
+ {
+  "id": "49977531",
+  "slug": "la-especie-dominante-por-masa-sorpresas-en-la-jerarquia-biol-49977531",
+  "fecha": "2026-10-07T05:14:45+00:00",
+  "titulo": "La especie dominante por masa: sorpresas en la jerarquía biológica",
+  "resumen": "Un análisis comparativo revela que los humanos, con alrededor de 350 millones de toneladas de biomasa, ocupan una posición elevada entre especies individuales, pero quedan superados por el ganado vacuno en 650 millones de toneladas. A nivel global, sin embargo, las plantas dominan ampliamente, siendo la caña de azúcar la mayor cosecha con 2 mil millones de toneladas anuales, mientras que a nivel salvaje los árboles de los bosques boreales podrían ostentar el mayor volumen de biomasa de cualquier especie vegetal.",
+  "por_que_importa": "Entender la distribución real de biomasa en la Tierra permite comprender mejor cómo se distribuye la energía en los ecosistemas y el alcance del impacto humano sobre otras especies. El análisis también revela que la dominación humana es reciente: hace miles de años el planeta tenía una composición ecológica muy diferente, con megafauna silvestre que ha desaparecido casi por completo.",
+  "puntos_clave": [
+   "El ganado doméstico supera a los humanos en biomasa total, mientras que el krill antártico compite con nuestra especie en cifras brutas.",
+   "La caña de azúcar es el cultivo más masivo del mundo con cosechas que duplican el peso total de toda la humanidad anualmente.",
+   "A nivel de reinos biológicos, las plantas tienen 450 mil millones de toneladas de carbono, dominando ampliamente sobre animales y otras formas de vida."
+  ],
+  "categoria": "Ciencia",
+  "fuente_url": "https://signoregalilei.com/2026/09/27/whats-earths-dominant-species-by-mass/",
+  "fuente_dominio": "signoregalilei.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49977531",
+  "score": 188,
+  "comentarios": 126
+ },
+ {
+  "id": "49984025",
+  "slug": "openai-lanza-decisions-api-en-fase-beta-publica-49984025",
+  "fecha": "2026-10-07T05:14:39+00:00",
+  "titulo": "OpenAI lanza Decisions API en fase beta pública",
+  "resumen": "OpenAI ha puesto disponible en beta pública su Decisions API, una herramienta diseñada para obtener respuestas binarias estructuradas de modelos de lenguaje. Según los comentarios, la API se posiciona como una alternativa más económica y rápida para consultas que requieren decisiones simples de sí/no/nivel de confianza. Los usuarios la comparan con soluciones competidoras como Jev y Mercury Decide, evaluando su rendimiento en tareas como selección de componentes y clasificación de datos.",
+  "por_que_importa": "Representa una tendencia hacia modelos más especializados y económicos que priorizan eficiencia sobre capacidades generales, acelerando la competencia por precios en el mercado de APIs de IA. Ofrece a desarrolladores una opción optimizada para casos de uso específicos que no requieren razonamiento complejo, reduciendo costos operacionales.",
+  "puntos_clave": [
+   "Decisions API facilita consultas que requieren respuestas binarias estructuradas con métricas de confianza",
+   "Se posiciona como alternativa económica frente a modelos de propósito general para tareas de clasificación y decisión",
+   "Está siendo evaluada por desarrolladores contra competidores en aplicaciones de selección de UI, etiquetado y gestión de datos"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://developers.openai.com/api/docs/guides/decisions",
+  "fuente_dominio": "developers.openai.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49984025",
+  "score": 202,
+  "comentarios": 96
+ },
+ {
+  "id": "49983703",
+  "slug": "paramount-y-warner-bros-discovery-cierran-su-fusion-de-111-0-49983703",
+  "fecha": "2026-10-07T05:14:34+00:00",
+  "titulo": "Paramount y Warner Bros. Discovery cierran su fusión de $111.000 millones",
+  "resumen": "La fusión entre Paramount y Warner Bros. Discovery se ha completado, creando una nueva empresa llamada Skydance que integra dos grandes estudios cinematográficos, servicios de streaming y cadenas de televisión. El proceso enfrentó obstáculos legales, incluidos demandas estatales por competencia desleal y recursos ante la Corte Suprema, todos los cuales fueron rechazados. Como parte del acuerdo de liquidación, la empresa debe establecer un consejo de independencia editorial para CBS News y CNN.",
+  "por_que_importa": "La consolidación representa una concentración significativa del sector mediático estadounidense, reuniendo activos de cine, televisión y streaming bajo un solo control corporativo. El cierre de este proceso afecta tanto a la competencia en la industria como a las preocupaciones públicas sobre la independencia editorial de las cadenas de noticias involucradas.",
+  "puntos_clave": [
+   "La fusión combina dos grandes estudios, plataformas de streaming, cadenas de televisión y derechos de deportes en vivo",
+   "Un consejo de independencia editorial supervisará CBS News y CNN para responder a inquietudes sobre autonomía editorial",
+   "Se rechazaron múltiples intentos legales para bloquear el acuerdo, incluyendo demandas estatales y recursos ante la Corte Suprema"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
+  "fuente_dominio": "arstechnica.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49983703",
+  "score": 211,
+  "comentarios": 353
+ },
+ {
+  "id": "49980487",
+  "slug": "google-lanza-embeddinggemma-2-modelo-multimodal-abierto-para-49980487",
+  "fecha": "2026-10-07T05:14:29+00:00",
+  "titulo": "Google lanza EmbeddingGemma 2, modelo multimodal abierto para procesamiento local",
+  "resumen": "Google presenta EmbeddingGemma 2, un modelo de incrustaciones que procesa texto, imágenes, audio y vídeo en un único espacio unificado, optimizado para ejecutarse directamente en dispositivos. Con 740 millones de parámetros y licencia Apache 2.0, el modelo requiere menos de 567 MB de memoria activa y puede reducir el almacenamiento hasta seis veces mediante truncamiento dinámico de vectores. Mejora significativamente el rendimiento en análisis de código y amplía la ventana de contexto a 8.000 tokens, permitiendo búsqueda semántica y recuperación de información completamente sin conexión.",
+  "por_que_importa": "Ofrece a los desarrolladores una alternativa abierta y comercialmente viable a modelos propietarios, evitando dependencias de proveedores y permitiendo procesamiento local que protege la privacidad. Su eficiencia de parámetros y bajo consumo de recursos lo hacen accesible para aplicaciones en dispositivos móviles y periféricos con capacidades limitadas.",
+  "puntos_clave": [
+   "Modelo multimodal unificado bajo licencia Apache 2.0 con 740M parámetros",
+   "Requiere solo 191MB de RAM para texto y 567MB para modo completo, con opción de reducción de almacenamiento hasta 6x",
+   "Mejora de 9.92 puntos en rendimiento de código y ampliación de contexto a 8K tokens"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+  "fuente_dominio": "blog.google",
+  "hn_url": "https://news.ycombinator.com/item?id=49980487",
+  "score": 271,
+  "comentarios": 31
+ },
+ {
+  "id": "49984923",
+  "slug": "openai-publica-resultados-matematicos-generados-por-ia-49984923",
+  "fecha": "2026-10-07T05:14:24+00:00",
+  "titulo": "OpenAI publica resultados matemáticos generados por IA",
+  "resumen": "OpenAI ha liberado un conjunto de nuevos hallazgos matemáticos producidos por un modelo interno de frontera, disponibles en un repositorio de GitHub con protocolos establecidos para citación y revisión. Los resultados incluyen formalizaciones de pruebas en Lean, un lenguaje de programación que permite verificar demostraciones de forma automatizada. La compañía trabajó con un grupo asesor independiente del Instituto de Estudios Avanzados para establecer buenas prácticas en la divulgación de estos avances, y planea financiar talleres y conferencias dedicadas a estos descubrimientos.",
+  "por_que_importa": "Los resultados representan un avance en la capacidad de las máquinas para resolver problemas matemáticos abiertos de larga data, lo que podría acelerar el progreso científico en matemáticas. La iniciativa sienta un precedente sobre cómo los laboratorios de IA deben compartir responsablemente descubrimientos científicos mayores con la comunidad académica.",
+  "puntos_clave": [
+   "Los hallazgos se publican con detalles de transparencia científica, incluyendo resúmenes del razonamiento del modelo e información sobre recursos computacionales utilizados",
+   "Se incluyen pruebas formalizadas en Lean para permitir verificación automatizada de las demostraciones matemáticas",
+   "OpenAI se compromete a mejorar la calidad futura de las publicaciones y a financiar iniciativas académicas alrededor de estos resultados"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+  "fuente_dominio": "openai.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49984923",
+  "score": 647,
+  "comentarios": 585
+ },
+ {
   "id": "49980715",
   "slug": "opentpu-acelerador-de-ia-de-codigo-abierto-desarrollado-por-49980715",
   "fecha": "2026-10-06T22:32:31+00:00",
