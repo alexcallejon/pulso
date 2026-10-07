@@ -1,5 +1,119 @@
 [
  {
+  "id": "49994443",
+  "slug": "bigwords-page-convierte-cualquier-pantalla-en-un-cartel-sin-49994443",
+  "fecha": "2026-10-07T22:56:12+00:00",
+  "titulo": "Bigwords.page: convierte cualquier pantalla en un cartel sin app ni servidor",
+  "resumen": "Bigwords.page es una herramienta que permite crear mensajes, temporizadores y carteles de pantalla completa mediante URLs, sin necesidad de aplicaciones, cuentas o almacenamiento en servidores. Los parámetros se configuran directamente en el enlace usando fragmentos URL, que los navegadores no envían al servidor, garantizando privacidad. Ofrece casos de uso como señales de bienvenida, temporizadores, contraseñas Wi-Fi, conteos regresivos y carteles de salas, con editor integrado para generar enlaces personalizados.",
+  "por_que_importa": "Resuelve la necesidad de mostrar información dinámica en pantallas sin acceso físico, ideal para tablets con control remoto. Su enfoque sin backend y totalmente basado en URL la hace accesible, privada y fácil de compartir o guardar como marcador.",
+  "puntos_clave": [
+   "Los mensajes se codifican completamente en la URL; el navegador nunca envía datos al servidor",
+   "Funciona como editor web integrado con opciones de colores, fuentes, animaciones y temporizadores personalizables",
+   "Aplicaciones prácticas incluyen letreros de llegada, conteos regresivos, información de Wi-Fi y carteles de puertas o salas"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://bigwords.page/",
+  "fuente_dominio": "bigwords.page",
+  "hn_url": "https://news.ycombinator.com/item?id=49994443",
+  "score": 290,
+  "comentarios": 97
+ },
+ {
+  "id": "49990224",
+  "slug": "recrean-la-tipografia-del-commodore-64-a-partir-de-fotografi-49990224",
+  "fecha": "2026-10-07T22:56:08+00:00",
+  "titulo": "Recrean la tipografía del Commodore 64 a partir de fotografías de sus teclas",
+  "resumen": "Un desarrollador ha reconstruido la fuente tipográfica del teclado del Commodore 64 mediante fotografías de las teclas originales de su equipo. La fuente incluye letras, números, puntuación y caracteres gráficos PETSCII, disponible en múltiples formatos para uso en escritorio y web. El proyecto se distribuye bajo licencia de dominio público, permitiendo su uso libre y modificación.",
+  "por_que_importa": "Preserva un elemento icónico del diseño de una computadora histórica que marcó generaciones de usuarios. Facilita a desarrolladores y diseñadores recrear la estética retro del Commodore 64 en proyectos modernos.",
+  "puntos_clave": [
+   "La tipografía fue reconstruida a partir de fotografías del teclado original de un Commodore 64 de Europa Central.",
+   "Incluye caracteres gráficos PETSCII y caracteres acentuados, además de las funciones de teclas estándar.",
+   "Se ofrece en formatos TTF, OTF y webfont con licencia de dominio público."
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://github.com/szabadkai/c64-keyboard-font/",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49990224",
+  "score": 368,
+  "comentarios": 62
+ },
+ {
+  "id": "49996425",
+  "slug": "openai-lanza-gpt-6-con-interfaz-inteligente-para-1-200-millo-49996425",
+  "fecha": "2026-10-07T22:56:03+00:00",
+  "titulo": "OpenAI lanza GPT-6 con interfaz inteligente para 1.200 millones de usuarios",
+  "resumen": "OpenAI ha puesto a disposición de todos los usuarios de ChatGPT el modelo GPT-6, que introduce una nueva capacidad llamada Interfaz Inteligente. Esta funcionalidad permite que el modelo genere respuestas no solo con texto, sino también con elementos visuales e interactivos como gráficos, botones, formularios y diagramas. El sistema adapta el formato de la respuesta según la pregunta, desde explicaciones visuales hasta herramientas interactivas que los usuarios pueden utilizar directamente en la conversación.",
+  "por_que_importa": "La Interfaz Inteligente busca mejorar la comprensión de temas complejos y hacer más accesible la información visual para millones de personas. El modelo puede crear herramientas personalizadas sobre la marcha sin que el usuario tenga que abandonar la conversación.",
+  "puntos_clave": [
+   "GPT-6 genera respuestas con texto, imágenes, gráficos, botones y elementos interactivos adaptados a cada pregunta",
+   "Disponible para los más de 1.200 millones de usuarios semanales de ChatGPT en web y dispositivos móviles",
+   "Permite crear herramientas interactivas bajo demanda, como calculadoras, divisores de gastos y juegos dentro de la conversación"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://openai.com/index/gpt-6-for-everyone/",
+  "fuente_dominio": "openai.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49996425",
+  "score": 422,
+  "comentarios": 214
+ },
+ {
+  "id": "49993914",
+  "slug": "visa-y-mastercard-enfrentan-demanda-por-cobros-anticompetiti-49993914",
+  "fecha": "2026-10-07T22:55:59+00:00",
+  "titulo": "Visa y Mastercard enfrentan demanda por cobros anticompetitivos",
+  "resumen": "Una demanda colectiva presentada por una pizzería de San Diego alega que Visa, Mastercard y los principales bancos estadounidenses han conspirado para mantener artificialmente elevadas las comisiones que los comerciantes pagan en transacciones con tarjeta de crédito. La acción reclama que los demandados han implementado reglas restrictivas que eliminan la capacidad de negociación de los comerciantes y evitan que estos dirijan a los clientes hacia opciones de pago más económicas. Según la demanda, los comerciantes pagan más de cien mil millones de dólares anuales en comisiones, a pesar de que hace años se aprobó un acuerdo de quinientos millones de dólares sobre el mismo tema.",
+  "por_que_importa": "El caso cuestiona prácticas de larga data en la industria de pagos que afectan a prácticamente todas las transacciones con tarjeta de crédito en Estados Unidos. Los comentarios destacan que reformas simples, como permitir que los comerciantes surchargen por tipo de tarjeta, podrían restaurar la competencia en el mercado y reducir costos.",
+  "puntos_clave": [
+   "Demanda alega colusión entre Visa, Mastercard y cinco grandes bancos para fijar comisiones de transacción uniformes",
+   "Los demandados habría implementado restricciones que impiden a comerciantes rechazar ciertas tarjetas o ofrecer descuentos por métodos alternativos",
+   "Se reclaman daños por más de cien mil millones de dólares anuales en comisiones supuestamente excesivas"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.classaction.org/news/visa-mastercard-major-banks-facing-new-litigation-over-anticompetitive-merchant-credit-card-transaction-fees",
+  "fuente_dominio": "classaction.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49993914",
+  "score": 440,
+  "comentarios": 304
+ },
+ {
+  "id": "49991227",
+  "slug": "chrome-incorpora-soporte-para-el-formato-de-imagen-jpeg-xl-49991227",
+  "fecha": "2026-10-07T22:55:53+00:00",
+  "titulo": "Chrome incorpora soporte para el formato de imagen JPEG XL",
+  "resumen": "A partir de la versión 155, Chrome activa la decodificación de imágenes en formato JPEG XL, un formato de nueva generación que ofrece mejor compresión que JPEG y soporte para HDR. El navegador implementó el decodificador en Rust para garantizar seguridad de memoria, evitando vulnerabilidades comunes en lenguajes como C++. La decisión se basa en retroalimentación de desarrolladores y busca proporcionar una alternativa versátil junto con AVIF para diferentes casos de uso.",
+  "por_que_importa": "JPEG XL había sido removido de Chrome anteriormente, lo que limitaba su adopción en la web; su reinserción junto con el soporte anunciado en otros navegadores amplía significativamente su cobertura. La implementación en Rust establece un estándar de seguridad para decodificadores de imágenes, reduciendo riesgos de explotación en una superficie crítica de ataque.",
+  "puntos_clave": [
+   "Chrome 155 habilita decodificación de JPEG XL con compresión 30-50% mejor que JPEG",
+   "El decodificador se escribió en Rust para eliminar vulnerabilidades de memoria sin sacrificar rendimiento",
+   "Otros navegadores como Firefox y Safari también suman soporte, ampliando el ecosistema del formato"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+  "fuente_dominio": "developer.chrome.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49991227",
+  "score": 461,
+  "comentarios": 294
+ },
+ {
+  "id": "49996437",
+  "slug": "anthropic-presenta-claude-haiku-5-5-su-modelo-mas-rapido-y-e-49996437",
+  "fecha": "2026-10-07T22:55:49+00:00",
+  "titulo": "Anthropic presenta Claude Haiku 5.5, su modelo más rápido y económico",
+  "resumen": "Anthropic lanzó Claude Haiku 5.5, un modelo de lenguaje compacto diseñado para tareas de alto volumen y sensibles al costo, con un precio aproximadamente 75% inferior al de su versión anterior. El modelo destaca por su velocidad y desempeño en tareas como resúmenes, consultas de bases de datos y soporte al cliente en tiempo real. Además, la empresa redujo los precios de lectura de caché para Claude Sonnet 5.5 y introdujo créditos mensuales en API para suscriptores de Claude Max y Team.",
+  "por_que_importa": "Las reducciones de costo significativas hacen que los modelos de IA sean más accesibles para aplicaciones empresariales a escala, permitiendo a las organizaciones implementar agentes y características mejoradas con IA sin incrementos sustanciales de gasto. La capacidad de ajustar el nivel de esfuerzo entre velocidad e inteligencia ofrece más flexibilidad para optimizar según las necesidades específicas de cada caso de uso.",
+  "puntos_clave": [
+   "Haiku 5.5 cuesta aproximadamente 75% menos que Haiku 4.5, con mejoras de rendimiento en benchmarks de razonamiento y trabajo computacional",
+   "Incluye configuración de esfuerzo ajustable para equilibrar costo e inteligencia, siendo el primer modelo Haiku con esta característica",
+   "Sonnet 5.5 reduce precios de caché a la mitad, y se añaden créditos mensuales de API para suscriptores Max y Team"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://www.anthropic.com/claude-haiku-5-5",
+  "fuente_dominio": "anthropic.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49996437",
+  "score": 584,
+  "comentarios": 281
+ },
+ {
   "id": "49985643",
   "slug": "state-of-devs-2026-inseguridad-laboral-y-burnout-dominan-la-49985643",
   "fecha": "2026-10-07T12:59:52+00:00",
