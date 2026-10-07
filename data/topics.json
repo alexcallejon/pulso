@@ -1,5 +1,81 @@
 [
  {
+  "id": "49985643",
+  "slug": "state-of-devs-2026-inseguridad-laboral-y-burnout-dominan-la-49985643",
+  "fecha": "2026-10-07T12:59:52+00:00",
+  "titulo": "State of Devs 2026: inseguridad laboral y burnout dominan la industria",
+  "resumen": "La encuesta anual a desarrolladores de software revela que casi la mitad experimenta inseguridad laboral e ingresos insuficientes, con un cuarto de los participantes habiendo sido despedido en algún momento. Más de dos tercios reportan menor motivación y mayor cinismo, mientras que aproximadamente la mitad lucha con concentración, procrastinación y agotamiento emocional. El 62% ha sufrido burnout en su carrera, y la incertidumbre sobre el impacto de la inteligencia artificial intensifica estas preocupaciones.",
+  "por_que_importa": "El deterioro acelerado de la salud mental y la estabilidad laboral en el sector tecnológico indica transformaciones profundas en la industria del software que afectan tanto a profesionales como a empresas. Las opiniones polarizadas sobre inteligencia artificial subrayan la urgencia de abordar cómo esta tecnología redefinirá las competencias y oportunidades en desarrollo de software.",
+  "puntos_clave": [
+   "Inseguridad laboral generalizada: casi la mitad reporta inestabilidad y salarios insuficientes",
+   "Crisis de bienestar: dos tercios experimentan desmotivación y cinismo; la mitad sufre drenaje emocional",
+   "Incertidumbre acelerada: desarrolladores cambian su percepción del futuro profesional en cuestión de meses"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://2026.stateofdevs.com/en-US/",
+  "fuente_dominio": "2026.stateofdevs.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49985643",
+  "score": 211,
+  "comentarios": 117
+ },
+ {
+  "id": "49984716",
+  "slug": "penguin-mail-cliente-de-correo-de-codigo-abierto-para-linux-49984716",
+  "fecha": "2026-10-07T12:59:47+00:00",
+  "titulo": "Penguin Mail: cliente de correo de código abierto para Linux con IA integrada",
+  "resumen": "Se lanza Penguin Mail, un cliente de correo electrónico de código abierto basado en Rust para Linux que permite gestionar cuentas de Gmail, Outlook, IMAP y POP3 en una única bandeja de entrada. La aplicación incluye calendario, contactos, cifrado OpenPGP/S/MIME y un asistente de inteligencia artificial opcional que funciona localmente sin enviar datos a servidores externos. El software es gratuito bajo licencia GPL-3.0 y no contiene publicidad ni mecanismos de rastreo.",
+  "por_que_importa": "Ofrece una alternativa de código abierto a los clientes de correo tradicionales con enfoque en la privacidad, permitiendo que los usuarios mantengan sus datos en sus máquinas locales. Su inclusión de funcionalidades modernas como IA integrada y compatibilidad con múltiples proveedores lo posiciona como una opción completa para usuarios de Linux que valoran el control y la transparencia.",
+  "puntos_clave": [
+   "Soporta Gmail, Microsoft, IMAP, POP3 y múltiples proveedores de calendario y contactos en una interfaz unificada",
+   "Incluye asistente de IA opcional que se ejecuta localmente sin compartir datos con servidores externos",
+   "No almacena datos en servidores propios y no realiza seguimiento de usuarios ni muestra publicidad"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://penguin-mail.com/",
+  "fuente_dominio": "penguin-mail.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49984716",
+  "score": 212,
+  "comentarios": 137
+ },
+ {
+  "id": "49987076",
+  "slug": "strands-decider-2b-modelo-de-decision-abierto-y-compacto-par-49987076",
+  "fecha": "2026-10-07T12:59:42+00:00",
+  "titulo": "Strands Decider 2B: modelo de decisión abierto y compacto para IA agéntica",
+  "resumen": "Se ha presentado Strands Decider 2B, un modelo de decisión de código abierto con 2.000 millones de parámetros diseñado para elegir entre opciones predefinidas en lugar de generar texto libre. A diferencia de los modelos de lenguaje convencionales, ofrece respuestas en decenas de milisegundos, proporciona puntuaciones de confiabilidad y es ejecutable en procesadores locales. El modelo está disponible públicamente en GitHub y Hugging Face, incluyendo datos de entrenamiento y scripts.",
+  "por_que_importa": "Los modelos de decisión representan una clase emergente de sistemas especializados que optimizan velocidad y eficiencia para flujos de trabajo con IA agéntica, complementando a los grandes modelos de lenguaje en tareas específicas. Esta liberación de código abierto permite a desarrolladores experimentar con esta tecnología y adaptarla a aplicaciones locales sin dependencias de APIs externas.",
+  "puntos_clave": [
+   "Selecciona entre opciones predeterminadas con baja latencia, no genera texto arbitrario",
+   "Basado en arquitectura Qwen2.5-2B con adaptador LoRA, ejecutable en CPU/GPU local",
+   "Incluye puntuaciones de confiabilidad para cada decisión, mejorando la fiabilidad de sistemas automáticos"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://strandsagents.com/blog/introducing-strands-decider/",
+  "fuente_dominio": "strandsagents.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49987076",
+  "score": 218,
+  "comentarios": 62
+ },
+ {
+  "id": "49981905",
+  "slug": "la-funcion-de-mensajes-sugeridos-de-claude-quien-es-realment-49981905",
+  "fecha": "2026-10-07T12:59:37+00:00",
+  "titulo": "La función de mensajes sugeridos de Claude: ¿quién es realmente el cliente?",
+  "resumen": "Un ingeniero de software cuestiona el propósito real de la función de mensajes sugeridos en Claude, señalando que el modelo parece anticipar acciones del usuario incluso antes de que las solicite. Los comentarios sugieren que esta característica podría servir principalmente para recopilar datos de entrenamiento del modelo en lugar de mejorar la experiencia del usuario. Algunos usuarios notan que la función introduce sesgos al mostrar predicciones prefabricadas, influyendo en las respuestas independientes.",
+  "por_que_importa": "Plantea preguntas sobre los verdaderos incentivos detrás de las características de IA y cómo las empresas de inteligencia artificial pueden priorizar el entrenamiento de modelos sobre la autonomía del usuario. Ilustra la tensión entre mejorar productos y optimizar datos para sistemas de aprendizaje automático.",
+  "puntos_clave": [
+   "Claude modificó características sin solicitud explícita del usuario, sugiriendo cambios que anticipaba que serían deseados.",
+   "La función podría recopilar datos de entrenamiento de forma implícita mientras biasea las respuestas del usuario hacia las predicciones del modelo.",
+   "Los usuarios cuestionan si Anthropic reconoce que los modelos de lenguaje ya pueden generar estas predicciones sin necesidad de recopilar datos adicionales."
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+  "fuente_dominio": "zohaib.cc",
+  "hn_url": "https://news.ycombinator.com/item?id=49981905",
+  "score": 230,
+  "comentarios": 132
+ },
+ {
   "id": "49985664",
   "slug": "herramienta-convierte-ejecutables-de-ps5-a-pc-sin-emulacion-49985664",
   "fecha": "2026-10-07T05:14:50+00:00",
