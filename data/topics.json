@@ -1,5 +1,119 @@
 [
  {
+  "id": "49980346",
+  "slug": "zotero-20-anos-de-desarrollo-lento-que-genero-software-durad-49980346",
+  "fecha": "2026-10-08T23:08:31+00:00",
+  "titulo": "Zotero: 20 años de desarrollo lento que generó software duradero",
+  "resumen": "Zotero, herramienta de investigación utilizada por millones de académicos, tardó cinco años en crear su prototipo inicial, un proceso opuesto a la creación instantánea de software actual con IA. El desarrollo colaborativo y reflexivo de un grupo de historiadores con conocimientos tecnológicos permitió definir una visión clara del producto sin depender de sistemas de IA. Este ritmo lento resultó en un software con bases sólidas y capacidad de expansión, en contraste con la tendencia actual de producción acelerada.",
+  "por_que_importa": "Mientras la IA promete acelerar el desarrollo de software, la historia de Zotero demuestra que la reflexión profunda y el trabajo colaborativo generan productos más confiables y duraderos. El contraste entre velocidad e innovación significativa cuestiona el modelo actual de desarrollo ágil y plantea lecciones sobre qué tipo de software merece perdurar.",
+  "puntos_clave": [
+   "Zotero necesitó años de colaboración para definir su propósito, algo imposible de lograr con indicaciones a IA sin claridad previa",
+   "El desarrollo medido produjo software resistente con fundaciones robustas, frente a la producción rápida pero efímera actual",
+   "La experiencia sugiere que los productos de verdadera calidad justifican inversión prolongada comparada con soluciones genéricas creadas instantáneamente"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/",
+  "fuente_dominio": "newsletter.dancohen.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49980346",
+  "score": 244,
+  "comentarios": 107
+ },
+ {
+  "id": "49995495",
+  "slug": "cafetera-inteligente-consumio-1tb-de-datos-en-10-dias-en-red-49995495",
+  "fecha": "2026-10-08T23:08:25+00:00",
+  "titulo": "Cafetera inteligente consumió 1TB de datos en 10 días en red doméstica",
+  "resumen": "Un usuario descubrió que la cafetera inteligente de sus padres generó un volumen masivo de tráfico de datos en apenas diez días. La mayoría del tráfico permaneció dentro de la red local del hogar, aunque saturó el punto de acceso Wi-Fi. Según confirmaciones posteriores, el dispositivo realizaba escaneos de metadatos para recopilar información del hogar destinada a la venta publicitaria.",
+  "por_que_importa": "Ilustra los riesgos de privacidad y rendimiento que conllevan los dispositivos conectados con falta de transparencia sobre sus prácticas de recopilación de datos. Evidencia la necesidad de mayor control y segmentación de redes en hogares inteligentes.",
+  "puntos_clave": [
+   "Una cafetera Keurig generó 1TB de tráfico de red en diez días, mayormente dentro de la red local",
+   "El dispositivo realizaba escaneos para recopilar datos del hogar con fines publicitarios",
+   "El tráfico saturó el rendimiento del punto de acceso Wi-Fi del hogar"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/",
+  "fuente_dominio": "dexerto.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49995495",
+  "score": 296,
+  "comentarios": 185
+ },
+ {
+  "id": "50000488",
+  "slug": "deepseek-4-1-flash-un-modelo-economico-que-la-industria-sube-50000488",
+  "fecha": "2026-10-08T23:08:21+00:00",
+  "titulo": "DeepSeek 4.1 Flash: un modelo económico que la industria subestima",
+  "resumen": "Un desarrollador destaca que DeepSeek 4.1 Flash ofrece capacidades comparables a modelos de frontera a una fracción del costo, gracias a optimizaciones en caché que reducen significativamente el consumo de recursos. A pesar de su rendimiento, la industria tecnológica no le presta la atención merecida porque muchos usuarios dependen de suscripciones subsidiadas. Los comentarios revelan que los ahorros reales varían según el modelo de precios y que la verdadera ventaja de costo solo se materializa cuando se comparan tasas de API directas.",
+  "por_que_importa": "DeepSeek representa una amenaza potencial para los laboratorios de frontera occidental al demostrar que modelos distilados chinos pueden manejar cargas de trabajo comparables. La accesibilidad económica de estos modelos podría democratizar el acceso a inteligencia artificial de calidad y cambiar la forma en que los desarrolladores planifican sus presupuestos tecnológicos.",
+  "puntos_clave": [
+   "DeepSeek 4.1 Flash logra rendimiento comparable a modelos premium con costos significativamente menores",
+   "Las optimizaciones de caché reducen el consumo de memoria y energía, permitiendo sesiones de trabajo prolongadas por menos de un dólar",
+   "La percepción de valor depende del modelo de suscripción; los ahorros varían según si se usan planes subsidiados o tasas de API"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+  "fuente_dominio": "dgt.is",
+  "hn_url": "https://news.ycombinator.com/item?id=50000488",
+  "score": 306,
+  "comentarios": 262
+ },
+ {
+  "id": "50004790",
+  "slug": "opus-5-5-genera-visualizacion-interactiva-de-las-ciudades-in-50004790",
+  "fecha": "2026-10-08T23:08:15+00:00",
+  "titulo": "Opus 5.5 genera visualización interactiva de Las Ciudades Invisibles en horas",
+  "resumen": "Un desarrollador probó Claude Opus 5.5 para crear una visualización tridimensional interactiva de las 55 ciudades del libro de Italo Calvino, utilizando únicamente un prompt y seis horas de trabajo disponible. El modelo completó el proyecto en poco más de una hora con seis agentes trabajando en paralelo, generando un resultado considerado sorprendente en calidad visual y funcionalidad. También se comparó con GPT-6 Astra, que tardó 53 minutos pero produjo más elementos innecesarios.",
+  "por_que_importa": "Demuestra que los modelos de lenguaje actuales pueden producir visualizaciones de datos complejas e interactivas en una sola iteración, sin necesidad de múltiples revisiones manuales. Sugiere un salto cualitativo en capacidades de diseño asistido por IA respecto a generaciones anteriores de modelos.",
+  "puntos_clave": [
+   "Opus 5.5 completó la tarea en 1 hora 25 minutos usando 6 subagentes en paralelo con costo de aproximadamente 74 dólares",
+   "GPT-6 Astra tardó 53 minutos pero generó más ruido visual innecesario con un costo de 10 dólares",
+   "Modelos anteriores requerían múltiples iteraciones de refinamiento manual, eliminando contenido redundante y corrigiendo problemas visuales"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://quesma.com/blog/invisible-cities-one-shot/",
+  "fuente_dominio": "quesma.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50004790",
+  "score": 334,
+  "comentarios": 171
+ },
+ {
+  "id": "50008187",
+  "slug": "openai-reporta-ingresos-anualizados-de-50b-muy-por-debajo-de-50008187",
+  "fecha": "2026-10-08T23:08:10+00:00",
+  "titulo": "OpenAI reporta ingresos anualizados de $50B, muy por debajo de cifras previas",
+  "resumen": "OpenAI comunicó a inversores que alcanzó aproximadamente $50 mil millones en ingresos anualizados a finales de septiembre, cifra significativamente inferior a los $68 mil millones reportados anteriormente. La discrepancia se debió a que la cifra anterior incluía ingresos brutos de socios de la empresa para permitir comparación directa con Anthropic. El anuncio provocó caídas en las acciones de empresas tecnológicas vinculadas a la inteligencia artificial.",
+  "por_que_importa": "OpenAI se prepara para una salida a bolsa esperada en 2027 con una valuación de $852 mil millones, por lo que la claridad sobre sus verdaderos ingresos es crucial para inversores. La corrección de cifras refleja desafíos de transparencia en empresas de IA que cotizan con valuaciones extremadamente altas sin información financiera completa disponible públicamente.",
+  "puntos_clave": [
+   "Ingresos reales de $50B anualizados versus $68B previamente difundidos",
+   "Crecimiento del 77% en tasa de ejecución total y 107% en negocios empresariales durante Q3",
+   "Acciones de Nvidia, Oracle y CoreWeave cayeron tras conocer los detalles financieros"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+  "fuente_dominio": "cnbc.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50008187",
+  "score": 342,
+  "comentarios": 238
+ },
+ {
+  "id": "50008427",
+  "slug": "whistle-modelo-de-reconocimiento-de-voz-en-16-9-mb-para-disp-50008427",
+  "fecha": "2026-10-08T23:08:05+00:00",
+  "titulo": "Whistle: modelo de reconocimiento de voz en 16,9 MB para dispositivos locales",
+  "resumen": "Se lanza Whistle, un modelo de reconocimiento de voz de código abierto que ocupa solo 16,9 MB y funciona en CPU sin dependencias externas. Transcribe siete idiomas con latencia de 11 ms en el primer token y se integra en el mismo motor que Needle. El procesamiento ocurre completamente en el dispositivo, sin enviar audio a servidores externos.",
+  "por_que_importa": "Permite ejecutar reconocimiento de voz en dispositivos con recursos limitados como wearables, robots y microcontroladores, manteniendo la privacidad al no transmitir datos. Abre posibilidades para automatización del hogar y aplicaciones offline en equipos de bajo rendimiento.",
+  "puntos_clave": [
+   "Funciona completamente en CPU con un único archivo de 16,9 MB sin dependencias externas",
+   "Soporta transcripción, marcas de tiempo de palabras e integración con embeddings de voz en siete idiomas",
+   "Latencia de 11 ms para el primer token y capacidad de procesar hasta 30 segundos de audio por pasada"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://cactuscompute.com/blog/whistle",
+  "fuente_dominio": "cactuscompute.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50008427",
+  "score": 434,
+  "comentarios": 103
+ },
+ {
   "id": "49959280",
   "slug": "quince-anos-buscando-a-una-banda-que-desaparecio-tras-su-uni-49959280",
   "fecha": "2026-10-08T13:07:39+00:00",
