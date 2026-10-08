@@ -1,5 +1,119 @@
 [
  {
+  "id": "49959280",
+  "slug": "quince-anos-buscando-a-una-banda-que-desaparecio-tras-su-uni-49959280",
+  "fecha": "2026-10-08T13:07:39+00:00",
+  "titulo": "Quince años buscando a una banda que desapareció tras su único éxito",
+  "resumen": "Un periodista tecnológico pasó 15 años intentando encontrar información sobre Salvage, una banda que lanzó dos canciones profesionalmente producidas que alcanzaron el número 47 en las listas británicas en 2006. Utilizó modelos de IA como herramienta de búsqueda para investigar archivos, metadatos y registros históricos dispersos en internet. La investigación reveló que la banda había sido distribuida por una pequeña discográfica llamada Despatches y que el físico fue procesado por Key Production en Londres, aunque sin obtener identificación definitiva de los músicos.",
+  "por_que_importa": "Ilustra cómo internet puede perder rastro de contenido legítimo incluso cuando fue comercializado y registrado oficialmente, un fenómeno cada vez más relevante para la preservación digital. Demuestra el valor de los modelos de IA como asistentes en investigaciones complejas cuando los métodos tradicionales de búsqueda fallan.",
+  "puntos_clave": [
+   "El registro en las listas oficiales británicas de 2006 confirmó que el lanzamiento fue real, a pesar de la ausencia de otros datos en línea",
+   "La búsqueda manual fracasó durante años debido a nombres genéricos, múltiples bandas homónimas y metadatos incompletos",
+   "Los modelos de IA ayudaron a cambiar estrategias de búsqueda y a rastrear pistas en bases de datos legadas, aunque sin identificar finalmente a los músicos"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://shahidhussain.com/writing/search-for-salvage/",
+  "fuente_dominio": "shahidhussain.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49959280",
+  "score": 204,
+  "comentarios": 74
+ },
+ {
+  "id": "49991243",
+  "slug": "juegos-de-psp-funcionan-en-el-navegador-mediante-recompilaci-49991243",
+  "fecha": "2026-10-08T13:07:34+00:00",
+  "titulo": "Juegos de PSP funcionan en el navegador mediante recompilación a WebAssembly",
+  "resumen": "Un proyecto permite ejecutar videojuegos de PSP directamente en navegadores web sin necesidad de emulador, traduciendo el código máquina MIPS a C++ y compilándolo a WebAssembly. God of War: Chains of Olympus y Ghost of Sparta funcionan a 60 fotogramas por segundo con gráficos mejorados hasta cuatro veces la resolución original, incluyendo audio y controles táctiles. El sistema utiliza una reimplementación del kernel de PSP y WebGL2 para renderizado, ejecutando la lógica gráfica en un hilo separado similar a la arquitectura original.",
+  "por_que_importa": "Demuestra una alternativa técnica para la preservación de videojuegos antiguos en plataformas modernas accesibles sin intervención de los propietarios originales de las licencias. Representa un avance en técnicas de ingeniería inversa que permiten adaptar juegos heredados a estándares web sin emulación tradicional.",
+  "puntos_clave": [
+   "Traduce código MIPS a WebAssembly mediante compilación previa, no emulación clásica",
+   "Ejecuta títulos complejos de PSP a 60 fps en navegadores de escritorio y móviles",
+   "Implementa kernel y chip gráfico de PSP en C++ para máxima compatibilidad"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://github.com/snuri00/psp-web-recomp",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49991243",
+  "score": 206,
+  "comentarios": 106
+ },
+ {
+  "id": "49992125",
+  "slug": "vivienda-con-tuneles-subterraneos-de-15-metros-se-vende-por-49992125",
+  "fecha": "2026-10-08T13:07:29+00:00",
+  "titulo": "Vivienda con túneles subterráneos de 15 metros se vende por 300.000 libras",
+  "resumen": "Una propiedad en Tilehurst, Inglaterra, sale al mercado con una característica inusual: una red de túneles excavados manualmente a 15 metros de profundidad. El ingeniero civil Tony Deane dedicó dos décadas a crear este complejo subterráneo con múltiples habitaciones y pasillos. El inmueble contiene más de 1.300 metros cuadrados e incluye detalles peculiares como una entrada secreta oculta dentro de un cohete junto a la piscina.",
+  "por_que_importa": "El proyecto representa un ejemplo extremo de dedicación personal y capacidad técnica aplicada a un hobby arquitectónico único. La propiedad evidencia cómo un profesional cualificado puede transformar radicalmente un inmueble mediante un trabajo de décadas.",
+  "puntos_clave": [
+   "Túneles excavados manualmente a una profundidad de 15 metros bajo tierra",
+   "Proyecto desarrollado durante veinte años por un ingeniero civil",
+   "Red subterránea con múltiples habitaciones, pasillos y una entrada secreta"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://www.readingchronicle.co.uk/news/26612080.house-15m-underground-tunnels-sale-300k/",
+  "fuente_dominio": "readingchronicle.co.uk",
+  "hn_url": "https://news.ycombinator.com/item?id=49992125",
+  "score": 216,
+  "comentarios": 204
+ },
+ {
+  "id": "49996259",
+  "slug": "docker-lanza-docker-agent-herramienta-para-construir-y-ejecu-49996259",
+  "fecha": "2026-10-08T13:07:25+00:00",
+  "titulo": "Docker lanza Docker Agent, herramienta para construir y ejecutar agentes de IA",
+  "resumen": "Docker ha presentado Docker Agent, un complemento de CLI que permite crear y ejecutar agentes de inteligencia artificial que trabajan en colaboración mediante configuración declarativa en YAML, sin necesidad de escribir código. La plataforma soporta múltiples proveedores de modelos de IA y dispone de un ecosistema extenso de herramientas, incluyendo servidores MCP locales o remotos. Los agentes pueden ser empaquetados y compartidos a través de registros OCI, facilitando su distribución y reutilización.",
+  "por_que_importa": "Simplifica la creación de sistemas multi-agente complejos mediante configuración declarativa, reduciendo barreras de entrada para desarrolladores que deseen construir soluciones de IA orquestadas. Refleja una tendencia del sector hacia la estandarización de herramientas de orquestación de agentes, lo que sugiere que estos sistemas se están consolidando como infraestructura crítica en desarrollo.",
+  "puntos_clave": [
+   "Arquitectura multi-agente con delegación automática de tareas y configuración basada en YAML",
+   "Compatible con múltiples proveedores de modelos (OpenAI, Anthropic, Gemini, AWS Bedrock, entre otros)",
+   "Disponible como plugin de Docker CLI con herramientas integradas de razonamiento, memoria y búsqueda semántica"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://github.com/docker/docker-agent",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49996259",
+  "score": 264,
+  "comentarios": 121
+ },
+ {
+  "id": "49970767",
+  "slug": "hundred-rabbits-vida-autosuficiente-y-proyectos-tecnologicos-49970767",
+  "fecha": "2026-10-08T13:07:20+00:00",
+  "titulo": "Hundred Rabbits: vida autosuficiente y proyectos tecnológicos alternativos",
+  "resumen": "Hundred Rabbits es un colectivo que desarrolla software y proyectos creativos desde una vida independiente de infraestructuras convencionales. Durante 2026 han lanzado varios proyectos, incluyendo una nueva versión del juego Donsol y contenido educativo sobre cifrado y comunicación segura. Su enfoque combina programación, criptografía básica y una filosofía de entender y reparar las herramientas que utilizan.",
+  "por_que_importa": "Representa un modelo alternativo de desarrollo tecnológico fuera de plataformas centralizadas, enfatizando la privacidad y la autosuficiencia digital. Sus iniciativas en educación criptográfica y software accesible cuestionan las formas convencionales de organización y comunicación en línea.",
+  "puntos_clave": [
+   "Lanzaron Donsol, una nueva versión de su juego con sprites animados y manual integrado",
+   "Publican tutoriales mensuales en Rabbit Waves sobre cifrado, criptografía de papel y comunicación segura",
+   "Desarrollan herramientas en Uxntal, un lenguaje de programación de bajo nivel para arquitecturas minimalistas"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://100r.ca/site/home.html",
+  "fuente_dominio": "100r.ca",
+  "hn_url": "https://news.ycombinator.com/item?id=49970767",
+  "score": 276,
+  "comentarios": 93
+ },
+ {
+  "id": "49997718",
+  "slug": "openai-resuelve-conjeturas-matematicas-abiertas-pero-sus-pru-49997718",
+  "fecha": "2026-10-08T13:07:15+00:00",
+  "titulo": "OpenAI resuelve conjeturas matemáticas abiertas, pero sus pruebas resultan ininteligibles",
+  "resumen": "OpenAI presentó 372 resultados matemáticos, incluyendo la prueba de la Conjetura de Juegos Únicos, un problema que investigadores llevaban años intentando resolver. Aunque las pruebas cuentan con certificados de verificación, ningún matemático ha logrado comprenderlas aún sin ayuda de inteligencia artificial. El modelo logró resolver aproximadamente el 5% de los 8.000 problemas matemáticos abiertos que le fueron presentados en intentos de tres horas cada uno.",
+  "por_que_importa": "Representa un hito histórico en matemáticas donde sistemas de IA alcanzan resultados que comunidades científicas no han podido obtener, pero plantea preguntas sobre la comprensibilidad y utilidad práctica de estas soluciones. La generación de pruebas ilegibles por humanos abre debates sobre cómo validar y aprender de avances matemáticos producidos por máquinas.",
+  "puntos_clave": [
+   "OpenAI logró demostrar conjeturas matemáticas abiertas, validadas con certificados formales pero incomprensibles sin asistencia de IA",
+   "El modelo resolvió el 5% de problemas matemáticos complejos tras tres horas de intentos por problema",
+   "Las pruebas generadas carecen de claridad y contienen referencias confusas, requiriendo reescritura para ser entendidas por matemáticos"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://scottaaronson.blog/?p=10169",
+  "fuente_dominio": "scottaaronson.blog",
+  "hn_url": "https://news.ycombinator.com/item?id=49997718",
+  "score": 288,
+  "comentarios": 305
+ },
+ {
   "id": "49992257",
   "slug": "errores-comunes-al-escribir-sobre-desarrollo-de-software-49992257",
   "fecha": "2026-10-08T05:24:53+00:00",
