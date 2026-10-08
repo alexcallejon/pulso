@@ -1,5 +1,119 @@
 [
  {
+  "id": "49992257",
+  "slug": "errores-comunes-al-escribir-sobre-desarrollo-de-software-49992257",
+  "fecha": "2026-10-08T05:24:53+00:00",
+  "titulo": "Errores comunes al escribir sobre desarrollo de software",
+  "resumen": "Un análisis identifica los problemas más frecuentes en blogs de tecnología, comenzando por introducciones que divagan sin aclarar el valor para el lector. Entre los defectos catalogados destacan asumir conocimientos previos del lector, sobrecargar el texto con elementos innecesarios y problemas técnicos de presentación. Los comentarios subrayan que la claridad educativa debe priorizar explicar conceptos mediante comparaciones familiares, evitando complejidad innecesaria.",
+  "por_que_importa": "La calidad de los blogs técnicos afecta directamente la experiencia de aprendizaje de desarrolladores que buscan información específica. Reconocer estos errores comunes permite mejorar la efectividad comunicativa y hacer el contenido más accesible a audiencias diversas.",
+  "puntos_clave": [
+   "Las introducciones confusas que no establecen valor inmediato son el problema más frecuente en blogs de desarrollo",
+   "Asumir que el lector posee conocimientos previos específicos es uno de los errores más perjudiciales",
+   "La claridad educativa debe estructurarse de forma directa, comparando conceptos nuevos con referencias familiares"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://refactoringenglish.com/blog/anti-patterns-software-blogging/",
+  "fuente_dominio": "refactoringenglish.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49992257",
+  "score": 237,
+  "comentarios": 128
+ },
+ {
+  "id": "49994145",
+  "slug": "verificacion-formal-de-ia-no-garantiza-la-correccion-de-prue-49994145",
+  "fecha": "2026-10-08T05:24:49+00:00",
+  "titulo": "Verificación formal de IA no garantiza la corrección de pruebas matemáticas",
+  "resumen": "Un estudio cuestiona la fiabilidad de traducir automáticamente demostraciones matemáticas del lenguaje natural a lenguajes formales como Lean, incluso cuando estas traducciones se verifican mecánicamente. Los autores argumentan que resolver ambigüedades en textos matemáticos es un problema computacionalmente más difícil que el problema de la parada, lo que hace imposible garantizar una traducción semánticamente fiel. El análisis incluye ejemplos de errores en traducciones de IA, entre ellos discrepancias en la demostración de Navier-Stokes que OpenAI anunció previamente.",
+  "por_que_importa": "La verificación formal de pruebas generadas por IA se promociona como un método de garantía, pero este trabajo evidencia que la traducción de lenguaje natural a código formal puede contener errores fundamentales que la verificación mecánica no detecta. Esto tiene implicaciones significativas para confiar en demostraciones matemáticas producidas por sistemas de IA.",
+  "puntos_clave": [
+   "La traducción automática de pruebas matemáticas a lenguajes formales no garantiza que representen fielmente el argumento original",
+   "Resolver ambigüedades en el lenguaje natural matemático es computacionalmente más complejo que problemas indecidibles clásicos",
+   "El análisis muestra desajustes entre la prueba de Navier-Stokes en lenguaje natural y su versión formalizada en Lean"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://arxiv.org/abs/2610.08144",
+  "fuente_dominio": "arxiv.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49994145",
+  "score": 280,
+  "comentarios": 172
+ },
+ {
+  "id": "49990470",
+  "slug": "premio-nobel-de-quimica-2026-reconoce-avances-en-sintesis-as-49990470",
+  "fecha": "2026-10-08T05:24:44+00:00",
+  "titulo": "Premio Nobel de Química 2026 reconoce avances en síntesis asimétrica",
+  "resumen": "Henri B. Kagan y Kenso Soai reciben el Premio Nobel de Química 2026 por descubrimientos que explican cómo puede emergir la quiralidad molecular de forma espontánea. Sus trabajos permitieron crear reacciones químicas que producen solo una de las dos variantes espejo de una molécula, algo que hasta entonces solo ocurría en sistemas biológicos vivos. Este logro ha sido fundamental para el desarrollo de fármacos, donde solo una de estas variantes tiene el efecto deseado.",
+  "por_que_importa": "Resuelve un enigma químico centenario sobre cómo la naturaleza produce moléculas quirales asimétricas, lo cual es esencial para entender la vida. Los descubrimientos tienen aplicación directa en la síntesis de medicamentos, donde la selección de la variante correcta de una molécula es crítica para su eficacia.",
+  "puntos_clave": [
+   "Kagan descubrió en 1986 un método para manipular reacciones y favorecer una variante molecular sobre otra",
+   "Soai logró en 2003 la primera reacción que producía solo una de las dos formas espejo posibles",
+   "Sus trabajos posibilitan la síntesis controlada de moléculas quirales usadas en desarrollo farmacéutico"
+  ],
+  "categoria": "Ciencia",
+  "fuente_url": "https://www.nobelprize.org/prizes/chemistry/2026/press-release/",
+  "fuente_dominio": "nobelprize.org",
+  "hn_url": "https://news.ycombinator.com/item?id=49990470",
+  "score": 295,
+  "comentarios": 56
+ },
+ {
+  "id": "49993857",
+  "slug": "ascii-rest-arte-ascii-animado-para-paginas-web-49993857",
+  "fecha": "2026-10-08T05:24:39+00:00",
+  "titulo": "ascii.rest: arte ASCII animado para páginas web",
+  "resumen": "Se ha lanzado ascii.rest, una herramienta que permite crear arte ASCII animado para sitios web. El proyecto ofrece una galería de escenas visuales y está disponible en GitHub con opciones de tema claro y oscuro. Los usuarios elogian la estética del resultado, aunque algunos cuestionan si realmente utiliza caracteres ASCII tradicionales o si se trata de arte Unicode con caracteres especiales de diferentes tamaños.",
+  "por_que_importa": "La herramienta abre posibilidades creativas para incorporar elementos visuales retro-futuristas en interfaces web modernas. Algunos usuarios la consideran una forma interesante de añadir identidad visual a aplicaciones y servidores, aunque genera debate sobre la autenticidad del formato ASCII versus Unicode.",
+  "puntos_clave": [
+   "Proyecto que permite animar arte ASCII en navegadores web con interfaz accesible",
+   "Genera discusión sobre si utiliza caracteres ASCII reales o arte Unicode con símbolos variados",
+   "Respeta preferencias de movimiento reducido, aunque la información sobre esta funcionalidad podría ser más clara"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://ascii.rest/",
+  "fuente_dominio": "ascii.rest",
+  "hn_url": "https://news.ycombinator.com/item?id=49993857",
+  "score": 322,
+  "comentarios": 59
+ },
+ {
+  "id": "49997161",
+  "slug": "meta-y-microsoft-reducen-el-uso-interno-de-claude-mientras-i-49997161",
+  "fecha": "2026-10-08T05:24:35+00:00",
+  "titulo": "Meta y Microsoft reducen el uso interno de Claude mientras impulsan sus propias herramientas de IA",
+  "resumen": "Meta y Microsoft han disminuido significativamente el uso de Claude, el modelo de IA de Anthropic, entre sus empleados para priorizar sus propias soluciones de codificación. Microsoft ha recortado los límites de gasto mensuales de IA por empleado de $100,000 a aproximadamente $10,000, mientras que Meta ha visto caer el número de usuarios de Claude Code de 60,000 a 30,000. Ambas empresas mantienen a Claude disponible para clientes externos, pero internamente impulsan sus alternativas como GitHub Copilot y MetaCode.",
+  "por_que_importa": "Refleja una estrategia de las grandes tecnológicas por controlar recursos de desarrolladores y reducir dependencias externas en un contexto de costos crecientes de IA. El cambio subraya la importancia de gestionar gastos en inteligencia artificial mientras la demanda de herramientas de codificación automatizado sigue en aumento.",
+  "puntos_clave": [
+   "Los techos de gasto mensuales en Microsoft se redujeron a una décima parte de su cifra anterior por empleado",
+   "Meta migró decenas de miles de usuarios desde Claude hacia sus modelos propios MetaCode y Muse Code",
+   "Las empresas restringen uso interno pero mantienen acceso a Claude para clientes, priorizando soluciones propias"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+  "fuente_dominio": "rswebsols.com",
+  "hn_url": "https://news.ycombinator.com/item?id=49997161",
+  "score": 324,
+  "comentarios": 308
+ },
+ {
+  "id": "49998895",
+  "slug": "fallece-margaret-hamilton-pionera-de-la-informatica-y-lider-49998895",
+  "fecha": "2026-10-08T05:24:30+00:00",
+  "titulo": "Fallece Margaret Hamilton, pionera de la informática y líder del software del Apolo",
+  "resumen": "Margaret Hamilton, científica computacional que dirigió el equipo de ingeniería de software en el laboratorio de instrumentación del MIT durante el programa Apolo de la NASA, falleció a los 90 años. Durante más de dos décadas en el MIT, Hamilton lideró a más de 400 personas en el desarrollo del software que permitió llevar humanos a la luna. Fue autora de más de 130 publicaciones y jugó un papel fundamental en el establecimiento de la ingeniería de software como disciplina dedicada. Su trayectoria fue reconocida con la Medalla Presidencial de la Libertad en 2016.",
+  "por_que_importa": "Hamilton fue una figura decisiva en la historia de la computación, liderando el trabajo técnico que hizo posible las misiones lunares tripuladas. Su contribución trasciende el Apolo: fue pionera en formalizar la ingeniería de software como campo independiente y su legado sigue influyendo en cómo se desarrolla tecnología hoy.",
+  "puntos_clave": [
+   "Dirigió el equipo de software del MIT que programó los computadores de las misiones Apolo",
+   "Trabajó en MIT desde 1959 hasta mediados de los años 70, luego tuvo carrera como emprendedora tecnológica",
+   "Fue reconocida con la Medalla Presidencial de la Libertad y ayudó a establecer la ingeniería de software como disciplina"
+  ],
+  "categoria": "Ciencia",
+  "fuente_url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+  "fuente_dominio": "news.mit.edu",
+  "hn_url": "https://news.ycombinator.com/item?id=49998895",
+  "score": 1105,
+  "comentarios": 124
+ },
+ {
   "id": "49994443",
   "slug": "bigwords-page-convierte-cualquier-pantalla-en-un-cartel-sin-49994443",
   "fecha": "2026-10-07T22:56:12+00:00",
