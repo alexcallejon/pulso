@@ -1,5 +1,119 @@
 [
  {
+  "id": "50004777",
+  "slug": "anne-carson-gana-el-premio-nobel-de-literatura-2026-50004777",
+  "fecha": "2026-10-09T05:28:25+00:00",
+  "titulo": "Anne Carson gana el Premio Nobel de Literatura 2026",
+  "resumen": "La Academia Sueca ha otorgado el Nobel de Literatura a la poeta y ensayista canadiense Anne Carson por su obra innovadora que dialoga con la tradición clásica. Carson, nacida en Toronto en 1950, es reconocida por trabajos que combinan libremente poesía, prosa y traducción, inspirados en la literatura y mitología griega antigua. El premio, dotado con 12 millones de coronas suecas, reconoce una trayectoria de cuatro décadas que incluye obras como 'Autobiography of Red' y 'The Beauty of the Husband'.",
+  "por_que_importa": "Carson se convierte en la decimonovena mujer en recibir este galardón entre los 123 laureados en la historia del Nobel de Literatura, consolidando su posición como figura destacada en las letras contemporáneas. Su reconocimiento subraya la relevancia de autores que experimentan con formas literarias híbridas y conectan el legado clásico con la escritura actual.",
+  "puntos_clave": [
+   "La Academia valoró su capacidad para crear nuevas formas literarias mediante el diálogo con la tradición clásica",
+   "Su obra abarca poesía, prosa, traducción y ensayos que recurren a la mitología griega antigua",
+   "Ha sido profesora de clásicos en universidades como Princeton, Nueva York y McGill, además de ganadora de premios Guggenheim y MacArthur"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.theguardian.com/books/2026/oct/08/wins-the-nobel-prize-in-literature-2026",
+  "fuente_dominio": "theguardian.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50004777",
+  "score": 162,
+  "comentarios": 34
+ },
+ {
+  "id": "50011928",
+  "slug": "estudian-el-tdah-como-trastorno-del-ritmo-circadiano-y-su-tr-50011928",
+  "fecha": "2026-10-09T05:28:21+00:00",
+  "titulo": "Estudian el TDAH como trastorno del ritmo circadiano y su tratamiento",
+  "resumen": "Investigadores proponen que la alteración de ritmos circadianos es una característica clínica significativa en un subgrupo importante de personas con TDAH. El estudio documenta que hasta el 80% de adultos y 82% de niños con TDAH presentan problemas de sueño, con retrasos en marcadores biológicos como la melatonina. Intervenciones como luz brillante matutina y melatonina han mostrado avances en el ajuste de estos ritmos, correlacionándose con mejora de síntomas.",
+  "por_que_importa": "Identificar y tratar el componente circadiano podría ofrecer una alternativa terapéutica no farmacológica o complementaria para muchas personas con TDAH. Estos hallazgos sugieren que un enfoque conductual dirigido al sueño y los ritmos biológicos podría mejorar síntomas sin efectos secundarios significativos.",
+  "puntos_clave": [
+   "Grandes porcentajes de personas con TDAH experimentan desajustes en el ciclo sueño-vigilia y retrasos en melatonina",
+   "Terapias conductuales como exposición a luz matutina, restricción de pantallas y melatonina muestran potencial para avanzar fases circadianas",
+   "Los autores proponen un protocolo basado en evaluación del cronotipo y seguimiento del sueño antes de intervenciones específicas"
+  ],
+  "categoria": "Ciencia",
+  "fuente_url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1697900/full",
+  "fuente_dominio": "frontiersin.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50011928",
+  "score": 235,
+  "comentarios": 143
+ },
+ {
+  "id": "50007519",
+  "slug": "el-almacenamiento-en-baterias-es-ya-mas-economico-que-turbin-50007519",
+  "fecha": "2026-10-09T05:28:15+00:00",
+  "titulo": "El almacenamiento en baterías es ya más económico que turbinas de gas en todo el mundo",
+  "resumen": "Un informe de Wood Mackenzie revela que el costo de instalación del almacenamiento en baterías de cuatro horas es inferior al de turbinas de gas en los 43 mercados analizados. La tecnología de baterías continúa abaratándose debido a la expansión de la manufactura, mientras que los costos de las turbinas de gas aumentan por escasez y volatilidad de combustibles. En regiones como Oriente Medio y África, se espera que los costos de almacenamiento caigan un 33% adicional hacia 2035, desplazando competitivamente a las turbinas de gas.",
+  "por_que_importa": "Este cambio económico tiene implicaciones directas en la transición energética global, ya que hace que el almacenamiento en baterías sea una alternativa competitiva a nivel de costos en mercados de generación eléctrica. La transformación afecta la planificación de infraestructura energética en todas las regiones estudiadas.",
+  "puntos_clave": [
+   "El almacenamiento de cuatro horas es más barato que turbinas de gas en 43 de 43 mercados estudiados",
+   "China lidera en costos de baterías con precios 55% inferiores al promedio del resto de Asia Pacífico",
+   "Se proyecta que la energía solar sea la tecnología más económica en la mayoría de mercados hacia 2026"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.solarpowerworldonline.com/2026/10/4-hour-battery-storage-is-cheaper-to-install-than-gas-turbines-all-across-globe/",
+  "fuente_dominio": "solarpowerworldonline.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50007519",
+  "score": 236,
+  "comentarios": 139
+ },
+ {
+  "id": "50002650",
+  "slug": "openai-retira-tres-resultados-matematicos-de-su-repositorio-50002650",
+  "fecha": "2026-10-09T05:28:11+00:00",
+  "titulo": "OpenAI retira tres resultados matemáticos de su repositorio",
+  "resumen": "OpenAI ha actualizado su repositorio de matemáticas en GitHub con nuevas formalizaciones en Lean, modificaciones y la retirada de tres manuscritos que contenían resultados matemáticos previamente publicados. Los tres trabajos retirados tratan sobre propiedades algebraicas de variedades geométricas complejas. El repositorio ahora cuenta con aproximadamente el 42% de sus resultados principales formalizados.",
+  "por_que_importa": "La retirada de resultados señala desafíos en la verificación de pruebas generadas por IA a escala, especialmente cuando se mezclan demostraciones verificadas formalmente con otras en lenguaje natural. Pone de relieve la tensión entre la velocidad de generación de contenido matemático y la necesidad de validación rigurosa por parte de la comunidad académica.",
+  "puntos_clave": [
+   "Se retiraron tres manuscritos sobre algebraicidad y conjeturas en geometría algebraica",
+   "El repositorio contiene aproximadamente 372 resultados, aunque no todos cuentan con verificación formal en Lean",
+   "Existe preocupación sobre si los errores se detectaron mediante revisión humana o mediante modelos de IA"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://twitter.com/danintheory/status/2108065033070789090",
+  "fuente_dominio": "twitter.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50002650",
+  "score": 271,
+  "comentarios": 555
+ },
+ {
+  "id": "50005527",
+  "slug": "la-evolucion-del-diseno-en-menus-de-dvd-de-la-innovacion-a-l-50005527",
+  "fecha": "2026-10-09T05:28:03+00:00",
+  "titulo": "La evolución del diseño en menús de DVD: de la innovación a la simplicidad",
+  "resumen": "Los menús interactivos de DVD representaron un avance significativo respecto a VHS, evolucionando desde simples listas hasta experiencias elaboradas con animaciones personalizadas durante los años 2000. La tecnología DVD utiliza resoluciones específicas derivadas de estándares de video digital de los años 80, con metadatos que adaptan la presentación a diferentes relaciones de aspecto. Los menús combinan vídeo MPEG-2 con elementos interactivos limitados a cuatro colores simultáneamente, restricción que impulsó decisiones creativas en el diseño.",
+  "por_que_importa": "Entender los menús de DVD permite apreciar cómo las limitaciones técnicas históricas moldearon la experiencia del usuario y la creatividad en el diseño de interfaces. La transición de los formatos físicos evidencia cómo las restricciones técnicas influyen en las decisiones de diseño que persisten incluso cuando ya no son necesarias.",
+  "puntos_clave": [
+   "Los menús interactivos fueron un diferenciador clave de DVD frente a VHS, ganando prominencia en los años 2000",
+   "Las resoluciones de DVD derivan de estándares de video de 1982 y 1986, con limitaciones de 4 colores en elementos interactivos",
+   "El diseño consideró áreas seguras para contenido crítico debido a la transición de pantallas 4:3 a 16:9"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://vale.rocks/posts/dvd-menus",
+  "fuente_dominio": "vale.rocks",
+  "hn_url": "https://news.ycombinator.com/item?id=50005527",
+  "score": 284,
+  "comentarios": 154
+ },
+ {
+  "id": "50003796",
+  "slug": "vale-la-pena-aprender-programacion-con-la-ia-un-profesor-res-50003796",
+  "fecha": "2026-10-09T05:27:58+00:00",
+  "titulo": "¿Vale la pena aprender programación con la IA? Un profesor responde",
+  "resumen": "Un docente de informática argumenta que la programación seguirá siendo valiosa a pesar del avance de las herramientas de IA, aunque advierte sobre los riesgos para programadores principiantes que usen generadores de código sin aprender a escribir manualmente. Sostiene que comprender y leer código siguen siendo habilidades fundamentales, y que la IA debe usarse como asistente educativo para resolver conceptos difíciles, no como sustituto del aprendizaje. Rechaza comparar la transición hacia código generado por IA con la evolución del ensamblador a lenguajes de alto nivel, debido a que los compiladores son deterministas mientras que los modelos de lenguaje no lo son.",
+  "por_que_importa": "Ante el crecimiento de herramientas de IA generadora de código, es relevante orientar a futuros estudiantes sobre si la programación sigue siendo una carrera viable y qué habilidades son críticas desarrollar. La reflexión aborda cómo los programadores deben relacionarse con la IA para aprovecharlo sin comprometer su formación técnica fundamental.",
+  "puntos_clave": [
+   "La programación seguirá siendo valiosa porque enseña resolución de problemas y gestión de complejidad, capacidades que trascienden las herramientas de IA actuales.",
+   "Los aprendices deben escribir código manualmente para desarrollar comprensión profunda y capacidad de lectura de código, habilidades cada vez más críticas en entornos con código generado por IA.",
+   "La IA es útil como asistente para superar bloqueos conceptuales, pero no como generador automático de soluciones; las herramientas de IA pueden introducir complejidad accidental que los desarrolladores deben reconocer y corregir."
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://htmx.org/essays/yes-and/",
+  "fuente_dominio": "htmx.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50003796",
+  "score": 300,
+  "comentarios": 83
+ },
+ {
   "id": "49980346",
   "slug": "zotero-20-anos-de-desarrollo-lento-que-genero-software-durad-49980346",
   "fecha": "2026-10-08T23:08:31+00:00",
