@@ -1,5 +1,119 @@
 [
  {
+  "id": "50021127",
+  "slug": "python-3-15-llega-con-mejoras-de-rendimiento-y-nuevas-caract-50021127",
+  "fecha": "2026-10-09T22:28:19+00:00",
+  "titulo": "Python 3.15 llega con mejoras de rendimiento y nuevas características",
+  "resumen": "Se lanzó Python 3.15.0 el 9 de octubre de 2026, resultado de 5.643 commits de 1.012 colaboradores. La versión incluye un compilador JIT mejorado experimentalmente con ganancias de rendimiento del 7-8% en x86-64 Linux y 11-12% en AArch64 macOS, junto a nuevas características en tipado, librerías estándar y API de C. El lanzamiento marca el fin del soporte para Python 3.10, permitiendo que mantenedores de librerías open source adopten características de versiones más recientes.",
+  "por_que_importa": "Python 3.15 fortalece el ecosistema del lenguaje con optimizaciones significativas en rendimiento y soporte mejorado para construcciones libres de hilos, esencial para aplicaciones de ciencia de datos. El cierre del soporte a versiones antiguas impulsa la modernización de las librerías y reduce la fragmentación del ecosistema.",
+  "puntos_clave": [
+   "Compilador JIT experimental con mejoras de rendimiento del 7-8% a 12% según la arquitectura",
+   "Nuevo soporte estable ABI para construcciones libres de hilos y múltiples mejoras en tipado de datos",
+   "Fin del soporte a Python 3.10, permitiendo adoptar características de 3.11 en librerías que soportan múltiples versiones"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://www.python.org/downloads/release/python-3150/",
+  "fuente_dominio": "python.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50021127",
+  "score": 280,
+  "comentarios": 76
+ },
+ {
+  "id": "50018350",
+  "slug": "openai-despide-a-tres-investigadores-de-seguridad-por-mal-ma-50018350",
+  "fecha": "2026-10-09T22:28:14+00:00",
+  "titulo": "OpenAI despide a tres investigadores de seguridad por mal manejo de información",
+  "resumen": "OpenAI terminó el contrato de tres investigadores especializados en seguridad de inteligencia artificial tras una investigación que reveló un patrón de incumplimiento de políticas en el manejo de información sensible. Los investigadores publicaron una carta abierta negando las acusaciones y advirtiendo que los despidos generan un efecto intimidatorio que afecta la cultura de transparencia interna. Señalaron que la colaboración con expertos externos era práctica común en OpenAI hasta hace poco y que ahora los empleados temen expresar preocupaciones sobre seguridad.",
+  "por_que_importa": "El incidente refleja tensiones sobre cómo las organizaciones de inteligencia artificial manejan las preocupaciones de seguridad y la colaboración con terceros. Los despidos plantean interrogantes sobre si OpenAI está restringiendo la libertad de sus empleados para alertar sobre riesgos potenciales en el desarrollo de tecnología de alto impacto.",
+  "puntos_clave": [
+   "Los investigadores fueron despedidos tras compartir información confidencial con una organización externa de seguridad en inteligencia artificial",
+   "Los despedidos argumentan que sus despidos crean un ambiente de miedo que debilita la capacidad de trabajar en seguridad de forma efectiva",
+   "OpenAI sostiene que los despidos responden a una pauta de conducta indebida más allá del simple intercambio de información"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+  "fuente_dominio": "techcrunch.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50018350",
+  "score": 295,
+  "comentarios": 197
+ },
+ {
+  "id": "50018817",
+  "slug": "herramienta-para-que-agentes-de-ia-senalen-elementos-en-pant-50018817",
+  "fecha": "2026-10-09T22:28:09+00:00",
+  "titulo": "Herramienta para que agentes de IA señalen elementos en pantalla",
+  "resumen": "Se presenta una utilidad de línea de comandos para macOS que permite a agentes de IA dibujar flechas, cuadros y texto sobre la pantalla para guiar acciones del usuario, sin requerer permisos especiales ni ejecutarse en segundo plano. La herramienta funciona como una capa transparente que se superpone a todas las ventanas y desaparece automáticamente tras cumplir su función. Está disponible como skill para Claude Code y Codex, bajo licencia MIT.",
+  "por_que_importa": "Resuelve un problema práctico en la automatización con IA: cuando los agentes necesitan que el usuario realice acciones específicas, como hacer clic en un botón, ahora pueden señalarlo visualmente en lugar de depender de instrucciones de texto en terminal. Representa una aproximación minimalista a la interacción humano-máquina, sin dependencias complejas ni telemetría.",
+  "puntos_clave": [
+   "Dibuja indicadores visuales sobre cualquier ventana sin permisos del sistema ni procesos en segundo plano",
+   "Funciona en múltiples pantallas y espacios de trabajo, con clics que atraviesan la capa de dibujo",
+   "Ofrece personalización de estilos, colores, formas y posiciones para adaptarse a diferentes contextos de uso"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50018817",
+  "score": 357,
+  "comentarios": 153
+ },
+ {
+  "id": "50018420",
+  "slug": "navanethem-pillay-gana-el-nobel-de-la-paz-2026-por-su-labor-50018420",
+  "fecha": "2026-10-09T22:28:03+00:00",
+  "titulo": "Navanethem Pillay gana el Nobel de la Paz 2026 por su labor en derecho internacional",
+  "resumen": "La abogada y jueza internacional Navanethem Pillay ha sido galardonada con el Premio Nobel de la Paz 2026 por su trayectoria en la promoción del orden legal global y la persecución de crímenes de guerra y contra la humanidad. Su carrera incluye roles en tribunales internacionales, la Corte Suprema de Sudáfrica y la Comisión de Derechos Humanos de la ONU. El comité noruego reconoce su contribución a fortalecer las instituciones del derecho internacional en un contexto de creciente presión sobre el sistema.",
+  "por_que_importa": "El reconocimiento enfatiza el papel del derecho internacional como herramienta fundamental para la paz en un contexto de aumento de conflictos y resurgimiento de la política de poder. La distinción refleja preocupación sobre los ataques a instituciones internacionales y la erosión del orden basado en normas.",
+  "puntos_clave": [
+   "Pillay ha participado en casos históricos internacionales relacionados con crímenes de guerra y genocidio como jueza en múltiples tribunales",
+   "El premio destaca la importancia del derecho internacional frente a la creciente presión política y el debilitamiento de instituciones globales",
+   "Su trayectoria incluye defensa de derechos humanos desde la lucha contra el apartheid hasta casos contemporáneos"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.nobelprize.org/prizes/peace/2026/press-release/",
+  "fuente_dominio": "nobelprize.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50018420",
+  "score": 414,
+  "comentarios": 213
+ },
+ {
+  "id": "50020014",
+  "slug": "oxide-computer-obtiene-445-millones-en-financiacion-serie-d-50020014",
+  "fecha": "2026-10-09T22:27:58+00:00",
+  "titulo": "Oxide Computer obtiene 445 millones en financiación Serie D",
+  "resumen": "Oxide Computer, fabricante de servidores, ha cerrado una ronda de inversión de 445 millones de dólares liderada por Eclipse. La ronda incluye a inversores existentes como USIT, Riot Ventures y Jane Street, además de nuevos participantes como Atreides Management y AMD como inversor estratégico. La empresa ha alcanzado la rentabilidad operativa y enfrenta una demanda que supera significativamente su capacidad de producción, por lo que necesita capital para financiar inventario y satisfacer su cartera de pedidos pendientes.",
+  "por_que_importa": "La rentabilidad de Oxide en una fase temprana de crecimiento es inusual en el sector de startups de hardware, demostrando viabilidad del modelo de negocio. El capital será clave para expandir la capacidad de fabricación y aprovechar una demanda que actualmente excede la oferta disponible.",
+  "puntos_clave": [
+   "Oxide logró rentabilidad operativa antes de esta ronda, un hito inusual para startups",
+   "La empresa enfrenta un importante cuello de botella de suministro con demanda superior a la capacidad productiva",
+   "AMD participa como inversor estratégico, formalizando una alianza tecnológica preexistente"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://oxide.computer/blog/our-445m-series-d",
+  "fuente_dominio": "oxide.computer",
+  "hn_url": "https://news.ycombinator.com/item?id=50020014",
+  "score": 539,
+  "comentarios": 233
+ },
+ {
+  "id": "50019911",
+  "slug": "cloudflare-adquiere-deno-y-detiene-su-desarrollo-independien-50019911",
+  "fecha": "2026-10-09T22:27:53+00:00",
+  "titulo": "Cloudflare adquiere Deno y detiene su desarrollo independiente",
+  "resumen": "Cloudflare ha incorporado al equipo de Deno para fusionar su trabajo con las plataformas Workers y Durable Objects. El proyecto continuará recibiendo actualizaciones durante un año, tras lo cual finalizará el desarrollo de la plataforma, aunque permanecerá como código abierto. La compañía redirigirá sus esfuerzos hacia celld, un modelo de programación construido sobre Workers que busca simplificar la creación de aplicaciones distribuidas.",
+  "por_que_importa": "Esta adquisición marca el fin del desarrollo independiente de Deno, un proyecto que durante años propuso alternativas al ecosistema de Node.js. Para desarrolladores y empresas que construyeron soluciones sobre Deno, representa un cambio significativo en la estrategia tecnológica y disponibilidad de soporte.",
+  "puntos_clave": [
+   "El equipo de Deno se integra en Cloudflare para combinar tecnología con Workers y Durable Objects",
+   "Deno recibirá mantenimiento durante doce meses y luego finalizará su desarrollo como proyecto oficial",
+   "La plataforma JSR seguirá operativa bajo infraestructura de Cloudflare, mientras Deno Deploy cerrará en seis meses"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://deno.com/blog/cloudflare",
+  "fuente_dominio": "deno.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50019911",
+  "score": 969,
+  "comentarios": 508
+ },
+ {
   "id": "49992994",
   "slug": "eth-68-interfaz-de-audio-ethernet-de-baja-latencia-para-linu-49992994",
   "fecha": "2026-10-09T12:54:32+00:00",
