@@ -1,5 +1,119 @@
 [
  {
+  "id": "49992994",
+  "slug": "eth-68-interfaz-de-audio-ethernet-de-baja-latencia-para-linu-49992994",
+  "fecha": "2026-10-09T12:54:32+00:00",
+  "titulo": "ETH-68: interfaz de audio Ethernet de baja latencia para Linux",
+  "resumen": "Se presenta ETH-68, un dispositivo de audio por Ethernet diseñado para sistemas Linux que logra una latencia de ida y vuelta de aproximadamente 3,6 milisegundos con buffer de 64 muestras a 48 kHz. El dispositivo ofrece 6 entradas y 8 salidas de audio balanceadas, compatibilidad con JACK y PipeWire, y la capacidad de sincronizar múltiples unidades para expandir el número de canales sin aumentar la latencia. Según mediciones comparativas, su rendimiento es comparable o superior al de tarjetas PCIe especializadas en audio profesional.",
+  "por_que_importa": "La baja latencia es crítica en aplicaciones de audio profesional y síntesis en tiempo real, donde retrasos superiores a 5-20 milisegundos resultan perceptibles para el usuario. Este dispositivo abre la posibilidad de usar arquitecturas basadas en Ethernet para audio profesional en sistemas Linux, tradicionalmente limitados a soluciones propietarias más costosas.",
+  "puntos_clave": [
+   "Latencia de 3,6 ms en modo de 64 muestras a 48 kHz, competitiva con hardware profesional establecido",
+   "Permite sincronizar múltiples unidades mediante reloj compartido y comandos UDP para aumentar canales sin afectar latencia",
+   "Compatible con ecosistemas de audio abiertos como JACK y PipeWire en Linux"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://naturalsystems.io/eth68",
+  "fuente_dominio": "naturalsystems.io",
+  "hn_url": "https://news.ycombinator.com/item?id=49992994",
+  "score": 177,
+  "comentarios": 103
+ },
+ {
+  "id": "50008047",
+  "slug": "camiseta-led-flexible-como-crear-prendas-de-neon-con-filamen-50008047",
+  "fecha": "2026-10-09T12:54:26+00:00",
+  "titulo": "Camiseta LED flexible: cómo crear prendas de neón con filamentos luminosos",
+  "resumen": "Un desarrollador construyó una camiseta con filamentos LED flexibles en apenas días para un evento temático. El proyecto utilizó tiras de LED de diferentes longitudes y voltajes, cosidas sobre tela reforzada mediante patrones diseñados en software de edición vectorial. La iniciativa demuestra la viabilidad de integrar estos componentes en prendas de vestir, aunque presenta desafíos técnicos en soldadura y gestión de energía.",
+  "por_que_importa": "Los filamentos LED ofrecen nuevas posibilidades para proyectos wearables y prendas personalizadas de bajo costo. La técnica documentada puede ser replicada por entusiastas de electrónica y diseño textil interesados en crear accesorios innovadores.",
+  "puntos_clave": [
+   "Se utilizaron filamentos LED de diferentes tamaños que no pueden cortarse, lo que requirió ajustar el diseño a longitudes predeterminadas.",
+   "La camiseta empleó un tejido rígido como refuerzo para evitar que los filamentos se arruguen al coserlos.",
+   "El proceso involucró trazado manual de patrones, transferencia con papel tisú y costura con puntadas de anclaje cada pocos centímetros."
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "http://scottbezek.blogspot.com/2026/10/making-flexible-neon-t-shirt-with-leds.html",
+  "fuente_dominio": "scottbezek.blogspot.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50008047",
+  "score": 185,
+  "comentarios": 33
+ },
+ {
+  "id": "50016312",
+  "slug": "quake-portado-a-rust-y-jugable-en-el-navegador-50016312",
+  "fecha": "2026-10-09T12:54:21+00:00",
+  "titulo": "Quake portado a Rust y jugable en el navegador",
+  "resumen": "El clásico videojuego Quake de 1996 ha sido reescrito en Rust a partir de su código fuente disponible bajo licencia GPL, permitiendo ejecutarlo directamente en navegadores web sin necesidad de GPU. La versión incluye renderizado por software y reproduce el juego original píxel por píxel, además de agregar mejoras de calidad de vida como soporte para gamepads y opciones de pantalla completa. El autor publicó material educativo incluido un video explicativo sobre la implementación técnica y las características añadidas.",
+  "por_que_importa": "Demuestra la viabilidad de portar software antiguo a lenguajes modernos como Rust manteniendo compatibilidad total, lo que abre posibilidades para preservar juegos clásicos en plataformas actuales. El proyecto ilustra capacidades avanzadas de ejecución de código complejo en navegadores web, algo impensable hace tres décadas.",
+  "puntos_clave": [
+   "Quake reescrito íntegramente en Rust desde su código fuente GPL original",
+   "Funciona en navegadores sin GPU mediante renderizado por software",
+   "Incluye verificación de paridad visual píxel por píxel con el original"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://quake-srp.pages.dev/",
+  "fuente_dominio": "quake-srp.pages.dev",
+  "hn_url": "https://news.ycombinator.com/item?id=50016312",
+  "score": 187,
+  "comentarios": 148
+ },
+ {
+  "id": "50010470",
+  "slug": "la-importancia-de-no-ir-al-grano-en-las-conversaciones-50010470",
+  "fecha": "2026-10-09T12:54:17+00:00",
+  "titulo": "La importancia de no ir al grano en las conversaciones",
+  "resumen": "Un escritor reflexiona sobre cómo las conversaciones cotidianas requieren un tiempo de preparación antes de abordar temas delicados, facilitado por rituales como el café o la comida. Descubre que su hija necesitaba una larga conversación informal antes de llegar al tema que realmente la preocupaba, lo que le lleva a replantearse su enfoque directo de la comunicación. El autor sugiere que las limitaciones del formato de Twitter, al forzar la brevedad, eliminan estos espacios de confianza necesarios para conversaciones vulnerables.",
+  "por_que_importa": "Entender que la comunicación efectiva requiere crear un ambiente seguro mediante rituales conversacionales, no solo transmitir información. La estructura de las plataformas digitales puede afectar negativamente nuestras interacciones al suprimir estos mecanismos naturales de la comunicación humana.",
+  "puntos_clave": [
+   "Las comidas y bebidas sociales funcionan como espacios que alivian la presión de mantener conversación constante",
+   "La charla intrascendente crea confianza y predisposición emocional antes de abordar temas difíciles o vulnerables",
+   "Plataformas con límite de caracteres como Twitter eliminan rituales conversacionales necesarios para comunicación profunda"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://ken.arneson.name/2015/11/the-value-of-not-getting-to-the-point/",
+  "fuente_dominio": "ken.arneson.name",
+  "hn_url": "https://news.ycombinator.com/item?id=50010470",
+  "score": 187,
+  "comentarios": 64
+ },
+ {
+  "id": "50015515",
+  "slug": "las-diferencias-clave-entre-teclados-de-windows-y-mac-50015515",
+  "fecha": "2026-10-09T12:54:11+00:00",
+  "titulo": "Las diferencias clave entre teclados de Windows y Mac",
+  "resumen": "Un análisis detallado explora las diferencias en la nomenclatura y funcionamiento de las teclas entre sistemas Windows y Mac, desde las denominaciones básicas hasta los modificadores disponibles. Windows utiliza términos como Backspace y Enter, mientras que Mac emplea Delete y Return, lo que genera confusión en aplicaciones multiplataforma. Además, cada sistema ofrece un conjunto distinto de teclas modificadoras: Windows cuenta con Ctrl, Alt y Shift, mientras que Mac dispone de Command, Option, Control y Shift, proporcionando más opciones de combinaciones.",
+  "por_que_importa": "Los desarrolladores de aplicaciones web que funcionan en ambas plataformas deben considerar estas diferencias para asegurar una experiencia consistente. Muchos usuarios que cambian entre sistemas encuentran estas discrepancias como un obstáculo importante en la adopción de la nueva plataforma.",
+  "puntos_clave": [
+   "Windows y Mac emplean nombres distintos para teclas similares: Backspace/Delete, Delete/Forward Delete, Enter/Return.",
+   "Mac dispone de cuatro modificadores principales (Command, Option, Control, Shift) frente a los tres de Windows (Ctrl, Alt, Shift).",
+   "Las diferencias históricas en el diseño de cursores entre DOS y Mac originaron convenciones de teclas diferentes que persisten actualmente."
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/",
+  "fuente_dominio": "unsung.aresluna.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50015515",
+  "score": 193,
+  "comentarios": 167
+ },
+ {
+  "id": "50013610",
+  "slug": "bevy-0-20-mejoras-en-renderizado-ui-y-lenguaje-de-shaders-50013610",
+  "fecha": "2026-10-09T12:54:06+00:00",
+  "titulo": "Bevy 0.20: mejoras en renderizado, UI y lenguaje de shaders",
+  "resumen": "Se lanzó la versión 0.20 del motor de juegos Bevy, desarrollado en Rust, con contribuciones de más de 200 colaboradores. La actualización incluye mejoras significativas en Solari (el renderizador de trazado de rayos), nuevos widgets de interfaz, adopción del lenguaje WESL para shaders y optimizaciones de rendimiento. El cambio más notable es la desactivación de ReSTIR por defecto para mejorar el desempeño, aunque esto implica reducción en la calidad de sombras.",
+  "por_que_importa": "Bevy es un motor de código abierto y gratuito que facilita el desarrollo de juegos con Rust, atrayendo a desarrolladores independientes e interesados en arquitectura robusta. Las mejoras en renderizado y herramientas UI lo hacen más viable para proyectos complejos como simuladores urbanos.",
+  "puntos_clave": [
+   "Solari ahora ofrece mejor calidad de imagen y rendimiento, con soporte para macOS mediante Metal",
+   "Se han agregado nuevos componentes de interfaz gráfica y se adoptó WESL como lenguaje de shaders estándar",
+   "La comunidad continúa señalando que la sintaxis de BSN necesita revisión y que el motor aún es inmaduro para productos comerciales"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://bevy.org/news/bevy-0-20/",
+  "fuente_dominio": "bevy.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50013610",
+  "score": 203,
+  "comentarios": 45
+ },
+ {
   "id": "50004777",
   "slug": "anne-carson-gana-el-premio-nobel-de-literatura-2026-50004777",
   "fecha": "2026-10-09T05:28:25+00:00",
