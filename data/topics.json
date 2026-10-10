@@ -1,5 +1,119 @@
 [
  {
+  "id": "50013902",
+  "slug": "openai-publica-prueba-sobre-el-principio-de-particion-pero-c-50013902",
+  "fecha": "2026-10-10T05:12:26+00:00",
+  "titulo": "OpenAI publica prueba sobre el Principio de Partición pero con calidad cuestionable",
+  "resumen": "OpenAI lanzó un preprint que afirma resolver un problema matemático sobre el Principio de Partición y su relación con el Axioma de Elección. Un especialista en el tema crítica severamente la presentación del trabajo, señalando que carece de claridad, utiliza referencias inadecuadas y no cumple con los estándares de rigor académico esperados. El incidente plantea tensiones sobre cómo la comunidad matemática debe evaluar resultados generados por sistemas de IA.",
+  "por_que_importa": "Ilustra los desafíos que genera la publicación de investigación matemática mediante IA, donde la falta de rigor académico puede complicar la verificación y difusión de conocimiento. Abre un debate sobre las responsabilidades de investigadores prominentes al evaluar resultados de IA y cómo la comunidad científica debe adaptarse a esta nueva realidad.",
+  "puntos_clave": [
+   "El preprint de OpenAI presenta estructura confusa, terminología inexacta y referencias de baja calidad según expertos",
+   "Surge tensión entre reconocer posibles avances matemáticos y rechazar trabajos que no cumplen estándares de presentación académica",
+   "Investigadores establecidos se ven presionados a revisar públicamente resultados de IA, alterando dinámicas tradicionales de la investigación científica"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://karagila.org/2026/openai-pp/",
+  "fuente_dominio": "karagila.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50013902",
+  "score": 199,
+  "comentarios": 300
+ },
+ {
+  "id": "50020927",
+  "slug": "yandex-sufre-segundo-ataque-a-centros-de-datos-en-48-horas-50020927",
+  "fecha": "2026-10-10T05:12:20+00:00",
+  "titulo": "Yandex sufre segundo ataque a centros de datos en 48 horas",
+  "resumen": "Un ataque con drones impactó la instalación de datos más grande de Yandex en la región de Kaluga, dejando varios módulos fuera de servicio. El centro, operativo desde mediados de 2023, tiene capacidad para más de 3.800 servidores y potencia de 63 megavatios. Este es el segundo golpe a la infraestructura de la compañía rusa en poco tiempo, afectando servicios como taxis y entregas.",
+  "por_que_importa": "Los ataques demuestran la vulnerabilidad de la infraestructura tecnológica crítica frente a operaciones militares modernas. La parálisis de servicios essenciales en Rusia subraya las consecuencias operacionales de estos impactos en la economía digital.",
+  "puntos_clave": [
+   "Módulos completos del centro de datos en Kaluga quedaron inoperativos tras el ataque",
+   "La instalación es la más grande de Yandex en Rusia con 130.000 metros cuadrados",
+   "Servicios como taxis y entregas enfrentaron disrupciones generalizadas"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://united24media.com/war-in-ukraine/yandex-takes-a-second-data-center-hit-in-48-hours-now-its-biggest-russian-site-is-damaged-23277",
+  "fuente_dominio": "united24media.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50020927",
+  "score": 209,
+  "comentarios": 296
+ },
+ {
+  "id": "50028275",
+  "slug": "rea-herramienta-de-ingenieria-inversa-para-agentes-de-codigo-50028275",
+  "fecha": "2026-10-10T05:12:15+00:00",
+  "titulo": "REA: herramienta de ingeniería inversa para agentes de código",
+  "resumen": "REA es una plataforma que permite a agentes de código analizar y explicar el funcionamiento de programas mediante ingeniería inversa. La herramienta automatiza tareas como decodificar instrucciones de máquina, rastrear llamadas de función y recuperar reglas de cálculo. Los ejemplos incluyen analizar por qué la Calculadora de Windows suma porcentajes de forma particular o identificar reglas de aceleración en videojuegos.",
+  "por_que_importa": "Simplifica el análisis de código compilado sin necesidad de acceso al código fuente, permitiendo entender y modificar software existente. La comunidad de ingeniería inversa ve potencial en estas herramientas para mejorar descompilaciones automáticas y acelerar proyectos de análisis de software heredado.",
+  "puntos_clave": [
+   "Convierte tareas de ingeniería inversa manual en consultas en lenguaje natural para agentes IA",
+   "Proporciona instrucciones decompiladas, código recuperado y detalles de llamadas para análisis",
+   "Muestra resultados en ejemplos reales como cálculos de porcentajes y dinámicas de juegos"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://rea.tools/",
+  "fuente_dominio": "rea.tools",
+  "hn_url": "https://news.ycombinator.com/item?id=50028275",
+  "score": 227,
+  "comentarios": 75
+ },
+ {
+  "id": "50024499",
+  "slug": "carrier-explode-herramienta-para-decodificar-configuraciones-50024499",
+  "fecha": "2026-10-10T05:12:10+00:00",
+  "titulo": "Carrier-Explode: herramienta para decodificar configuraciones de operadores en iPhone, Pixel y Galaxy",
+  "resumen": "Se lanzó la versión 2.0 de Carrier-Explode, un proyecto que permite visualizar y comparar configuraciones de operadores en dispositivos Apple, Google y Samsung. La herramienta ofrece acceso a datos sobre APNs, VoLTE, llamadas por Wi-Fi y 5G, disponibles tanto en su interfaz web como a través de una API y un conjunto de datos abiertos. Los usuarios destacan su utilidad para investigar cambios en configuraciones de red, como los realizados por AT&T en iPhone para solucionar problemas de hardware.",
+  "por_que_importa": "Permite a usuarios y desarrolladores acceder a información sobre cómo los operadores configuran redes en distintos dispositivos, lo que facilita comparaciones y análisis de cambios. Revela decisiones comerciales de operadores, como la desactivación de funciones, que afectan la experiencia del usuario.",
+  "puntos_clave": [
+   "Decodifica y compara configuraciones de operadores entre iOS, Pixel y Samsung",
+   "Ofrece acceso público mediante API y dataset bajo licencia CC0",
+   "Facilita la identificación de cambios de red y restricciones impuestas por operadores"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://carrierexplode.com/",
+  "fuente_dominio": "carrierexplode.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50024499",
+  "score": 254,
+  "comentarios": 32
+ },
+ {
+  "id": "50025935",
+  "slug": "la-ia-disuelve-las-comunidades-intelectuales-que-sustentan-e-50025935",
+  "fecha": "2026-10-10T05:12:06+00:00",
+  "titulo": "La IA disuelve las comunidades intelectuales que sustentan el trabajo creativo",
+  "resumen": "Un desarrollador analiza cómo la inteligencia artificial ha transformado negativamente el ámbito de la ingeniería de software, no solo en productividad sino en calidad del discurso profesional y formación de nuevas generaciones. Señala que contribuir al conocimiento compartido—mediante blogs, código abierto o innovaciones—ha perdido sentido cuando las máquinas consumen y aprovechan ese contenido sin acreditación ni participación humana. La desaparición de un proyecto común hace que el trabajo creativo se reduzca a un esfuerzo solitario y menos motivante, erosionando las comunidades que históricamente han sostenido el aprendizaje y la excelencia técnica.",
+  "por_que_importa": "Plantea una crítica profunda al modelo actual de adopción masiva de IA que va más allá de cuestiones técnicas, tocando aspectos de motivación profesional, aprendizaje colectivo y sentido de propósito en el trabajo creativo. Sugiere que el beneficio de productividad individual no compensa la pérdida de espacios comunes de intercambio intelectual que históricamente han impulsado la innovación y el desarrollo profesional.",
+  "puntos_clave": [
+   "El discurso técnico se ha vuelto más superficial y repetitivo tras la automatización del desarrollo, perdiendo profundidad en temas como compiladores y sistemas de tipos.",
+   "La formación de nuevos profesionales se ve afectada porque aprender a programar parece innecesario cuando las máquinas pueden hacerlo, eliminando el desarrollo de pensamiento sistemático y riguroso.",
+   "Publicar conocimiento abierto pierde valor cuando los contenidos son absorbidos por sistemas de IA para mejorar sus capacidades sin reconocer ni recompensar a los creadores humanos."
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://borretti.me/article/no-man-is-an-island",
+  "fuente_dominio": "borretti.me",
+  "hn_url": "https://news.ycombinator.com/item?id=50025935",
+  "score": 274,
+  "comentarios": 182
+ },
+ {
+  "id": "50023450",
+  "slug": "typesafe-ai-recauda-870-millones-de-dolares-a-valoracion-de-50023450",
+  "fecha": "2026-10-10T05:11:59+00:00",
+  "titulo": "TypeSafe AI recauda 870 millones de dólares a valoración de 7.500 millones",
+  "resumen": "La empresa TypeSafe AI completó una ronda de financiación Serie A liderada por Andreessen Horowitz, con participación de Sequoia Capital y otros inversores. Los fondos se destinan a expandir su infraestructura de inteligencia artificial para desarrolladores y empresas, incluyendo nuevos modelos y características empresariales. La compañía destaca que ya ha ahorrado millones de dólares a sus clientes en producción, con presencia entre un tercio de las empresas Fortune 500.",
+  "por_que_importa": "Representa una apuesta significativa del capital de riesgo en la infraestructura de IA, consolidando la posición de TypeSafe como jugador importante en el espacio de herramientas de desarrollo. La inversión refleja confianza en el equipo y su capacidad de diferenciación en un mercado donde surgen rápidamente alternativas competidoras.",
+  "puntos_clave": [
+   "Recaudación de 870 millones a valoración de 7.500 millones liderada por Andreessen Horowitz",
+   "Enfoque en mejorar infraestructura para desarrolladores y agregar funcionalidades empresariales solicitadas",
+   "Martin Casado se une a la junta directiva como resultado de la inversión"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://typesafe.ai/blog/series-ai",
+  "fuente_dominio": "typesafe.ai",
+  "hn_url": "https://news.ycombinator.com/item?id=50023450",
+  "score": 321,
+  "comentarios": 235
+ },
+ {
   "id": "50021127",
   "slug": "python-3-15-llega-con-mejoras-de-rendimiento-y-nuevas-caract-50021127",
   "fecha": "2026-10-09T22:28:19+00:00",
