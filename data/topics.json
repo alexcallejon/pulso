@@ -1,5 +1,119 @@
 [
  {
+  "id": "50031653",
+  "slug": "macos-ya-no-aparece-en-el-registro-oficial-de-certificacion-50031653",
+  "fecha": "2026-10-10T21:23:58+00:00",
+  "titulo": "macOS ya no aparece en el registro oficial de certificación Unix",
+  "resumen": "Apple ha retirado macOS del registro de productos certificados por The Open Group, la organización que valida el cumplimiento de los estándares Unix. La certificación Unix garantizaba que un sistema operativo cumplía con especificaciones técnicas rigurosas de compatibilidad y portabilidad. Aunque la certificación era considerada por algunos como poco práctica en implementaciones reales, su ausencia marca un cambio en el estatus oficial de macOS.",
+  "por_que_importa": "La certificación Unix es un sello de calidad reconocido globalmente que certifica estabilidad, portabilidad y compatibilidad en sistemas operativos. La retirada de macOS del registro cuestiona el compromiso de Apple con estos estándares abiertos de la industria.",
+  "puntos_clave": [
+   "macOS fue removido del registro oficial de The Open Group que lista productos Unix certificados",
+   "La certificación Unix exigía cumplir con la Single UNIX Specification y era considerada un benchmark neutral de calidad",
+   "Versiones anteriores de macOS (como Tahoe con Unix 03) permanecen listadas en el registro histórico"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.opengroup.org//openbrand/register/",
+  "fuente_dominio": "opengroup.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50031653",
+  "score": 212,
+  "comentarios": 194
+ },
+ {
+  "id": "50031614",
+  "slug": "talorys-asistente-de-ia-personal-alojado-en-cloudflare-sin-c-50031614",
+  "fecha": "2026-10-10T21:23:54+00:00",
+  "titulo": "Talorys: asistente de IA personal alojado en Cloudflare sin costo",
+  "resumen": "Talorys es una herramienta de código abierto que permite desplegar un asistente de IA personal dentro de la propia cuenta de Cloudflare, sin necesidad de servidores externos ni bases de datos. Incluye funcionalidades de chat, gestión de tareas, notas, memorias y recordatorios automatizados, todo protegido con autenticación en el navegador del usuario. La instalación se realiza con un único comando y utiliza exclusivamente servicios del plan gratuito de Cloudflare.",
+  "por_que_importa": "Ofrece una alternativa para quienes prefieren mantener sus datos personales y conversaciones privadas sin depender de terceros. Ejemplifica cómo construir aplicaciones de IA funcionales aprovechando infraestructura en la nube sin incurrir en costos adicionales.",
+  "puntos_clave": [
+   "Se despliega completamente dentro de Cloudflare mediante un comando, sin servidor externo ni base de datos propia",
+   "Incluye chat con streaming, gestión de tareas, notas, memorias persistentes y automatizaciones programadas",
+   "Funciona en el plan gratuito utilizando Workers, Pages, Durable Objects e IA de Cloudflare, y es de código abierto"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://github.com/rociiu/talorys",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50031614",
+  "score": 212,
+  "comentarios": 109
+ },
+ {
+  "id": "49998801",
+  "slug": "wsl3-demuestra-mejoras-de-rendimiento-entre-4-y-61-respecto-49998801",
+  "fecha": "2026-10-10T21:23:48+00:00",
+  "titulo": "WSL3 demuestra mejoras de rendimiento entre 4% y 61% respecto a WSL2",
+  "resumen": "Microsoft lanzó WSL 3.x con un kernel actualizado a versión 6.18, mostrando ganancias de rendimiento variables según el tipo de carga de trabajo. Las pruebas de microbenchmark revelan aumentos notables en ancho de banda de memoria (61%) y reducciones en latencia de planificación (11%), mientras que las compilaciones reales mejoran alrededor del 4%. Los cambios principales provienen de optimizaciones en gestión de memoria y manejo de interrupciones del hipervisor Hyper-V.",
+  "por_que_importa": "Los desarrolladores que usan WSL para trabajo diario pueden experimentar mejoras en compilaciones y operaciones de entrada/salida, especialmente en tareas intensivas en memoria. La actualización del kernel refleja esfuerzos de Microsoft por mantener WSL competitivo como entorno de desarrollo, aunque los comentarios sugieren que algunos usuarios prefieren migrar completamente a Linux.",
+  "puntos_clave": [
+   "El ancho de banda de memoria aumentó de 7.84 GB/s a 12.64 GB/s, impulsado por optimizaciones en reporteo de páginas",
+   "La latencia de conmutación de contexto se redujo aproximadamente 11% gracias a mejoras en el planificador del kernel 6.18",
+   "En compilaciones reales de GoReleaser, el tiempo de ejecución del kernel disminuyó 16%, mientras que el tiempo total mejoró solo 4%"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://tonym.us/wsl2-vs-wsl3-benchmarks.html",
+  "fuente_dominio": "tonym.us",
+  "hn_url": "https://news.ycombinator.com/item?id=49998801",
+  "score": 221,
+  "comentarios": 205
+ },
+ {
+  "id": "49980880",
+  "slug": "programadores-especializados-en-bajo-nivel-enfrentan-cambio-49980880",
+  "fecha": "2026-10-10T21:23:43+00:00",
+  "titulo": "Programadores especializados en bajo nivel enfrentan cambio de industria hacia arquitectura",
+  "resumen": "Un desarrollador reflexiona sobre cómo la industria ha evolucionado hacia un modelo centrado en arquitectura y abstracciones, alejándose de la especialización en detalles técnicos y optimización de bajo nivel que caracterizaba su carrera. Describe su identidad profesional basada en la comprensión profunda de máquinas y sistemas, así como su dificultad para trabajar sin entender completamente los conceptos. Varios comentaristas comparten su inquietud sobre cómo los cambios recientes, incluyendo herramientas de IA, están reduciendo las oportunidades para quienes se especializan en estos aspectos técnicos.",
+  "por_que_importa": "Refleja una tensión creciente en la industria de software sobre qué habilidades son valoradas y sostenibles laboralmente a largo plazo. Plantea preguntas sobre si habrá espacio futuro para roles especializados en optimización y comprensión profunda de sistemas.",
+  "puntos_clave": [
+   "El sector prioriza cada vez más el diseño de arquitectura sobre la especialización técnica detallada",
+   "Profesionales orientados a bajo nivel reportan menor satisfacción y preocupación por relevancia laboral",
+   "Existe debate sobre si las herramientas actuales permiten mantener comprensión profunda del código"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://purplesyringa.moe/blog/grieving-the-loss-of-details/",
+  "fuente_dominio": "purplesyringa.moe",
+  "hn_url": "https://news.ycombinator.com/item?id=49980880",
+  "score": 266,
+  "comentarios": 210
+ },
+ {
+  "id": "50033407",
+  "slug": "bitwarden-adopta-modelo-de-licencia-dual-para-sus-aplicacion-50033407",
+  "fecha": "2026-10-10T21:23:38+00:00",
+  "titulo": "Bitwarden adopta modelo de licencia dual para sus aplicaciones",
+  "resumen": "Bitwarden implementará un modelo de licencia dual en el que las aplicaciones distribuidas en tiendas oficiales utilizarán una licencia comercial, mientras que la versión GPLv3 de código abierto seguirá disponible en GitHub. Todas las características actuales permanecerán en ambas versiones, y futuras funcionalidades se evaluarán caso por caso para determinar su licencia. El plan gratuito permanecerá indefinidamente, y el código seguirá siendo auditable y accesible en GitHub.",
+  "por_que_importa": "Este cambio permite a Bitwarden obtener protección legal adicional para características selectas sin abandonar su compromiso con el código abierto, abordando el desafío financiero común en proyectos de seguridad de código abierto. Los usuarios pueden continuar auditando el código, usando versiones de código abierto o autohospedándose sin cambios en la funcionalidad actual.",
+  "puntos_clave": [
+   "Las compilaciones en tiendas de aplicaciones serán licencia comercial; la versión GPLv3 continúa en GitHub",
+   "Nuevas características se evaluarán individualmente; el código comercial permanecerá transparente y auditable",
+   "Sin cambios en autohospedaje, plan gratuito permanente ni posibilidad de bifurcar el proyecto"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
+  "fuente_dominio": "community.bitwarden.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50033407",
+  "score": 302,
+  "comentarios": 226
+ },
+ {
+  "id": "50031269",
+  "slug": "contrasena-debil-en-empresa-danesa-expone-8-8-millones-de-re-50031269",
+  "fecha": "2026-10-10T21:23:32+00:00",
+  "titulo": "Contraseña débil en empresa danesa expone 8,8 millones de registros civiles",
+  "resumen": "Una empresa de tecnología de la información en Dinamarca utilizaba contraseñas extremadamente simples, incluyendo '123456' en cuentas de administrador, cuando fue comprometida y permitió acceso no autorizado a la base de datos nacional de registros civiles. El ataque estuvo activo durante aproximadamente tres semanas, exponiendo información personal de millones de ciudadanos daneses. Expertos calificaron las prácticas de seguridad de la compañía como deficientes y prevenibles.",
+  "por_que_importa": "Este incidente revela fallos críticos en la protección de datos sensibles a nivel nacional, exponiendo la vulnerabilidad de sistemas que contienen información personal de millones de personas. Evidencia la necesidad de mecanismos de supervisión más rigurosos sobre empresas terceras autorizadas a acceder a registros gubernamentales sensibles.",
+  "puntos_clave": [
+   "Múltiples cuentas utilizaban contraseñas triviales, incluyendo accesos administrativos",
+   "El compromiso permitió descargas masivas de datos durante 21 días sin detección",
+   "Acceso se obtuvo inicialmente con credenciales de un exempleado de otra compañía"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
+  "fuente_dominio": "cphpost.dk",
+  "hn_url": "https://news.ycombinator.com/item?id=50031269",
+  "score": 362,
+  "comentarios": 188
+ },
+ {
   "id": "50019056",
   "slug": "inteligencia-artificial-descubre-meteorito-olvidado-y-otros-50019056",
   "fecha": "2026-10-10T12:12:14+00:00",
