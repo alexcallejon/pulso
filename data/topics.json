@@ -1,5 +1,119 @@
 [
  {
+  "id": "50034081",
+  "slug": "un-programador-recibe-el-historico-premio-de-knuth-por-encon-50034081",
+  "fecha": "2026-10-11T05:02:37+00:00",
+  "titulo": "Un programador recibe el histórico premio de Knuth por encontrar un error",
+  "resumen": "Un desarrollador logró obtener uno de los legendarios cheques de Donald Knuth tras identificar un error en el libro «Computer Modern Typefaces», ubicado en la primera palabra de la primera página. El error consistía en una imprecisión sobre la cantidad de alfabetos generables. Knuth, reconocido por recompensar incluso los errores tipográficos menores en sus obras, envió un cheque por $2.88 como reconocimiento.",
+  "por_que_importa": "Los cheques de recompensa de Knuth se han convertido en parte de la mitología de la informática, representando el compromiso del autor con la precisión. Este hecho ilustra cómo los textos fundamentales de la disciplina requieren escrutinio constante incluso décadas después de su publicación.",
+  "puntos_clave": [
+   "El error fue hallado en la página inicial de «Computer Modern Typefaces», el volumen E de la serie Computers & Typesetting",
+   "Knuth ya no emite cheques reales, sino certificados de fantasía del «Banco de San Serriffe»",
+   "El descubridor tardó meses en validar el error antes de reportarlo para evitar equivocarse"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.thomas-huehn.com/knuth-reward-check/",
+  "fuente_dominio": "thomas-huehn.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50034081",
+  "score": 176,
+  "comentarios": 63
+ },
+ {
+  "id": "50021410",
+  "slug": "difusion-autorregresiva-para-generar-datos-de-mercado-financ-50021410",
+  "fecha": "2026-10-11T05:02:33+00:00",
+  "titulo": "Difusión autorregresiva para generar datos de mercado financiero",
+  "resumen": "Investigadores de Jane Street exploraron el uso de modelos de difusión autorregresiva para generar sintéticamente eventos de datos de mercado, incluyendo órdenes, cancelaciones y ejecuciones. El desafío principal fue modelar datos que presentan características tanto discretas como continuas, con distribuciones irregulares en parámetros como precios y tiempos de llegada. Los resultados mostraron que la difusión puramente continua no se adapta bien a la naturaleza discreta del mercado real, sugiriendo que modelos futuros necesitarán combinar enfoques continuos y discretos.",
+  "por_que_importa": "Desarrollar modelos generativos precisos de datos de mercado podría mejorar significativamente las simulaciones financieras y las predicciones de precios. El trabajo abre nuevas direcciones para aplicar técnicas de difusión a datos de series temporales con características híbridas, un problema común en múltiples dominios.",
+  "puntos_clave": [
+   "Los modelos de difusión se aplicaron a eventos de mercado usando arquitectura de transformador enmascarado causalmente",
+   "La difusión continua falló al capturar patrones irregulares reales, como agrupamientos temporales y preferencias de precios",
+   "El flujo emparejado superó a DDPM en rendimiento, demostrando la importancia de elegir métodos de denoising adecuados"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/",
+  "fuente_dominio": "blog.janestreet.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50021410",
+  "score": 178,
+  "comentarios": 56
+ },
+ {
+  "id": "50037949",
+  "slug": "como-crear-modelos-de-decision-con-restricciones-en-llms-50037949",
+  "fecha": "2026-10-11T05:02:27+00:00",
+  "titulo": "Cómo crear modelos de decisión con restricciones en LLMs",
+  "resumen": "Se presenta una técnica para construir modelos de decisión que limitan las respuestas de un modelo de lenguaje a un conjunto fijo de opciones, reduciendo el número de pasadas necesarias para generar una salida válida. A diferencia de los modelos tradicionales que generan respuestas token por token, esta aproximación enmasca la mayoría del vocabulario permitiendo solo ciertos tokens predefinidos. La comunidad menciona alternativas existentes como Laya o Jeffy que logran mejor rendimiento en ejecución local.",
+  "por_que_importa": "Esta técnica optimiza la velocidad de inferencia de modelos pequeños en problemas de clasificación, permitiendo respuestas más rápidas sin sacrificar precisión significativamente. Abre posibilidades para ejecutar sistemas de decisión en navegadores y dispositivos con recursos limitados.",
+  "puntos_clave": [
+   "Limitar el vocabulario de salida acelera la generación de respuestas en modelos de decisión",
+   "Un modelo de 1.7B obtiene 59.4% de precisión en CommonsenseQA usando esta técnica",
+   "Existen herramientas alternativas que logran latencias bajo 200ms en ejecución local"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://nishtahir.com/build-your-own-decision-model/",
+  "fuente_dominio": "nishtahir.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50037949",
+  "score": 180,
+  "comentarios": 36
+ },
+ {
+  "id": "50032758",
+  "slug": "reforma-tributaria-inmobiliaria-beneficios-para-propietarios-50032758",
+  "fecha": "2026-10-11T05:02:22+00:00",
+  "titulo": "Reforma tributaria inmobiliaria: beneficios para propietarios, carga para inquilinos",
+  "resumen": "Varios estados estadounidenses han reformado sus sistemas de impuestos inmobiliarios en los últimos años, reduciendo la carga fiscal sobre viviendas ocupadas por sus dueños mientras trasladan el gravamen hacia propietarios comerciales e inmuebles de alquiler. Los propietarios han presionado políticamente para reducir estos impuestos a medida que el valor de sus viviendas aumentó significativamente en el período posterior a la pandemia. Estas reformas pueden elevar los costos de vivienda, beneficiando desproporcionadamente a quienes ya poseen inmuebles mientras transfieren la carga fiscal a inquilinos y otros contribuyentes locales.",
+  "por_que_importa": "Los impuestos inmobiliarios financian servicios locales esenciales como escuelas y policía, por lo que su reducción en viviendas unifamiliares genera presiones sobre la financiación local y aumenta la desigualdad al trasladar costos a sectores menos favorecidos. La reforma afecta directamente a la asequibilidad de vivienda y redistribuye la riqueza hacia propietarios que ya han visto apreciarse significativamente su patrimonio.",
+  "puntos_clave": [
+   "Estados como Florida, Ohio, Texas y Dakota del Norte han considerado eliminar o reducir drásticamente impuestos inmobiliarios sobre viviendas residenciales",
+   "La carga tributaria se desplaza hacia inmuebles comerciales y propietarios de departamentos alquilados, afectando principalmente a inquilinos",
+   "Las reformas pueden aumentar costos de vivienda y debilitar la financiación de servicios locales como educación y seguridad"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://conversableeconomist.com/2026/09/28/i-would-like-the-value-of-my-home-to-rise-while-my-property-taxes-fall/",
+  "fuente_dominio": "conversableeconomist.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50032758",
+  "score": 236,
+  "comentarios": 536
+ },
+ {
+  "id": "50029487",
+  "slug": "lightbulb-computer-una-alternativa-a-gafas-inteligentes-para-50029487",
+  "fecha": "2026-10-11T05:02:16+00:00",
+  "titulo": "Lightbulb Computer: una alternativa a gafas inteligentes para computación ambiental",
+  "resumen": "Un investigador presenta un prototipo que reimagina la interacción humano-máquina mediante un dispositivo con forma de bombilla que combina un proyector y visión por computadora. El dispositivo puede montarse en lámparas portátiles o directamente en zócalos de techo, proyectando información e interfaces directamente en superficies del hogar. Las aplicaciones van desde recetas y temporizadores en la cocina hasta mapas compartidos, control de dispositivos inteligentes o tableros familiares en pasillos, todo sin necesidad de pantallas tradicionales.",
+  "por_que_importa": "Representa una dirección alternativa a las gafas y auriculares inteligentes, que muchos consideran incómodos e invasivos socialmente. El enfoque de computación ambiental podría transformar cómo interactuamos con la información y los dispositivos inteligentes en espacios cotidianos.",
+  "puntos_clave": [
+   "Utiliza un proyector láser de consumo, visión por computadora y seguimiento de manos para proyectar interfaces en superficies reales",
+   "Aprovecha los zócalos de bombilla estándar como punto de montaje universal, permitiendo instalación portátil o permanente",
+   "Mejora la experiencia en tareas colaborativas como planificación de viajes, visualización de fotos y control del hogar sin depender de pantallas pequeñas"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://lightbulbcomputer.com/",
+  "fuente_dominio": "lightbulbcomputer.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50029487",
+  "score": 317,
+  "comentarios": 46
+ },
+ {
+  "id": "49991852",
+  "slug": "reconstruyen-en-javascript-el-prototipo-de-fisica-2d-que-ins-49991852",
+  "fecha": "2026-10-11T05:02:09+00:00",
+  "titulo": "Reconstruyen en JavaScript el prototipo de física 2D que inspiró el sistema de vehículos de GTA",
+  "resumen": "Un desarrollador ha recreado en JavaScript un prototipo de simulación de física 2D que escribió en 1996 y que sirvió de base para el sistema de conducción del primer Grand Theft Auto. La recreación, lanzada por el 30 aniversario del proyecto original, incluye tres modos de juego: automóvil, nave espacial y bloque, cada uno con diferentes modelos de comportamiento. El sistema combinaba un motor de cuerpos rígidos 2D con una capa de simulación de vehículos basada en un modelo simplificado del comportamiento de neumáticos.",
+  "por_que_importa": "El prototipo representa una aproximación pionera al uso de física de cuerpos rígidos en videojuegos, una técnica que en 1996 no era común en la industria. El proyecto ilustra la importancia del prototipado como herramienta de desarrollo para explorar conceptos aislados antes de integrarlos en productos finales.",
+  "puntos_clave": [
+   "Desarrollado originalmente en 1996 en GFA BASIC para Atari ST como base del sistema de conducción de GTA",
+   "Implementa física de cuerpos rígidos 2D con rotación coherente, superior a los modelos básicos de punto de masa usados en la época",
+   "Disponible ahora para jugar en navegador con controles táctiles y múltiples opciones de cámara y física"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://patkerr.co.uk/2d-vehicles/",
+  "fuente_dominio": "patkerr.co.uk",
+  "hn_url": "https://news.ycombinator.com/item?id=49991852",
+  "score": 402,
+  "comentarios": 88
+ },
+ {
   "id": "50031653",
   "slug": "macos-ya-no-aparece-en-el-registro-oficial-de-certificacion-50031653",
   "fecha": "2026-10-10T21:23:58+00:00",
