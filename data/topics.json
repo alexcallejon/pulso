@@ -1,5 +1,119 @@
 [
  {
+  "id": "50028647",
+  "slug": "la-escasez-de-ram-reactiva-la-demanda-de-ddr4-en-nuevos-proc-50028647",
+  "fecha": "2026-10-11T21:42:00+00:00",
+  "titulo": "La escasez de RAM reactiva la demanda de DDR4 en nuevos procesadores",
+  "resumen": "Ante los elevados precios de la memoria DDR5, fabricantes como Intel y AMD están lanzando nuevos procesadores compatibles con DDR4, la tecnología de más de una década de antigüedad. Intel planea procesadores para el socket LGA 1700 que soportarán DDR4 a partir de 2027, mientras que AMD ha revivido su plataforma AM4 con nuevos modelos. Esta estrategia busca ofrecer a los consumidores una alternativa más económica frente a los costos prohibitivos de actualizar a DDR5.",
+  "por_que_importa": "La diferencia de precio entre ambas tecnologías es considerable: kits de 32GB de DDR5 cuestan más del doble que sus equivalentes DDR4, lo que dificulta las actualizaciones de equipos. Esta tendencia refleja cómo las limitaciones en la cadena de suministro pueden revertir decisiones tecnológicas previas de la industria.",
+  "puntos_clave": [
+   "Intel y AMD lanzan CPUs con soporte para DDR4 en respuesta a precios elevados de DDR5",
+   "Gigabyte anunció procesadores LGA 1700 con soporte dual DDR4/DDR5 esperados para 2027",
+   "DDR4 mantiene precios más accesibles que DDR5 pese a ser tecnología de más de diez años"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://www.theverge.com/games/1009140/ram-shortage-intel-amd-ddr4-comeback",
+  "fuente_dominio": "theverge.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50028647",
+  "score": 259,
+  "comentarios": 264
+ },
+ {
+  "id": "50043689",
+  "slug": "el-codigo-generado-por-ia-aun-requiere-revision-y-conocimien-50043689",
+  "fecha": "2026-10-11T21:41:55+00:00",
+  "titulo": "El código generado por IA aún requiere revisión y conocimiento técnico",
+  "resumen": "Un desarrollador experimentado utilizó agentes de IA para reescribir una aplicación en múltiples lenguajes sin revisar el código resultante. El análisis posterior reveló inconsistencias importantes entre las versiones, como diferencias en compatibilidad hacia atrás y decisiones de diseño que varían según cada reescritura. Los problemas técnicos encontrados demuestran que especificar adecuadamente lo que se desea es crucial y que la generación automática de código no elimina la necesidad de comprensión técnica profunda.",
+  "por_que_importa": "Muestra que confiar completamente en IA sin revisión técnica puede introducir problemas graves en sistemas en producción. Destaca la importancia de mantener conocimientos de ingeniería de software incluso con herramientas de automatización disponibles.",
+  "puntos_clave": [
+   "Indicaciones imprecisas llevan a decisiones arbitrarias: compatibilidad, rendimiento y restricciones de memoria deben especificarse explícitamente",
+   "Las versiones reescritas presentaron diferencias significativas independientes del lenguaje, revelando que el contexto técnico fue interpretado inconsistentemente",
+   "Problemas de rendimiento en operaciones de base de datos muestran que escribir código seguro requiere experiencia, no solo automatización"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/",
+  "fuente_dominio": "itsallaboutthebit.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50043689",
+  "score": 273,
+  "comentarios": 109
+ },
+ {
+  "id": "50041540",
+  "slug": "ircv3-continua-evolucionando-con-nuevas-extensiones-para-mod-50041540",
+  "fecha": "2026-10-11T21:41:50+00:00",
+  "titulo": "IRCv3 continúa evolucionando con nuevas extensiones para modernizar el protocolo",
+  "resumen": "El Grupo de Trabajo IRCv3 desarrolla extensiones para mejorar el protocolo IRC, incluyendo autenticación estandarizada, historial de mensajes, notificaciones de disponibilidad y soporte para caracteres Unicode. Las mejoras mantienen compatibilidad con clientes y servidores antiguos. Múltiples organizaciones como InspIRCd, Irssi, WeeChat y UnrealIRCd participan en el desarrollo de estas funcionalidades.",
+  "por_que_importa": "IRC sigue siendo relevante como protocolo de chat abierto y extensible, con iniciativas comunitarias para modernizarlo sin abandonar su simplicidad. La estandarización de nuevas características permite que herramientas antiguas coexistan con implementaciones más actuales.",
+  "puntos_clave": [
+   "Se trabaja en autenticación SASL, notificaciones de disponibilidad y metadatos de mensajes ya implementados",
+   "Funcionalidades en desarrollo incluyen historial persistente, conexiones seguras automáticas y nicknames Unicode",
+   "Decenas de clientes, servidores y bibliotecas mantienen el ecosistema del protocolo"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://ircv3.net/",
+  "fuente_dominio": "ircv3.net",
+  "hn_url": "https://news.ycombinator.com/item?id=50041540",
+  "score": 303,
+  "comentarios": 262
+ },
+ {
+  "id": "50042219",
+  "slug": "contrato-usuarios-para-probar-su-documentacion-y-descubrio-e-50042219",
+  "fecha": "2026-10-11T21:41:44+00:00",
+  "titulo": "Contrató usuarios para probar su documentación y descubrió errores críticos",
+  "resumen": "Un desarrollador pagó a voluntarios para que siguieran las instrucciones de su README en sesiones grabadas, identificando problemas que pasó por alto debido a sus propios sesgos. Durante las pruebas descubrió errores como enlaces rotos, explicaciones incompletas y secciones confusas que los usuarios no comprendían. Tras iterar sobre la documentación en función del feedback recibido, logró crear instrucciones significativamente más claras y accesibles.",
+  "por_que_importa": "La documentación deficiente es un problema común en desarrollo que afecta la experiencia de usuarios nuevos. Involucrar a personas reales en pruebas de usabilidad es más efectivo que automatizar el proceso, permitiendo identificar confusiones que el creador original no puede ver por sus prejuicios.",
+  "puntos_clave": [
+   "Invirtió aproximadamente 150 euros pagando a usuarios reales para probar instrucciones de forma interactiva",
+   "Encontró problemas fundamentales como explicaciones incompletas de funcionalidad, ambigüedad en comandos y estructura confusa de secciones",
+   "Recomendó hacer pruebas con personas hablando en voz alta sobre su proceso, incluso sin presupuesto para pagarles"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/",
+  "fuente_dominio": "shkspr.mobi",
+  "hn_url": "https://news.ycombinator.com/item?id=50042219",
+  "score": 348,
+  "comentarios": 182
+ },
+ {
+  "id": "50043682",
+  "slug": "nuevos-documentos-refuerzan-caso-judicial-sobre-engano-clima-50043682",
+  "fecha": "2026-10-11T21:41:38+00:00",
+  "titulo": "Nuevos documentos refuerzan caso judicial sobre engaño climático contra ExxonMobil",
+  "resumen": "Massachusetts ha liberado documentos previamente confidenciales en su demanda de 2019 contra ExxonMobil, incluyendo un memorando de 1988 en el que un ejecutivo de la empresa advirtió sobre riesgos comerciales si el mundo tomaba medidas contra el cambio climático. Los documentos revelan posiciones internas de la compañía desde los años 1980 hasta 2010 y cuestionan sus afirmaciones sobre soluciones climáticas en biocombustibles y captura de carbono. La divulgación ocurre mientras la Corte Suprema de Estados Unidos considera si debe permitir que demandas similares de ciudades como Boulder, Colorado, avancen en fase de descubrimiento de pruebas.",
+  "por_que_importa": "Los documentos proporcionan evidencia de que ExxonMobil conocía las implicaciones políticas del cambio climático décadas atrás, lo que refuerza argumentos en litigios sobre responsabilidad corporativa. El resultado de los casos pendientes ante la Corte Suprema podría determinar si más de veinte demandas adicionales contra empresas petroleras pueden continuar.",
+  "puntos_clave": [
+   "Memorando de 1988 muestra que Exxon anticipaba impactos comerciales de políticas climáticas globales",
+   "Documentos cuestionan la credibilidad de iniciativas de la empresa en tecnologías de mitigación",
+   "Decisión judicial inminente podría abrir camino a múltiples demandas de responsabilidad climática"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://insideclimatenews.org/news/07102026/exxonmobil-climate-deception-new-evidence/",
+  "fuente_dominio": "insideclimatenews.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50043682",
+  "score": 372,
+  "comentarios": 201
+ },
+ {
+  "id": "50041682",
+  "slug": "nitter-busca-financiacion-y-asesoramiento-legal-tras-demanda-50041682",
+  "fecha": "2026-10-11T21:41:33+00:00",
+  "titulo": "Nitter busca financiación y asesoramiento legal tras demandas de X",
+  "resumen": "El proyecto Nitter, un frontend alternativo para acceder a X sin cuenta ni rastreo, enfrenta demandas legales de X Corporation desde agosto de 2026 exigiendo su cierre permanente. El desarrollador admite haber proporcionado información inexacta sobre la disponibilidad de representación legal y ahora solicita ayuda de abogados y financiación comunitaria. Las donaciones se destinarán prioritariamente a costos legales o al desarrollo de Nitter o proyectos sucesores.",
+  "por_que_importa": "La situación refleja tensiones sobre acceso abierto a plataformas de redes sociales y el uso de herramientas legales para frenar proyectos de software libre. Los desarrolladores y usuarios de frontends alternativos podrían enfrentar riesgos legales similares bajo leyes como la Ley de Fraude y Abuso Informático.",
+  "puntos_clave": [
+   "X envió cartas de cese y desista en agosto y septiembre de 2026 contra todas las instancias de Nitter",
+   "El proyecto carece actualmente de representación legal pese a afirmaciones anteriores del desarrollador",
+   "Se abre debate sobre la viabilidad legal de frontends alternativos que permiten acceso a contenido público sin intermediarios oficiales"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://nitter.net",
+  "fuente_dominio": "nitter.net",
+  "hn_url": "https://news.ycombinator.com/item?id=50041682",
+  "score": 406,
+  "comentarios": 206
+ },
+ {
   "id": "50040276",
   "slug": "lineageos-24-0-basado-en-android-17-con-nuevas-aplicaciones-50040276",
   "fecha": "2026-10-11T12:26:36+00:00",
