@@ -1,5 +1,119 @@
 [
  {
+  "id": "50040276",
+  "slug": "lineageos-24-0-basado-en-android-17-con-nuevas-aplicaciones-50040276",
+  "fecha": "2026-10-11T12:26:36+00:00",
+  "titulo": "LineageOS 24.0: basado en Android 17 con nuevas aplicaciones y soporte ampliado",
+  "resumen": "LineageOS lanzó su versión 24.0 basada en Android 17, adelantándose a lo previsto tras completar la adaptación del código base más rápidamente de lo esperado. La actualización incluye parches de seguridad hasta octubre de 2026 para versiones recientes y noviembre de 2025 para ramas antiguas, además de mejoras significativas en aplicaciones core como un nuevo editor de imágenes y refinamientos en diseño Material Design 3. El proyecto continúa manteniendo dispositivos antiguos activos mientras explora nuevas plataformas, incluyendo un objetivo genérico experimental para ejecutar Android en hardware diverso como computadoras x86_64 y MacBooks con Apple Silicon.",
+  "por_que_importa": "LineageOS sigue siendo relevante para extender la vida útil de dispositivos antiguos evitando su obsolescencia, especialmente cuando fabricantes dejan de proporcionar actualizaciones. La expansión a nuevas plataformas de hardware abre posibilidades para reutilizar laptops y computadoras con Android en lugar de desecharlas.",
+  "puntos_clave": [
+   "Versión 24.0 completada antes de lo esperado gracias a una mejor adaptación a cambios previos de Google",
+   "Parches de seguridad actualizados hasta octubre de 2026 en ramas principales y noviembre de 2025 en versiones antiguas",
+   "Suite de aplicaciones mejoradas con Material Design 3 Expressive, incluyendo nuevo editor de imágenes Canvas y optimizaciones en música y navegador"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://lineageos.org/Changelog-32/",
+  "fuente_dominio": "lineageos.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50040276",
+  "score": 166,
+  "comentarios": 42
+ },
+ {
+  "id": "50028027",
+  "slug": "comienza-ensayo-clinico-de-terapia-genica-contra-enfermedade-50028027",
+  "fecha": "2026-10-11T12:26:30+00:00",
+  "titulo": "Comienza ensayo clínico de terapia génica contra enfermedades por priones",
+  "resumen": "Investigadores del Broad Institute e Instituto de Medicina de la Universidad de Massachusetts iniciaron un ensayo clínico de fase 1 con un nuevo tratamiento basado en ARN interferente pequeño (siRNA) diseñado para reducir la proteína priónica causante de la enfermedad. El fármaco, que funciona disminuyendo la producción de proteínas priónicas mal plegadas en el cerebro, será evaluado en 15 pacientes con síntomas de enfermedades priónicas para determinar su seguridad y dosificación. Este es el primer test en humanos de esta molécula de siRNA bivalente tras mostrar resultados prometedores en modelos animales.",
+  "por_que_importa": "Las enfermedades priónicas son trastornos neurodegenerativos fatales sin cura actual, con progresión mortal en meses o años tras la aparición de síntomas. Los hallazgos y datos de este ensayo serán compartidos públicamente para beneficiar el desarrollo futuro de fármacos contra este tipo de enfermedades.",
+  "puntos_clave": [
+   "Ensayo clínico de fase 1 en 15 pacientes con enfermedad priónica sintomática",
+   "Fármaco basado en siRNA bivalente que reduce la acumulación de proteína priónica en el cerebro",
+   "Estudios previos mostraron reducción del 49% de proteína priónica y 64% de aumento de supervivencia en ratones"
+  ],
+  "categoria": "Ciencia",
+  "fuente_url": "https://www.broadinstitute.org/news/clinical-trial-prion-disease-drug-candidate-begins-enrolling-participants",
+  "fuente_dominio": "broadinstitute.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50028027",
+  "score": 168,
+  "comentarios": 44
+ },
+ {
+  "id": "50033357",
+  "slug": "los-unikernels-dejan-de-ser-dificiles-gracias-a-la-ia-50033357",
+  "fecha": "2026-10-11T12:26:25+00:00",
+  "titulo": "Los unikernels dejan de ser difíciles gracias a la IA",
+  "resumen": "Expertos en tecnología observan un resurgimiento del interés en unikernels, sistemas donde la aplicación funciona como el propio sistema operativo sin capas intermedias. Lo que antes requería escribir múltiples bibliotecas desde cero ahora es más viable con herramientas de IA que pueden automatizar tareas complejas como la migración de código entre lenguajes. El enfoque promete reducir significativamente la superficie de ataque en aplicaciones, eliminando shells e intérpretes que los atacantes podrían explotar.",
+  "por_que_importa": "Los unikernels representan un cambio de paradigma en seguridad informática al eliminar capas de sistema operativo innecesarias que históricamente fueron diseñadas para entornos multiusuario. Los modelos de lenguaje actuales pueden resolver problemas de desarrollo que hacían impracticables los unikernels décadas atrás.",
+  "puntos_clave": [
+   "Un unikernel integra la aplicación con el sistema operativo, eliminando la necesidad de crear procesos separados",
+   "La adopción era limitada por la falta de bibliotecas disponibles; ahora la IA puede portar código entre lenguajes automáticamente",
+   "Reducen la superficie de ataque al no incluir shells ni intérpretes, dificultando explotaciones de seguridad convencionales"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://ghuntley.com/unikernels/",
+  "fuente_dominio": "ghuntley.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50033357",
+  "score": 171,
+  "comentarios": 84
+ },
+ {
+  "id": "50016956",
+  "slug": "microsoft-lanza-contenedores-de-ejecucion-para-agentes-de-ia-50016956",
+  "fecha": "2026-10-11T12:26:20+00:00",
+  "titulo": "Microsoft lanza contenedores de ejecución para agentes de IA con control de políticas",
+  "resumen": "Microsoft ha puesto en disponibilidad general Microsoft Execution Containers (MXC), una capa de ejecución que permite limitar los recursos y acciones que pueden realizar los agentes de IA. La solución busca ofrecer un equilibrio entre la productividad de los agentes y la seguridad, permitiendo a desarrolladores y administradores definir políticas de acceso que se ejecutan independientemente del agente. Windows integrará próximamente capacidades adicionales de identidad y gestión mediante Microsoft Entra y Microsoft Agent 365.",
+  "por_que_importa": "Los agentes de IA pueden generar riesgos de seguridad al acceder a múltiples recursos, por lo que esta herramienta busca resolver el dilema entre conceder acceso completo o bloquearlo completamente. La solución es relevante para empresas que quieren aprovechar la productividad de los agentes sin comprometer la seguridad de sus infraestructuras.",
+  "puntos_clave": [
+   "MXC actúa como una capa de contención que define y ejecuta límites de acceso a recursos específicos",
+   "Los agentes no pueden modificar recursos fuera de su política asignada, incluso si lo deciden automáticamente",
+   "Windows añadirá herramientas de identidad y gestión centralizada para monitorear actividad de agentes en las organizaciones"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
+  "fuente_dominio": "blogs.windows.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50016956",
+  "score": 197,
+  "comentarios": 58
+ },
+ {
+  "id": "50035530",
+  "slug": "duckdb-2-0-logra-mejoras-significativas-de-rendimiento-50035530",
+  "fecha": "2026-10-11T12:26:14+00:00",
+  "titulo": "DuckDB 2.0 logra mejoras significativas de rendimiento",
+  "resumen": "La versión 2.0 de DuckDB, próxima a lanzarse, incorpora optimizaciones que aceleran las operaciones, especialmente en consultas sobre almacenamiento en la nube. La mejora más notable es el I/O asincrónico, que separa las tareas de descarga de red de las de procesamiento, permitiendo que ambas se ejecuten simultáneamente. Según pruebas realizadas, una consulta sobre un archivo de 2,2 GB en S3 se ejecutó aproximadamente 2,4 veces más rápido en la versión 2.0 alpha que en la 1.5.5.",
+  "por_que_importa": "Las mejoras de rendimiento benefician directamente a quienes construyen pipelines de datos y tablas, no solo a desarrolladores de motores de bases de datos. El I/O asincrónico es especialmente relevante para usuarios que consultan archivos Parquet almacenados en servicios en la nube.",
+  "puntos_clave": [
+   "El I/O asincrónico separa descargas de red del procesamiento CPU, manteniéndolos activos simultáneamente",
+   "Una consulta sobre S3 pasó de 18,8 segundos a 7,7 segundos en tests preliminares",
+   "La versión 2.0 también incluye mejoras en CTEs recursivas, extensiones de C++ y manejo de datos gráficos"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://motherduck.com/blog/why-duckdb-20-is-faster/",
+  "fuente_dominio": "motherduck.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50035530",
+  "score": 200,
+  "comentarios": 64
+ },
+ {
+  "id": "50017247",
+  "slug": "nix-automatiza-funcionalidades-clave-de-un-depurador-de-cond-50017247",
+  "fecha": "2026-10-11T12:26:06+00:00",
+  "titulo": "Nix automatiza funcionalidades clave de un depurador de condiciones de carrera",
+  "resumen": "Un desarrollador describió cómo Nix facilitó la construcción de características avanzadas en su herramienta Rewind VM, un depurador determinista que reproduce problemas concurrentes en compilaciones. La plataforma de gestión de dependencias proporcionó automáticamente componentes fundamentales como símbolos de depuración, código fuente y la capacidad de reproducibilidad, elementos que normalmente requerirían desarrollo extenso. Los usuarios destacan tanto el potencial de Nix para depuración avanzada como las similitudes con herramientas existentes de viajes en el tiempo.",
+  "por_que_importa": "Las condiciones de carrera son errores difíciles de reproducir y Nix proporciona un enfoque sistemático para identificarlas de forma determinista. El reconocimiento de que Nix resuelve automáticamente problemas complejos de depuración podría impulsar su adopción, especialmente con apoyo de herramientas de IA.",
+  "puntos_clave": [
+   "Nix automatizó tareas como empaquetar dependencias, fuentes y símbolos de depuración necesarios para reproducir errores",
+   "Rewind VM reduce condiciones de carrera a un paso específico mediante perturbaciones controladas del planificador",
+   "Existen herramientas de depuración con viajes en el tiempo desde hace décadas, pero su adopción sigue siendo limitada"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger",
+  "fuente_dominio": "fzakaria.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50017247",
+  "score": 206,
+  "comentarios": 49
+ },
+ {
   "id": "50034081",
   "slug": "un-programador-recibe-el-historico-premio-de-knuth-por-encon-50034081",
   "fecha": "2026-10-11T05:02:37+00:00",
