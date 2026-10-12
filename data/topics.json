@@ -1,5 +1,119 @@
 [
  {
+  "id": "50042425",
+  "slug": "la-tilde-en-path-no-se-expande-como-home-si-esta-entrecomill-50042425",
+  "fecha": "2026-10-12T05:16:37+00:00",
+  "titulo": "La tilde en PATH no se expande como HOME si está entrecomillada",
+  "resumen": "Un desarrollador descubrió que al usar comillas alrededor de la ruta en variables PATH con tilde (~), esta no se expande al directorio home como se esperaría, sino que se interpreta literalmente como ./~/.local/bin/. El problema ocurre porque la expansión de tilde solo funciona en contextos sin comillas, según la documentación de Bash. La solución es usar $HOME en lugar de ~ o evitar comillas alrededor de la variable.",
+  "por_que_importa": "Este comportamiento puede causar que binarios instalados en directorios locales no se ejecuten correctamente, afectando a desarrolladores que configuran sus entornos de forma incorrecta. Herramientas de seguridad como nono detectan estas configuraciones problemáticas, pero es importante comprenderlas para evitar vulnerabilidades o disfunciones.",
+  "puntos_clave": [
+   "La tilde entre comillas en PATH se interpreta literalmente (./~/), no como el directorio home",
+   "La expansión de tilde solo ocurre en contextos sin comillas o en asignaciones de variables sin espacios",
+   "Usar $HOME en lugar de ~ es la solución recomendada para evitar comportamientos inesperados"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/",
+  "fuente_dominio": "disconnect3d.pl",
+  "hn_url": "https://news.ycombinator.com/item?id=50042425",
+  "score": 231,
+  "comentarios": 145
+ },
+ {
+  "id": "50047055",
+  "slug": "the-onion-busca-numeros-antiguos-de-su-archivo-para-llenar-v-50047055",
+  "fecha": "2026-10-12T05:16:32+00:00",
+  "titulo": "The Onion busca números antiguos de su archivo para llenar vacíos",
+  "resumen": "The Onion solicita a sus lectores que vendan o donen ejemplares impresos de años específicos que faltan en su colección histórica. La publicación necesita números de diferentes volúmenes, principalmente de las décadas de 1980, 1990 y 2000. Los interesados deben identificar sus ejemplares por volumen y número de emisión, y contactar a través de un formulario para que un archivista evalúe su relevancia.",
+  "por_que_importa": "Ayuda a preservar el archivo histórico de una publicación satírica influyente en la cultura estadounidense. La iniciativa permite que aficionados y coleccionistas contribuyan a completar registros incompletos de material de décadas pasadas.",
+  "puntos_clave": [
+   "Se solicitan ejemplares específicos de volúmenes entre 1988 y 2013",
+   "Los ejemplares deben estar en buen estado, limpios y legibles",
+   "Los interesados deben completar un formulario con detalles de sus colecciones"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://theonion.com/archivehunt/",
+  "fuente_dominio": "theonion.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50047055",
+  "score": 291,
+  "comentarios": 40
+ },
+ {
+  "id": "50048638",
+  "slug": "google-debe-detener-trabajos-en-centros-de-datos-de-finlandi-50048638",
+  "fecha": "2026-10-12T05:16:28+00:00",
+  "titulo": "Google debe detener trabajos en centros de datos de Finlandia por incumplimientos ambientales",
+  "resumen": "Las autoridades finlandesas ordenaron a Google suspender temporalmente la construcción de dos centros de datos tras no completar evaluaciones de impacto ambiental obligatorias. La empresa había talado más de 500 hectáreas de bosque en los sitios de Muhos y Kajaani sin realizar los estudios requeridos. Google reconoció no cumplir sus propios estándares y se comprometió a seguir las indicaciones de las autoridades, enfrentando posibles multas si no acata la orden.",
+  "por_que_importa": "Expone la tensión entre la demanda global de infraestructura digital y la protección ambiental en proyectos de gran escala. Ilustra cómo la presión del mercado puede llevar a grandes corporaciones a saltarse requisitos legales de evaluación ambiental.",
+  "puntos_clave": [
+   "Google talló aproximadamente 530 hectáreas de bosque en dos sitios sin completar evaluaciones de impacto ambiental previas",
+   "Las autoridades finlandesas exigieron detener los trabajos hasta que se complete la evaluación, con multas potenciales por incumplimiento",
+   "Expertos señalan que la demanda acelerada de centros de datos presionó a la empresa a trabajar más rápido de lo legalmente permitido"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment",
+  "fuente_dominio": "theguardian.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50048638",
+  "score": 297,
+  "comentarios": 74
+ },
+ {
+  "id": "50047422",
+  "slug": "la-brecha-en-la-comprension-de-capacidades-de-llms-se-amplia-50047422",
+  "fecha": "2026-10-12T05:16:23+00:00",
+  "titulo": "La brecha en la comprensión de capacidades de LLMs se amplía",
+  "resumen": "Andrej Karpathy señala que la divergencia en cómo diferentes grupos entienden las capacidades de los modelos de lenguaje grandes se está intensificando, formando un embudo cada vez más pronunciado. Mientras aproximadamente tres cuartas partes de la población apenas ha interactuado con estos sistemas, un pequeño porcentaje de profesionales especializados experimenta transformaciones radicales en tareas complejas de programación y matemáticas. El impacto varía significativamente según el acceso a sistemas frontier, la naturaleza del problema a resolver y los dominios de aplicación.",
+  "por_que_importa": "Existe una desconexión creciente entre la percepción pública de los LLMs como herramientas básicas y la realidad de sus aplicaciones avanzadas en manos de expertos. Esta disparidad afecta cómo la sociedad evalúa y regula tecnologías cuya verdadera capacidad permanece invisible para la mayoría.",
+  "puntos_clave": [
+   "La mayoría de la población no ha experimentado LLMs; los usuarios ocasionales los ven como mejoras de búsqueda o asistencia textual",
+   "Un grupo muy reducido de profesionales en código y matemáticas observa automatización de proyectos complejos que antes requerían semanas o meses",
+   "La divergencia se debe a diferencias en acceso, ambición del problema y especialización en dominios digitales verificables"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://twitter.com/karpathy/status/2109361546505966046",
+  "fuente_dominio": "twitter.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50047422",
+  "score": 352,
+  "comentarios": 518
+ },
+ {
+  "id": "50045946",
+  "slug": "nueva-york-implementa-regla-para-cancelar-suscripciones-con-50045946",
+  "fecha": "2026-10-12T05:16:16+00:00",
+  "titulo": "Nueva York implementa regla para cancelar suscripciones con un clic",
+  "resumen": "Nueva York ha puesto en vigencia a partir de octubre de 2026 una normativa que obliga a las empresas a permitir la cancelación de suscripciones mediante el mismo método utilizado para contratar. La regulación, supervisada por el Departamento de Protección al Consumidor, establece que las compañías deben informar claramente sobre los términos de contratación y no pueden dificultar los procesos de cancelación. Las empresas que incumplan enfrentarán multas civiles que comienzan en 525 dólares y posibles reembolsos a consumidores.",
+  "por_que_importa": "La medida aborda una práctica frecuente en la que empresas crean obstáculos deliberados para que los usuarios abandonen sus suscripciones, protegiendo a los consumidores de trampas contractuales. Es una regulación municipal pionera que podría servir de modelo para otras jurisdicciones, incluyendo potenciales iniciativas similares a nivel europeo.",
+  "puntos_clave": [
+   "Las empresas deben ofrecer cancelación tan sencilla como la contratación inicial",
+   "Están obligadas a revelar claramente los términos de suscripción y derechos del consumidor",
+   "No pueden cobrar devoluciones de productos entregados gratuitamente ni aplicar cargos por cancelación temprana"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.nyc.gov/main/click-to-cancel",
+  "fuente_dominio": "nyc.gov",
+  "hn_url": "https://news.ycombinator.com/item?id=50045946",
+  "score": 413,
+  "comentarios": 197
+ },
+ {
+  "id": "50045984",
+  "slug": "reconstruyen-total-annihilation-con-motor-de-codigo-abierto-50045984",
+  "fecha": "2026-10-12T05:16:11+00:00",
+  "titulo": "Reconstruyen Total Annihilation con motor de código abierto para ordenadores modernos",
+  "resumen": "Nanolathe es un motor de estrategia en tiempo real de código abierto bajo licencia MIT que reimplementa Total Annihilation mediante ingeniería inversa, permitiendo jugar el clásico con gráficos modernos. El proyecto ofrece una demostración en navegador con las tres misiones originales y una versión beta nativa para Windows, Mac y Linux que utiliza los archivos del juego original. El código está documentado y disponible para que otros lo estudien, modifiquen y amplíen, mientras que también existe el proyecto derivado Beyond All Reason como alternativa con características adicionales.",
+  "por_que_importa": "Permite que un videojuego de estrategia clásico sea accesible en plataformas modernas sin depender de los propietarios originales del título. Demuestra cómo la ingeniería inversa y el software de código abierto pueden preservar y revitalizar juegos antiguos con mejoras técnicas significativas.",
+  "puntos_clave": [
+   "Motor abierto con renderizado GPU moderno que mantiene compatibilidad con gráficos clásicos originales",
+   "Accesible sin instalación mediante demostración en navegador o instalable nativamente en sistemas Windows, Mac y Linux",
+   "Comunidad puede estudiar, modificar y contribuir al código bajo licencia MIT"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://nanolathe.gg",
+  "fuente_dominio": "nanolathe.gg",
+  "hn_url": "https://news.ycombinator.com/item?id=50045984",
+  "score": 427,
+  "comentarios": 182
+ },
+ {
   "id": "50028647",
   "slug": "la-escasez-de-ram-reactiva-la-demanda-de-ddr4-en-nuevos-proc-50028647",
   "fecha": "2026-10-11T21:42:00+00:00",
