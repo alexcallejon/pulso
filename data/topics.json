@@ -1,5 +1,119 @@
 [
  {
+  "id": "50034206",
+  "slug": "notas-de-calculo-usando-julia-enfoque-multimodal-con-program-50034206",
+  "fecha": "2026-10-12T14:56:29+00:00",
+  "titulo": "Notas de cálculo usando Julia: enfoque multimodal con programación",
+  "resumen": "Se presenta un conjunto de materiales educativos para enseñar cálculo mediante el lenguaje de programación Julia, que combina enfoques gráficos, numéricos y algebraicos. Los apuntes, organizados como un libro Quarto, incluyen ejercicios prácticos y se acompañan de un paquete Julia denominado CalculusWithJulia que facilita tareas comunes. El proyecto busca que los conceptos matemáticos sean accesibles sin que la complejidad del lenguaje de programación sea un obstáculo para el aprendizaje.",
+  "por_que_importa": "Julia ofrece una sintaxis accesible que reduce la curva de aprendizaje inicial mientras proporciona capacidades avanzadas, lo que lo diferencia de sistemas de álgebra computacional tradicionales. La iniciativa aborda una necesidad educativa de integrar computación en la enseñanza del cálculo de manera equilibrada entre aspectos simbólicos y numéricos.",
+  "puntos_clave": [
+   "Utiliza Julia para ilustrar componentes gráficos, numéricos y algebraicos del cálculo, siguiendo el enfoque de los cuatro componentes de Harvard",
+   "A diferencia de sistemas como Mathematica o Maple, prioriza el cálculo numérico sobre el simbólico, estimulando la resolución manual de ejercicios",
+   "Incluye un paquete Julia complementario y recursos interactivos con autoevaluación para facilitar el seguimiento de los conceptos"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://jverzani.github.io/CalculusWithJuliaNotes.jl/",
+  "fuente_dominio": "jverzani.github.io",
+  "hn_url": "https://news.ycombinator.com/item?id=50034206",
+  "score": 187,
+  "comentarios": 30
+ },
+ {
+  "id": "50051583",
+  "slug": "un-analista-cuestiona-la-valoracion-de-dos-billones-de-anthr-50051583",
+  "fecha": "2026-10-12T14:56:24+00:00",
+  "titulo": "Un analista cuestiona la valoración de dos billones de Anthropic antes de su salida a bolsa",
+  "resumen": "La firma de investigación New Constructs criticó severamente la próxima oferta pública de Anthropic, calificándola como la más cuestionable de 2026 y advirtiendo sobre riesgos históricos para los mercados financieros. El análisis señala que la empresa reportó ingresos de 4.600 millones de dólares en 2025 pero acumuló pérdidas netas de 42.000 millones, mientras competidores de código abierto ganan presencia. La firma valúa a Anthropic en 150.000 millones de dólares, muy por debajo de la valoración buscada de dos billones.",
+  "por_que_importa": "El caso refleja debates fundamentales sobre las valoraciones de empresas de inteligencia artificial en contextos de pérdidas operativas crecientes y competencia emergente. El historial mixto del analista en predicciones sobre ofertas públicas anteriores añade complejidad a la credibilidad de sus pronósticos.",
+  "puntos_clave": [
+   "New Constructs estima que Anthropic necesitaría duplicar las ganancias anuales de Nvidia para justificar su valoración objetivo.",
+   "El análisis identifica modelos de código abierto como factor que limita la viabilidad del negocio de modelos cerrados.",
+   "La investigadora tiene antecedentes encontrados: acertó con WeWork pero erró al predecir fracasos en DoorDash, Spotify y otras plataformas tecnológicas."
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
+  "fuente_dominio": "cnbc.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50051583",
+  "score": 219,
+  "comentarios": 162
+ },
+ {
+  "id": "50051530",
+  "slug": "pueden-los-telefonos-linux-competir-contra-android-e-ios-50051530",
+  "fecha": "2026-10-12T14:56:18+00:00",
+  "titulo": "¿Pueden los teléfonos Linux competir contra Android e iOS?",
+  "resumen": "Tras un período de estancamiento en el mercado de dispositivos móviles Linux, las condiciones tecnológicas y regulatorias están mejorando para que esta alternativa sea viable. El autor considera que Linux móvil podría ocupar un nicho similar al que existe en el mercado de computadoras de escritorio, sin desafiar directamente el negocio de Google y Apple. Los avances en interfaces móviles, soporte de aplicaciones y restricciones regulatorias en bootloaders de Android abren nuevas posibilidades.",
+  "por_que_importa": "A medida que aumentan las restricciones en dispositivos Android y crece la regulación antimonopolio, más usuarios buscan alternativas que ofrezcan mayor control y privacidad. El ecosistema Linux móvil cuenta ahora con hardware y software más maduros que hace cinco años, lo que podría permitir la entrada de nuevos fabricantes al mercado.",
+  "puntos_clave": [
+   "El mercado de Linux móvil se estancó tras el lanzamiento del Librem 5 y PinePhone, pero las limitaciones técnicas anteriores están siendo superadas",
+   "Fabricantes como Motorola planean vender modelos con sistemas operativos alternativos en 2027, señalando apertura de Google a competencia",
+   "Los comentarios destacan desafíos pendientes en compatibilidad de aplicaciones, soporte de telecomunicaciones y seguridad comparada con Android/iOS"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/",
+  "fuente_dominio": "amosbbatto.wordpress.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50051530",
+  "score": 229,
+  "comentarios": 258
+ },
+ {
+  "id": "50054751",
+  "slug": "qgis-prohibe-las-contribuciones-asistidas-por-ia-50054751",
+  "fecha": "2026-10-12T14:56:13+00:00",
+  "titulo": "QGIS prohíbe las contribuciones asistidas por IA",
+  "resumen": "El proyecto QGIS ha adoptado una política formal que prohíbe estrictamente el uso de herramientas de IA en las contribuciones de código. La medida responde a la presión que genera en los mantenedores del proyecto el volumen de solicitudes de cambio generadas por IA, que dificulta la revisión exhaustiva y consume recursos dedicados a trabajo central. La comunidad busca proteger así la naturaleza colaborativa del software libre y mantener espacio para contribuidores humanos.",
+  "por_que_importa": "La política refleja un dilema creciente en proyectos de código abierto: cómo gestionar el volumen de contribuciones asistidas por IA sin comprometer la calidad ni el modelo de gobernanza comunitaria. La decisión de QGIS puede influir en otros proyectos que enfrentan desafíos similares respecto a la sostenibilidad de la revisión de código.",
+  "puntos_clave": [
+   "QGIS cambia de una política de 'humano en el proceso' a una prohibición total de contribuciones generadas o asistidas por IA",
+   "Los mantenedores argumentan que el volumen de envíos de IA supera la capacidad de revisión humana, afectando la calidad y dejando trabajo sin revisar",
+   "La medida busca preservar la confianza de organizaciones en la comunidad y garantizar que puedan contratar a contribuidores reales para soporte y formación"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50054751",
+  "score": 254,
+  "comentarios": 259
+ },
+ {
+  "id": "50054207",
+  "slug": "bbc-deloitte-falsifico-documentos-para-ocultar-patrimonio-de-50054207",
+  "fecha": "2026-10-12T14:56:07+00:00",
+  "titulo": "BBC: Deloitte falsificó documentos para ocultar patrimonio de Abramovich",
+  "resumen": "Una investigación conjunta de BBC Panorama y el Bureau of Investigative Journalism reveló que Deloitte ayudó a falsificar registros contables en Chipre para esconder activos valorados en 672 millones de dólares del oligarca ruso Roman Abramovich, incluyendo yates de lujo, mansiones y jets privados. Los documentos certificados por la firma permitieron que estas propiedades desaparecieran de los registros de la empresa y facilitaron esquemas para evadir impuestos significativos. Abramovich y sus abogados niegan las acusaciones, argumentando que no autorizo ni dirigio la falsificación de documentos y que recurrió a asesoramiento profesional legítimo.",
+  "por_que_importa": "El caso evidencia cómo grandes firmas de auditoría pueden estar involucradas en esquemas para ocultar patrimonio de oligarcas sancionados, comprometiendo la integridad de los sistemas de cumplimiento financiero internacional. La investigación surge en el contexto de los activos congelados de Abramovich en jurisdicciones como Jersey y su estatus como persona sancionada tras la invasión rusa de Ucrania.",
+  "puntos_clave": [
+   "Deloitte certificó cuentas en Chipre que ocultaban activos por 672 millones de dólares",
+   "La firma aparentemente asesoró sobre esquemas para evadir pagos de impuestos mediante falsificación de documentos",
+   "Abramovich niega las acusaciones y sostiene que confió en asesoramiento profesional legitimo"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.bbc.com/news/articles/c64g1l5389kvo",
+  "fuente_dominio": "bbc.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50054207",
+  "score": 472,
+  "comentarios": 159
+ },
+ {
+  "id": "50048642",
+  "slug": "el-rastreo-por-huella-digital-sustituye-a-las-cookies-de-ter-50048642",
+  "fecha": "2026-10-12T14:56:01+00:00",
+  "titulo": "El rastreo por huella digital sustituye a las cookies de terceros",
+  "resumen": "Las técnicas de huella digital de dispositivos se consolidan como alternativa al rastreo mediante cookies, permitiendo identificar usuarios incluso después de limpiar cookies o usar VPN. Google y otras plataformas publicitarias han comenzado a implementar estos métodos tras el fracaso de soluciones que prometían mayor privacidad. Esta tecnología recopila características del navegador, sistema operativo e IP del usuario para crear perfiles únicos, facilitando la venta de datos personales a terceros.",
+  "por_que_importa": "El rastreo por huella digital es más difícil de evadir que las cookies tradicionales y persiste incluso con medidas de privacidad comunes, lo que intensifica la vigilancia en línea. La implementación masiva de estas técnicas refleja cómo la industria tecnológica prioriza la monetización de datos sobre el cumplimiento genuino de regulaciones de privacidad.",
+  "puntos_clave": [
+   "El navegador revela automáticamente información sobre el dispositivo, idioma, sistema operativo e IP al conectarse a un sitio web",
+   "Las huellas digitales permanecen consistentes incluso tras borrar cookies, cambiar de navegador privado o usar VPN",
+   "Los datos recopilados se utilizan para perfiles de usuarios que se venden al mejor postor, incluyendo a gobiernos y agencias"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://royfish.dev/fingerprints-are-the-new-cookies",
+  "fuente_dominio": "royfish.dev",
+  "hn_url": "https://news.ycombinator.com/item?id=50048642",
+  "score": 540,
+  "comentarios": 264
+ },
+ {
   "id": "50042425",
   "slug": "la-tilde-en-path-no-se-expande-como-home-si-esta-entrecomill-50042425",
   "fecha": "2026-10-12T05:16:37+00:00",
