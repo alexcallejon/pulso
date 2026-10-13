@@ -1,5 +1,119 @@
 [
  {
+  "id": "50059204",
+  "slug": "sera-el-pensamiento-un-pasatiempo-reflexiones-sobre-la-ia-y-50059204",
+  "fecha": "2026-10-13T13:54:17+00:00",
+  "titulo": "¿Será el pensamiento un pasatiempo? Reflexiones sobre la IA y el trabajo cognitivo",
+  "resumen": "Un analista argumenta que los sistemas de IA están mejorando rápidamente en rendimiento, costo y disponibilidad, lo que llevará a su adopción masiva en tareas cognitivas donde actualmente predominan los humanos. Sostiene que el pensamiento, como otras actividades transformadas por revoluciones tecnológicas previas, pasará de ser una necesidad económica a un hobby. Los comentarios cuestionan esta visión con argumentos sobre la utilidad persistente del pensamiento humano, precedentes históricos de tecnologías que no eliminaron actividades, y limitaciones de las IA actuales para generar verdadera innovación.",
+  "por_que_importa": "La reflexión aborda cómo la IA podría transformar radicalmente el mercado laboral del conocimiento, a diferencia de revoluciones tecnológicas anteriores que afectaron principalmente el trabajo manual. El debate genera perspectivas contrapuestas sobre si realmente se puede reemplazar la capacidad de pensamiento humano o si ésta seguirá siendo fundamental.",
+  "puntos_clave": [
+   "La IA mejora en rendimiento, reduce costos y opera sin descansos, factores que la hacen competitiva frente al trabajo cognitivo humano.",
+   "Los críticos argumentan que el pensamiento seguirá siendo esencial para dirigir sistemas autónomos y que las predicciones de obsolescencia tecnológica frecuentemente no se concreta en la práctica.",
+   "El debate refleja interrogantes sobre cómo se sostendrían las economías y sociedades si el trabajo cognitivo fuese completamente automatizado."
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://www.spinellis.gr/blog/20261008/?li261008",
+  "fuente_dominio": "spinellis.gr",
+  "hn_url": "https://news.ycombinator.com/item?id=50059204",
+  "score": 311,
+  "comentarios": 425
+ },
+ {
+  "id": "50069499",
+  "slug": "descubierto-fallo-de-seguridad-de-11-anos-en-el-verificador-50069499",
+  "fecha": "2026-10-13T13:54:10+00:00",
+  "titulo": "Descubierto fallo de seguridad de 11 años en el verificador de préstamos de Rust",
+  "resumen": "Se identificó una vulnerabilidad de seguridad crítica en el verificador de préstamos de Rust que permite eludir las restricciones de tiempo de vida mediante asignación de campos covariantes. El problema, presente desde hace más de una década, permite que código que debería ser rechazado compile correctamente y genere acceso a memoria fuera de scope. Según los comentarios, se trata de un error del compilador en su implementación, no de las reglas fundamentales del sistema de tipos.",
+  "por_que_importa": "Este fallo compromete las garantías de seguridad de memoria que Rust promete, permitiendo acceso a memoria liberada en determinadas circunstancias. Su longevidad sin ser detectado sugiere que existen potencialmente otros problemas similares sin descubrir en el compilador.",
+  "puntos_clave": [
+   "El compilador no rechaza código que viola las reglas de tiempo de vida de Rust",
+   "La solución es hacer que el compilador rechace el código problemático, sin cambiar las reglas del sistema de tipos",
+   "Hay más de cien problemas de seguridad etiquetados como críticos en el repositorio de Rust"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://github.com/rust-lang/rust/issues/164250",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50069499",
+  "score": 336,
+  "comentarios": 169
+ },
+ {
+  "id": "50041866",
+  "slug": "la-sofisticada-capacidad-de-navegacion-del-bacteria-e-coli-50041866",
+  "fecha": "2026-10-13T13:54:06+00:00",
+  "titulo": "La sofisticada capacidad de navegación del bacteria E. coli",
+  "resumen": "El artículo examina la quimiotaxis en E. coli, el proceso mediante el cual esta bacteria detecta químicos en su entorno y navega hacia nutrientes utilizando proteínas receptoras y colas móviles. El mecanismo funciona alternando entre movimientos directos y giros aleatorios, regulados por moléculas de señalización que equilibran la búsqueda eficiente con la exploración. Este sistema demuestra cómo estructuras moleculares complejas permiten a organismos unicelulares comportamientos sofisticados sin necesidad de un cerebro.",
+  "por_que_importa": "Comprender la quimiotaxis ilustra cómo sistemas biológicos pueden generar conductas complejas mediante reglas químicas simples, lo que aporta perspectivas sobre la evolución y el origen de comportamientos inteligentes. Los mecanismos involucrados en E. coli revelan principios fundamentales aplicables a sistemas biológicos más complejos y potencialmente a campos como la inteligencia artificial.",
+  "puntos_clave": [
+   "Las bacterias E. coli detectan nutrientes mediante receptores químicos y deciden nadar hacia adelante o girar aleatoriamente según lo que perciben.",
+   "La molécula CheY transporta información entre los receptores químicos y los rotores celulares, controlando cuándo ocurren los cambios de dirección.",
+   "El equilibrio entre movimientos prolongados y giros frecuentes está finamente regulado para optimizar la búsqueda de alimento sin alejarse demasiado."
+  ],
+  "categoria": "Ciencia",
+  "fuente_url": "https://jsomers.net/e-coli-chemotaxis/",
+  "fuente_dominio": "jsomers.net",
+  "hn_url": "https://news.ycombinator.com/item?id=50041866",
+  "score": 338,
+  "comentarios": 95
+ },
+ {
+  "id": "50055220",
+  "slug": "citroen-revive-el-2cv-como-vehiculo-electrico-para-recuperar-50055220",
+  "fecha": "2026-10-13T13:54:00+00:00",
+  "titulo": "Citroën revive el 2CV como vehículo eléctrico para recuperar ventas",
+  "resumen": "Citroën presentó en el Salón de París un concepto de automóvil eléctrico basado en su icónico modelo 2CV, con intención de comercializarlo hacia 2028. El vehículo mantiene elementos visuales característicos del original, como los arcos de rueda abultados y el techo curvo, a un precio estimado de alrededor de 13.000 libras esterlinas. La estrategia forma parte de una tendencia más amplia en la industria automotriz de explotar el patrimonio de marca para impulsar la venta de coches eléctricos en un mercado competitivo.",
+  "por_que_importa": "Los fabricantes europeos recurren a la nostalgia de modelos históricos para diferenciarse frente a la competencia de marcas chinas en el segmento de vehículos eléctricos. Este enfoque refleja cómo la industria busca convencer a consumidores escépticos sobre la adopción de tecnología eléctrica mediante conexiones emocionales con diseños reconocibles.",
+  "puntos_clave": [
+   "El nuevo modelo es un concepto que busca mostrar la dirección de Citroën, con comercialización prevista para 2028",
+   "El vehículo recupera elementos estéticos del 2CV original de 1948, que fue un referente de accesibilidad y practicidad",
+   "La iniciativa se alinea con una tendencia sectorial de revitalizar modelos clásicos para impulsar ventas de coches eléctricos"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.bbc.com/news/articles/c620r33plgppo",
+  "fuente_dominio": "bbc.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50055220",
+  "score": 375,
+  "comentarios": 422
+ },
+ {
+  "id": "50055593",
+  "slug": "convertir-un-router-wifi-7-en-receptor-de-radio-definida-por-50055593",
+  "fecha": "2026-10-13T13:53:54+00:00",
+  "titulo": "Convertir un router WiFi 7 en receptor de radio definida por software",
+  "resumen": "Un desarrollador ha modificado un router Gemtek W1700K con chipset MediaTek para funcionar como receptor de radio definida por software, capaz de capturar datos de 14 bits a velocidades de hasta 320 Msps. El dispositivo transmite la información capturada a través de conexión 10 GbE hacia una computadora Linux, donde se visualiza en tiempo real mediante una interfaz web con espectro y cascada. El proyecto incluye firmware personalizado basado en especificaciones decodificadas del fabricante, sin utilizar código propietario de MediaTek.",
+  "por_que_importa": "Permite convertir equipamiento comercial de bajo costo en un receptor de radio de alto rendimiento, democratizando el acceso a herramientas especializadas que tradicionalmente requerían equipos costosos. El enfoque de ingeniería inversa y software abierto inspira aplicaciones similares en otros dispositivos WiFi convencionales.",
+  "puntos_clave": [
+   "Captura simultánea en bandas de 2.4, 5 y 6 GHz con tasas configurables de 40 a 320 Msps",
+   "Transmisión sin pérdida de datos mediante compresión automática de 28 bits por par de muestras en el enlace de 10 GbE",
+   "Interfaz de control en navegador con visualización en tiempo real de espectro y ajuste de parámetros"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://github.com/h0m3us3r/w1700k-sdr",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50055593",
+  "score": 383,
+  "comentarios": 104
+ },
+ {
+  "id": "50063427",
+  "slug": "las-habilidades-importan-para-usar-bien-la-inteligencia-arti-50063427",
+  "fecha": "2026-10-13T13:53:48+00:00",
+  "titulo": "Las habilidades importan para usar bien la inteligencia artificial",
+  "resumen": "Un artículo debate si los grandes modelos de lenguaje son herramientas o sistemas de automatización, argumentando que pueden considerarse herramientas cuando se usan con intención y retroalimentación humana. Los comentarios reflejan tensiones: mientras algunos advierten que las capacidades avanzan más rápido que la capacidad humana de desarrollar competencias, otros notan que las habilidades requeridas evolucionan constantemente con la tecnología. Se plantea que el dominio de estas herramientas, como cualquier otra, sigue dependiendo de la experiencia y el criterio del operador.",
+  "por_que_importa": "La forma en que clasificamos y conceptualizamos los sistemas de IA tiene implicaciones en cómo los regulamos y adoptamos. La discusión refleja preocupaciones reales sobre el impacto en la educación y el desarrollo cognitivo humano frente al ritmo acelerado de mejora tecnológica.",
+  "puntos_clave": [
+   "Un LLM puede ser una herramienta si se utiliza con dirección humana, retroalimentación y propósito específico",
+   "La automatización puede ser una característica de una herramienta, no un factor excluyente de su naturaleza instrumental",
+   "El verdadero diferencial radica entre wielding con habilidad versus delegar trabajo sin comprensión adecuada"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+  "fuente_dominio": "yyhh.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50063427",
+  "score": 485,
+  "comentarios": 393
+ },
+ {
   "id": "50052251",
   "slug": "juegos-de-ps2-se-ejecutan-en-el-navegador-mediante-recompila-50052251",
   "fecha": "2026-10-13T00:24:13+00:00",
