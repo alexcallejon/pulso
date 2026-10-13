@@ -1,5 +1,119 @@
 [
  {
+  "id": "50052251",
+  "slug": "juegos-de-ps2-se-ejecutan-en-el-navegador-mediante-recompila-50052251",
+  "fecha": "2026-10-13T00:24:13+00:00",
+  "titulo": "Juegos de PS2 se ejecutan en el navegador mediante recompilación a WebAssembly",
+  "resumen": "Un proyecto permite ejecutar videojuegos de PlayStation 2 directamente en navegadores web sin necesidad de emuladores, traduciendo el código máquina a WebAssembly. El sistema recompila el código de la consola a C++ y lo vincula con reimplementaciones del sistema operativo y hardware de PS2. Se ha demostrado funcionamiento con títulos como Gran Turismo 4 y God of War II, reproducidos a velocidad completa con gráficos mejorados.",
+  "por_que_importa": "Representa un avance técnico significativo en la preservación de videojuegos clásicos al permitir su acceso sin hardware específico. Abre interrogantes sobre seguridad y confianza en proyectos de recompilación frente a emuladores tradicionales.",
+  "puntos_clave": [
+   "Traduce código del Emotion Engine a WebAssembly antes de su ejecución, no mediante emulación en tiempo real",
+   "Implementa núcleo del sistema operativo PS2 y reimplementa unidades vectoriales con precisión en punto flotante",
+   "Requiere imagen de disco del usuario; descarga solo el ejecutable inicialmente mediante peticiones HTTP Range"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://github.com/snuri00/ps2-web-recomp",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50052251",
+  "score": 263,
+  "comentarios": 141
+ },
+ {
+  "id": "50059523",
+  "slug": "los-agentes-de-ia-generan-mas-codigo-pero-no-aumentan-la-pro-50059523",
+  "fecha": "2026-10-13T00:24:08+00:00",
+  "titulo": "Los agentes de IA generan más código, pero no aumentan la productividad",
+  "resumen": "Un estudio de universidades analizó el impacto de herramientas de IA en más de 700 empresas tecnológicas entre 2021 y 2026, encontrando que aunque estos agentes incrementan significativamente la cantidad de código producido, no se traduce en más software terminado. El proceso de revisión de código se convierte en un cuello de botella crítico, alargándose sustancialmente y requiriendo más correcciones y comentarios. Los profesionales consultados coinciden en que la revisión manual de código sigue siendo prioritaria para los ingenieros senior, y que el código generado por IA tiende a ser repetitivo y menos optimizado.",
+  "por_que_importa": "Desafía la creencia de que automatizar la escritura de código mejora directamente la productividad de las empresas, revelando limitaciones reales en los flujos de trabajo actuales. Sugiere que las organizaciones deben repensar sus procesos de revisión y validación para aprovechar realmente el potencial de estas herramientas.",
+  "puntos_clave": [
+   "Los agentes de IA generan 30% más líneas de código, pero sin aumento en la resolución de problemas de software",
+   "El tiempo de revisión de código se incrementa 49% tras implementar estos agentes, duplicando las solicitudes de cambios",
+   "La calidad del código generado es cuestionable, frecuentemente repetitivo y poco optimizado para refactorización"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+  "fuente_dominio": "arstechnica.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50059523",
+  "score": 301,
+  "comentarios": 259
+ },
+ {
+  "id": "50058528",
+  "slug": "desarrollan-aplicacion-web-comercial-moderna-usando-c-y-cgi-50058528",
+  "fecha": "2026-10-13T00:24:03+00:00",
+  "titulo": "Desarrollan aplicación web comercial moderna usando C y CGI",
+  "resumen": "Un desarrollador creó una aplicación web funcional con características modernas (cuentas de usuario, pagos, emails transaccionales) utilizando C y CGI, tecnología que dominaba en los años 90. El proyecto utiliza un stack minimalista basado en OpenBSD, C, httpd y SQLite, sin frameworks ni lenguajes de templating, resultando en un único binario ejecutable con solo tres dependencias externas. La solución demuestra que CGI, considerado obsoleto hace dos décadas, sigue siendo viable para producción en 2026 gracias a su simplicidad, seguridad integrada y facilidad de despliegue.",
+  "por_que_importa": "Desafía la creencia de que las tecnologías antiguas son inherentemente ineficientes, mostrando que un enfoque minimalista puede ser más mantenible y seguro que arquitecturas complejas modernas. Ilustra cómo herramientas como pledge y chroot de OpenBSD permiten ejecutar aplicaciones C con sandboxing nativo, reduciendo riesgos de seguridad sin capas adicionales.",
+  "puntos_clave": [
+   "El proyecto compila en un único binario estático sin servidor de base de datos separado ni contenedores, facilitando despliegues sin tiempo de inactividad",
+   "Utiliza solo tres librerías externas (libcurl, libsodium y libcjson) vendidas con el proyecto, minimizando riesgos de cadena de suministro",
+   "CGI permite una separación clara de responsabilidades con un único servidor web, simplificando el debugging y la arquitectura comparado con enfoques multi-servidor"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://prophitt.me/writing/a-modern-web-app-in-c",
+  "fuente_dominio": "prophitt.me",
+  "hn_url": "https://news.ycombinator.com/item?id=50058528",
+  "score": 362,
+  "comentarios": 157
+ },
+ {
+  "id": "50055304",
+  "slug": "ataque-cibernetico-afecta-sistemas-de-refrigeracion-en-super-50055304",
+  "fecha": "2026-10-13T00:23:56+00:00",
+  "titulo": "Ataque cibernético afecta sistemas de refrigeración en supermercados europeos",
+  "resumen": "Un ciberataque sin precedentes ha comprometido sistemas de control de refrigeración en grandes cadenas de supermercados europeos, forzando los equipos a descongelarse continuamente a temperaturas elevadas. El incidente también ha impactado los servicios de entrega y la gestión de precios en las tiendas afectadas. Según comentarios especializados, el ataque podría estar relacionado con vulnerabilidades en controladores de refrigeración antiguos que carecen de medidas de seguridad actualizadas.",
+  "por_que_importa": "Este ataque expone los riesgos de conectar infraestructura crítica de retail a internet sin protecciones adecuadas, afectando operaciones comerciales a gran escala. Demuestra cómo sistemas antiguos y sin actualizar en entornos laborales pueden convertirse en puntos de vulnerabilidad explotables por actores maliciosos.",
+  "puntos_clave": [
+   "Sistemas de refrigeración en supermercados europeos fueron saboteados para descongelarse continuamente",
+   "El incidente afectó también entregas y control de precios en las tiendas",
+   "Equipos de control de refrigeración antigua sin actualizaciones de seguridad serían los vulnerables"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+  "fuente_dominio": "tomshardware.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50055304",
+  "score": 408,
+  "comentarios": 623
+ },
+ {
+  "id": "50060694",
+  "slug": "codex-cli-instala-un-demonio-de-actualizacion-automatica-sin-50060694",
+  "fecha": "2026-10-13T00:23:51+00:00",
+  "titulo": "Codex CLI instala un demonio de actualización automática sin consentimiento del usuario",
+  "resumen": "La versión 0.157.0 de Codex CLI activa por defecto un servicio de fondo persistente que se actualiza automáticamente, algo que los usuarios consideran inapropiado para una herramienta de línea de comandos. El demonio copia archivos del sistema, consume espacio en disco significativo y puede reiniciarse sin previo aviso, interrumpiendo tareas en curso. La solicitud de los usuarios es que esta función sea opcional en lugar de estar habilitada automáticamente.",
+  "por_que_importa": "Esta configuración por defecto genera comportamientos inesperados en la CLI, como cambios en variables de entorno y consumo excesivo de almacenamiento en el disco duro. Los usuarios esperan que una herramienta de línea de comandos se ejecute de forma controlada y predecible, sin procesos adicionales ejecutándose en segundo plano.",
+  "puntos_clave": [
+   "El demonio se inicia automáticamente y persiste incluso después de cerrar todas las ventanas de Codex",
+   "Descarga y almacena múltiples versiones del software, generando consumo significativo de espacio en disco",
+   "El proceso de actualización automática puede interrumpir operaciones activas sin posibilidad de ser deshabilitado"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://github.com/openai/codex/issues/48195",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50060694",
+  "score": 430,
+  "comentarios": 224
+ },
+ {
+  "id": "50059115",
+  "slug": "meta-presenta-muse-wonder-su-modelo-de-ia-mas-avanzado-para-50059115",
+  "fecha": "2026-10-13T00:23:45+00:00",
+  "titulo": "Meta presenta Muse Wonder, su modelo de IA más avanzado para agentes personales",
+  "resumen": "Meta lanzó la serie Muse Wonder, compuesta por dos modelos de inteligencia artificial diseñados para tareas de agentes personales y profesionales. Los modelos incorporan capacidades de memoria activa y enfoque sostenido para rastrear información relevante y completar objetivos complejos. Estarán disponibles a través de diversas plataformas de Meta, con un despliegue gradual entre suscriptores.",
+  "por_que_importa": "Representa un avance significativo en la carrera por desarrollar sistemas de IA capaces de asistir en tareas cotidianas y profesionales con mayor autonomía. La disponibilidad de múltiples desarrolladores en la frontera tecnológica reduce el riesgo de concentración de poder en una única empresa.",
+  "puntos_clave": [
+   "Incluye características de memoria activa y enfoque activo para seguimiento y ejecución de tareas complejas",
+   "Demuestra desempeño superior en benchmarks de agentes, memoria y codificación respecto a modelos competidores",
+   "Disponible inicialmente para desarrolladores a través de Meta Model API y Muse Code"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://research.meta.ai/blog/muse-wonder",
+  "fuente_dominio": "research.meta.ai",
+  "hn_url": "https://news.ycombinator.com/item?id=50059115",
+  "score": 507,
+  "comentarios": 275
+ },
+ {
   "id": "50034206",
   "slug": "notas-de-calculo-usando-julia-enfoque-multimodal-con-program-50034206",
   "fecha": "2026-10-12T14:56:29+00:00",
