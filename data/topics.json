@@ -1,5 +1,119 @@
 [
  {
+  "id": "50067414",
+  "slug": "descubren-archivo-real-hitita-con-131-tablillas-en-turquia-50067414",
+  "fecha": "2026-10-13T22:28:41+00:00",
+  "titulo": "Descubren archivo real hitita con 131 tablillas en Turquía",
+  "resumen": "Arqueólogos hallaron en la antigua ciudad hitita de Samuha (actual Sivas, Turquía) un archivo de tablillas de barro cocido que triplica los hallazgos del año anterior, convirtiéndolo en el más completo del siglo XXI. Los documentos datan del reinado del rey Tudhaliya II y registran un brote de fiebre que causó la muerte de la hija del monarca, logística militar, rituales religiosos y aspectos de la vida cotidiana de hace 3.400 años. Entre los textos destacan cartas de generales hititas solicitando refuerzos militares contra enemigos en Anatolia occidental, y registros sobre prácticas de adivinación mediante observación de aves.",
+  "por_que_importa": "El hallazgo proporciona fuentes directas sobre la organización política, militar y religiosa del Imperio hitita, uno de los más grandes de la antigüedad, ampliando significativamente el conocimiento sobre su estructura administrativa y cultura. Los documentos permiten comparar la correspondencia hitita con registros similares encontrados en Egipto, ofreciendo una perspectiva más completa de las relaciones diplomáticas de la época.",
+  "puntos_clave": [
+   "131 tablillas revelan detalles sobre epidemias, logística militar y rituales religiosos hititas del segundo milenio antes de Cristo",
+   "Samuha fue centro administrativo y religioso clave durante el reinado de Tudhaliya II y base para campañas militares posteriores",
+   "Los textos documentan prácticas de adivinación mediante aves y ofrecen información sobre la evolución del lenguaje hitita y la escritura cuneiforme"
+  ],
+  "categoria": "Ciencia",
+  "fuente_url": "https://www.thehistoryblog.com/archives/77107",
+  "fuente_dominio": "thehistoryblog.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50067414",
+  "score": 328,
+  "comentarios": 82
+ },
+ {
+  "id": "50069971",
+  "slug": "convierten-modelo-de-embeddings-de-google-en-transcriptor-de-50069971",
+  "fecha": "2026-10-13T22:28:35+00:00",
+  "titulo": "Convierten modelo de embeddings de Google en transcriptor de audio local",
+  "resumen": "Un desarrollador adaptó EmbeddingGemma 2, un modelo de embeddings multimodal de Google, para realizar transcripción de voz a texto directamente en dispositivos Mac. El sistema procesa una hora de audio en aproximadamente 13 segundos sin conexión a internet, utilizando el Neural Engine de los equipos Apple. Aunque su tasa de error de palabras es del 5% (superior a modelos líderes con 2-3%), resulta suficiente para uso cotidiano.",
+  "por_que_importa": "Permite transcripción de audio completamente local sin depender de servidores en la nube, mejorando privacidad y velocidad. Demuestra que modelos de embeddings diseñados para otras tareas pueden adaptarse creativamente para resolver problemas de procesamiento de voz.",
+  "puntos_clave": [
+   "Procesa audio a velocidades extremadamente rápidas aprovechando el Neural Engine de Mac",
+   "Funciona completamente sin conexión, manteniendo el audio en el dispositivo del usuario",
+   "Aún hay margen de mejora en precisión mediante mejor entrenamiento del componente lector"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://eg2.haku.sh/",
+  "fuente_dominio": "eg2.haku.sh",
+  "hn_url": "https://news.ycombinator.com/item?id=50069971",
+  "score": 371,
+  "comentarios": 82
+ },
+ {
+  "id": "50073633",
+  "slug": "anthropic-desarrolla-su-propio-sistema-de-control-de-version-50073633",
+  "fecha": "2026-10-13T22:28:30+00:00",
+  "titulo": "Anthropic desarrolla su propio sistema de control de versiones ante crecimiento exponencial",
+  "resumen": "Anthropic creó Scion, un sistema de control de versiones interno, tras migrar su monorepo desde git en cinco meses. La empresa experimentó un aumento de más de doce veces en fusiones de código diarias, pasando de alrededor de 2.500 cambios a más de 30.000 entre mayo y septiembre de 2026. El sistema anterior se convirtió en un cuello de botella debido a que Claude, su modelo de IA, genera código de manera autónoma a una velocidad sin precedentes que supera las capacidades de las herramientas tradicionales.",
+  "por_que_importa": "Refleja cómo las herramientas de desarrollo convencionales deben adaptarse ante la nueva realidad de generación automática de código a escala masiva. Anticipan que otros desarrolladores que usen herramientas de codificación basadas en IA enfrentarán desafíos similares en el corto plazo.",
+  "puntos_clave": [
+   "El volumen de código generado creció de 2.500 a 30.000 fusiones diarias en cuatro meses",
+   "Git dejó de ser viable: el repositorio alcanzó 100 GB de historial y requería cientos de espejos internos",
+   "Scion permitió migrar completamente en cinco meses junto con herramientas adicionales como revisión de código e indexación"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://www.anthropic.com/engineering/redesigning-source-control",
+  "fuente_dominio": "anthropic.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50073633",
+  "score": 430,
+  "comentarios": 420
+ },
+ {
+  "id": "50070302",
+  "slug": "mozilla-lanza-firefox-enterprise-para-competir-en-el-mercado-50070302",
+  "fecha": "2026-10-13T22:28:25+00:00",
+  "titulo": "Mozilla lanza Firefox Enterprise para competir en el mercado corporativo",
+  "resumen": "Mozilla presenta una versión empresarial de Firefox diseñada para organizaciones que requieren control sobre datos, cumplimiento normativo y seguridad en navegación. La solución permite despliegue en infraestructura propia, gestión centralizada de políticas, controles de pérdida de datos y acceso basado en identidad sin necesidad de VPN tradicional. Incluye soporte profesional directo de Mozilla y se posiciona frente a soluciones competidoras ya establecidas en el segmento corporativo.",
+  "por_que_importa": "El navegador se ha convertido en un punto crítico donde convergen datos, identidad e inteligencia artificial, generando riesgos de cumplimiento que muchos entornos empresariales no cubren adecuadamente. Esta oferta permite a Firefox acceder a un mercado corporativo de gran volumen donde actualmente está limitada su adopción debido a la falta de herramientas de gobernanza.",
+  "puntos_clave": [
+   "Despliegue en infraestructura propia con gestión de políticas centralizadas y auditoría completa",
+   "Funciones de protección: prevención de fuga de datos, controles de inteligencia artificial e integración con herramientas de seguridad",
+   "Incluye soporte profesional de Mozilla y cumple con regulaciones como GDPR, DORA, NIS2 e ISO27001"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.firefox.com/en-US/enterprise/",
+  "fuente_dominio": "firefox.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50070302",
+  "score": 580,
+  "comentarios": 239
+ },
+ {
+  "id": "50071017",
+  "slug": "apple-presenta-homeview-su-nueva-pantalla-inteligente-con-ia-50071017",
+  "fecha": "2026-10-13T22:28:20+00:00",
+  "titulo": "Apple presenta HomeView, su nueva pantalla inteligente con IA",
+  "resumen": "Apple lanzó HomeView, un dispositivo de pantalla inteligente de 7 pulgadas disponible desde noviembre que funciona como centro de control del hogar. Integra asistente de IA personalizado, cámara de 12 megapíxeles, micrófonos direccionales y altavoces con audio espacial, con opciones de instalación sobre mesa o pared. El procesamiento de datos de cámara y micrófono ocurre en un compartimento seguro que no puede acceder el sistema operativo ni Apple.",
+  "por_que_importa": "Representa el ingreso de Apple al mercado de pantallas inteligentes para el hogar con enfoque en privacidad y personalización mediante inteligencia artificial. Algunos usuarios señalan limitaciones comparado con alternativas existentes, como la falta de acceso a aplicaciones de terceros.",
+  "puntos_clave": [
+   "Reconoce hasta seis personas diferentes y adapta la experiencia personalizada para cada una",
+   "Pantalla de 7 pulgadas con rango de brillo extremadamente bajo para dormitorio y muy alto para habitaciones soleadas",
+   "Disponible en versiones de mesa y pared, con múltiples opciones de color y diseño personalizable"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://www.apple.com/apple-homeview/",
+  "fuente_dominio": "apple.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50071017",
+  "score": 604,
+  "comentarios": 742
+ },
+ {
+  "id": "50073879",
+  "slug": "google-deepmind-presenta-gemini-4-argon-su-nuevo-modelo-de-i-50073879",
+  "fecha": "2026-10-13T22:28:13+00:00",
+  "titulo": "Google DeepMind presenta Gemini 4 Argon, su nuevo modelo de IA",
+  "resumen": "Google DeepMind lanzó Gemini 4 Argon, un modelo de inteligencia artificial diseñado para resolver problemas complejos en ciencia, ingeniería y ciberseguridad. El modelo destaca por su capacidad para optimizar código, acelerar investigación científica y mejorar sistemas de seguridad. Usuarios reportan mejoras significativas en claridad de respuestas y escritura, aunque algunos señalan dificultades en la experiencia de acceso y falta de información sobre precios definitivos.",
+  "por_que_importa": "Argon representa un avance en capacidades de IA para tareas técnicas complejas, con aplicaciones inmediatas en navegadores, química cuántica y defensa cibernética. El acceso y la experiencia de usuario son puntos críticos que Google debe mejorar para competir efectivamente en el mercado de IA.",
+  "puntos_clave": [
+   "Optimizó código del navegador Chrome completando en semanas trabajo que tomaba meses",
+   "Aceleró cálculos de química cuántica hasta 2.3 veces y mejoró detección de vulnerabilidades de seguridad",
+   "Se comercializa a precio introductorio, pero faltan detalles sobre tarificación definitiva y accesibilidad"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://deepmind.google/models/gemini/",
+  "fuente_dominio": "deepmind.google",
+  "hn_url": "https://news.ycombinator.com/item?id=50073879",
+  "score": 843,
+  "comentarios": 668
+ },
+ {
   "id": "50059204",
   "slug": "sera-el-pensamiento-un-pasatiempo-reflexiones-sobre-la-ia-y-50059204",
   "fecha": "2026-10-13T13:54:17+00:00",
