@@ -1,5 +1,119 @@
 [
  {
+  "id": "50061659",
+  "slug": "un-dispositivo-de-pulsera-de-mit-logra-aprobacion-de-la-fda-50061659",
+  "fecha": "2026-10-14T11:31:35+00:00",
+  "titulo": "Un dispositivo de pulsera de MIT logra aprobación de la FDA para tratar temblores",
+  "resumen": "Un equipo de estudiantes del MIT desarrolló una pulsera que emite vibraciones para ayudar a personas con temblores, inicialmente como proyecto de clase en 2017. Tras casi una década de desarrollo a través de aceleradores y programas empresariales del instituto, el dispositivo recibió la aprobación regulatoria de la FDA. La empresa resultante, Encora Therapeutics, comercializa ahora el wearable como tratamiento para temblores.",
+  "por_que_importa": "Demuestra cómo proyectos académicos pueden convertirse en soluciones médicas reales que mejoran la calidad de vida de pacientes con enfermedades neurodegenerativas. Representa un camino viable para que investigadores jóvenes desarrollen tecnología terapéutica desde universidades hasta el mercado.",
+  "puntos_clave": [
+   "El dispositivo utiliza vibraciones pulsadas que permiten al cerebro recuperar control motor intencional durante cierto período de la enfermedad",
+   "La pulsera comenzó como proyecto de la clase 2.009 de diseño de productos del MIT en 2017 y se convirtió en empresa en 2020",
+   "La demostración inicial mostró mejoras significativas en pruebas de precisión motora como dibujar una espiral"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://news.mit.edu/2026/mit-class-project-turns-into-fda-cleared-treatment-for-tremors-1002",
+  "fuente_dominio": "news.mit.edu",
+  "hn_url": "https://news.ycombinator.com/item?id=50061659",
+  "score": 221,
+  "comentarios": 45
+ },
+ {
+  "id": "50074869",
+  "slug": "google-presenta-gemini-4-argon-modelo-de-ia-para-control-de-50074869",
+  "fecha": "2026-10-14T11:31:31+00:00",
+  "titulo": "Google presenta Gemini 4 Argon, modelo de IA para control de robots",
+  "resumen": "Google ha lanzado Gemini 4 Argon, un modelo de inteligencia artificial especializado en razonamiento físico y control robótico. El modelo alcanza una puntuación del 87% en pruebas de comprensión de problemas espaciales en entornos tridimensionales, superando a otros modelos existentes. Argon puede aplicarse en múltiples áreas del ciclo de vida de robots, desde control directo hasta simulación y automejoría iterativa.",
+  "por_que_importa": "El modelo representa un avance significativo en la capacidad de los sistemas de IA para entender y manipular entornos físicos, acercándose a objetivos de inteligencia artificial general embodied. Su capacidad de control sin entreamiento previo y razonamiento visual-semántico abre nuevas posibilidades para automatizar tareas robotizadas complejas.",
+  "puntos_clave": [
+   "Argon obtiene 87% en el benchmark de razonamiento embodied, superando modelos competidores",
+   "Funciona en control sin entreamiento, reconstrucción de simulaciones físicas y labeling multimodal automático",
+   "Usuarios reportan que el modelo evita colisiones y es más cauteloso que otros modelos de IA en tareas robotizadas"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+  "fuente_dominio": "developers.googleblog.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50074869",
+  "score": 222,
+  "comentarios": 50
+ },
+ {
+  "id": "50072286",
+  "slug": "apple-lanza-campana-para-promover-safari-como-alternativa-a-50072286",
+  "fecha": "2026-10-14T11:31:25+00:00",
+  "titulo": "Apple lanza campaña para promover Safari como alternativa a Chrome",
+  "resumen": "Apple ha iniciado una campaña de promoción de Safari que incluye un sitio web dedicado y videos en YouTube, destacando ventajas como mayor duración de batería, protección de privacidad mejorada y velocidad superior. Según Apple, Safari ofrece hasta 5 horas adicionales de reproducción de video en Mac y carga páginas frecuentes hasta un 35% más rápido que Chrome. La campaña también enfatiza características como Control de Distracciones y Prevención de Seguimiento Inteligente.",
+  "por_que_importa": "La campaña refleja la creciente competencia entre navegadores en torno a privacidad y rendimiento, temas cada vez más relevantes para los usuarios. Esta iniciativa se suma a esfuerzos previos de Apple para posicionar Safari como una opción más privada frente a Chrome.",
+  "puntos_clave": [
+   "Safari afirma ofrecer mejor autonomía de batería y rendimiento que Chrome en macOS",
+   "Apple destaca protecciones de privacidad más sólidas y control de distracciones",
+   "La campaña incluye página web comparativa y contenido audiovisual en plataformas digitales"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://9to5mac.com/2026/10/12/apples-new-switch-to-safari-campaign-details-why-you-should-ditch-chrome/",
+  "fuente_dominio": "9to5mac.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50072286",
+  "score": 275,
+  "comentarios": 485
+ },
+ {
+  "id": "50083130",
+  "slug": "retrasos-en-aosp-obligan-a-desarrolladores-a-descompilar-cod-50083130",
+  "fecha": "2026-10-14T11:31:21+00:00",
+  "titulo": "Retrasos en AOSP obligan a desarrolladores a descompilar código para reportar errores",
+  "resumen": "Desarrolladores están analizando binarios de Android porque los lanzamientos públicos del código fuente de AOSP se publican con considerable demora respecto a las compilaciones de dispositivos. Un informe detallado sobre un fallo en funciones de procesamiento de caracteres amplios en Android 17 ejemplifica cómo los programadores se ven forzados a usar ingeniería inversa para investigar regresiones que ya están en producción.",
+  "por_que_importa": "Los retrasos en la disponibilidad del código fuente dificultan que la comunidad desarrolladora identifique y corrija problemas de forma transparente. Esta brecha entre compilaciones públicas y privadas afecta la calidad del software y la confianza en el ecosistema abierto de Android.",
+  "puntos_clave": [
+   "El código fuente público de Android 17 llegó con meses de retraso respecto a las compilaciones de junio a septiembre de 2026",
+   "Un fallo en funciones de manejo de caracteres Unicode fue introducido entre versiones pero solo pudo investigarse mediante descompilación de la librería",
+   "La comunidad cuestiona si los retrasos sistemáticos del código fuente responden a regulaciones sobre ciclos de actualización de dispositivos"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://github.com/android/ndk/issues/2260",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50083130",
+  "score": 299,
+  "comentarios": 136
+ },
+ {
+  "id": "50073221",
+  "slug": "un-desarrollador-sufre-ataque-de-trafico-de-bots-tras-public-50073221",
+  "fecha": "2026-10-14T11:31:15+00:00",
+  "titulo": "Un desarrollador sufre ataque de tráfico de bots tras publicar en Hacker News",
+  "resumen": "Un programador vio cómo su sitio web se ralentizaba significativamente después de compartir su proyecto en Hacker News, obteniendo inicialmente buena acogida. Al investigar, descubrió que aproximadamente la mitad del tráfico provenía de bots de inteligencia artificial y servicios de scraping, incluyendo herramientas de resumen automatizado que consultaban el sitio decenas de veces por minuto. Implementó soluciones como robots.txt, límites de velocidad y bloqueó direcciones IP específicas, además de mejorar la infraestructura para soportar mayor carga.",
+  "por_que_importa": "Ilustra cómo los bots de IA y servicios de scraping representan una amenaza creciente para la infraestructura de sitios web individuales, consumiendo recursos sin generar valor. Subraya la necesidad de implementar defensas técnicas y revela patrones de abuso sistemático desde proveedores de nube que alojan estos servicios.",
+  "puntos_clave": [
+   "Nearly half of the traffic came from a single AI summarization service querying the site multiple times per minute",
+   "Other significant bot traffic included Claude, OpenAI, Google crawlers, and vulnerability scanners attempting to exploit vulnerabilities",
+   "The developer implemented robots.txt filtering, rate limiting, and IP blocking as mitigation measures while improving overall infrastructure performance"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+  "fuente_dominio": "sammystraus.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50073221",
+  "score": 327,
+  "comentarios": 174
+ },
+ {
+  "id": "50072994",
+  "slug": "reino-unido-genera-menos-electricidad-per-capita-que-en-los-50072994",
+  "fecha": "2026-10-14T11:31:09+00:00",
+  "titulo": "Reino Unido genera menos electricidad per cápita que en los años 70",
+  "resumen": "La generación de electricidad por persona en el Reino Unido ha caído más de un tercio desde su máximo en 2003, retrocediendo a niveles de finales de los años sesenta. Este declive se debe a una combinación de factores: la transición de una economía industrial a de servicios, mejoras en eficiencia energética como el cambio a bombillas LED, y un aumento de las importaciones de electricidad. Mientras que el consumo industrial ha disminuido significativamente, el uso residencial y comercial también ha experimentado caídas similares.",
+  "por_que_importa": "El dato revela un cambio estructural importante en la economía británica y contrasta con la tendencia global de aumento del consumo eléctrico per cápita. La situación plantea desafíos sobre la capacidad del país para mantener su suministro energético en el contexto de la transición hacia energías limpias y la electrificación de sectores como transporte y calefacción.",
+  "puntos_clave": [
+   "La generación per cápita cayó un tercio desde 2003 y ahora está al nivel de finales de los años sesenta",
+   "Deindustrialización, eficiencia energética mejorada e importaciones crecientes explican el declive",
+   "Tanto el consumo industrial como el residencial y comercial han disminuido de manera significativa"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak",
+  "fuente_dominio": "ourworldindata.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50072994",
+  "score": 332,
+  "comentarios": 541
+ },
+ {
   "id": "50068036",
   "slug": "character-ai-se-acoge-al-capitulo-11-de-insolvencia-para-fac-50068036",
   "fecha": "2026-10-14T04:17:36+00:00",
