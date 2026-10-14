@@ -1,5 +1,119 @@
 [
  {
+  "id": "50068036",
+  "slug": "character-ai-se-acoge-al-capitulo-11-de-insolvencia-para-fac-50068036",
+  "fecha": "2026-10-14T04:17:36+00:00",
+  "titulo": "Character.ai se acoge al Capítulo 11 de insolvencia para facilitar venta ordenada",
+  "resumen": "La plataforma de inteligencia artificial Character.ai ha iniciado un proceso voluntario de insolvencia bajo supervisión judicial para vender la empresa y maximizar valor para sus accionistas. El servicio permanece operativo durante el proceso, que se espera concluya entre finales de noviembre y principios de diciembre de 2026. La medida llega tras dificultades legales, regulatorias y operacionales, siendo precedida por una reestructuración en 2024 cuando Google adquirió el equipo fundador.",
+  "por_que_importa": "Character.ai es una plataforma relevante en el sector de IA conversacional con una base de usuarios significativa, por lo que su situación refleja desafíos de sostenibilidad en empresas de tecnología emergente. El resultado del proceso de venta determinará si la plataforma continúa operando o cierra definitivamente, impactando a su comunidad de usuarios.",
+  "puntos_clave": [
+   "La plataforma sigue funcionando y los usuarios mantienen acceso a todos los servicios durante el proceso",
+   "Las suscripciones pagadas permanecen activas sin cambios de facturación por el momento",
+   "Se espera que el proceso de venta supervisado concluya hacia finales de 2026"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://blog.character.ai/an-update-on-character-ai/",
+  "fuente_dominio": "blog.character.ai",
+  "hn_url": "https://news.ycombinator.com/item?id=50068036",
+  "score": 311,
+  "comentarios": 274
+ },
+ {
+  "id": "50071310",
+  "slug": "apple-presenta-el-nuevo-apple-tv-4k-con-asistente-siri-mejor-50071310",
+  "fecha": "2026-10-14T04:17:32+00:00",
+  "titulo": "Apple presenta el nuevo Apple TV 4K con asistente Siri mejorado",
+  "resumen": "Apple lanzó una nueva versión de Apple TV 4K que incorpora una versión mejorada de Siri basada en Apple Intelligence, permitiendo búsquedas conversacionales y control por voz mediante micrófonos de largo alcance. El dispositivo ofrece mayor velocidad de procesamiento y, combinado con altavoces HomePod, proporciona una experiencia de sonido envolvente avanzada. El producto estará disponible a partir del 13 de noviembre.",
+  "por_que_importa": "Representa la integración de capacidades de inteligencia artificial conversacional en dispositivos de entretenimiento del hogar, mejorando cómo los usuarios descubren contenido. Consolida el ecosistema Apple para el control del hogar inteligente mediante un único dispositivo central.",
+  "puntos_clave": [
+   "Siri AI con pantalla completa permite búsquedas conversacionales y responde preguntas contextuales sobre el contenido",
+   "Tres micrófonos de largo alcance con cancelación de eco permiten control completamente manos libres",
+   "Funciona como centro de hogar inteligente con descripciones generadas por IA y acceso a accesorios compatibles"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/",
+  "fuente_dominio": "apple.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50071310",
+  "score": 313,
+  "comentarios": 572
+ },
+ {
+  "id": "50077020",
+  "slug": "guitoro-una-guitarra-virtual-que-se-toca-con-el-teclado-50077020",
+  "fecha": "2026-10-14T04:17:27+00:00",
+  "titulo": "Guitoro: una guitarra virtual que se toca con el teclado",
+  "resumen": "Guitoro es una aplicación web gratuita que simula una guitarra realista en el navegador, permitiendo tocar con el teclado del ordenador, la pantalla táctil o el ratón. Ofrece cuatro tipos de instrumentos, 51 canciones pregrabadas y múltiples patrones de rasgueo, con la posibilidad de ralentizar las piezas hasta el 20% de la velocidad original para aprender. La herramienta muestra en tiempo real qué cuerdas suenan, cómo se rasguea y dónde colocar los dedos, funcionando como recurso didáctico sin necesidad de descargas ni registro.",
+  "por_que_importa": "Democratiza el acceso a la práctica guitarrística para quienes no tienen instrumento físico disponible. Combina entretenimiento, educación y accesibilidad en una plataforma que permite aprender visualmente cómo se interpreta la música real.",
+  "puntos_clave": [
+   "Disponible gratis en navegador sin descargas ni cuentas requeridas",
+   "Incluye 4 instrumentos, 15 acordes por tonalidad y 51 canciones con control de velocidad",
+   "Enseña mediante visualización detallada de cuerdas, rasgueos y posiciones de dedos"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://guitoro.com/",
+  "fuente_dominio": "guitoro.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50077020",
+  "score": 341,
+  "comentarios": 96
+ },
+ {
+  "id": "50072913",
+  "slug": "thunderbird-anuncia-desarrollo-de-aplicacion-nativa-para-iph-50072913",
+  "fecha": "2026-10-14T04:17:22+00:00",
+  "titulo": "Thunderbird anuncia desarrollo de aplicación nativa para iPhone",
+  "resumen": "El equipo de Thunderbird trabaja en una versión para iOS construida desde cero, sin reutilizar código existente de otras plataformas. La aplicación busca ofrecer una experiencia rápida, moderna y unificada entre dispositivos de escritorio, Android e iPhone. El lanzamiento de una primera versión abierta a pruebas comunitarias está previsto para los próximos meses.",
+  "por_que_importa": "Thunderbird es uno de los clientes de correo más completos disponibles, y su llegada a iOS completaría su presencia en múltiples plataformas. Usuarios de sistemas basados en IMAP con grandes volúmenes de correo han señalado las limitaciones de las alternativas actuales.",
+  "puntos_clave": [
+   "Desarrollo nativo desde cero para garantizar rendimiento y confiabilidad en iPhone.",
+   "Énfasis en sincronización de fondo, configuración rápida de cuentas y herramientas esenciales de edición.",
+   "Arquitectura abierta pensada para que desarrolladores comunitarios contribuyan con nuevas funciones."
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/",
+  "fuente_dominio": "blog.thunderbird.net",
+  "hn_url": "https://news.ycombinator.com/item?id=50072913",
+  "score": 375,
+  "comentarios": 163
+ },
+ {
+  "id": "50078141",
+  "slug": "arrestado-ingeniero-de-openai-por-ocultar-dispositivos-de-gr-50078141",
+  "fecha": "2026-10-14T04:17:18+00:00",
+  "titulo": "Arrestado ingeniero de OpenAI por ocultar dispositivos de grabación en sala ejecutiva",
+  "resumen": "Abdulrahman Alfozan, ingeniero saudí de 35 años que trabajaba en OpenAI desde julio de 2025, fue arrestado tras instalar un dispositivo de grabación de audio en una sala de conferencias ejecutiva de la empresa en San Francisco. El dispositivo fue descubierto el 30 de septiembre, oculto en papel higiénico y conectado a un televisor. Las autoridades también encontraron un segundo dispositivo de grabación en una bolsa que el ingeniero dejó sin vigilancia en las oficinas.",
+  "por_que_importa": "El caso representa una amenaza potencial a la seguridad de información confidencial de una empresa de inteligencia artificial, con implicaciones que los funcionarios federales relacionan con la protección de la innovación tecnológica estadounidense. Las investigaciones sugieren que el sospechoso realizó búsquedas previas sobre cómo construir y encriptar dispositivos de grabación, así como información sobre las instalaciones y calendarios de reuniones ejecutivas.",
+  "puntos_clave": [
+   "El ingeniero utilizó consultas en herramientas de productividad para obtener información sobre ubicaciones de salas de reuniones, capacidades y calendarios de la empresa",
+   "Una cuenta vinculada a su cónyuge realizó búsquedas específicas sobre construcción, instalación y ocultamiento de grabadores de audio entre septiembre y octubre",
+   "Las autoridades identificaron vigilancia que lo muestra cerca de la sala ejecutiva en múltiples ocasiones sin autorización para acceder al área"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+  "fuente_dominio": "sfstandard.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50078141",
+  "score": 474,
+  "comentarios": 411
+ },
+ {
+  "id": "50054092",
+  "slug": "ledger-confirma-implante-de-espionaje-en-dispositivos-compro-50054092",
+  "fecha": "2026-10-14T04:17:13+00:00",
+  "titulo": "Ledger confirma implante de espionaje en dispositivos comprometidos",
+  "resumen": "Ledger ha verificado que algunos de sus dispositivos distribuidos por el revendedor malasio CryptoBilis contenían un implante de hardware no autorizado que permitía drenar carteras de criptomonedas. El dispositivo malicioso capturaba la salida de pantalla y pulsaciones de botones para identificar la frase semilla, transmitiéndola al atacante mediante una conexión LTE. La empresa recomendó a usuarios afectados no configurar sus dispositivos y, en caso de haberlo hecho, transferir sus activos a un nuevo dispositivo.",
+  "por_que_importa": "Este incidente demuestra que ataques considerados teóricos o improbables en seguridad de criptomonedas pueden ejecutarse en la práctica mediante técnicas sofisticadas de ingeniería de hardware. La vulnerabilidad afecta directamente la confianza en los dispositivos especializados de almacenamiento de criptomonedas, tradicionalmente percibidos como más seguros.",
+  "puntos_clave": [
+   "Un implante microscópico con procesador ARM e eSIM fue insertado dentro del dispositivo reemplazando la batería original.",
+   "El implante interceptaba la pantalla y botones para capturar la frase semilla durante la configuración inicial del dispositivo.",
+   "Los dispositivos comprometidos se vendían a través de canales no autorizados en plataformas de venta en línea, principalmente desde vendedores chinos con envíos desde Malasia."
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+  "fuente_dominio": "bleepingcomputer.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50054092",
+  "score": 532,
+  "comentarios": 379
+ },
+ {
   "id": "50067414",
   "slug": "descubren-archivo-real-hitita-con-131-tablillas-en-turquia-50067414",
   "fecha": "2026-10-13T22:28:41+00:00",
