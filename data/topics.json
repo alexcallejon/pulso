@@ -1,5 +1,119 @@
 [
  {
+  "id": "50088935",
+  "slug": "las-passkeys-no-son-una-trampa-aclaracion-sobre-sus-riesgos-50088935",
+  "fecha": "2026-10-14T16:53:50+00:00",
+  "titulo": "Las passkeys no son una trampa: aclaración sobre sus riesgos reales",
+  "resumen": "Un artículo que circula en redes afirma que las passkeys son peligrosas por permitir restricciones de acceso mediante attestation, pero esto no refleja cómo funcionan actualmente. La mayoría de passkeys sincronizadas no proporcionan attestation a los sitios web, y la especificación ya desaconseja su uso en plataformas de consumo masivo. Aunque existen preocupaciones legítimas sobre usabilidad entre dispositivos, las passkeys ofrecen protección contra phishing que métodos como TOTP no garantizan.",
+  "por_que_importa": "La confusión sobre seguridad en autenticación afecta las decisiones de usuarios y empresas sobre qué métodos adoptar. Entender las limitaciones reales de cada tecnología es esencial para evaluar correctamente los riesgos de seguridad versus los de usabilidad.",
+  "puntos_clave": [
+   "Las passkeys sincronizadas no envían attestation a sitios, a diferencia de lo que afirma la crítica",
+   "El attestation no valida el sistema operativo ni extensiones del navegador, solo el modelo del autenticador",
+   "Las passkeys impiden phishing vinculando la credencial al dominio, lo que TOTP no consigue"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://scotthelme.co.uk/passkeys-are-not-a-trap/",
+  "fuente_dominio": "scotthelme.co.uk",
+  "hn_url": "https://news.ycombinator.com/item?id=50088935",
+  "score": 230,
+  "comentarios": 334
+ },
+ {
+  "id": "50053487",
+  "slug": "descubren-manual-holandes-de-1692-sobre-mezcla-de-colores-co-50053487",
+  "fecha": "2026-10-14T16:53:45+00:00",
+  "titulo": "Descubren manual holandés de 1692 sobre mezcla de colores con 700 páginas de muestras",
+  "resumen": "Se ha digitalizado un tratado manuscrito del siglo XVII escrito por A. Boogert que contiene instrucciones detalladas sobre cómo preparar y mezclar pinturas al agua, acompañadas de cientos de muestras de color. El libro, único ejemplar creado en 1692, precede por más de dos siglos a la estandarización moderna del color que introdujo Pantone. El manuscrito se conserva en la Bibliothèque Méjanes de Aix-en-Provence y ahora está disponible en línea con escaneos de alta resolución.",
+  "por_que_importa": "Ofrece una ventana única a las prácticas artísticas de los talleres holandeses del Siglo de Oro, mostrando cómo los artistas de la época entendían y aplicaban la teoría del color. Representa un hito importante en la historia de la estandarización cromática, anterior a desarrollos posteriores como la teoría de Newton o los trabajos de Goethe.",
+  "puntos_clave": [
+   "Manual manuscrito en holandés de 1692 con instrucciones para hacer pinturas al agua y más de 700 páginas de muestras de color",
+   "Único ejemplar conocido que probablemente tuvo poco impacto en su época debido a su distribución limitada",
+   "Accesible digitalmente con escaneos de alta resolución en la Bibliothèque Méjanes de Aix-en-Provence"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://www.openculture.com/2026/10/a-900-page-pre-pantone-guide-to-color-from-1692.html",
+  "fuente_dominio": "openculture.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50053487",
+  "score": 245,
+  "comentarios": 43
+ },
+ {
+  "id": "50082470",
+  "slug": "felix-rieseberg-ingeniero-de-anthropic-y-mantenedor-de-elect-50082470",
+  "fecha": "2026-10-14T16:53:40+00:00",
+  "titulo": "Felix Rieseberg: ingeniero de Anthropic y mantenedor de Electron",
+  "resumen": "Felix Rieseberg es ingeniero en Anthropic trabajando en Claude, además de co-mantenedor de Electron y gestor de múltiples proyectos de código abierto. Su sitio web personal muestra su trayectoria profesional en empresas como Notion, Stripe, Slack y Microsoft, donde se enfocó en productividad con IA y desarrollo de herramientas. Los visitantes han señalado problemas de rendimiento en el sitio y han abierto debate sobre el rol futuro de los desarrolladores cuando la IA automatiza la creación de herramientas.",
+  "por_que_importa": "Rieseberg es figura relevante en ecosistemas clave como Electron y ha liderado equipos en empresas tecnológicas influyentes, reflejando la evolución del desarrollo de software. Su trabajo en IA y herramientas de desarrollador toca preguntas actuales sobre cómo la automatización impactará en la ingeniería de software tradicional.",
+  "puntos_clave": [
+   "Lidera trabajo en Claude.ai, Cowork y Code Desktop en Anthropic",
+   "Ha mantenido roles técnicos en Notion, Stripe, Slack y Microsoft durante los últimos años",
+   "Su sitio presenta obras de arte generadas por IA que han generado críticas sobre rendimiento y valor técnico"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://felixrieseberg.com/",
+  "fuente_dominio": "felixrieseberg.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50082470",
+  "score": 257,
+  "comentarios": 99
+ },
+ {
+  "id": "50079865",
+  "slug": "programacion-recreativa-codificar-por-placer-no-por-obligaci-50079865",
+  "fecha": "2026-10-14T16:53:35+00:00",
+  "titulo": "Programación recreativa: codificar por placer, no por obligación",
+  "resumen": "Un artículo explora la programación recreativa como actividad motivada por curiosidad e interés personal, diferenciándola de la programación profesional o académica. Identifica cinco estilos distintos de programadores recreativos: exploradores públicos, investigadores profundos, tecnólogos creativos, solucionadores de problemas personales e investigadores de lenguajes. Propone crear espacios dedicados al experimento sin presión de producción, permitiendo el abandono de proyectos y priorizando el aprendizaje sobre resultados finales.",
+  "por_que_importa": "Mantener la pasión por la programación requiere reconectar con la motivación intrínseca y prevenir el agotamiento, incluso en actividades disfrutables. Los comentarios señalan que algunos programadores encontraron mayor bienestar mental al permitir que la programación se convirtiera en ocio genuino en lugar de obligación constante.",
+  "puntos_clave": [
+   "La programación recreativa se define por motivación interna: explorar por curiosidad sin presión comercial ni de carrera profesional",
+   "Existen múltiples enfoques: desde compartir el proceso público hasta escribir código como arte, cada uno con su propia justificación",
+   "El cambio de mentalidad clave es valorar la exploración sobre la productividad, aceptando proyectos abandonados como aprendizaje legítimo"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://www.cphiri.dev/presentations/recreational-programming",
+  "fuente_dominio": "cphiri.dev",
+  "hn_url": "https://news.ycombinator.com/item?id=50079865",
+  "score": 280,
+  "comentarios": 132
+ },
+ {
+  "id": "50084757",
+  "slug": "como-amazon-eleva-los-precios-en-todo-internet-50084757",
+  "fecha": "2026-10-14T16:53:30+00:00",
+  "titulo": "Cómo Amazon eleva los precios en todo Internet",
+  "resumen": "Amazon cobra a los vendedores comisiones que se han incrementado significativamente, pasando de aproximadamente el 19% en 2014 a casi el 50% en la actualidad cuando se suman todas las tarifas obligatorias y de facto obligatorias. Estas comisiones incluyen referencia, cumplimiento, almacenamiento y publicidad, lo que obliga a los vendedores a aumentar precios en todas partes para mantener rentabilidad. La política de precios justos de Amazon impide que los vendedores ofrezcan productos más baratos en otros canales, lo que resulta en precios más altos incluso fuera de la plataforma.",
+  "por_que_importa": "Este modelo de negocio afecta directamente a los consumidores, que terminan pagando precios elevados incluso cuando compran en otros minoristas. El caso antimonopolio de la FTC contra Amazon se centra precisamente en estas prácticas que reducen la competencia de precios en el mercado digital.",
+  "puntos_clave": [
+   "Las tarifas totales de Amazon para vendedores pueden alcanzar el 50% de las ventas, muy por encima del 15% de comisión base",
+   "Los vendedores no tienen opciones reales: omitir servicios reduce drásticamente sus ventas debido a requisitos de elegibilidad de Prime y publicidad",
+   "La política de precios justos obliga a mantener precios altos en todas partes, eliminando incentivos para competir por precio"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
+  "fuente_dominio": "not-ship.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50084757",
+  "score": 468,
+  "comentarios": 429
+ },
+ {
+  "id": "50084240",
+  "slug": "iosevka-34-9-0-tipografia-monoespaciada-de-codigo-abierto-50084240",
+  "fecha": "2026-10-14T16:53:24+00:00",
+  "titulo": "Iosevka 34.9.0: tipografía monoespaciada de código abierto",
+  "resumen": "Iosevka es una familia tipográfica monoespaciada de código abierto diseñada para programación, terminales y documentos técnicos. Ofrece múltiples variantes incluyendo versiones sans-serif y slab-serif, con opciones de ancho normal y extendido para optimizar el espacio en pantalla. La fuente permite personalización completa y se genera programáticamente mediante un lenguaje personalizado creado especialmente para este proyecto.",
+  "por_que_importa": "Es un proyecto que muestra la relevancia actual de fuentes tipográficas especializadas en desarrollo de software, con una comunidad de usuarios que valora su flexibilidad y calidad. Su arquitectura técnica innovadora demuestra cómo las herramientas de diseño pueden automatizarse mediante lenguajes especializados.",
+  "puntos_clave": [
+   "Disponible en variantes monoespaciadas, quasi-proporcionales, y con estilos slab",
+   "Permite personalización y construcción propia mediante un sistema de compilación abierto",
+   "Incluye ligaturas de código, múltiples pesos, inclinaciones y soporte amplio de caracteres"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://typeof.net/Iosevka/",
+  "fuente_dominio": "typeof.net",
+  "hn_url": "https://news.ycombinator.com/item?id=50084240",
+  "score": 512,
+  "comentarios": 208
+ },
+ {
   "id": "50061659",
   "slug": "un-dispositivo-de-pulsera-de-mit-logra-aprobacion-de-la-fda-50061659",
   "fecha": "2026-10-14T11:31:35+00:00",
