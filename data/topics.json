@@ -1,5 +1,119 @@
 [
  {
+  "id": "50106738",
+  "slug": "anthropic-reconoce-inspiracion-en-mononoke-para-su-sistema-s-50106738",
+  "fecha": "2026-10-15T21:09:05+00:00",
+  "titulo": "Anthropic reconoce inspiración en Mononoke para su sistema Scion",
+  "resumen": "Un ingeniero cuestionó que el sistema de control de versiones Scion de Anthropic reprodujera características de Mononoke, el proyecto de Meta, sin atribución adecuada. Anthropic respondió reconociendo la inspiración en el modelo Bonsai de Mononoke e indicó que añadiría aclaraciones en su documentación. El debate se centró en la falta de crédito explícito más que en el uso de ideas existentes.",
+  "por_que_importa": "Plantea preguntas sobre la transparencia de Anthropic al presentar desarrollos tecnológicos y la importancia de reconocer inspiraciones en proyectos de código abierto. El incidente refleja tensiones sobre cómo las empresas deben atribuir conceptos arquitectónicos provenientes de otros sistemas.",
+  "puntos_clave": [
+   "Scion utiliza el modelo de datos Bonsai de Mononoke, incluyendo estructuras similares para changesets e índices derivados",
+   "Anthropic reconoció la inspiración y se comprometió a mejorar la atribución en su documentación oficial",
+   "El origen del nombre Scion invierte las sílabas de Bonsai, lo que sugiere una conexión intencional con el proyecto original"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://sunshowers.io/posts/anthropic-mononoke-2/",
+  "fuente_dominio": "sunshowers.io",
+  "hn_url": "https://news.ycombinator.com/item?id=50106738",
+  "score": 205,
+  "comentarios": 62
+ },
+ {
+  "id": "50105635",
+  "slug": "steam-supera-en-velocidad-al-nuevo-lanzador-de-epic-tras-act-50105635",
+  "fecha": "2026-10-15T21:09:00+00:00",
+  "titulo": "Steam supera en velocidad al nuevo lanzador de Epic tras actualización de emergencia",
+  "resumen": "Epic Games presentó un nuevo lanzador optimizado con inteligencia artificial que presumía de ser más rápido que Steam. Sin embargo, Valve respondió en menos de 24 horas con una actualización que redujo el tiempo de arranque de su cliente, superando el rendimiento del lanzador de Epic. Aunque la nueva versión de Epic representa una mejora significativa respecto a versiones anteriores, Steam demostró que la optimización tradicional de su plataforma consolidada aún puede competir con las aceleraciones basadas en IA.",
+  "por_que_importa": "La competencia entre plataformas de distribución de videojuegos impacta directamente en la experiencia del usuario, y ambas empresas demuestran estar priorizando el rendimiento. Más allá de la velocidad, persisten diferencias funcionales sustanciales que favorecen a Steam en características comunitarias y de personalización.",
+  "puntos_clave": [
+   "Steam redujo su tiempo de arranque a 5,23 segundos, superando los 5,47 segundos del nuevo lanzador de Epic",
+   "Valve respondió en menos de un día a los anuncios de rendimiento de su competidor",
+   "El lanzador de Epic carece de múltiples funciones presentes en Steam, como foros comunitarios, reseñas de usuarios y biblioteca familiar compartida"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://respawnfirst.com/steam-client-is-now-faster-than-epics-new-vibe-coded-launcher/",
+  "fuente_dominio": "respawnfirst.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50105635",
+  "score": 219,
+  "comentarios": 233
+ },
+ {
+  "id": "50102923",
+  "slug": "libreboot-26-10-anade-soporte-uefi-y-expande-compatibilidad-50102923",
+  "fecha": "2026-10-15T21:08:54+00:00",
+  "titulo": "Libreboot 26.10 añade soporte UEFI y expande compatibilidad con Chromebooks",
+  "resumen": "Libreboot lanzó su versión 26.10 con integración completa de UEFI mediante EDK2, permitiendo que Windows sea compatible con el firmware libre. La actualización incorpora 233 modelos de Chromebook de Intel y AMD procedentes del proyecto MrChromebox, multiplicando significativamente los dispositivos soportados. Además, el proyecto implementó una política explícita contra contribuciones asistidas por inteligencia artificial.",
+  "por_que_importa": "La expansión masiva de dispositivos compatibles simplifica el acceso a firmware abierto en equipos con arquitecturas x86 y ARM, mientras que el soporte UEFI amplía opciones de sistemas operativos. La posición del proyecto respecto a tecnologías de IA refleja un debate creciente en comunidades de software libre sobre automatización en desarrollo.",
+  "puntos_clave": [
+   "Se añadió compatibilidad con 233 modelos de Chromebook mediante integración con MrChromebox",
+   "Se implementó soporte completo UEFI con EDK2, permitiendo mayor compatibilidad con sistemas Windows",
+   "Se adoptó política restrictiva contra contribuciones asistidas por herramientas de IA"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://libreboot.org/news/libreboot2610.html",
+  "fuente_dominio": "libreboot.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50102923",
+  "score": 227,
+  "comentarios": 128
+ },
+ {
+  "id": "50101813",
+  "slug": "descubren-campana-de-espionaje-mediante-anuncios-publicitari-50101813",
+  "fecha": "2026-10-15T21:08:49+00:00",
+  "titulo": "Descubren campaña de espionaje mediante anuncios publicitarios dirigidos",
+  "resumen": "Investigadores documentaron infecciones de dispositivos con software espía mercenario a través de anuncios en línea. La empresa Discover-Tech operaba una plataforma que permitía a socios de espionaje identificar y comprometer dispositivos sin interacción del usuario. Durante cuatro meses, los anuncios de la compañía alcanzaron casi 200.000 sitios web y aplicaciones en múltiples países.",
+  "por_que_importa": "Expone vulnerabilidades fundamentales en el ecosistema publicitario digital que permitieron distribuir malware masivamente sin detección. Demuestra cómo plataformas certificadas por grandes actores del sector facilitaron vigilancia y ataques dirigidos contra dispositivos en todo el mundo.",
+  "puntos_clave": [
+   "Se confirma por primera vez públicamente un ataque de espionaje sin interacción del usuario mediante publicidad dirigida",
+   "Discover-Tech operaba infraestructura para de-anonimizar usuarios y entregar malware automáticamente al mostrar anuncios",
+   "Google, IAB Europe y otras plataformas desconectaron a Discover-Tech tras recibir los hallazgos de la investigación"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
+  "fuente_dominio": "citizenlab.ca",
+  "hn_url": "https://news.ycombinator.com/item?id=50101813",
+  "score": 309,
+  "comentarios": 459
+ },
+ {
+  "id": "50105647",
+  "slug": "investigador-sostiene-que-las-redes-neuronales-son-mas-inter-50105647",
+  "fecha": "2026-10-15T21:08:43+00:00",
+  "titulo": "Investigador sostiene que las redes neuronales son más interpretables de lo creído",
+  "resumen": "Un investigador en interpretabilidad mecánica cuestiona la teoría predominante sobre polisemantidad en redes neuronales, argumentando que los problemas observados se debían a factores arquitectónicos solucionables y no a una complejidad inherente. Tras estudiar modelos de imagen y lenguaje, propone que la mayoría de neuronas en redes grandes son legibles directamente sin necesidad de herramientas de descomposición adicionales. Con mejoras arquitectónicas estándar, logró hacer completamente interpretable una red neuronal que previamente parecía incoherente.",
+  "por_que_importa": "La interpretabilidad de redes neuronales es fundamental para la alineación de sistemas de IA, según especialistas en el campo. Si las redes son más comprensibles de lo estimado, cambiaría el enfoque de investigación hacia métodos directos en lugar de herramientas complejas de reconstrucción.",
+  "puntos_clave": [
+   "Se rebate la hipótesis de superposición como causa principal de polisemantidad neuronal",
+   "Cambios arquitectónicos convencionales mejoraron la interpretabilidad sin alterar el tamaño ni datos de entrenamiento",
+   "Existe debate en la comunidad sobre si los hallazgos representan avances reales o sobreestiman el alcance de las conclusiones"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://already-clean.goodfire.com/",
+  "fuente_dominio": "already-clean.goodfire.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50105647",
+  "score": 363,
+  "comentarios": 119
+ },
+ {
+  "id": "50107379",
+  "slug": "meta-lanza-muse-spark-open-su-modelo-mas-capaz-en-codigo-abi-50107379",
+  "fecha": "2026-10-15T21:08:36+00:00",
+  "titulo": "Meta lanza Muse Spark Open, su modelo más capaz en código abierto",
+  "resumen": "Meta pone a disposición los pesos de Muse Spark Open, un modelo multimodal de 816 mil millones de parámetros diseñado para programación y tareas de razonamiento complejo. Por primera vez, es posible ejecutar este modelo en computadoras personales, específicamente en Mac Studios con chip M5 Ultra, gracias a optimizaciones con la tecnología MLX. El modelo está disponible a través de múltiples plataformas de API y motores de inferencia, con una licencia que permite uso gratuito para desarrolladores por debajo de ciertos umbrales de ingresos.",
+  "por_que_importa": "Democratiza el acceso a modelos de IA avanzados permitiendo que investigadores y desarrolladores ejecuten sistemas de última generación localmente sin depender de servidores en la nube. Refleja la apuesta de Meta por los modelos abiertos como estrategia comercial ante la competencia con otros proveedores de IA de frontera.",
+  "puntos_clave": [
+   "Incluye ventana de contexto de 1 millón de tokens y está optimizado para ingeniería de software y flujos de trabajo autónomos complejos.",
+   "Funciona en hardware de consumidor: dos Mac Studios con M5 Ultra simulan un supercomputador unificado de terabyte de memoria.",
+   "Compatible con múltiples motores de inferencia y marcos de desarrollo, con disponibilidad inmediata en plataformas como Hugging Face, Google Cloud y AWS SageMaker."
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://research.meta.ai/blog/muse-spark-open",
+  "fuente_dominio": "research.meta.ai",
+  "hn_url": "https://news.ycombinator.com/item?id=50107379",
+  "score": 440,
+  "comentarios": 268
+ },
+ {
   "id": "50102247",
   "slug": "unfenced-plataforma-que-identifica-propiedades-privadas-lind-50102247",
   "fecha": "2026-10-15T16:40:00+00:00",
