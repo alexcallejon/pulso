@@ -1,5 +1,119 @@
 [
  {
+  "id": "50091875",
+  "slug": "estados-unidos-vendio-su-industria-de-tierras-raras-en-lugar-50091875",
+  "fecha": "2026-10-15T11:09:13+00:00",
+  "titulo": "Estados Unidos vendió su industria de tierras raras en lugar de perderla",
+  "resumen": "China controla más del 90% de la refinación mundial de tierras raras tras décadas de inversión estatal deliberada, convirtiendo un mercado de menos de 10.000 millones de dólares en un cuello de botella crítico para cadenas de suministro globales de billones. Los intentos estadounidenses de reconstruir una cadena de suministro alternativa mediante empresas como MP Materials y USA Rare Earth enfrentan obstáculos políticos y de coordinación, agravados por los controles de exportación chinos y las suspensiones condicionales. El artículo propone un instrumento financiero específico para resolver esta falla de mercado que los subsidios convencionales no logran abordar.",
+  "por_que_importa": "El dominio chino sobre tierras raras esenciales para tecnología militar y chips avanzados representa una vulnerabilidad estratégica de seguridad nacional para occidente. La reconstrucción de capacidad doméstica requiere coordinación política sostenida durante una década, algo que los mecanismos de mercado convencionales no pueden garantizar.",
+  "puntos_clave": [
+   "China refina más del 90% de tierras raras mundiales y controla casi el 99% de las pesadas, resultado de inversión estatal planificada desde los años 60",
+   "Un mercado de menos de 10.000 millones de dólares puede paralizar cadenas de suministro globales de billones, ejemplificando una falla de mercado",
+   "Las iniciativas estadounidenses para crear alternativas enfrentan problemas de alineación de intereses y falta de paciencia política para cambios de largo plazo"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.lawfaremedia.org/article/america-didn-t-lose-its-rare-earth-industry.-it-sold-it",
+  "fuente_dominio": "lawfaremedia.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50091875",
+  "score": 179,
+  "comentarios": 103
+ },
+ {
+  "id": "50086165",
+  "slug": "pg-vectorsearch-extension-postgresql-con-busqueda-vectorial-50086165",
+  "fecha": "2026-10-15T11:09:06+00:00",
+  "titulo": "Pg_vectorsearch: extensión PostgreSQL con búsqueda vectorial más rápida",
+  "resumen": "Timescale lanzó pg_vectorsearch, una extensión de PostgreSQL en fase alfa que implementa un índice llamado PRISM para búsquedas de vecinos más cercanos. Según los desarrolladores, PRISM supera en velocidad a los índices IVFFlat y HNSW de pgvector, tanto en consultas como en construcción de índices, utilizando técnicas de cuantización y optimizaciones SIMD. La extensión requiere PostgreSQL 18 o superior y tiene una limitación actual de 1968 dimensiones por vector.",
+  "por_que_importa": "La búsqueda vectorial es crítica para aplicaciones de IA y bases de datos no estructuradas, por lo que mejoras de rendimiento impactan directamente en costos de infraestructura. Existe interés en la comunidad por alternativas que reduzcan el consumo de memoria, particularmente en entornos con recursos limitados.",
+  "puntos_clave": [
+   "PRISM utiliza cuantización RaBitQ y particionamiento jerárquico para acelerar búsquedas vectoriales",
+   "Compatible con tablas existentes de pgvector y ofrece tipos nativos vec32 y vec16",
+   "Limitaciones actuales: requiere PostgreSQL 18+, máximo 1968 dimensiones, y está en fase alfa"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://github.com/timescale/pg_vectorsearch",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50086165",
+  "score": 204,
+  "comentarios": 52
+ },
+ {
+  "id": "50097369",
+  "slug": "liquid-ai-presenta-lfm2-5-24b-a2b-modelo-de-razonamiento-efi-50097369",
+  "fecha": "2026-10-15T11:09:01+00:00",
+  "titulo": "Liquid AI presenta LFM2.5-24B-A2B, modelo de razonamiento eficiente para agentes locales",
+  "resumen": "Liquid AI lanzó LFM2.5-24B-A2B, un modelo de 24 mil millones de parámetros con solo 2 mil millones activos, diseñado para ejecutar agentes de inteligencia artificial directamente en dispositivos sin conexión. El modelo alcanza velocidades de procesamiento de hasta 184 tokens por segundo en chips Apple M5 Max y 21 mil tokens por segundo en GPU NVIDIA B300, superando en algunos benchmarks a modelos comparables con 50% más parámetros. La arquitectura incluye una ventana de contexto expandida a 131 mil tokens y vocabulario duplicado para mejorar la tokenización de idiomas no latinos.",
+  "por_que_importa": "Este modelo permite ejecutar agentes de IA avanzados localmente manteniendo privacidad de datos, sin requerir conexión a servidores externos. La eficiencia de parámetros activos lo posiciona como una alternativa competitiva a modelos más grandes, democratizando el acceso a capacidades de razonamiento y automatización.",
+  "puntos_clave": [
+   "Velocidad 1.7 veces superior a otros modelos similares gracias a solo 2 mil millones de parámetros activos por token",
+   "Competitivo con modelos 50% más grandes en benchmarks de agentes y uso de herramientas",
+   "Código abierto disponible en Hugging Face con soporte para ejecución local y ajuste fino"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+  "fuente_dominio": "liquid.ai",
+  "hn_url": "https://news.ycombinator.com/item?id=50097369",
+  "score": 220,
+  "comentarios": 51
+ },
+ {
+  "id": "50090369",
+  "slug": "go-1-27-mejora-significativamente-la-reutilizacion-de-conexi-50090369",
+  "fecha": "2026-10-15T11:08:56+00:00",
+  "titulo": "Go 1.27 mejora significativamente la reutilización de conexiones HTTP/1",
+  "resumen": "La versión 1.27 de Go optimiza la reutilización de conexiones HTTP/1, logrando mejoras de rendimiento de hasta 5 veces más rápidas en comparación con la versión anterior. El cambio permite que las conexiones se mantengan activas automáticamente incluso cuando el cuerpo de la respuesta no se consume completamente. Esta mejora reduce el costo de establecer nuevas conexiones TCP y TLS, que representaba un gasto significativo en las comunicaciones de red.",
+  "por_que_importa": "La reutilización de conexiones es fundamental para el rendimiento en aplicaciones que realizan múltiples solicitudes HTTP, especialmente en comunicaciones entre regiones donde la latencia es elevada. La optimización automática en Go 1.27 beneficia a desarrolladores sin requerir cambios de código, mejorando la eficiencia de aplicaciones web y servicios.",
+  "puntos_clave": [
+   "El rendimiento se multiplica por 5 al reutilizar conexiones HTTP/1 en lugar de abrir nuevas para cada solicitud",
+   "Go 1.27 cierra y drena automáticamente los cuerpos de respuesta no leídos para preservar las conexiones",
+   "El establecimiento de conexiones TCP y TLS consume 3 tiempos de ida y vuelta, lo que justifica la importancia de la reutilización"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://go.dev/blog/http-connection-reuse",
+  "fuente_dominio": "go.dev",
+  "hn_url": "https://news.ycombinator.com/item?id=50090369",
+  "score": 259,
+  "comentarios": 40
+ },
+ {
+  "id": "50094673",
+  "slug": "los-ataques-a-yandex-no-detuvieron-los-bots-maliciosos-solo-50094673",
+  "fecha": "2026-10-15T11:08:51+00:00",
+  "titulo": "Los ataques a Yandex no detuvieron los bots maliciosos, solo los reubicaron",
+  "resumen": "Tras los reportes de ataques a centros de datos de Yandex en Rusia, circuló la idea de que las granjas de bots y operaciones de influencia habían sido desconectadas. Sin embargo, un análisis de Cloudflare revela que aunque hubo caídas de tráfico, los bots maliciosos simplemente migraron a otros proveedores de alojamiento. La infraestructura afectada principalmente consistía en rastreadores de búsqueda verificados, no en actividades malintencionadas.",
+  "por_que_importa": "Demuestra que las métricas de tráfico agregadas pueden ser engañosas y no reflejan si realmente se interrumpieron operaciones maliciosas. Muestra que la resiliencia de las operaciones de bots es mayor de lo que sugieren los datos superficiales de conectividad.",
+  "puntos_clave": [
+   "El tráfico de búsqueda cayó principalmente porque afectó rastreadores legítimos de indexación, no bots maliciosos.",
+   "La actividad maliciosa en la red en la nube de Yandex se trasladó a otros proveedores en lugar de desaparecer.",
+   "El análisis de patrones de solicitudes es más revelador que los números totales de tráfico para evaluar impacto real en operaciones maliciosas."
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://blog.cloudflare.com/yandex-outage/",
+  "fuente_dominio": "blog.cloudflare.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50094673",
+  "score": 262,
+  "comentarios": 94
+ },
+ {
+  "id": "50095353",
+  "slug": "typesafe-ai-lanza-jev-1-14-0-con-funcionalidades-experimenta-50095353",
+  "fecha": "2026-10-15T11:08:46+00:00",
+  "titulo": "TypeSafe AI lanza Jev 1.14.0 con funcionalidades experimentales para usuarios avanzados",
+  "resumen": "TypeSafe AI ha presentado la versión 1.14.0 de su modelo Jev junto con características experimentales bajo banderas de «zona de peligro» en la API. Las nuevas capacidades incluyen soporte de imágenes componibles, un nuevo tipo de dato para cuadros delimitadores y contexto extendido, aunque con advertencia sobre menor confiabilidad. La compañía equilibra así las necesidades de usuarios en producción con las de creadores que buscan explorar nuevas posibilidades.",
+  "por_que_importa": "Amplía las capacidades multimodales de un modelo existente sin esperar a versiones futuras, permitiendo a desarrolladores experimentar con funcionalidades avanzadas bajo su propio riesgo. Refleja una estrategia de desarrollo comunitario que diferencia entre casos de uso confiables y exploratorios, respondiendo a demandas de usuarios sobre longitud de contexto.",
+  "puntos_clave": [
+   "Soporte multimodal con imágenes completamente integrable en estados, instrucciones y criterios del modelo",
+   "Nuevo tipo de dato «box» para retornar cuadros delimitadores, ampliando casos de uso más allá de decisiones lógicas",
+   "Contexto extendido disponible opcionalmente, aunque con menor fiabilidad que las limitaciones por defecto"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://typesafe.ai/blog/jev-1-14",
+  "fuente_dominio": "typesafe.ai",
+  "hn_url": "https://news.ycombinator.com/item?id=50095353",
+  "score": 302,
+  "comentarios": 94
+ },
+ {
   "id": "50083028",
   "slug": "por-que-los-blogs-racionalistas-publican-textos-excesivament-50083028",
   "fecha": "2026-10-15T04:00:01+00:00",
