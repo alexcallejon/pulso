@@ -1,5 +1,119 @@
 [
  {
+  "id": "50102247",
+  "slug": "unfenced-plataforma-que-identifica-propiedades-privadas-lind-50102247",
+  "fecha": "2026-10-15T16:40:00+00:00",
+  "titulo": "Unfenced: plataforma que identifica propiedades privadas lindantes con tierras públicas",
+  "resumen": "Un proyecto ha compilado más de 13,000 propiedades residenciales en venta que comparten fronteras con bosques públicos, terrenos de caza y áreas de conservación en Estados Unidos. La herramienta utiliza datos oficiales de cartografía para verificar esta información, permitiendo a potenciales compradores buscar por estado o región geográfica. Según comentarios de usuarios, la experiencia de vivir junto a tierra pública presenta ventajas como privacidad y acceso a espacios naturales, aunque también implica desafíos como mantenimiento de cercos y presencia de cazadores.",
+  "por_que_importa": "Facilita a compradores de vivienda rural identificar propiedades con características específicas de ubicación que pueden resultar atractivas o problemáticas según sus necesidades. Refleja las consideraciones prácticas que los propietarios enfrentan al vivir junto a espacios públicos de recreación y conservación.",
+  "puntos_clave": [
+   "La plataforma monitorea aproximadamente 700,000 anuncios inmobiliarios activos para identificar coincidencias",
+   "Colorado, California y Utah concentran la mayor cantidad de propiedades identificadas con este patrón de ubicación",
+   "Usuarios reportan experiencias variadas: desde beneficios de privacidad hasta inconvenientes prácticos y limitaciones en la precisión de algunos listados"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://unfenced.land/",
+  "fuente_dominio": "unfenced.land",
+  "hn_url": "https://news.ycombinator.com/item?id=50102247",
+  "score": 158,
+  "comentarios": 114
+ },
+ {
+  "id": "50103630",
+  "slug": "la-angustia-de-los-matematicos-ante-los-hallazgos-de-la-ia-50103630",
+  "fecha": "2026-10-15T16:39:55+00:00",
+  "titulo": "La angustia de los matemáticos ante los hallazgos de la IA",
+  "resumen": "OpenAI ha publicado recientemente cientos de demostraciones matemáticas que resolvieron problemas sin solución durante décadas, generando reacciones de indignación y dolor en la comunidad matemática. Algunos investigadores de renombre han expresado su desconcierto y tristeza ante estos resultados, comparando la experiencia con ver destruida su área de trabajo. El autor reflexiona sobre cómo este cambio tecnológico plantea preguntas profundas sobre qué define al ser humano cuando máquinas pueden ejecutar tareas intelectuales que antes eran exclusivas de expertos.",
+  "por_que_importa": "El evento ilustra cómo la inteligencia artificial está impactando campos considerados históricamente como bastiones del pensamiento humano, generando una crisis de identidad profesional. Estos cambios presagian transformaciones similares en otras disciplinas, levantando interrogantes sobre el propósito y la dignidad humana en un mundo donde las máquinas dominan áreas de conocimiento.",
+  "puntos_clave": [
+   "OpenAI resolvió mediante IA problemas matemáticos sin solución durante siglos, causando consternación entre expertos",
+   "Matemáticos reconocidos reportan sentimientos de desorientación, indignación y duelo profesional ante estos resultados",
+   "El artículo plantea reflexiones sobre qué hace único al ser humano: nuestra capacidad de aprender, iterar y construir conocimiento de forma acumulativa"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://www.derekthompson.org/p/i-know-why-the-mathematicians-weep",
+  "fuente_dominio": "derekthompson.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50103630",
+  "score": 161,
+  "comentarios": 228
+ },
+ {
+  "id": "50089229",
+  "slug": "la-vulnerabilidad-de-los-cables-submarinos-de-comunicaciones-50089229",
+  "fecha": "2026-10-15T16:39:50+00:00",
+  "titulo": "La vulnerabilidad de los cables submarinos de comunicaciones globales",
+  "resumen": "Los cables submarinos que transportan comunicaciones globales enfrentan múltiples riesgos: desde daños accidentales por actividades navales hasta amenazas geológicas y posibles sabotajes deliberados. Regiones como el Estrecho de Taiwán y el Mar Báltico han experimentado disrupciones frecuentes en años recientes. Aunque se utilizan capas de blindaje en algunos segmentos de cable, la protección sigue siendo limitada ante los diversos peligros que acechan estas infraestructuras críticas.",
+  "por_que_importa": "Los cables submarinos son infraestructura esencial para las telecomunicaciones globales, con aproximadamente 1,5 millones de kilómetros en operación que los sistemas satelitales no podrían reemplazar. Su interrupción podría aislar comunidades enteras con graves consecuencias económicas y logísticas.",
+  "puntos_clave": [
+   "Existen patrones inusualmente frecuentes de cortes en cables submarinos en zonas geopolíticamente sensibles",
+   "Los riesgos incluyen daños naturales, accidentes marítimos y potenciales ataques deliberados",
+   "El blindaje de acero en segmentos de cable ofrece protección limitada contra múltiples amenazas"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://blog.apnic.net/2026/10/14/submarine-cable-resilience/",
+  "fuente_dominio": "blog.apnic.net",
+  "hn_url": "https://news.ycombinator.com/item?id=50089229",
+  "score": 166,
+  "comentarios": 74
+ },
+ {
+  "id": "50092470",
+  "slug": "petal-herramienta-de-programacion-en-pareja-de-codigo-abiert-50092470",
+  "fecha": "2026-10-15T16:39:46+00:00",
+  "titulo": "Petal: herramienta de programación en pareja de código abierto",
+  "resumen": "Se lanzó Petal, una alternativa de código abierto a herramientas de colaboración remota como CoScreen y ScreenHero. La plataforma permite que múltiples usuarios compartan ventanas de sus escritorios de forma interactiva, con control remoto de ratón y teclado, y puede ejecutarse en la nube, en servidores propios o con personalización completa. El proyecto surge de exintegrantes de equipos que desarrollaron productos similares en empresas que posteriormente descontinuaron esas funcionalidades.",
+  "por_que_importa": "Llena un vacío en herramientas de programación en pareja después de que servicios comerciales como CoScreen y ScreenHero fueron cerrados por sus propietarios. Ofrece a los desarrolladores una solución flexible y de código abierto que pueden adaptar según sus necesidades de privacidad, cumplimiento normativo o personalización técnica.",
+  "puntos_clave": [
+   "Permite compartir ventanas en tiempo real con control remoto total entre varios usuarios simultáneamente",
+   "Ofrece tres modelos de implementación: en la nube, autoalojado o completamente personalizable",
+   "Desarrollada por exintegrantes de CoScreen que buscaban recrear funcionalidades que fueron descontinuadas"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://petal.live/",
+  "fuente_dominio": "petal.live",
+  "hn_url": "https://news.ycombinator.com/item?id=50092470",
+  "score": 203,
+  "comentarios": 39
+ },
+ {
+  "id": "50103338",
+  "slug": "desk-un-entorno-de-escritorio-wayland-con-diseno-skeuomorfic-50103338",
+  "fecha": "2026-10-15T16:39:41+00:00",
+  "titulo": "DEsk: un entorno de escritorio Wayland con diseño skeuomórfico para Linux",
+  "resumen": "Se lanzó DEsk, un entorno de escritorio para Linux basado en Wayland que utiliza diseño skeuomórfico realista inspirado en iOS 6, donde los elementos visuales imitan objetos físicos reales. El escritorio representa una mesa de madera donde las ventanas son hojas de papel, la barra de aplicaciones es un cajón y las notificaciones llegan a un buzón. El proyecto se encuentra en fase beta y cuenta con instaladores disponibles para varias distribuciones de Linux.",
+  "por_que_importa": "Representa una alternativa al diseño minimalista predominante en interfaces modernas, ofreciendo una experiencia visual más detallada y texturizada. Su lanzamiento genera debate sobre la dirección del diseño de interfaces de usuario y la diversidad de opciones disponibles para usuarios de Linux.",
+  "puntos_clave": [
+   "Usa representaciones visuales realistas donde cada elemento parece un objeto físico con materiales, iluminación y sombras",
+   "Disponible para Debian, Ubuntu, Arch Linux y Fedora con instaladores automatizados",
+   "Se trata de la primera versión pública (v0.1.2 beta) con expectativa de cambios y ajustes futuros"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://github.com/fyzugx/DEsk",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50103338",
+  "score": 208,
+  "comentarios": 85
+ },
+ {
+  "id": "50070625",
+  "slug": "exploto-un-kernel-para-acceder-a-su-propio-router-wi-fi-7-50070625",
+  "fecha": "2026-10-15T16:39:36+00:00",
+  "titulo": "Explotó un kernel para acceder a su propio router Wi-Fi 7",
+  "resumen": "Un usuario descubrió que su punto de acceso TP-Link EAP770 v1 corrompe descargas grandes a través de Wi-Fi, un problema que persiste desde agosto de 2023. TP-Link marcó el dispositivo como fin de vida sin ofrecer actualizaciones de firmware ni solución. Para corregir el fallo, el usuario desarrolló un exploit de kernel que le permitiera escribir dos ceros en sysfs, ya que la interfaz de shell del dispositivo no lo permitía.",
+  "por_que_importa": "Ilustra los riesgos de comprar hardware antes de que se finalicen los estándares y se certifiquen los dispositivos, además del abandono de fabricantes ante productos defectuosos. Muestra cómo los problemas de coherencia de caché en arquitecturas SoC pueden causar corrupción silenciosa de datos en transferencias de red.",
+  "puntos_clave": [
+   "El dispositivo EAP770 v1 nunca recibió actualizaciones desde su lanzamiento inicial en 2023",
+   "Las descargas grandes fallaban sobre HTTP/2 y HTTPS, pero funcionaban con HTTP/1.1 y a través de túneles VPN",
+   "El problema tiene origen en la especificación incompleta de coherencia de caché en el SoC Qualcomm IPQ9574"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://blog.dfb.sh/blog/eap770-root-for-two-zeros/",
+  "fuente_dominio": "blog.dfb.sh",
+  "hn_url": "https://news.ycombinator.com/item?id=50070625",
+  "score": 264,
+  "comentarios": 137
+ },
+ {
   "id": "50091875",
   "slug": "estados-unidos-vendio-su-industria-de-tierras-raras-en-lugar-50091875",
   "fecha": "2026-10-15T11:09:13+00:00",
