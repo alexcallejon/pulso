@@ -1,5 +1,119 @@
 [
  {
+  "id": "50083028",
+  "slug": "por-que-los-blogs-racionalistas-publican-textos-excesivament-50083028",
+  "fecha": "2026-10-15T04:00:01+00:00",
+  "titulo": "¿Por qué los blogs racionalistas publican textos excesivamente largos?",
+  "resumen": "Un escritor critica la tendencia de los bloggers racionalistas a producir artículos extremadamente extensos, argumentando que la extensión se utiliza como sustituto de la calidad. Señala que esta práctica refleja una falta de sabiduría para discernir qué ideas merecen desarrollo y cuáles no. Los comentarios sugieren que esta verbosidad podría estar relacionada con características neurodivergentes comunes en esa comunidad.",
+  "por_que_importa": "La crítica cuestiona cómo se valida el conocimiento en comunidades online especializadas, donde el volumen de contenido puede percibirse erróneamente como profundidad. El debate plantea reflexiones sobre la efectividad comunicativa y el respeto al tiempo del lector en la era de los blogs de larga extensión.",
+  "puntos_clave": [
+   "Los escritores racionalistas publican artículos de miles de palabras frecuentemente sin interrogar sus premisas iniciales",
+   "Se confunde la extensión con la autoridad, cuando ejemplos como el de nicotina demuestran que más palabras no garantizan precisión",
+   "Falta de discernimiento sobre qué contenido realmente merece atención versus tradiciones establecidas"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://alexwennerberg.com/blog/2026-10-13-long.html",
+  "fuente_dominio": "alexwennerberg.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50083028",
+  "score": 239,
+  "comentarios": 166
+ },
+ {
+  "id": "50080007",
+  "slug": "se-cancela-la-grace-hopper-celebration-por-falta-de-financia-50080007",
+  "fecha": "2026-10-15T03:59:57+00:00",
+  "titulo": "Se cancela la Grace Hopper Celebration por falta de financiamiento",
+  "resumen": "AnitaB.org ha cancelado la edición de este año de la Grace Hopper Celebration en Anaheim tras no alcanzar los fondos necesarios para cubrirla. Tanto las inscripciones individuales como los compromisos de patrocinio fueron significativamente menores a los de años anteriores. La organización contactará a los registrados sobre reembolsos antes del 26 de octubre y evalúa alternativas estratégicas para programación futura.",
+  "por_que_importa": "El evento es un espacio importante para mujeres en tecnología desde hace décadas, y su cancelación de último minuto deja a miles de asistentes con arreglos de viaje y alojamiento ya confirmados. La noticia refleja posibles cambios en el patrocinio corporativo y la participación en eventos comunitarios tecnológicos.",
+  "puntos_clave": [
+   "Ingresos por registro e patrocinios cayeron significativamente por debajo de lo requerido para gastos operativos básicos",
+   "Los afectados deben gestionar directamente con proveedores de viajes y alojamiento la cancelación de sus arreglos",
+   "La organización evaluará nuevas opciones estratégicas de programación para el futuro"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://anitab.org/press-release",
+  "fuente_dominio": "anitab.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50080007",
+  "score": 246,
+  "comentarios": 244
+ },
+ {
+  "id": "50089921",
+  "slug": "la-actividad-social-de-los-estadounidenses-ha-caido-signific-50089921",
+  "fecha": "2026-10-15T03:59:52+00:00",
+  "titulo": "La actividad social de los estadounidenses ha caído significativamente en tres décadas",
+  "resumen": "Un estudio comparativo entre 1995 y 2026 revela descensos de dos dígitos en la participación de estadounidenses en actividades sociales presenciales, como invitar gente a casa, asistir a iglesias, ir de picnic y asistir a reuniones de grupos. Mientras estas actividades han disminuido, el uso de internet y videojuegos ha aumentado considerablemente. Los datos se alinean con investigaciones previas que muestran que los estadounidenses pasan menos tiempo con otros y reportan tener menos amigos cercanos.",
+  "por_que_importa": "Este fenómeno refleja cambios profundos en la estructura social estadounidense y conecta con alertas públicas sobre epidemias de soledad y aislamiento social. Los hallazgos sugieren que factores como la tecnología, los costos económicos y cambios demográficos están reconfigurado cómo las personas se relacionan.",
+  "puntos_clave": [
+   "Invitar gente a casa cayó de 88% a 67%; asistencia a iglesias de 74% a 54%",
+   "Actividades en grupo como clubes, picnics y clases bajaron entre 19 y 22 puntos porcentuales",
+   "Internet (+90%) y videojuegos (+22%) ganaron participación mientras actividades presenciales decrecieron"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.dataforprogress.org/blog/2026/9/29/americans-social-activity-has-steeply-declined-in-the-past-30-years",
+  "fuente_dominio": "dataforprogress.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50089921",
+  "score": 279,
+  "comentarios": 287
+ },
+ {
+  "id": "50094694",
+  "slug": "anthropic-s-scion-adopta-conceptos-de-mononoke-sin-mencionar-50094694",
+  "fecha": "2026-10-15T03:59:47+00:00",
+  "titulo": "Anthropic's Scion adopta conceptos de Mononoke sin mencionar su origen",
+  "resumen": "Anthropic presentó Scion, su nuevo sistema de control de versiones, utilizando conceptos como \"datos derivados\" para optimizar operaciones. Un ingeniero que trabajó en Mononoke, el sistema de Meta, señala que el diseño de Scion replica ideas desarrolladas años atrás en ese proyecto, aunque solo se menciona a Sapling como referencia previa. La polémica radica en la ausencia de atribución a Mononoke, un proyecto de código abierto que forma parte del conjunto de entrenamiento de modelos de lenguaje.",
+  "por_que_importa": "Plantea interrogantes sobre cómo los sistemas de IA pueden reproducir soluciones existentes sin atribuir crédito adecuadamente, especialmente cuando el material está disponible públicamente. Ilustra un patrón potencial donde las contribuciones de equipos de investigación anteriores pueden diluirse o perderse en la narrativa de nuevos desarrollos.",
+  "puntos_clave": [
+   "Scion y Mononoke comparten la arquitectura de \"datos derivados\" para optimizar operaciones de blame y control de versiones",
+   "Mononoke fue desarrollado por Meta años antes y está disponible como código abierto en conjuntos de entrenamiento de LLMs",
+   "Solo se reconoció a Sapling por \"lecciones aprendidas\", omitiendo completamente a Mononoke en los créditos"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://sunshowers.io/posts/anthropic-mononoke/",
+  "fuente_dominio": "sunshowers.io",
+  "hn_url": "https://news.ycombinator.com/item?id=50094694",
+  "score": 294,
+  "comentarios": 118
+ },
+ {
+  "id": "50093180",
+  "slug": "suicidios-entre-hombres-de-mediana-edad-alcanzan-maximos-his-50093180",
+  "fecha": "2026-10-15T03:59:42+00:00",
+  "titulo": "Suicidios entre hombres de mediana edad alcanzan máximos históricos",
+  "resumen": "Los datos de Inglaterra y Gales muestran que las tasas de suicidio entre hombres de 45 a 64 años alcanzaron su nivel más alto desde que comenzó el registro en 1981, con 23,8 muertes por cada 100.000 personas. Los hombres de 50 a 54 años presentan el riesgo más elevado con una tasa de 28 por 100.000. Aunque el número total de suicidios bajó ligeramente en 2025, especialistas en salud mental señalan que los gobiernos no han logrado implementar medidas efectivas de prevención.",
+  "por_que_importa": "Estos datos revelan una crisis de salud mental desproporcionada en un grupo demográfico específico, asociada a presiones económicas, inseguridad laboral y problemas de vivienda. Las organizaciones de apoyo advierten que la situación requiere una respuesta política y de financiación urgente para evitar más pérdidas de vidas.",
+  "puntos_clave": [
+   "Hombres de 45-64 años registran tasas de suicidio sin precedentes desde 1981",
+   "Factores como crisis financiera, pérdida de empleo y aislamiento social contribuyen a la crisis",
+   "Expertos señalan que las estrategias de prevención actuales resultan insuficientes"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.telegraph.co.uk/news/2026/10/13/suicide-rates-highest-ever-among-middle-aged-men/",
+  "fuente_dominio": "telegraph.co.uk",
+  "hn_url": "https://news.ycombinator.com/item?id=50093180",
+  "score": 328,
+  "comentarios": 420
+ },
+ {
+  "id": "50094994",
+  "slug": "opencode-2-0-rediseno-arquitectonico-con-servidor-centraliza-50094994",
+  "fecha": "2026-10-15T03:59:36+00:00",
+  "titulo": "OpenCode 2.0: rediseño arquitectónico con servidor centralizado y API renovada",
+  "resumen": "OpenCode 2.0 presenta una restructuración importante que convierte el servidor en un proceso de fondo automático, permitiendo que todas las interfaces (terminal, web y escritorio) se comuniquen con un único backend centralizado. La plataforma incluye una API completamente rediseñada desde cero, un nuevo intérprete JavaScript minimalista y mejoras en la gestión de sesiones y el soporte para scripts programáticos. Los usuarios destacan la eliminación de problemas previos, recarga automática de complementos y mejor comunicación entre subsesiones.",
+  "por_que_importa": "Esta versión facilita la integración con herramientas externas y aplicaciones nativas al exponer un servidor local, algo que usuarios reclaman para soluciones como Claude Code. El rediseño arquitectónico resuelve varios problemas acumulados de la versión anterior y moderniza cómo agentes de código interactúan con el sistema.",
+  "puntos_clave": [
+   "El servidor ahora se ejecuta automáticamente como proceso de fondo, unificando todas las interfaces de usuario",
+   "API completamente reescrita tras analizar millones de casos de uso reales de usuarios",
+   "Nuevo intérprete JavaScript integrado que permite a agentes ejecutar código de forma más efectiva"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://anoma.ly/notes/opencode-2-0/",
+  "fuente_dominio": "anoma.ly",
+  "hn_url": "https://news.ycombinator.com/item?id=50094994",
+  "score": 389,
+  "comentarios": 165
+ },
+ {
   "id": "50064673",
   "slug": "los-origenes-de-kid-pix-del-arte-a-la-programacion-50064673",
   "fecha": "2026-10-14T21:27:46+00:00",
