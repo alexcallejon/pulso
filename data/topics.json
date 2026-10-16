@@ -1,5 +1,119 @@
 [
  {
+  "id": "50118688",
+  "slug": "gemini-4-argon-y-otros-llms-compiten-escribiendo-bots-para-s-50118688",
+  "fecha": "2026-10-16T20:45:56+00:00",
+  "titulo": "Gemini 4 Argon y otros LLMs compiten escribiendo bots para StarCraft",
+  "resumen": "StarSkirmish Bench v0.2 es una prueba que evalúa la capacidad de modelos de lenguaje para escribir bots jugables en StarCraft: Brood War en una hora de tiempo real. Los modelos de OpenAI, Anthropic, Google y Meta compiten generando código en C++ que luego se enfrenta entre sí y contra bots escritos por humanos. Los resultados muestran que GPT-6 Astra lidera el ranking, seguido de GPT-6.1 Sol, mientras que Gemini 4 Argon, Claude Opus 5.5 y Claude Fable 5.1 obtienen puntuaciones similares entre sí.",
+  "por_que_importa": "Este benchmark evalúa capacidades avanzadas de razonamiento a largo plazo y programación autónoma, revelando cómo los LLMs pueden mejorar iterativamente sus soluciones mediante retroalimentación práctica. Los resultados indican que existe una jerarquía clara entre modelos, aunque todos siguen siendo significativamente inferiores a los bots de código abierto escritos por humanos expertos.",
+  "puntos_clave": [
+   "GPT-6 Astra obtiene la puntuación más alta, ganando solo el 7% de partidas contra los mejores bots humanos",
+   "GPT-6.1 Sol ofrece el mejor precio-rendimiento, posicionándose como segunda opción por una décima parte del costo",
+   "Gemini 4 Argon muestra mayor variabilidad entre ejecuciones que otros modelos de laboratorios competidores"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://starskirmish.com/bench/v0-2/",
+  "fuente_dominio": "starskirmish.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50118688",
+  "score": 155,
+  "comentarios": 73
+ },
+ {
+  "id": "50119991",
+  "slug": "postgresql-19-se-retrasa-por-hallazgo-masivo-de-defectos-med-50119991",
+  "fecha": "2026-10-16T20:45:51+00:00",
+  "titulo": "PostgreSQL 19 se retrasa por hallazgo masivo de defectos mediante revisión automatizada",
+  "resumen": "El equipo de desarrollo de PostgreSQL 19 ha posido la liberación al 19 de noviembre y retirado entre 8 y 10 características importantes tras utilizar herramientas de revisión de código asistidas por inteligencia artificial. Estas herramientas identificaron defectos arquitectónicos significativos y una gran cantidad de problemas menores en casos límite que habrían pasado desapercibidos en ciclos anteriores. Los desarrolladores atribuyen el retraso a que la calidad esperada se elevó cuando las capacidades de revisión mejoraron tras la implementación de las características.",
+  "por_que_importa": "El incidente ilustra cómo las herramientas automatizadas están cambiando los estándares de calidad en proyectos de software de gran escala, exponiendo problemas que antes se descubrían meses después del lanzamiento. Este fenómeno sugiere que el control de calidad se está convirtiendo en un cuello de botella crítico en el desarrollo moderno, con implicaciones para la velocidad de entrega de software.",
+  "puntos_clave": [
+   "La revisión asistida por IA detectó defectos graves de arquitectura y decenas de problemas menores que requerían corrección individual.",
+   "Entre 8 y 10 características fueron retiradas de PostgreSQL 19, trasladándose a la próxima versión.",
+   "Los desarrolladores esperan que el proceso se optimice en futuros ciclos conforme mejoren las capacidades de las herramientas de revisión."
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+  "fuente_dominio": "theregister.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50119991",
+  "score": 156,
+  "comentarios": 60
+ },
+ {
+  "id": "50120101",
+  "slug": "proyecto-de-ley-para-garantizar-que-los-jugadores-sean-propi-50120101",
+  "fecha": "2026-10-16T20:45:45+00:00",
+  "titulo": "Proyecto de ley para garantizar que los jugadores sean propietarios de sus videojuegos",
+  "resumen": "Un representante estadounidense presentó una iniciativa legislativa que busca que la Comisión Federal de Comercio establezca regulaciones para proteger el derecho de los consumidores a poseer los videojuegos que compran, en lugar de solo tener licencias revocables. La propuesta responde a la tendencia de las compañías de juegos hacia modelos digitales exclusivos donde los títulos pueden ser eliminados sin previo aviso. El proyecto exigiría que los juegos incluyan modo sin conexión antes de que sus servidores sean desactivados, y permitiría a los usuarios revender sus copias.",
+  "por_que_importa": "La medida aborda una problemática creciente donde consumidores pierden acceso a contenido pagado cuando las compañías deciden discontinuar servicios, como ocurrió con NBA 2K25. Establecería claridad legal sobre la diferencia entre comprar un producto y obtener una licencia temporal, protegiendo los derechos de propiedad del usuario.",
+  "puntos_clave": [
+   "La legislación convertiría la compra de videojuegos en propiedad plena en lugar de licencias revocables",
+   "Obligaría a proporcionar modo sin conexión antes de apagar servidores en línea",
+   "Permitiría a usuarios poseer, jugar y revender sus copias de forma indefinida"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://ritchietorres.house.gov/posts/rep-torres-announces-power-to-the-players-act-legislation-to-ensure-gamers-own-their-games",
+  "fuente_dominio": "ritchietorres.house.gov",
+  "hn_url": "https://news.ycombinator.com/item?id=50120101",
+  "score": 166,
+  "comentarios": 95
+ },
+ {
+  "id": "50118320",
+  "slug": "apple-demuestra-ejecucion-de-modelos-de-ia-masivos-en-mac-st-50118320",
+  "fecha": "2026-10-16T20:45:28+00:00",
+  "titulo": "Apple demuestra ejecución de modelos de IA masivos en Mac Studio con MLX",
+  "resumen": "Apple presentó capacidades de inferencia local para modelos de lenguaje de gran escala en computadoras Mac Studio equipadas con chips M5, utilizando el marco MLX de código abierto. La plataforma permite ejecutar modelos como Muse Spark Open, con casi un billón de parámetros, alcanzando velocidades de generación superiores a 36 tokens por segundo en clusters de cuatro máquinas. El enfoque aprovecha la arquitectura de memoria unificada de los chips Apple Silicon para investigación en inteligencia artificial sin depender de servidores externos.",
+  "por_que_importa": "Facilita que desarrolladores e investigadores ejecuten modelos de IA avanzados localmente en entornos privados sin conexión a servidores externos. Demuestra que hardware de consumo profesional puede manejar cargas de trabajo de IA que tradicionalmente requerían infraestructura especializada costosa.",
+  "puntos_clave": [
+   "MLX es un framework de código abierto optimizado para la arquitectura unificada de memoria de Apple Silicon",
+   "Modelos con cientos de miles de millones de parámetros funcionan en equipos individuales de Mac Studio con hasta 512 GB de memoria",
+   "Se puede escalar horizontalmente conectando múltiples computadoras mediante RDMA sobre Thunderbolt para mejorar rendimiento"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+  "fuente_dominio": "machinelearning.apple.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50118320",
+  "score": 220,
+  "comentarios": 102
+ },
+ {
+  "id": "50121179",
+  "slug": "solo-el-10-de-las-tareas-laborales-estadounidenses-tienen-be-50121179",
+  "fecha": "2026-10-16T20:45:24+00:00",
+  "titulo": "Solo el 10% de las tareas laborales estadounidenses tienen benchmarks de IA",
+  "resumen": "Un análisis de investigación mapeó la cobertura de pruebas de inteligencia artificial contra las ocupaciones reales del mercado laboral estadounidense, encontrando que más del 90% de las horas de trabajo se dedica a tareas sin representación adecuada en los benchmarks existentes. De 923 ocupaciones catalogadas, solo 208 cuentan con al menos cinco indicadores de prueba. Los benchmarks tienden a concentrarse en trabajos de mayor salario, dejando desatendidos empleos de rango medio especializados en conocimiento.",
+  "por_que_importa": "Sin evaluaciones precisas de las capacidades reales de los modelos de IA en tareas laborales cotidianas, es difícil comprender el verdadero impacto de esta tecnología en la economía. La brecha de cobertura revela que la investigación se enfoca principalmente en profesiones de mayores ingresos, mientras ignora gran parte del trabajo de conocimiento de nivel medio.",
+  "puntos_clave": [
+   "Solo 208 de 923 ocupaciones estadounidenses tienen benchmarks con cinco o más pruebas",
+   "La cobertura se concentra desproporcionadamente en ocupaciones con mayores salarios anuales",
+   "Seis de 22 familias ocupacionales no tienen ocupaciones con benchmark suficiente"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+  "fuente_dominio": "mercor.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50121179",
+  "score": 280,
+  "comentarios": 248
+ },
+ {
+  "id": "50122800",
+  "slug": "claude-descubre-el-origen-de-los-parametros-criptograficos-e-50122800",
+  "fecha": "2026-10-16T20:45:19+00:00",
+  "titulo": "Claude descubre el origen de los parámetros criptográficos ECDSA",
+  "resumen": "Un modelo de IA de Anthropic identificó cómo se generaron las semillas de los estándares de curvas elípticas ECDSA adoptados por NIST en 2000. Los parámetros provenían de un generador de números pseudoaleatorios inicializado con marcas de tiempo Unix, no de algoritmos hash como se especulaba. El hallazgo cierra un misterio de décadas en la comunidad criptográfica y sugiere que las curvas no contienen puertas traseras deliberadas.",
+  "por_que_importa": "Durante años, la industria sospechaba que los parámetros ECDSA podrían contener vulnerabilidades intencionales al desconocerse su origen. La explicación técnica desvanece estas sospechas al demostrar que el proceso fue simple y verificable, sin espacio para manipulación deliberada.",
+  "puntos_clave": [
+   "Las semillas se generaron mediante un contador de números aleatorios común inicializado con timestamps, reproducible por cualquiera",
+   "El descubrimiento resolvió el misterio de cinco curvas ECDSA clave tras meses de especulación sin respuesta de los responsables originales",
+   "La revelación refuerza la confianza en estos estándares criptográficos ampliamente utilizados al descartar teorías de puertas traseras"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+  "fuente_dominio": "anthropic.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50122800",
+  "score": 339,
+  "comentarios": 133
+ },
+ {
   "id": "50084674",
   "slug": "los-origenes-de-pgp-por-que-zimmermann-creo-el-cifrado-de-co-50084674",
   "fecha": "2026-10-16T16:23:02+00:00",
