@@ -1,5 +1,119 @@
 [
  {
+  "id": "50112330",
+  "slug": "rpki-protege-ya-el-70-de-las-rutas-de-internet-frente-al-54-50112330",
+  "fecha": "2026-10-16T11:04:08+00:00",
+  "titulo": "RPKI protege ya el 70% de las rutas de internet, frente al 54% hace un año",
+  "resumen": "La adopción de RPKI (infraestructura de clave pública para recursos) ha aumentado significativamente en el último año, pasando de proteger poco más de la mitad de los bloques de direcciones IP a casi tres cuartas partes. Este avance es principalmente impulsado por China, que elevó sus rutas validadas de menos del 4% al 83%. El mecanismo funciona validando que solo las redes autorizadas anuncien bloques de direcciones IP, evitando desvíos de tráfico accidentales o deliberados.",
+  "por_que_importa": "RPKI previene hijacks de rutas y errores de configuración que podrían redirigir tráfico de internet de forma masiva, como ocurrió en 2008 cuando YouTube fue inaccesible globalmente durante dos horas. A medida que más operadores verifican estas validaciones, las rutas inválidas son rechazadas automáticamente y apenas se propagan, mejorando la seguridad del enrutamiento.",
+  "puntos_clave": [
+   "La cobertura RPKI creció 16 puntos porcentuales en un año, más que en los dos años previos combinados",
+   "Las rutas sin validación RPKI correcta son rechazadas por la mayoría de routers cuando otros operadores las verifican",
+   "China contribuyó con casi el 60% del crecimiento global al aumentar drásticamente sus rutas validadas en un año"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://ipinfo.io/blog/rpki-protects-70-internet-routes",
+  "fuente_dominio": "ipinfo.io",
+  "hn_url": "https://news.ycombinator.com/item?id=50112330",
+  "score": 168,
+  "comentarios": 57
+ },
+ {
+  "id": "50108229",
+  "slug": "e-ink-presenta-kaleido-4-su-nueva-plataforma-de-papel-electr-50108229",
+  "fecha": "2026-10-16T11:04:02+00:00",
+  "titulo": "E Ink presenta Kaleido 4, su nueva plataforma de papel electrónico a color",
+  "resumen": "E Ink ha lanzado la cuarta generación de su tecnología Kaleido de pantallas a color, que mejora significativamente el rendimiento cromático, brillo y contraste. El dispositivo M10C II de Hanvon Technology es el primer producto que incorpora esta nueva plataforma, diseñado para aplicaciones profesionales como lectura, educación y oficina móvil. La actualización duplica la gama de colores, aumenta la reflectancia y permite reproducción de vídeo a mayor velocidad.",
+  "por_que_importa": "El papel electrónico a color amplía sus aplicaciones más allá de libros electrónicos hacia entornos educativos y profesionales que requieren visualizar contenido diverso como gráficos, presentaciones y documentos ilustrados. Las mejoras en claridad y velocidad de refresco buscan hacer estas pantallas más competitivas para uso prolongado en tareas de trabajo y estudio.",
+  "puntos_clave": [
+   "Duplicación de la gama cromática, aumento del 15% en reflectancia blanca y mejora del 50% en contraste",
+   "Capacidad de reproducir vídeo a 18 fotogramas por segundo y actualización de página 27% más rápida",
+   "Integración en el M10C II con tecnología de escritura a mano, IA y aplicaciones ofimáticas"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://www.eink.com/news/detail/EInk-Launches-Latest-Version-of-Color-ePaper-Platform-E-Ink-Kaleido-4",
+  "fuente_dominio": "eink.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50108229",
+  "score": 173,
+  "comentarios": 105
+ },
+ {
+  "id": "50105777",
+  "slug": "bipm-elimina-los-segundos-intercalares-del-estandar-utc-a-pa-50105777",
+  "fecha": "2026-10-16T11:03:56+00:00",
+  "titulo": "BIPM elimina los segundos intercalares del estándar UTC a partir de 2027",
+  "resumen": "La Oficina Internacional de Pesas y Medidas ha decidido detener la adición de segundos intercalares al Tiempo Universal Coordinado (UTC) a partir del 20 de mayo de 2027. La medida busca evitar disrupciones en infraestructuras críticas que dependen de la sincronización horaria, como transportes, energía y telecomunicaciones. Los 27 segundos intercalares añadidos hasta ahora serían los únicos en la historia del estándar.",
+  "por_que_importa": "Las infraestructuras críticas modernas, incluyendo sistemas IoT y redes inteligentes, requieren continuidad horaria sin ajustes, y un segundo intercalar negativo (probable antes de 2035) podría causar anomalías graves para las que muchos sistemas no están preparados. La decisión resuelve una tensión técnica de décadas entre mantener UTC sincronizado con la rotación terrestre y garantizar la estabilidad operativa de sistemas dependientes del tiempo.",
+  "puntos_clave": [
+   "Los segundos intercalares se eliminan indefinidamente, aunque podrían implementarse ajustes mayores en siglos futuros si es necesario.",
+   "La probabilidad de un segundo intercalar negativo alcanzaría el 30% antes de 2035, lo que representaría un riesgo sin precedentes para sistemas no preparados.",
+   "Usuarios de datos de rotación terrestre pueden acceder a información de diferencia UT1-UTC a través de sistemas de navegación y servicios de internet especializados."
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.bipm.org/en/cgpm-2026/resolution-5",
+  "fuente_dominio": "bipm.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50105777",
+  "score": 193,
+  "comentarios": 92
+ },
+ {
+  "id": "50104299",
+  "slug": "ingenieria-inversa-de-hardware-con-ia-de-la-teoria-a-los-dri-50104299",
+  "fecha": "2026-10-16T11:03:50+00:00",
+  "titulo": "Ingeniería inversa de hardware con IA: de la teoría a los drivers funcionales",
+  "resumen": "Un desarrollador logró crear controladores Linux para dispositivos sin soporte oficial utilizando modelos de IA como Claude, combinando captura de tráfico USB en máquinas virtuales con análisis automatizado. El método permitió reparar un escáner de negativos y mejorar el soporte de cámaras MIPI en laptops en cuestión de horas en lugar de semanas. El enfoque ha inspirado a la comunidad a considerar aplicaciones similares en otros dispositivos obsoletos o sin documentación pública.",
+  "por_que_importa": "La técnica abre la posibilidad de revitalizar hardware antiguo sin documentación oficial, reduciendo significativamente el tiempo requerido para desarrollar drivers. Esto podría permitir que usuarios y pequeños desarrolladores mantengan dispositivos funcionales sin depender de fabricantes o soporte corporativo.",
+  "puntos_clave": [
+   "La IA puede analizar patrones en capturas de tráfico USB y generar código para dispositivos sin documentación",
+   "El método combina máquinas virtuales con passthrough de hardware para capturar el comportamiento del driver original de Windows",
+   "Se creó una herramienta genérica llamada hw-harness para facilitar que otros apliquen esta metodología en sus propios dispositivos"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
+  "fuente_dominio": "blogs.gnome.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50104299",
+  "score": 202,
+  "comentarios": 181
+ },
+ {
+  "id": "50111852",
+  "slug": "meta-permite-rastrear-sitios-de-noticias-mediante-nuevos-ter-50111852",
+  "fecha": "2026-10-16T11:03:44+00:00",
+  "titulo": "Meta permite rastrear sitios de noticias mediante nuevos términos comerciales",
+  "resumen": "Meta modificará sus términos de servicio a partir del 30 de octubre para autorizar el rastreo automático de sitios web asociados a cuentas empresariales, incluidas las de medios de comunicación. La plataforma podría utilizar el contenido recopilado para entrenar sus productos de inteligencia artificial. Expertos legales advierten que aunque la redacción permite esta interpretación, no está claro si un tribunal la respaldaría en caso de litigio.",
+  "por_que_importa": "Prácticamente todas las organizaciones periodísticas cuentan con cuentas empresariales en Meta, lo que las expone a esta política de rastreo sin necesidad de negociación individual. La medida genera incertidumbre sobre los derechos de propiedad intelectual de los contenidos y la necesidad de licencias para entrenar modelos de IA.",
+  "puntos_clave": [
+   "Meta puede usar bots y raspadores web para acceder y recopilar contenido de sitios vinculados a cuentas empresariales",
+   "Los contenidos extraídos podrían emplearse en el entrenamiento de productos de inteligencia artificial sin compensación",
+   "Expertos legales cuestionan si la cláusula es legalmente válida y si los titulares de cuentas tienen derecho a conceder estas licencias"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/",
+  "fuente_dominio": "niemanlab.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50111852",
+  "score": 319,
+  "comentarios": 114
+ },
+ {
+  "id": "50065859",
+  "slug": "mujer-que-rescato-un-cuervo-herido-recibe-regalos-de-agradec-50065859",
+  "fecha": "2026-10-16T11:03:39+00:00",
+  "titulo": "Mujer que rescató un cuervo herido recibe regalos de agradecimiento de las aves",
+  "resumen": "Una mujer rescató a un cuervo lesionado y desde entonces ha estado recibiendo obsequios de parte de aves como muestra de gratitud. Los comentarios revelan experiencias similares de personas que han interactuado con cuervos y otras aves, documentando comportamientos inteligentes y la capacidad de estas especies para reconocer y responder a los humanos. Estos relatos sugieren que los cuervos pueden desarrollar relaciones complejas con las personas que las cuidan o alimentan.",
+  "por_que_importa": "Demuestra la inteligencia y la capacidad cognitiva de los cuervos para recordar actos de bondad y expresar reciprocidad. Ilustra cómo las interacciones respetuosas entre humanos y fauna silvestre pueden generar vínculos significativos.",
+  "puntos_clave": [
+   "Los cuervos son capaces de reconocer y responder a personas específicas que las ayudan",
+   "Estas aves pueden demostrar comportamientos complejos como entregar obsequios en señal de agradecimiento",
+   "Múltiples casos documentan la inteligencia y capacidad de aprendizaje de los cuervos en interacciones con humanos"
+  ],
+  "categoria": "Ciencia",
+  "fuente_url": "https://www.youtube.com/watch?v=sjNpfz4UzqU",
+  "fuente_dominio": "youtube.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50065859",
+  "score": 360,
+  "comentarios": 122
+ },
+ {
   "id": "50080155",
   "slug": "como-las-galletas-biscoff-pasaron-de-ser-un-sustituto-tempor-50080155",
   "fecha": "2026-10-16T03:56:51+00:00",
