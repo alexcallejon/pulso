@@ -1,5 +1,100 @@
 [
  {
+  "id": "50084674",
+  "slug": "los-origenes-de-pgp-por-que-zimmermann-creo-el-cifrado-de-co-50084674",
+  "fecha": "2026-10-16T16:23:02+00:00",
+  "titulo": "Los orígenes de PGP: por qué Zimmermann creó el cifrado de correo",
+  "resumen": "Philip Zimmermann escribió PGP en 1991 motivado por la preocupación de que la privacidad en comunicaciones electrónicas estaba en riesgo con la llegada de la era digital. Argumenta que la vigilancia masiva automatizada se había vuelto tecnológicamente posible, a diferencia de la era del papel donde la privacidad era un derecho natural garantizado por la física. Propone que el cifrado generalizado de correo electrónico debería convertirse en norma social para que su uso no generase sospechas sobre los usuarios.",
+  "por_que_importa": "El documento explica las motivaciones filosóficas detrás de una herramienta de privacidad digital que se convirtió en fundamental para la seguridad en internet. Los comentarios posteriores sugieren que los temores de Zimmermann sobre vigilancia masiva automatizada se han confirmado décadas después.",
+  "puntos_clave": [
+   "La privacidad electrónica requiere protección activa mediante cifrado, a diferencia de la era postal donde era garantizada naturalmente",
+   "La vigilancia masiva se vuelve viable cuando se puede automatizar el escaneo de grandes volúmenes de datos en busca de palabras clave",
+   "La adopción generalizada de cifrado entre ciudadanos legítimos crearía una norma social que evitaría que el uso de encriptación fuese sospechoso"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://philzimmermann.com/EN/essays/WhyIWrotePGP.html",
+  "fuente_dominio": "philzimmermann.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50084674",
+  "score": 183,
+  "comentarios": 72
+ },
+ {
+  "id": "50068203",
+  "slug": "apple-utiliza-tuberias-de-grafito-en-el-iphone-duo-para-mejo-50068203",
+  "fecha": "2026-10-16T16:22:57+00:00",
+  "titulo": "Apple utiliza tuberías de grafito en el iPhone Duo para mejorar refrigeración",
+  "resumen": "Apple rediseñó el procesador A20 Pro para los nuevos iPhone 18 Pro e iPhone Duo, adoptando una configuración de memoria inspirada en arquitecturas de computadoras portátiles. El cambio principal consiste en colocar el módulo de memoria DRAM junto al procesador en lugar de apilarlo verticalmente, permitiendo mejor disipación de calor y velocidades de datos más rápidas. Esta solución de empaquetado, denominada módulo multichip a nivel de oblea, fue necesaria para manejar las restricciones térmicas en dispositivos más delgados, especialmente en el iPhone Duo plegable.",
+  "por_que_importa": "La gestión térmica es crítica para mantener el rendimiento en dispositivos móviles cada vez más compactos, donde el espacio interno es limitado. Este rediseño permite que Apple ofrezca capacidades de computación a nivel de laptop en dispositivos con factores de forma muy diferentes.",
+  "puntos_clave": [
+   "El A20 Pro cambia de empaquetado vertical tradicional a una configuración horizontal similar a procesadores M de Mac",
+   "La nueva arquitectura ubica la DRAM junto al procesador en lugar de encima, mejorando flujo de datos y disipación de calor",
+   "Este enfoque fue especialmente importante para el iPhone Duo debido a sus restricciones de espacio por su diseño plegable"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://www.pcmag.com/news/apple-routed-a-graphite-pipe-through-the-iphone-duos-hinge",
+  "fuente_dominio": "pcmag.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50068203",
+  "score": 183,
+  "comentarios": 136
+ },
+ {
+  "id": "50117746",
+  "slug": "por-que-el-renderizado-por-software-sigue-siendo-atractivo-p-50117746",
+  "fecha": "2026-10-16T16:22:51+00:00",
+  "titulo": "Por qué el renderizado por software sigue siendo atractivo para juegos retro",
+  "resumen": "Un desarrollador defiende la belleza visual del renderizado por software en clásicos de DOS como Quake y Duke Nukem 3D, comparándolo con las versiones aceleradas por tarjetas gráficas 3D de los años 90. Argumenta que la nitidez de las texturas, la paleta de 256 colores y el aspecto visual característico de estos juegos se pierden con el suavizado de los aceleradores. Sin embargo, reconoce que esta opción requiere máquinas modernas muy potentes para ejecutar resoluciones altas, y que algunos juegos lucen mejor acelerados.",
+  "por_que_importa": "Ilustra cómo la tecnología moderna permite revivir y apreciar videojuegos clásicos de formas que no eran posibles en su época, abriendo nuevas perspectivas sobre el diseño visual retro. También plantea que las preferencias estéticas sobre técnicas de renderizado permanecen vigentes incluso en desarrollos contemporáneos.",
+  "puntos_clave": [
+   "El renderizado por software en DOS ofrecía texturas nítidas y un aspecto visual particular que se pierden con bilinear filtering de las tarjetas 3D",
+   "Ejecutar estos juegos a altas resoluciones en máquinas modernas es computacionalmente intensivo y requiere procesadores muy rápidos",
+   "Algunos juegos recientes como Ion Fury 2019 mantienen renderizado por software, demostrando que no es solo nostalgia"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
+  "fuente_dominio": "jamesfmackenzie.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50117746",
+  "score": 185,
+  "comentarios": 129
+ },
+ {
+  "id": "50077225",
+  "slug": "descubren-nuevo-metodo-para-invocar-funciones-en-javascript-50077225",
+  "fecha": "2026-10-16T16:22:46+00:00",
+  "titulo": "Descubren nuevo método para invocar funciones en JavaScript sin paréntesis",
+  "resumen": "Un investigador de seguridad presenta una técnica para ejecutar funciones arbitrarias en JavaScript sin utilizar paréntesis, mediante la manipulación de la función prepareStackTrace del objeto Error. El método aprovecha características internas del lenguaje como Array.prototype.toString() y Object.prototype para generar y ejecutar código. La técnica combina varios trucos de JavaScript, incluyendo la sobrescritura de funciones del prototipo y el uso de valueOf para invocar la función resultante.",
+  "por_que_importa": "Este descubrimiento ilustra vulnerabilidades potenciales en aplicaciones web y sistemas de seguridad que dependen de restricciones de caracteres o patrones para bloquear código malicioso. Demuestra la complejidad de proteger JavaScript contra técnicas ingeniosas de evasión de filtros.",
+  "puntos_clave": [
+   "Utiliza prepareStackTrace del objeto Error para generar funciones arbitrarias",
+   "Emplea manipulación de prototipos para convertir arrays en código JavaScript válido",
+   "Invoca la función resultante mediante el truco de valueOf sin usar paréntesis"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://blog.ikaes.de/yet-another-way-to-invoke-functions-without-parentheses/",
+  "fuente_dominio": "blog.ikaes.de",
+  "hn_url": "https://news.ycombinator.com/item?id=50077225",
+  "score": 201,
+  "comentarios": 86
+ },
+ {
+  "id": "50112739",
+  "slug": "sill-controla-ventanas-de-tu-mac-desde-iphone-e-ipad-50112739",
+  "fecha": "2026-10-16T16:22:41+00:00",
+  "titulo": "Sill: controla ventanas de tu Mac desde iPhone e iPad",
+  "resumen": "Sill es una aplicación de código abierto que permite visualizar y controlar ventanas de un Mac en dispositivos iOS mediante conexión local o remota, sin servidores intermedios. Soporta interacción por toque, Apple Pencil, trackpad y teclado, codificando el contenido en vídeo HEVC. La herramienta se distribuye gratuitamente y funciona a través de redes locales, conexión USB, enlace inalámbrico directo o VPN personal.",
+  "por_que_importa": "Representa una alternativa más fluida y rápida que soluciones tradicionales como VNC, permitiendo mayor portabilidad en tareas que requieran control remoto. Su naturaleza de código abierto y sin dependencia de servidores centrales la diferencia de otras opciones disponibles en el ecosistema Apple.",
+  "puntos_clave": [
+   "Funciona sin cuentas ni servidores; la comunicación es directa entre dispositivos con cifrado TLS 1.3",
+   "Compatible con Mac con procesador Apple silicon y dispositivos iOS 17 o superior; requiere permisos de accesibilidad y grabación de pantalla",
+   "Prioriza latencia sobre calidad al descartar fotogramas cuando la conexión se ralentiza"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://github.com/Saffsanity/sill",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50112739",
+  "score": 223,
+  "comentarios": 60
+ },
+ {
   "id": "50112330",
   "slug": "rpki-protege-ya-el-70-de-las-rutas-de-internet-frente-al-54-50112330",
   "fecha": "2026-10-16T11:04:08+00:00",
