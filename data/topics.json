@@ -1,5 +1,119 @@
 [
  {
+  "id": "50080155",
+  "slug": "como-las-galletas-biscoff-pasaron-de-ser-un-sustituto-tempor-50080155",
+  "fecha": "2026-10-16T03:56:51+00:00",
+  "titulo": "Cómo las galletas Biscoff pasaron de ser un sustituto temporal en Delta a fenómeno global",
+  "resumen": "Las galletas Biscoff, originarias de Bélgica, llegaron a los vuelos de Delta Airlines en 1986 como solución temporal a una escasez de cacahuetes causada por sequías y plagas en el sur de Estados Unidos. Las galletas belgas, de sabor dulce y fáciles de distribuir, conquistaron rápidamente a pasajeros y personal de cabina. Desde entonces, Biscoff se ha convertido en un fenómeno global presente en tiendas y en la cultura popular, posicionándose como la quinta galleta más vendida del mundo según su fabricante.",
+  "por_que_importa": "La historia de Biscoff ilustra cómo una solución empresarial puntual puede generar un éxito inesperado y duradero a escala internacional. El caso muestra la influencia de las aerolíneas en la popularidad de productos de consumo y cómo una crisis (la escasez de cacahuetes) puede transformar mercados.",
+  "puntos_clave": [
+   "Una sequía y plagas en el sur estadounidense causaron escasez de cacahuetes en los años 80, obligando a Delta a buscar alternativas.",
+   "Delta descubrió las galletas speculoos belgas de Lotus Bakeries en una conferencia de alimentos y las incorporó como sustituto temporal en 1986.",
+   "Las galletas fueron rebautizadas como Biscoff por su asociación con el café, se convirtieron en un éxito inmediato y hoy son un producto mundial."
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.seriouseats.com/biscoff-history-12168161",
+  "fuente_dominio": "seriouseats.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50080155",
+  "score": 191,
+  "comentarios": 149
+ },
+ {
+  "id": "50109375",
+  "slug": "withings-cobrara-99-dolares-anuales-por-sincronizar-datos-co-50109375",
+  "fecha": "2026-10-16T03:56:46+00:00",
+  "titulo": "Withings cobrará 99 dólares anuales por sincronizar datos con Apple Health",
+  "resumen": "Withings implementó un cambio que obliga a los nuevos usuarios a pagar una suscripción anual de $99.99 para sincronizar automáticamente sus datos de salud con Apple Health, mientras que los usuarios existentes mantienen este servicio gratuito. La empresa justifica la medida con nuevas medidas de privacidad y un conector de inteligencia artificial, aunque críticos señalan que la sincronización es una operación local que no requiere costos adicionales de servidor. Los usuarios pueden seguir exportando datos manualmente en CSV o PDF sin costo, pero desde octubre de 2026 la sincronización automática quedará restringida a suscriptores de la plataforma Withings+.",
+  "por_que_importa": "Representa una restricción de funcionalidades que históricamente fueron gratuitas, generando controversia sobre si constituye publicidad engañosa para quienes compraron dispositivos esperando sincronización automática libre. La decisión podría establecer un precedente en la industria de dispositivos de salud respecto a la monetización de integraciones con plataformas de terceros.",
+  "puntos_clave": [
+   "Solo afecta a nuevas cuentas creadas después del 13 de octubre de 2026; usuarios actuales conservan sincronización gratuita",
+   "La suscripción Withings+ incluye análisis adicionales, asistente de salud mejorado y acceso a un conector de IA",
+   "Usuarios pueden continuar exportando datos manualmente sin pagar, pero no de forma automática"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
+  "fuente_dominio": "support.withings.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50109375",
+  "score": 192,
+  "comentarios": 149
+ },
+ {
+  "id": "50104654",
+  "slug": "simons-foundation-destina-15m-para-ayudar-a-matematicos-con-50104654",
+  "fecha": "2026-10-16T03:56:40+00:00",
+  "titulo": "Simons Foundation destina $15M para ayudar a matemáticos con la IA",
+  "resumen": "La Fundación Simons, junto con Anthropic y OpenAI, anunciaron una iniciativa conjunta con financiamiento de 15 millones de dólares destinada a respaldar la investigación matemática en la era de la inteligencia artificial. Los recursos se entregarán mediante convocatorias abiertas para financiar talleres y proyectos que permitan a investigadores evaluar resultados asistidos por IA y desarrollar estándares colectivos. La fundación será responsable de gestionar y distribuir la financiación entre la comunidad matemática.",
+  "por_que_importa": "La matemática enfrenta transformaciones significativas por la adopción de herramientas de IA, lo que requiere que investigadores desarrollen nuevas competencias y marcos de evaluación. Esta iniciativa busca democratizar el acceso a recursos y conocimiento sobre estas tecnologías emergentes en un campo académico que históricamente concentra el financiamiento.",
+  "puntos_clave": [
+   "Alianza de tres instituciones con $15M para iniciativas de IA en matemáticas",
+   "Financiamiento distribuido mediante convocatorias abiertas para talleres y proyectos",
+   "Enfoque en capacitación, evaluación de resultados y establecimiento de estándares colectivos"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+  "fuente_dominio": "simonsfoundation.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50104654",
+  "score": 233,
+  "comentarios": 191
+ },
+ {
+  "id": "50104726",
+  "slug": "fortran-celebra-70-anos-como-lenguaje-fundamental-en-computa-50104726",
+  "fecha": "2026-10-16T03:56:36+00:00",
+  "titulo": "Fortran celebra 70 años como lenguaje fundamental en computación científica",
+  "resumen": "Fortran cumple siete décadas desde la publicación de su primer manual, consolidándose como lenguaje esencial en campos como ingeniería nuclear, predicción meteorológica y ciencia de materiales. Para conmemorar este hito, el Instituto de Computación para Ciencias del Clima organizará un evento en diciembre de 2026 en Manchester que incluirá conferencias, charlas técnicas y discusiones sobre el futuro del lenguaje. El evento contará con patrocinio de empresas como AMD y Dell Technologies, y la asistencia será gratuita tanto de forma presencial como remota.",
+  "por_que_importa": "Fortran sigue siendo el lenguaje preferido en investigación científica de alto rendimiento y simulaciones numéricas después de siete décadas, demostrando su relevancia continua en la infraestructura tecnológica moderna. El lenguaje mantiene una comunidad activa que lo adapta a nuevas necesidades, evidenciado por su uso vigente en proyectos de gran escala y su consideración como superior a alternativas contemporáneas para cálculos matemáticos complejos.",
+  "puntos_clave": [
+   "Fortran fue el primer lenguaje en ser documentado hace 70 años y sigue en uso activo en proyectos científicos de gran envergadura",
+   "El evento conmemorativo incluirá retrospectivas, charlas actuales sobre desarrollos recientes y diálogos sobre las perspectivas futuras del lenguaje",
+   "La participación es libre de costo gracias al apoyo de patrocinadores, con opciones de asistencia presencial en Manchester o remota"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://fortran-lang.org/news/2026/09-15-Fortran-birthday/",
+  "fuente_dominio": "fortran-lang.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50104726",
+  "score": 236,
+  "comentarios": 103
+ },
+ {
+  "id": "50105648",
+  "slug": "krea-3-modelo-de-edicion-de-imagenes-mas-rapido-y-economico-50105648",
+  "fecha": "2026-10-16T03:56:30+00:00",
+  "titulo": "Krea 3: modelo de edición de imágenes más rápido y económico",
+  "resumen": "Krea ha lanzado la versión beta abierta de Krea 3, un modelo de edición de imágenes que combina calidad de frontera con velocidad y costo reducidos. El modelo realiza ediciones en menos de 8 segundos y cuesta aproximadamente $0.06 por imagen, posicionándose significativamente por debajo de competidores en términos de tiempo y precio. Las capacidades incluyen ediciones regionales precisas con degradación mínima del área circundante.",
+  "por_que_importa": "La herramienta busca democratizar la edición de imágenes a escala al reducir drásticamente costos y tiempos de procesamiento, lo que la hace viable para aplicaciones de producción en e-commerce, marketing y diseño. Su disponibilidad a través de plataformas establecidas como Envato y Creative Fabrica amplía su acceso a profesionales y empresas.",
+  "puntos_clave": [
+   "Ediciones completamente funcionales en menos de 8 segundos por imagen",
+   "Costo de $0.06 por imagen, inferior al de modelos competidores",
+   "Enfoque en ediciones regionales precisas que minimizan cambios en áreas adyacentes"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://www.krea.ai/krea-3",
+  "fuente_dominio": "krea.ai",
+  "hn_url": "https://news.ycombinator.com/item?id=50105648",
+  "score": 269,
+  "comentarios": 85
+ },
+ {
+  "id": "50106023",
+  "slug": "como-responden-los-nuevos-modelos-de-decision-al-dilema-del-50106023",
+  "fecha": "2026-10-16T03:56:24+00:00",
+  "titulo": "Cómo responden los nuevos modelos de decisión al Dilema del Tranvía",
+  "resumen": "Un investigador probó Jev y otros trece modelos de decisión —una nueva categoría de sistemas de IA más rápidos y económicos que los grandes modelos de lenguaje— presentándoles el Dilema del Tranvía en múltiples variantes. Los sistemas mostraron capacidad para identificar matices en el contexto de las preguntas y adoptar decisiones que reflejan preferencias humanas mayoritarias. El estudio reveló que estos modelos pueden responder de manera distinta según cómo se formule el mismo dilema ético.",
+  "por_que_importa": "A medida que los modelos de decisión se integran en aplicaciones críticas, es fundamental entender cómo manejan dilemas éticos y contextos complejos. El análisis sugiere que estos sistemas pueden ser sensibles a detalles de formulación, lo que tiene implicaciones para sistemas implementados en servicios bancarios, atención al cliente y otras áreas donde las decisiones afectan directamente a usuarios.",
+  "puntos_clave": [
+   "Los modelos de decisión son sistemas más rápidos y baratos que los LLM tradicionales, capaces de generar opciones con niveles de confianza cuantificables.",
+   "Jev y la mayoría de alternativas testeadas replicaron la preferencia humana de sacrificar una vida para salvar cinco en el dilema clásico.",
+   "Las variaciones en la redacción del problema produjeron respuestas diferentes en los modelos, indicando sensibilidad al contexto y matices del lenguaje."
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://zachlandes.com/trolley-problem/",
+  "fuente_dominio": "zachlandes.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50106023",
+  "score": 349,
+  "comentarios": 161
+ },
+ {
   "id": "50106738",
   "slug": "anthropic-reconoce-inspiracion-en-mononoke-para-su-sistema-s-50106738",
   "fecha": "2026-10-15T21:09:05+00:00",
