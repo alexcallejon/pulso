@@ -1,5 +1,119 @@
 [
  {
+  "id": "50076089",
+  "slug": "simulaciones-de-montecarlo-tecnica-para-resolver-problemas-c-50076089",
+  "fecha": "2026-10-17T15:17:42+00:00",
+  "titulo": "Simulaciones de Montecarlo: técnica para resolver problemas científicos",
+  "resumen": "Las simulaciones de Montecarlo aplican aleatoriedad y la ley de los grandes números para resolver problemas científicos y de ingeniería, con antecedentes en simulaciones nucleares tras la Segunda Guerra Mundial. La técnica se utiliza en diversos campos, desde la integración numérica hasta cálculos combinatorios complejos. Ejemplos prácticos incluyen la estimación de pi mediante lanzamientos aleatorios y análisis probabilísticos en juegos de estrategia.",
+  "por_que_importa": "El método resulta especialmente valioso para resolver integrales multidimensionales y problemas combinatorios donde las soluciones analíticas son impracticables o computacionalmente prohibitivas. Su aplicabilidad en investigación estadística y en pruebas A/B demuestra su relevancia en contextos modernos de análisis de datos.",
+  "puntos_clave": [
+   "Basada en aleatoriedad y la ley de los grandes números para aproximar soluciones",
+   "Particularmente eficaz en integrales de alta dimensión e integrales difíciles de resolver analíticamente",
+   "El error de muestreo disminuye proporcionalmente a 1/√N, requiriendo más muestras para mayor precisión"
+  ],
+  "categoria": "Ciencia",
+  "fuente_url": "https://eli.thegreenplace.net/2026/monte-carlo-simulations/",
+  "fuente_dominio": "eli.thegreenplace.net",
+  "hn_url": "https://news.ycombinator.com/item?id=50076089",
+  "score": 151,
+  "comentarios": 31
+ },
+ {
+  "id": "50118828",
+  "slug": "dekton-la-porcelana-de-alta-tecnologia-que-revoluciona-las-c-50118828",
+  "fecha": "2026-10-17T15:17:37+00:00",
+  "titulo": "Dekton: la porcelana de alta tecnología que revoluciona las cocinas",
+  "resumen": "Dekton es un material artificial desarrollado por la empresa española Cosentino en 2013 que ofrece resistencia excepcional al calor, presión, arañazos y manchas. Aunque se presenta como innovación moderna, es fundamentalmente porcelana, una tecnología milenaria que está experimentando un resurgimiento gracias a los avances en ciencia de materiales. Su capacidad para fabricarse en láminas ultrafinas la hace ideal para encimeras y superficies de cocción, aunque a un costo significativamente superior al de otros materiales.",
+  "por_que_importa": "Dekton representa cómo la ciencia de materiales está transformando silenciosamente el entorno físico mediante innovaciones que apenas pasan desapercibidas. Su adopción refleja un cambio más amplio en la construcción residencial, donde la durabilidad y versatilidad de los materiales cerámicos avanzados están desplazando a opciones tradicionales como el cuarzo y el granito.",
+  "puntos_clave": [
+   "Dekton combina una antigua tecnología cerámica con procesos de fabricación contemporáneos para lograr resistencias múltiples",
+   "Se produce en láminas delgadas que permiten su uso en cocinas de inducción y diversos acabados de superficie",
+   "Su precio es considerablemente más alto que el de alternativas convencionales, siendo uno de los materiales más costosos para encimeras"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://www.worksinprogress.news/p/porcelain",
+  "fuente_dominio": "worksinprogress.news",
+  "hn_url": "https://news.ycombinator.com/item?id=50118828",
+  "score": 152,
+  "comentarios": 54
+ },
+ {
+  "id": "50084790",
+  "slug": "analizan-la-complejidad-economica-del-imperio-romano-mediant-50084790",
+  "fecha": "2026-10-17T15:17:32+00:00",
+  "titulo": "Analizan la complejidad económica del Imperio Romano mediante inscripciones latinas",
+  "resumen": "Investigadores utilizaron una base de datos de inscripciones latinas distribuidas espacialmente para estimar la complejidad económica del Imperio Romano antiguo. El análisis permitió identificar qué actividades económicas y profesiones existían en cada región, aunque los datos presentan sesgos significativos como la exclusión de mujeres y agricultores. Los resultados muestran patrones de distribución económica que podrían explicar las trayectorias de desarrollo en diferentes territorios del imperio.",
+  "por_que_importa": "La metodología combina datos históricos con herramientas de análisis económico moderno, abriendo nuevas formas de estudiar economías antiguas. El enfoque podría aplicarse a otros períodos históricos para entender mejor cómo evolucionaron económicamente las regiones del pasado.",
+  "puntos_clave": [
+   "Se utilizó un conjunto de inscripciones latinas con coordenadas geográficas precisas para reconstruir actividades económicas por provincia",
+   "El análisis identificó múltiples sesgos en los datos, incluyendo subrepresentación de mujeres, agricultores y regiones menos documentadas",
+   "La investigación permite calcular índices de complejidad económica en territorios históricos usando divisiones geográficas modernas"
+  ],
+  "categoria": "Ciencia",
+  "fuente_url": "https://www.michelecoscia.com/?p=2613",
+  "fuente_dominio": "michelecoscia.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50084790",
+  "score": 158,
+  "comentarios": 38
+ },
+ {
+  "id": "50121939",
+  "slug": "claude-optimiza-circuitos-cuanticos-con-mejoras-de-hasta-150-50121939",
+  "fecha": "2026-10-17T15:17:26+00:00",
+  "titulo": "Claude optimiza circuitos cuánticos con mejoras de hasta 150.000 veces",
+  "resumen": "Investigadores de Anthropic utilizaron Claude para diseñar circuitos cuánticos más eficientes a partir de especificaciones en lenguaje natural. El modelo encontró diseños que superan significativamente los mejores publicados, reduciendo drásticamente los recursos cuánticos necesarios. Estas mejoras podrían acelerar la llegada de computadoras cuánticas prácticas al disminuir la cantidad de qubits y tiempo de cálculo requeridos.",
+  "por_que_importa": "La optimización de circuitos cuánticos es crucial para que estos dispositivos ejecuten algoritmos útiles con el hardware limitado actual. Reducciones sustanciales en los recursos necesarios podrían hacer viable la computación cuántica práctica años antes de lo esperado.",
+  "puntos_clave": [
+   "Claude diseñó circuitos en química, optimización, física y teoría de números que mejoran los publicados",
+   "En un ejemplo, la estimación de compuertas para simular FeMoco se redujo de 50 billones a 340 millones",
+   "El modelo identificó componentes costosos innecesarios y los eliminó sin afectar la computación"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+  "fuente_dominio": "anthropic.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50121939",
+  "score": 158,
+  "comentarios": 33
+ },
+ {
+  "id": "50127979",
+  "slug": "llmspeed-herramienta-para-simular-el-rendimiento-de-modelos-50127979",
+  "fecha": "2026-10-17T15:17:22+00:00",
+  "titulo": "Llmspeed: herramienta para simular el rendimiento de modelos de IA antes de comprar hardware",
+  "resumen": "Se presenta una plataforma que permite estimar la velocidad de ejecución de modelos de lenguaje locales en diferentes configuraciones de hardware sin necesidad de descargarlos. La herramienta ofrece simulaciones basadas en benchmarks de la comunidad y especificaciones técnicas, cubriendo desde laptops antiguos hasta servidores en la nube. Utiliza datos recopilados de varios repositorios de pruebas y proyecta resultados para equipos sin mediciones directas.",
+  "por_que_importa": "Facilita la toma de decisiones sobre inversiones en hardware para ejecutar modelos locales, evitando compras costosas sin certeza del desempeño real. Los usuarios pueden comparar rápidamente opciones sin sobrecargar servicios gratuitos descargando múltiples modelos y cuantizaciones.",
+  "puntos_clave": [
+   "Soporta decenas de configuraciones de hardware, desde computadoras personales hasta equipos empresariales",
+   "Incluye modelos de diversos proveedores con distintos tamaños y formatos de cuantización",
+   "Los datos provienen de benchmarks comunitarios, aunque algunos resultados son proyecciones basadas en especificaciones"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://llmspeed.dev/",
+  "fuente_dominio": "llmspeed.dev",
+  "hn_url": "https://news.ycombinator.com/item?id=50127979",
+  "score": 169,
+  "comentarios": 54
+ },
+ {
+  "id": "50129121",
+  "slug": "deepseek-v4-1-flash-1017-modelo-eficiente-con-arquitectura-r-50129121",
+  "fecha": "2026-10-17T15:17:17+00:00",
+  "titulo": "DeepSeek V4.1 Flash 1017: modelo eficiente con arquitectura renovada",
+  "resumen": "DeepSeek lanzó una nueva versión de su modelo Flash optimizado para tareas de programación y agentes autónomos, basado en una arquitectura de codificador-decodificador causal. El modelo activa parámetros de forma asimétrica para reducir costos computacionales mientras mejora el rendimiento en benchmarks de codificación. Según comentarios de usuarios, destaca por velocidad de procesamiento y disponibilidad de visualización del razonamiento interno.",
+  "por_que_importa": "Representa un avance en eficiencia computacional al reducir significativamente los costos de inferencia, especialmente relevante para cargas de trabajo con agentes autónomos y análisis de contexto largo. Los usuarios reportan mejoras prácticas en velocidad de ejecución respecto a versiones anteriores, impactando la viabilidad económica de aplicaciones empresariales.",
+  "puntos_clave": [
+   "Utiliza arquitectura sparse mixture-of-experts con activación asimétrica de parámetros para optimizar costos",
+   "Incluye visión por computadora integrada y caché de clave-valor comprimida que reduce memoria a una cuarta parte",
+   "Dirigido a aplicaciones de codificación, agentes de terminal y tareas de múltiples pasos con bajo costo operativo"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+  "fuente_dominio": "openrouter.ai",
+  "hn_url": "https://news.ycombinator.com/item?id=50129121",
+  "score": 440,
+  "comentarios": 220
+ },
+ {
   "id": "50121004",
   "slug": "dev-null-una-red-social-para-desarrolladores-creada-en-48-ho-50121004",
   "fecha": "2026-10-17T10:24:34+00:00",
