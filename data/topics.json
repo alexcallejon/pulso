@@ -1,5 +1,81 @@
 [
  {
+  "id": "50132328",
+  "slug": "un-farmaco-glp-1-ralentiza-el-envejecimiento-biologico-segun-50132328",
+  "fecha": "2026-10-17T20:22:24+00:00",
+  "titulo": "Un fármaco GLP-1 ralentiza el envejecimiento biológico según estudio",
+  "resumen": "Investigadores de la Universidad de California encontraron que la semaglutida, un medicamento GLP-1 popular para perder peso, desaceleró marcadores de envejecimiento biológico en un ensayo clínico controlado con placebo en adultos con VIH. El análisis utilizó relojes epigenéticos para medir cambios en el ADN durante 32 semanas, observando una reducción del 9% en la velocidad de envejecimiento biológico. Los científicos sugieren que el efecto se debe a la reducción de inflamación, estrés metabólico y acumulación de grasa visceral.",
+  "por_que_importa": "Más allá de sus efectos conocidos en la pérdida de peso y control de glucosa, estos resultados abren una nueva línea de investigación sobre posibles beneficios anti-envejecimiento de estos fármacos. El hallazgo podría tener implicaciones para la población general, aunque el estudio se realizó específicamente en personas con VIH, que experimentan envejecimiento acelerado.",
+  "puntos_clave": [
+   "La semaglutida ralentizó el envejecimiento biológico en múltiples medidas de relojes epigenéticos en adultos con VIH.",
+   "El mecanismo parece relacionado con la reducción de inflamación, estrés metabólico y acumulación de grasa en órganos internos.",
+   "Los investigadores advierten que los resultados no demuestran que el fármaco revierta o invierta el envejecimiento."
+  ],
+  "categoria": "Ciencia",
+  "fuente_url": "https://www.universityofcalifornia.edu/news/new-study-shows-popular-glp-1-weight-loss-drug-may-slow-biological-aging",
+  "fuente_dominio": "universityofcalifornia.edu",
+  "hn_url": "https://news.ycombinator.com/item?id=50132328",
+  "score": 151,
+  "comentarios": 141
+ },
+ {
+  "id": "50129947",
+  "slug": "mapquest-ahora-muestra-la-ubicacion-de-camaras-de-vigilancia-50129947",
+  "fecha": "2026-10-17T20:22:18+00:00",
+  "titulo": "MapQuest ahora muestra la ubicación de cámaras de vigilancia en tu zona",
+  "resumen": "MapQuest ha incorporado una capa en su aplicación que permite visualizar la localización de cámaras de vigilancia y lectores de placas patentes en las calles, incluyendo dispositivos de Flock y otros fabricantes como Motorola Solutions, Genetec y Axis Communications. La función se activa como una capa adicional junto a las opciones de tráfico e incidentes. Los datos proceden de OpenStreetMap, alimentados por aplicaciones como DeFlock, aunque existe el riesgo de información incorrecta o vandálica en la base de datos comunitaria.",
+  "por_que_importa": "Permite a los usuarios tomar conciencia sobre la densidad de sistemas de vigilancia en sus rutas habituales y áreas residenciales. Es relevante para quienes desean cuestionar o combatir la proliferación de cámaras de vigilancia en sus comunidades.",
+  "puntos_clave": [
+   "Visualiza cámaras de múltiples proveedores, no solo Flock, con información sobre orientación",
+   "Los datos provienen de OpenStreetMap, lo que significa que cualquiera puede contribuir o, potencialmente, añadir información incorrecta",
+   "Forma parte del resurgimiento reciente de MapQuest tras añadir otras funcionalidades como soporte para Android Auto"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://www.engadget.com/2288729/mapquest-will-now-show-you-where-flock-cameras-are-in-your-neighborhood/",
+  "fuente_dominio": "engadget.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50129947",
+  "score": 228,
+  "comentarios": 36
+ },
+ {
+  "id": "50133401",
+  "slug": "opencode-sufre-brecha-de-seguridad-que-afecta-a-usuarios-de-50133401",
+  "fecha": "2026-10-17T20:22:13+00:00",
+  "titulo": "OpenCode sufre brecha de seguridad que afecta a usuarios de su plataforma",
+  "resumen": "OpenCode reportó un incidente de seguridad ocasionado por un ataque de destilación a gran escala que impactó a un porcentaje menor de usuarios de su consola. La compañía notificó a los afectados por correo electrónico y colabora con Anthropic, OpenAI y Google para resolver la situación. Los detalles adicionales del incidente aún están siendo investigados.",
+  "por_que_importa": "El incidente expone vulnerabilidades en la seguridad de credenciales de usuarios y plantea preguntas sobre dónde se almacenan las claves de acceso. El suceso genera inquietud en la comunidad sobre posibles drenajes no autorizados de recursos en servicios asociados.",
+  "puntos_clave": [
+   "Un ataque de destilación comprometió credenciales de usuarios de OpenCode Console",
+   "La compañía colabora con proveedores de IA líderes para remediar el problema",
+   "Usuarios cuestionan cómo las claves de acceso fueron expuestas y solicitan mayor transparencia"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://twitter.com/opencode/status/2111516673953935833",
+  "fuente_dominio": "twitter.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50133401",
+  "score": 315,
+  "comentarios": 61
+ },
+ {
+  "id": "50131256",
+  "slug": "la-energia-solar-supera-por-primera-vez-la-generacion-nuclea-50131256",
+  "fecha": "2026-10-17T20:22:08+00:00",
+  "titulo": "La energía solar supera por primera vez la generación nuclear mundial",
+  "resumen": "Según el informe anual sobre la industria nuclear, la generación solar superó por primera vez la producción nuclear en abril de 2025, consolidando una tendencia que se ha mantenido mes a mes desde marzo de ese año. La capacidad instalada de energía solar creció un 27% anual alcanzando 2.383 GW, mientras que la nuclear apenas aumentó 1,5 GW, permaneciendo estancada durante más de dos décadas. La expansión acelerada de almacenamiento en baterías respalda el crecimiento sostenido de las energías renovables.",
+  "por_que_importa": "Este hito refleja un cambio estructural en la matriz energética global, donde las renovables avanzan a ritmos exponenciales frente al estancamiento del sector nuclear. La brecha de crecimiento entre tecnologías afecta directamente las inversiones futuras y la viabilidad de descarbonizar la economía mundial.",
+  "puntos_clave": [
+   "Energía solar y eólica superan mensualmente la producción nuclear desde marzo de 2025",
+   "Capacidad solar creció 510 GW en 2025, nuclear apenas 1,5 GW con capacidad operativa en declive",
+   "Despliegue de baterías se aceleró con 104 GW conectados en 2025, facilitando integración de renovables"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
+  "fuente_dominio": "pv-magazine.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50131256",
+  "score": 375,
+  "comentarios": 222
+ },
+ {
   "id": "50076089",
   "slug": "simulaciones-de-montecarlo-tecnica-para-resolver-problemas-c-50076089",
   "fecha": "2026-10-17T15:17:42+00:00",
