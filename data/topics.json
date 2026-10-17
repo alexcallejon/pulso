@@ -1,5 +1,119 @@
 [
  {
+  "id": "50122034",
+  "slug": "ebay-restringe-venta-de-equipos-de-radio-pero-mantiene-excep-50122034",
+  "fecha": "2026-10-17T03:46:32+00:00",
+  "titulo": "eBay restringe venta de equipos de radio pero mantiene excepciones para radioaficionados",
+  "resumen": "La plataforma de subastas implementó restricciones en la venta de equipos de radiocomunicación, aunque permite la comercialización de dispositivos exclusivos para bandas de radioaficionados. La medida busca evitar que equipos sean modificados para operar en frecuencias no autorizadas, como las utilizadas por servicios de emergencia. Los anuncios deberán incluir el número de identificación de la FCC, permitiendo que la mayoría de bienes de consumo sigan disponibles.",
+  "por_que_importa": "La restricción intenta prevenir el uso ilícito de equipos modificados en frecuencias protegidas, protegiendo servicios críticos como comunicaciones de emergencia. Los radioaficionados con licencia mantienen acceso a su equipamiento especializado, reconociendo su rol en comunicaciones de emergencia.",
+  "puntos_clave": [
+   "eBay exige número FCC en listados de equipos de radio para identificar dispositivos legales",
+   "Se permitirá la venta de equipos diseñados exclusivamente para bandas de radioaficionados autorizados",
+   "La medida busca evitar modificaciones no autorizadas que interfieran con servicios de emergencia y otros servicios"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear",
+  "fuente_dominio": "arrl.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50122034",
+  "score": 186,
+  "comentarios": 150
+ },
+ {
+  "id": "50124251",
+  "slug": "home-assistant-escaneaba-contrasenas-sin-consentimiento-del-50124251",
+  "fecha": "2026-10-17T03:46:26+00:00",
+  "titulo": "Home Assistant escaneaba contraseñas sin consentimiento del usuario",
+  "resumen": "Un usuario reportó que Home Assistant realizaba verificaciones automáticas de contraseñas contra bases de datos de filtraciones sin su autorización previa. La plataforma enviaba información (incluso si estaba hasheada) a servicios externos sin que el usuario lo supiera. Aunque los desarrolladores aclararon que la función existía desde hace años, solo se hacía visible recientemente, y puede desactivarse manualmente, el usuario insistió en que debería ser de activación opcional.",
+  "por_que_importa": "Toca un debate fundamental sobre privacidad: si las aplicaciones pueden transmitir datos de usuarios a terceros sin consentimiento explícito, aunque sea con técnicas de anonimización. Refleja una tensión entre ofrecer protecciones de seguridad útiles y respetar la soberanía del usuario sobre sus propios datos.",
+  "puntos_clave": [
+   "Home Assistant verificaba automáticamente si las contraseñas guardadas habían sido comprometidas",
+   "La función llevaba años activa pero pasó desapercibida hasta que cambios recientes la hicieron más visible",
+   "Puede desactivarse con un comando, pero los usuarios cuestionan si debería ser obligatorio activarla explícitamente"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://github.com/home-assistant/home-assistant.io/issues/49314",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50124251",
+  "score": 203,
+  "comentarios": 165
+ },
+ {
+  "id": "50120224",
+  "slug": "jpeg-xl-llega-a-todos-los-navegadores-comparativa-con-avif-p-50120224",
+  "fecha": "2026-10-17T03:46:21+00:00",
+  "titulo": "JPEG XL llega a todos los navegadores: comparativa con AVIF para web",
+  "resumen": "JPEG XL ya está disponible en todos los navegadores principales, lo que permite evaluar su desempeño frente a AVIF. En fotografías, AVIF genera archivos entre 6% y 25% más pequeños que JPEG XL según la configuración de compresión utilizada. Para capturas de pantalla, ilustraciones e imágenes con transparencia, AVIF muestra ventajas significativas, siendo entre 20% y 90% más eficiente.",
+  "por_que_importa": "La elección del formato de imagen afecta directamente la velocidad de carga web y el consumo de ancho de banda, impactando la experiencia del usuario. Comprender las fortalezas y debilidades de cada formato permite optimizar mejor los contenidos visuales en línea.",
+  "puntos_clave": [
+   "AVIF es más compacto para fotos, pantallazos e imágenes con transparencia en la mayoría de casos",
+   "El rendimiento depende del codificador utilizado; jixel ofrece velocidades superiores a libjxl en muchos escenarios",
+   "AVIF decodifica más rápido y permite renderizado progresivo con mejor control"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
+  "fuente_dominio": "jakearchibald.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50120224",
+  "score": 217,
+  "comentarios": 153
+ },
+ {
+  "id": "50122431",
+  "slug": "ejecutan-modelos-de-ia-en-ps5-modificada-como-servidor-priva-50122431",
+  "fecha": "2026-10-17T03:46:16+00:00",
+  "titulo": "Ejecutan modelos de IA en PS5 modificada como servidor privado",
+  "resumen": "Un proyecto permite instalar llama.cpp en consolas PS5 desbloqueadas para ejecutar modelos de lenguaje GGUF directamente en su GPU, sin necesidad de PC o conexión a servicios en la nube. El sistema sirve los modelos a otros dispositivos de la red doméstica a través de APIs compatibles con OpenAI y Anthropic, además de soportar modelos de decisión. La solución incluye monitoreo de recursos en pantalla de televisión y puede ejecutar distintos modelos según capacidad disponible, desde versiones pequeñas hasta modelos de 27 mil millones de parámetros con cuantización.",
+  "por_que_importa": "Ofrece una alternativa de bajo costo para ejecutar modelos de IA privados sin depender de servicios en la nube, aprovechando hardware existente que de otro modo permanecería subutilizado. Transforma una consola de videojuegos en infraestructura útil para tareas de procesamiento continuo con costos operativos minimales.",
+  "puntos_clave": [
+   "Funciona en PS5 desbloqueadas usando la GPU RDNA 2 con 11.4 GB de memoria compartida",
+   "Compatible con APIs estándar de OpenAI y Anthropic, permitiendo usar herramientas existentes",
+   "Soporta modelos con procesamiento de imágenes y modelos de decisión especializados"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://github.com/cobanov/PS5LM",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50122431",
+  "score": 224,
+  "comentarios": 62
+ },
+ {
+  "id": "50122951",
+  "slug": "como-el-equipo-de-claude-code-realiza-revision-de-codigo-a-e-50122951",
+  "fecha": "2026-10-17T03:46:11+00:00",
+  "titulo": "Cómo el equipo de Claude Code realiza revisión de código a escala de IA",
+  "resumen": "El equipo de Claude Code ha rediseñado su proceso de revisión de código para gestionar el volumen masivo de cambios que genera la IA, desplazando la mayoría de las verificaciones hacia sistemas automatizados. Entre junio y septiembre duplicaron los cambios fusionados mientras reducían las reversiones en más del 40 por ciento. El nuevo enfoque preserva la intervención humana para problemas complejos que solo personas pueden resolver, mientras que máquinas detectan errores rutinarios.",
+  "por_que_importa": "Con la automatización del desarrollo de software llegando a escala industrial, los equipos técnicos enfrentan el desafío de mantener calidad sin sobrecargar a revisores humanos. Este modelo ilustra cómo las organizaciones pueden adaptar prácticas tradicionales de ingeniería a un entorno donde los agentes de IA generan decenas de miles de cambios diarios.",
+  "puntos_clave": [
+   "Automatización de revisiones preliminares reduce la carga manual mientras sistemas métricos aseguran que calidad no se deteriore",
+   "La revisión evolucionó de una puerta final a un proceso continuo similar a corrección ortográfica durante la escritura",
+   "Los comentarios cuestionan si este enfoque es replicable fuera de organizaciones con recursos ilimitados en tokens y capacidad computacional"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+  "fuente_dominio": "claude.dev",
+  "hn_url": "https://news.ycombinator.com/item?id=50122951",
+  "score": 261,
+  "comentarios": 250
+ },
+ {
+  "id": "50118981",
+  "slug": "waymo-se-expande-a-toronto-con-servicio-de-taxis-autonomos-a-50118981",
+  "fecha": "2026-10-17T03:46:06+00:00",
+  "titulo": "Waymo se expande a Toronto con servicio de taxis autónomos a partir de 2028",
+  "resumen": "Waymo anunció su entrada oficial al mercado canadiense con planes de operar en Toronto, donde comenzará con pruebas de conducción manual y mapeo de calles antes de iniciar servicios con pasajeros en 2028. La empresa invertirá en infraestructura local y creará cientos de empleos en mantenimiento, validación y atención al cliente, en colaboración con Element Fleet Management. El despliegue se sustenta en datos que muestran que el sistema de conducción autónoma de Waymo registra significativamente menos accidentes graves comparado con conductores humanos.",
+  "por_que_importa": "Toronto se convierte en el primer mercado canadiense para la tecnología de transporte autónomo de Waymo, consolidando la expansión internacional de la empresa más allá de Estados Unidos. La iniciativa genera expectativas sobre cómo se adaptarán los vehículos autónomos a condiciones climáticas desafiantes como las de ciudades canadienses.",
+  "puntos_clave": [
+   "Waymo comenzará pruebas de conducción manual en Toronto próximamente, con objetivo de iniciar operaciones comerciales en 2028",
+   "La expansión incluye inversión en empleos locales y asociación estratégica con Element Fleet Management y otros socios canadienses",
+   "La empresa destaca su historial de seguridad: menos accidentes graves que conductores humanos según datos de más de 400 millones de kilómetros autónomos"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
+  "fuente_dominio": "waymo.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50118981",
+  "score": 294,
+  "comentarios": 397
+ },
+ {
   "id": "50118688",
   "slug": "gemini-4-argon-y-otros-llms-compiten-escribiendo-bots-para-s-50118688",
   "fecha": "2026-10-16T20:45:56+00:00",
