@@ -1,5 +1,119 @@
 [
  {
+  "id": "50121004",
+  "slug": "dev-null-una-red-social-para-desarrolladores-creada-en-48-ho-50121004",
+  "fecha": "2026-10-17T10:24:34+00:00",
+  "titulo": "/dev/null: una red social para desarrolladores creada en 48 horas",
+  "resumen": "Un equipo de programadores desarrolló una red social destinada a desarrolladores en apenas dos días mediante un maratón de programación en directo. El proyecto fue construido con PHP y Laravel, con apoyo de herramientas de IA pero manteniendo el control humano sobre el proceso. La plataforma ha ganado tracción rápidamente entre la comunidad de programadores.",
+  "por_que_importa": "Demuestra las capacidades de desarrollo ágil moderno combinando lenguajes establecidos con herramientas contemporáneas. Representa un intento de crear un espacio alternativo para desarrolladores, diferente a las redes sociales convencionales.",
+  "puntos_clave": [
+   "Desarrollada completamente en 48 horas mediante livestream de programación",
+   "Construida con PHP y Laravel, con asistencia de IA bajo dirección humana",
+   "Ha generado interés significativo en la comunidad de desarrolladores"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://dev-null.sh",
+  "fuente_dominio": "dev-null.sh",
+  "hn_url": "https://news.ycombinator.com/item?id=50121004",
+  "score": 155,
+  "comentarios": 136
+ },
+ {
+  "id": "50129045",
+  "slug": "deepseek-lanza-v4-1-flash-1017-con-mejoras-en-razonamiento-y-50129045",
+  "fecha": "2026-10-17T10:24:29+00:00",
+  "titulo": "DeepSeek lanza V4.1-Flash-1017 con mejoras en razonamiento y tareas de código",
+  "resumen": "DeepSeek presentó una actualización menor de su modelo V4.1-Flash que mejora el desempeño en razonamiento, programación y tareas de agentes de IA, además de reducir los tiempos de ejecución y costos asociados. Según los benchmarks publicados, el modelo supera a competidores como GLM-5.3 en varios estándares de evaluación. La actualización incluye optimizaciones en codificación de prompts y soporte para modo de pensamiento, aunque mantiene un alto costo computacional para ejecución local.",
+  "por_que_importa": "Los avances en razonamiento y capacidades de código amplían las posibilidades del modelo para tareas complejas y análisis de agentes. La reducción de costos y tiempos de procesamiento hacen la tecnología más accesible para aplicaciones prácticas.",
+  "puntos_clave": [
+   "Mejoras en benchmarks de razonamiento, programación y análisis visual respecto a la versión anterior",
+   "Reducción de tiempo de ejecución y costos operacionales del modelo",
+   "Desempeño competitivo frente a otros modelos de IA, incluyendo superiores en algunos benchmarks específicos"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "fuente_dominio": "huggingface.co",
+  "hn_url": "https://news.ycombinator.com/item?id=50129045",
+  "score": 156,
+  "comentarios": 63
+ },
+ {
+  "id": "50123580",
+  "slug": "black-forest-labs-presenta-flux-3-image-klein-modelo-de-gene-50123580",
+  "fecha": "2026-10-17T10:24:25+00:00",
+  "titulo": "Black Forest Labs presenta FLUX 3 Image Klein, modelo de generación de imágenes con 5.6B parámetros",
+  "resumen": "Black Forest Labs lanzó FLUX 3 Image Klein, un modelo de código abierto con 5.6 mil millones de parámetros para generar, editar imágenes y trabajar con múltiples referencias. El modelo opera con menos parámetros que competidores similares mientras mantiene capacidades como generación nativa en 4K y edición precisa. Está optimizado para ejecutarse en computadoras personales con requisitos de memoria reducida, siendo compatible con tarjetas gráficas de consumo mediante diferentes formatos de precisión numérica.",
+  "por_que_importa": "La reducción de parámetros sin sacrificar calidad hace la tecnología más accesible para desarrolladores y empresas con recursos limitados o requisitos de privacidad local. Usuarios en comunidades en línea han reportado limitaciones en la generación de ciertos tipos de contenido, lo que sugiere restricciones deliberadas en el entrenamiento del modelo.",
+  "puntos_clave": [
+   "Supera en evaluaciones internas a modelos abiertos más grandes y algunos modelos cerrados en tareas de generación e edición",
+   "Requiere entre 5.6 y 11.2 GB de memoria según el formato, permitiendo ejecución en GPUs de consumo con 8 GB de VRAM",
+   "Incluye versión optimizada para baja latencia que genera imágenes de 1 megapíxel en 4 a 9 segundos según el hardware"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://bfl.ai/blog/flux-3-image-klein",
+  "fuente_dominio": "bfl.ai",
+  "hn_url": "https://news.ycombinator.com/item?id=50123580",
+  "score": 167,
+  "comentarios": 47
+ },
+ {
+  "id": "50118977",
+  "slug": "descubren-vulnerabilidad-de-37-anos-en-el-kernel-de-openbsd-50118977",
+  "fecha": "2026-10-17T10:24:19+00:00",
+  "titulo": "Descubren vulnerabilidad de 37 años en el kernel de OpenBSD",
+  "resumen": "Investigadores identificaron un fallo crítico en OpenBSD que se remontaba a los códigos originales de BSD de hace casi cuatro décadas. La vulnerabilidad radicaba en un contador de memoria compartida definido como un entero de 16 bits que podía desbordarse, permitiendo a atacantes locales elevar privilegios hasta obtener acceso de administrador. El problema fue parcialmente causado por la falta de aleatorización en los asignadores de memoria del kernel, que permitía predecir ubicaciones de estructuras de datos.",
+  "por_que_importa": "Demuestra que incluso en sistemas altamente auditados como OpenBSD pueden persistir fallos de seguridad graves durante décadas sin ser detectados. El caso expone limitaciones en las técnicas de revisión de código y las defensas del kernel actuales frente a ataques sofisticados.",
+  "puntos_clave": [
+   "El desbordamiento de enteros en un contador de 16 bits podía aprovecharse combinado con una escritura fuera de límites del kernel",
+   "La explotación requería manipulación compleja del heap y una condición de carrera, junto con conocimiento de direcciones de kernel predecibles",
+   "Los desarrolladores sugirieron implementar validaciones en listas enlazadas y aleatorización adicional de memoria como medidas de prevención"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://calif.io/research/big-fish",
+  "fuente_dominio": "calif.io",
+  "hn_url": "https://news.ycombinator.com/item?id=50118977",
+  "score": 188,
+  "comentarios": 59
+ },
+ {
+  "id": "50106747",
+  "slug": "ultramarine-1-flash-modelo-abierto-optimizado-para-tareas-pr-50106747",
+  "fecha": "2026-10-17T10:24:14+00:00",
+  "titulo": "Ultramarine 1 Flash: modelo abierto optimizado para tareas profesionales",
+  "resumen": "Paper Instruments presenta Ultramarine 1 Flash, un modelo especializado en trabajos de conocimiento en finanzas, derecho y consultoría, basado en GLM-5.3 Flash mejorado mediante aprendizaje por refuerzo. El modelo alcanza rendimiento comparable al de Fable de Claude con un costo significativamente menor (alrededor de 0,13 dólares por tarea) y utiliza menos tokens que su base, mejorando la eficiencia operativa. La empresa posiciona a Ultramarine en una frontera favorable de costo-calidad para aplicaciones empresariales.",
+  "por_que_importa": "Ofrece una alternativa económica para empresas que requieren modelos especializados en tareas profesionales sin pagar premios significativos. Su enfoque en eficiencia de tokens y costos accesibles lo hace relevante para organizaciones con presupuestos limitados en implementación de IA.",
+  "puntos_clave": [
+   "Optimizado para trabajos de conocimiento profesional mediante aprendizaje por refuerzo sobre modelo base abierto",
+   "Reduce consumo de tokens en un 6,5% respecto a su base manteniendo mejor desempeño",
+   "Precio competitivo (0,13 dólares por tarea) en comparación con modelos propietarios más costosos"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://www.paperinstruments.com/ultramarine",
+  "fuente_dominio": "paperinstruments.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50106747",
+  "score": 250,
+  "comentarios": 71
+ },
+ {
+  "id": "50122878",
+  "slug": "como-los-transformers-pueden-entenderse-desde-principios-de-50122878",
+  "fecha": "2026-10-17T10:24:09+00:00",
+  "titulo": "Cómo los transformers pueden entenderse desde principios de memoria",
+  "resumen": "Un artículo técnico explora la arquitectura de transformers desde la perspectiva de sistemas de memoria, mostrando cómo estos modelos pueden interpretarse a través de conceptos de memorización. El autor presenta conexiones entre transformers y redes de Hopfield, demostrando que los transformers logran recuperar información relevante de manera más eficiente. El contenido incluye desarrollos matemáticos que permiten comprender la estructura fundamental de estos modelos sin necesidad de conocimiento previo especializado.",
+  "por_que_importa": "Entender los transformers desde primeros principios ayuda a investigadores y desarrolladores a diseñar arquitecturas de inteligencia artificial más efectivas. Este enfoque alternativo facilita la comprensión intuitiva de por qué estos modelos funcionan tan bien en tareas de procesamiento de lenguaje y otros dominios.",
+  "puntos_clave": [
+   "Los transformers pueden interpretarse como sistemas de memoria que recuperan información relevante de manera eficiente",
+   "La conexión con redes de Hopfield revela que los transformers necesitan menos pasos para encontrar memorias adecuadas",
+   "El análisis matemático permite derivar la arquitectura de transformers desde conceptos fundamentales de memorización"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://alexwang.ai/posts/associative-memory/",
+  "fuente_dominio": "alexwang.ai",
+  "hn_url": "https://news.ycombinator.com/item?id=50122878",
+  "score": 312,
+  "comentarios": 72
+ },
+ {
   "id": "50122034",
   "slug": "ebay-restringe-venta-de-equipos-de-radio-pero-mantiene-excep-50122034",
   "fecha": "2026-10-17T03:46:32+00:00",
