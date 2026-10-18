@@ -1,5 +1,100 @@
 [
  {
+  "id": "50133150",
+  "slug": "un-extranjero-relata-su-experiencia-al-obtener-la-ciudadania-50133150",
+  "fecha": "2026-10-18T03:52:56+00:00",
+  "titulo": "Un extranjero relata su experiencia al obtener la ciudadanía japonesa",
+  "resumen": "Un residente extranjero comparte su experiencia tras completar el proceso de naturalización en Japón, que describe como deliberadamente opaco y exigente en documentación. El trámite requirió varios años y la recopilación de certificados personales, académicos, laborales y financieros tanto suyos como de su familia. El autor reflexiona sobre cómo el riguroso proceso le impulsó a comprometerse más seriamente con las responsabilidades cívicas.",
+  "por_que_importa": "Japón no permite doble nacionalidad y exige prueba de renuncia a la ciudadanía anterior, lo que representa una barrera significativa para extranjeros. El relato ilustra cómo otros países también requieren procedimientos exhaustivos similar a los aplicados en Japón para la naturalización.",
+  "puntos_clave": [
+   "La documentación obligatoria incluye certificados de nacimiento de familia directa, historial académico completo, historial laboral y registros fiscales.",
+   "Los documentos en idiomas distintos al japonés deben presentarse en su forma original y con traducción certificada, utilizando solo caracteres japoneses.",
+   "El proceso está diseñado para ser riguroso y puede tomar años, funcionando como filtro que requiere compromiso genuino del solicitante."
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.derekwessman.com/blog-1/natural",
+  "fuente_dominio": "derekwessman.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50133150",
+  "score": 177,
+  "comentarios": 80
+ },
+ {
+  "id": "50127586",
+  "slug": "estonia-publica-el-codigo-fuente-de-su-sistema-de-votacion-e-50127586",
+  "fecha": "2026-10-18T03:52:51+00:00",
+  "titulo": "Estonia publica el código fuente de su sistema de votación en línea",
+  "resumen": "El repositorio de GitHub contiene el código del sistema de votación electrónica utilizado en Estonia, disponible para revisión pública pero no para desarrollo activo. El código reflejará exactamente lo utilizado en elecciones vinculantes, bajo supervisión de la Oficina Electoral del Estado. Los comentarios subrayan que la seguridad electoral requiere tanto verificación de software como métodos de auditoría posterior y confianza institucional.",
+  "por_que_importa": "La transparencia del código permite la revisión independiente de un sistema de votación con más de dos décadas de uso en elecciones reales. El debate evidencia que la seguridad electoral depende de múltiples factores más allá del código abierto, incluyendo auditorías manuales y confianza en las instituciones.",
+  "puntos_clave": [
+   "El repositorio es de solo lectura y se mantiene sincronizado con el código electoral en uso",
+   "Los expertos señalan que verificar el correcto funcionamiento posterior es más viable que garantizar su funcionamiento futuro",
+   "Otros sistemas de votación electrónica abierta también existen y han sido usados en elecciones, como ElectionGuard en Estados Unidos"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://github.com/valimised/ivxv",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50127586",
+  "score": 180,
+  "comentarios": 148
+ },
+ {
+  "id": "50126312",
+  "slug": "la-demolicion-de-presas-restaura-poblaciones-de-peces-en-el-50126312",
+  "fecha": "2026-10-18T03:52:46+00:00",
+  "titulo": "La demolición de presas restaura poblaciones de peces en el noreste estadounidense",
+  "resumen": "Cientos de presas antiguas se están removiendo en toda Estados Unidos para restaurar el flujo natural de los ríos y permitir el regreso de especies de peces migratorios. Desde 1912 se han eliminado más de 2.300 presas, con un pico en 2024 que reconectó más de 2.500 millas de ríos fragmentados. Iniciativas recientes incluyen acuerdos para remover presas en ríos como el Kennebec, abriendo rutas de desove para el salmón atlántico y otras especies.",
+  "por_que_importa": "La restauración de ríos sin obstáculos permite que peces como el salmón regresen a sus hábitats de desove históricos tras décadas de bloqueo. Los esfuerzos combinados de organizaciones ambientales, comunidades locales y tribus indígenas han demostrado que es posible revertir el daño ambiental causado por infraestructuras obsoletas.",
+  "puntos_clave": [
+   "Más de 2.300 presas han sido removidas en Estados Unidos desde 1912, acelerándose en las últimas décadas.",
+   "La remoción de presas reconecta miles de millas de ríos y restaura hábitats críticos de reproducción para salmones y otras especies.",
+   "Iniciativas innovadoras como inundaciones artificiales controladas y acuerdos con operadores de presas complementan los esfuerzos de demolición estructural."
+  ],
+  "categoria": "Ciencia",
+  "fuente_url": "https://www.smithsonianmag.com/science-nature/dam-removals-are-bringing-fish-back-across-the-northeastern-united-states-striking-down-one-tiny-barrier-at-a-time-180989679/",
+  "fuente_dominio": "smithsonianmag.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50126312",
+  "score": 228,
+  "comentarios": 58
+ },
+ {
+  "id": "50132870",
+  "slug": "el-oro-se-convierte-en-la-principal-exportacion-estadouniden-50132870",
+  "fecha": "2026-10-18T03:52:41+00:00",
+  "titulo": "El oro se convierte en la principal exportación estadounidense",
+  "resumen": "Desde octubre de 2025, las exportaciones de oro estadounidense han superado a las de petróleo, productos farmacéuticos y aeronaves, categorías que tradicionalmente ocupaban el primer lugar. El volumen exportado alcanzó posiblemente un récord histórico en febrero de 2026, dirigiéndose principalmente a Suiza, Hong Kong y Reino Unido. El aumento se atribuye especulativamente a la creciente demanda global de oro como alternativa a las reservas basadas en dólares.",
+  "por_que_importa": "Este cambio refleja una posible reorientación de las reservas de bancos centrales extranjeros hacia oro en lugar de deuda estadounidense, lo que podría indicar erosión de confianza en el dólar como activo de reserva. El fenómeno sugiere transformaciones significativas en los mercados de metales preciosos y en las dinámicas de poder económico global.",
+  "puntos_clave": [
+   "Las exportaciones de oro superan mensualmente a otros productos desde octubre de 2025",
+   "Suiza, Hong Kong y Reino Unido son los principales destinos de estos envíos",
+   "Se especula que gobiernos extranjeros buscan diversificar reservas lejos del dólar estadounidense"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.numismaticnews.net/gold-now-top-u-s-export",
+  "fuente_dominio": "numismaticnews.net",
+  "hn_url": "https://news.ycombinator.com/item?id=50132870",
+  "score": 270,
+  "comentarios": 137
+ },
+ {
+  "id": "50126253",
+  "slug": "corales-blanqueados-se-recuperan-en-dias-al-contacto-con-fra-50126253",
+  "fecha": "2026-10-18T03:52:35+00:00",
+  "titulo": "Corales blanqueados se recuperan en días al contacto con fragmentos sanos",
+  "resumen": "Investigadores demostraron en laboratorio que corales blanqueados pueden recuperar su color completamente en pocas semanas si entran en contacto físico con fragmentos sanos del mismo individuo. El proceso ocurre mediante la fusión de tejidos entre ambos fragmentos, permitiendo que las algas simbióticas se transfieran del coral sano al blanqueado. Este hallazgo muestra una recuperación mucho más rápida que la observada en ambientes naturales, aunque la réplica a escala en ecosistemas silvestres presenta desafíos significativos.",
+  "por_que_importa": "El blanqueamiento de coral causado por el aumento de temperaturas oceánicas representa una amenaza grave para los arrecifes, ya que sin sus algas simbióticas los corales tienden a morir. Este descubrimiento abre la posibilidad de desarrollar estrategias de restauración para revertir el colapso de arrecifes.",
+  "puntos_clave": [
+   "La transferencia de algas solo funciona entre fragmentos del mismo individuo con idéntica composición genética",
+   "En pares que se tocaban, la población de simbiontes se duplicaba cada cuatro días en las primeras semanas",
+   "Los fragmentos blanqueados separados por milímetros murieron, mientras que los unidos se recuperaron completamente"
+  ],
+  "categoria": "Ciencia",
+  "fuente_url": "https://www.nature.com/articles/d41586-026-03266-x",
+  "fuente_dominio": "nature.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50126253",
+  "score": 365,
+  "comentarios": 78
+ },
+ {
   "id": "50132328",
   "slug": "un-farmaco-glp-1-ralentiza-el-envejecimiento-biologico-segun-50132328",
   "fecha": "2026-10-17T20:22:24+00:00",
