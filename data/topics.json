@@ -1,5 +1,81 @@
 [
  {
+  "id": "50133231",
+  "slug": "codex-desktop-genera-acumulacion-masiva-de-archivos-de-error-50133231",
+  "fecha": "2026-10-18T15:39:08+00:00",
+  "titulo": "Codex Desktop genera acumulación masiva de archivos de error sin control",
+  "resumen": "Codex Desktop para macOS presenta un problema donde Crashpad genera continuamente archivos de volcado de memoria sin límite, llegando a acumular más de 5GB diarios. Los usuarios reportan que el directorio de volcados pendientes crece indefinidamente con decenas de miles de archivos, aunque la aplicación continúa funcionando normalmente. El problema afecta la capacidad de almacenamiento del disco sin que haya un mecanismo de limpieza o rotación de estos archivos.",
+  "por_que_importa": "Este defecto causa presión constante en el almacenamiento local de los usuarios y puede afectar la durabilidad de los discos SSD. Además, forma parte de un conjunto más amplio de problemas de estabilidad reportados en Codex que impactan significativamente la experiencia de uso.",
+  "puntos_clave": [
+   "Los archivos de volcado se acumulan sin límite a un ritmo de al menos 5GB por día",
+   "Se han encontrado más de 54,000 archivos ocupando casi 5GB en un solo día de uso",
+   "La aplicación permanece funcional durante el problema, lo que lo hace difícil de detectar para los usuarios"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://github.com/openai/codex/issues/25921",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50133231",
+  "score": 157,
+  "comentarios": 77
+ },
+ {
+  "id": "50114758",
+  "slug": "lean-distribuye-nucleos-verificados-para-mayor-seguridad-50114758",
+  "fecha": "2026-10-18T15:39:03+00:00",
+  "titulo": "Lean distribuye núcleos verificados para mayor seguridad",
+  "resumen": "Lean ha lanzado la versión 4.35.0 con nuevas herramientas para validar desarrollos usando múltiples núcleos independientes, incluyendo kernels adicionales diseñados para detectar vulnerabilidades. Entre las novedades destaca con-leche, el primer núcleo de Lean escrito en Lean y con prueba formal de consistencia. El proyecto busca proteger contra errores de implementación mediante verificación cruzada de código con diferentes núcleos, algunos ejecutándose en entornos de ejecución aislada.",
+  "por_que_importa": "Los agentes de IA han demostrado ser efectivos detectando vulnerabilidades en sistemas críticos como el núcleo de Lean, lo que motiva mecanismos de verificación más robustos. La combinación de verificación formal con múltiples implementaciones independientes reduce significativamente el riesgo de bugs silenciosos que podrían comprometer la validez de pruebas matemáticas.",
+  "puntos_clave": [
+   "Disponible el comando lake check para revalidar desarrollos con leanchecker en entorno aislado",
+   "Con-leche es el primer núcleo verificado formalmente escrito en Lean, con versión equivalente en Rust llamada con-ron",
+   "Se espera completar verificación de lean4lean en próximos meses para tener tres núcleos verificados distribuidos"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels/",
+  "fuente_dominio": "leodemoura.github.io",
+  "hn_url": "https://news.ycombinator.com/item?id=50114758",
+  "score": 175,
+  "comentarios": 60
+ },
+ {
+  "id": "50137950",
+  "slug": "sphinx-un-hook-de-git-que-evalua-el-codigo-generado-por-ia-a-50137950",
+  "fecha": "2026-10-18T15:38:58+00:00",
+  "titulo": "Sphinx: un hook de Git que evalúa el código generado por IA antes de enviarlo",
+  "resumen": "Sphinx es una herramienta de código abierto que actúa como intermediaria entre desarrolladores y asistentes de IA durante el desarrollo. Funciona como un hook de Git que detiene los cambios antes de enviarlos y plantea preguntas sobre qué hace realmente el código generado. El objetivo es garantizar que quien realiza el envío entienda las implicaciones de los cambios, especialmente en escenarios de error o casos extremos.",
+  "por_que_importa": "Con la adopción creciente de herramientas de desarrollo asistido por IA, existe el riesgo de que los desarrolladores implementen código sin comprenderlo realmente. Este mecanismo de validación busca mantener el conocimiento y la responsabilidad del programador sobre lo que se despliega.",
+  "puntos_clave": [
+   "Funciona como un revisor automatizado que genera preguntas basadas en el diferencial de código antes de permitir el envío",
+   "Compatible con varios agentes de IA y modelos de lenguaje, sin compartir respuestas con el asistente de IA",
+   "Incluye opción para saltarlo en caso de urgencia, con registro de todas las omisiones"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://sphinx-six-theta.vercel.app/",
+  "fuente_dominio": "sphinx-six-theta.vercel.app",
+  "hn_url": "https://news.ycombinator.com/item?id=50137950",
+  "score": 201,
+  "comentarios": 61
+ },
+ {
+  "id": "50100366",
+  "slug": "simulador-de-hardware-del-commodore-64-a-nivel-de-circuito-50100366",
+  "fecha": "2026-10-18T15:38:53+00:00",
+  "titulo": "Simulador de hardware del Commodore 64 a nivel de circuito",
+  "resumen": "Un desarrollador ha creado un simulador que reproduce el funcionamiento de la placa base del Commodore 64 analizando cada conexión y comportamiento de sus componentes. El programa permite desconectar chips, simular cortocircuitos y observar cómo afectan estos cambios al funcionamiento de la máquina. Es útil para aprender el funcionamiento interno del equipo y diagnosticar posibles fallos sin riesgo de dañar hardware real.",
+  "por_que_importa": "Permite estudiar y reparar computadoras antiguas de forma segura mediante simulación, evitando el desgaste físico de desoldaduras repetitivas. Demuestra cómo es posible replicar el comportamiento de hardware complejo a través de modelos que operan a nivel de pines.",
+  "puntos_clave": [
+   "El simulador modela cada pin y conexión eléctrica de la placa sin conocimiento previo de qué debería verse en pantalla",
+   "Opera entre un 31% y 48% de la velocidad real incluso en computadoras potentes actuales",
+   "Permite diagnosticar fallos de hardware simulando desconexiones, cortocircuitos y extracciones de componentes"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://github.com/antirez/c64-hw-simulator",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50100366",
+  "score": 222,
+  "comentarios": 34
+ },
+ {
   "id": "50137620",
   "slug": "el-documental-sobre-elizabeth-holmes-manipula-al-espectador-50137620",
   "fecha": "2026-10-18T10:42:01+00:00",
