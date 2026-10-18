@@ -1,5 +1,81 @@
 [
  {
+  "id": "50142573",
+  "slug": "la-perspectiva-del-creador-marca-el-caracter-del-software-50142573",
+  "fecha": "2026-10-18T20:22:19+00:00",
+  "titulo": "La perspectiva del creador marca el carácter del software",
+  "resumen": "Un fundador de software sostiene que los mejores productos reflejan la visión y valores de quienes los crean, no solo el cumplimiento de requisitos técnicos. Advierte que la tendencia actual hacia la automatización y adición acumulativa de funcionalidades diluye esa identidad distintiva, resultando en productos fragmentados sin cohesión. Enfatiza que la verdadera diferenciación radica en decisiones sobre qué no construir y en mantener una perspectiva unificada durante el desarrollo.",
+  "por_que_importa": "A medida que la inteligencia artificial facilita la codificación, la verdadera ventaja competitiva en software reside en la visión estratégica y las decisiones de diseño que solo los humanos pueden aportar. La forma en que se organiza el trabajo de desarrollo influye directamente en si un producto mantiene coherencia y propósito o se convierte en una acumulación desorganizada de capacidades.",
+  "puntos_clave": [
+   "El carácter de un producto emerge de lo que sus creadores priorizan, descartan y refinan, no solo de funcionalidades que técnicamente funcionan",
+   "La adición constante de capacidades es más fácil que reimaginar las existentes, lo que genera productos fragmentados sin punto de vista unificado",
+   "Los valores, intenciones y criterio estético humanos son irremplazables en la definición de qué construir y cómo debe verse el conjunto"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
+  "fuente_dominio": "karrisaarinen.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50142573",
+  "score": 172,
+  "comentarios": 63
+ },
+ {
+  "id": "50139067",
+  "slug": "combinadores-de-analisis-sintactico-estructuracion-eficiente-50139067",
+  "fecha": "2026-10-18T20:22:13+00:00",
+  "titulo": "Combinadores de análisis sintáctico: estructuración eficiente de texto",
+  "resumen": "Los combinadores de análisis sintáctico son funciones que transforman texto desestructurado en datos organizados mediante la composición de pequeños analizadores. El artículo explica cómo funcionan mediante ejemplos progresivos: parsers simples se combinan secuencialmente para procesar cadenas complejas, permitiendo extraer información específica y transformarla en objetos estructurados. Este enfoque ofrece una alternativa más manejable que expresiones regulares para tareas moderadas de análisis.",
+  "por_que_importa": "Los combinadores de análisis sintáctico proporcionan un método legible y flexible para procesar datos textuales sin la complejidad de librerías especializadas. Resultan útiles cuando las expresiones regulares son insuficientes pero una solución completa de parseo resulta excesiva.",
+  "puntos_clave": [
+   "Los parsers son funciones que aceptan una cadena y retornan un valor procesado junto con el texto restante",
+   "Múltiples parsers se pueden componer secuencialmente para procesar estructuras textuales complejas",
+   "Las transformaciones adicionales permiten convertir los datos analizados en formatos específicos como objetos"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://t3.at/blog/2026-10-17-parser-combinators/",
+  "fuente_dominio": "t3.at",
+  "hn_url": "https://news.ycombinator.com/item?id=50139067",
+  "score": 198,
+  "comentarios": 74
+ },
+ {
+  "id": "50139692",
+  "slug": "expertos-legales-cuestionan-cambios-en-terminos-de-meta-sobr-50139692",
+  "fecha": "2026-10-18T20:22:09+00:00",
+  "titulo": "Expertos legales cuestionan cambios en términos de Meta sobre extracción de contenido",
+  "resumen": "Meta modificó sus términos de servicio tras críticas sobre permisos amplios de extracción de datos, eliminando la palabra \"entrenar\" pero manteniendo autorizaciones para usar contenido raspado en \"productos comerciales\". Abogados especializados señalan que la revisión sigue permitiendo un raspado generalizado de sitios web, potencialmente sin respetar archivos robots.txt. Los nuevos términos entran en vigor el 30 de octubre sin opción de exclusión para cuentas comerciales.",
+  "por_que_importa": "Los cambios afectan a casi todas las organizaciones de noticias, que poseen cuentas comerciales de Meta para gestionar presencia en múltiples plataformas. La ambigüedad en la terminología utilizada deja abierta la posibilidad de que Meta continúe usando contenido raspado para desarrollar productos de inteligencia artificial.",
+  "puntos_clave": [
+   "Meta eliminó \"entrenar\" de sus términos pero amplió los permisos a \"productos y servicios comerciales\" sin definición clara",
+   "La empresa no incluyó lenguaje específico sobre respeto a robots.txt pese a afirmar que lo respeta",
+   "Los expertos legales advierten que \"desarrollar\" es un término suficientemente amplio para incluir entrenamientos de IA"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.niemanlab.org/2026/10/legal-experts-warn-metas-new-terms-still-grant-broad-scraping-permissions-despite-language-changes/",
+  "fuente_dominio": "niemanlab.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50139692",
+  "score": 208,
+  "comentarios": 58
+ },
+ {
+  "id": "50141076",
+  "slug": "reprapmicron-impresora-3d-de-codigo-abierto-para-fabricacion-50141076",
+  "fecha": "2026-10-18T20:22:03+00:00",
+  "titulo": "RepRapMicron: impresora 3D de código abierto para fabricación a escala micrométrica",
+  "resumen": "El proyecto µRepRap desarrolla una impresora 3D replicante capaz de fabricar componentes con precisión micrométrica utilizando materiales accesibles. La versión actual PIKA logra posicionamiento repetible de aproximadamente 1 micrón en un volumen de 8 milímetros cúbicos, permitiendo depositar resina ultravioleta en gotitas de 4 micrones. El objetivo es democratizar la fabricación de precisión a escala microscópica, similar a cómo RepRap hizo accesible la impresión 3D convencional.",
+  "por_que_importa": "Esto podría transformar la producción de componentes microelectrónicos y sistemas MEMS, que actualmente requieren tecnología compleja, costosa y a menudo peligrosa. Al traer estas capacidades a talleres caseros, el proyecto busca permitir que la tecnología de precisión evolucione de forma descentralizada, como ocurrió con las impresoras 3D de código abierto.",
+  "puntos_clave": [
+   "La versión PIKA V0.02 alcanza precisión de 1 micrón y puede depositar resina en gotas de 4 micrones de diámetro",
+   "Utiliza componentes impresos en 3D basados en tecnología de plataformas de microscopio de código abierto",
+   "Busca replicar en macro escala un sistema que eventualmente pueda reproducirse a escala micrométrica"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://github.com/VikOlliver/RepRapMicron/wiki",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50141076",
+  "score": 282,
+  "comentarios": 41
+ },
+ {
   "id": "50133231",
   "slug": "codex-desktop-genera-acumulacion-masiva-de-archivos-de-error-50133231",
   "fecha": "2026-10-18T15:39:08+00:00",
