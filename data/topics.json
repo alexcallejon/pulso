@@ -1,5 +1,100 @@
 [
  {
+  "id": "50137620",
+  "slug": "el-documental-sobre-elizabeth-holmes-manipula-al-espectador-50137620",
+  "fecha": "2026-10-18T10:42:01+00:00",
+  "titulo": "El documental sobre Elizabeth Holmes manipula al espectador mediante técnicas narrativas",
+  "resumen": "Un nuevo documental sobre Elizabeth Holmes genera debate sobre su efectividad narrativa. Los directores utilizan técnicas cinematográficas como ángulos de cámara, edición e información selectiva para influir en la percepción del público sobre los personajes. La película logra que los espectadores cambien repetidamente sus opiniones, demostrando cómo nuestras creencias se forman primero emocionalmente y luego buscamos hechos que las respalden.",
+  "por_que_importa": "Ilustra cómo las técnicas de producción audiovisual pueden moldear significativamente nuestra comprensión de eventos reales e individuos. Evidencia la vulnerabilidad cognitiva humana a la narrativa visual, independientemente de nuestro nivel educativo o pensamiento crítico.",
+  "puntos_clave": [
+   "El documental utiliza cinematografía estratégica para alterar la percepción del espectador sobre los personajes",
+   "Las opiniones se forman primero emocionalmente, después se buscan hechos para justificarlas",
+   "Holmes fue condenada por defraudar inversores, no por fraude a pacientes, un matiz frecuentemente perdido"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything",
+  "fuente_dominio": "readtheprofile.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50137620",
+  "score": 150,
+  "comentarios": 163
+ },
+ {
+  "id": "50131189",
+  "slug": "esp32sim-emulador-de-esp32-en-el-navegador-sin-necesidad-de-50131189",
+  "fecha": "2026-10-18T10:41:56+00:00",
+  "titulo": "Esp32sim: emulador de ESP32 en el navegador sin necesidad de hardware",
+  "resumen": "Se ha desarrollado un emulador de código abierto para microcontroladores ESP32 que permite ejecutar firmware real directamente en el navegador mediante WebAssembly, sin requerir dispositivos físicos ni servicios en la nube. El proyecto soporta múltiples variantes de ESP32 con arquitecturas Xtensa y RISC-V, incluyendo funcionalidades como GPIO, UART, pantallas y conectividad WiFi virtualizada. Según usuarios, la herramienta resulta especialmente útil para desarrollo móvil, backend e integración en pipelines de CI/CD sin depender de hardware disponible.",
+  "por_que_importa": "Acelera el desarrollo de proyectos IoT al permitir que equipos trabajen en paralelo sin esperar a que el hardware esté disponible, y facilita la integración de firmware real en simuladores funcionales. Abre posibilidades nuevas como ejecutar código de vuelo real en simuladores de drones o realizar pruebas automatizadas sin dispositivos físicos.",
+  "puntos_clave": [
+   "Ejecuta firmware ESP32 sin modificaciones en navegadores y máquinas locales",
+   "Soporta cuatro variantes de ESP32 con emulación a nivel de instrucción en arquitecturas Xtensa y RISC-V",
+   "Incluye virtualización de conectividad WiFi y periféricos como pantallas y sensores para testing completo"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://github.com/mikroverk/esp32sim",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50131189",
+  "score": 169,
+  "comentarios": 32
+ },
+ {
+  "id": "50138531",
+  "slug": "deepseek-lanza-api-de-busqueda-y-extraccion-web-a-0-75-por-m-50138531",
+  "fecha": "2026-10-18T10:41:51+00:00",
+  "titulo": "DeepSeek lanza API de búsqueda y extracción web a $0,75 por mil consultas",
+  "resumen": "DeepSeek ha puesto disponible dos nuevas herramientas de API para desarrolladores: una de búsqueda web que devuelve resultados estructurados y otra de extracción de contenido que convierte páginas web a formato Markdown. Ambas utilizan autenticación estándar de DeepSeek y soportan operadores de búsqueda avanzados. El servicio se comercializa a un precio de $0,75 por cada mil consultas exitosas.",
+  "por_que_importa": "Estas APIs amplían las capacidades de agentes de IA y sistemas de recuperación aumentada por generación (RAG) al proporcionar acceso a contenido web actualizado en tiempo real. Los usuarios pueden comparar este precio con alternativas como Brave Search API o Kagi API para elegir la solución más adecuada a sus necesidades.",
+  "puntos_clave": [
+   "Ofrece dos herramientas: búsqueda de páginas web y extracción de contenido con soporte para operadores avanzados",
+   "Utiliza autenticación mediante API key estándar de DeepSeek en formato JSON",
+   "Incluye opciones de localización, filtrado por idioma, sitio y rango de fechas de publicación"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://api-docs.deepseek.com/guides/search/",
+  "fuente_dominio": "api-docs.deepseek.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50138531",
+  "score": 206,
+  "comentarios": 97
+ },
+ {
+  "id": "50136536",
+  "slug": "proyecto-de-ley-federal-busca-que-los-jugadores-compren-vide-50136536",
+  "fecha": "2026-10-18T10:41:46+00:00",
+  "titulo": "Proyecto de ley federal busca que los jugadores compren videojuegos en lugar de licencias",
+  "resumen": "Un representante de Nueva York presentó una propuesta legislativa federal que obligaría a los desarrolladores a vender la propiedad de los juegos en lugar de licencias, buscando frenar prácticas contrarias al consumidor. La iniciativa también exigiría que los editores mantengan los juegos funcionales incluso después de suspender el soporte oficial. La propuesta pretende que la FTC establezca regulaciones sobre propiedad de videojuegos.",
+  "por_que_importa": "Afecta directamente a millones de jugadores cuyo acceso a juegos digitales puede ser revocado por decisiones empresariales. Plantea un conflicto potencial entre protección del consumidor y modelos de negocio de la industria de videojuegos.",
+  "puntos_clave": [
+   "El proyecto requeriría que los desarrolladores vendan propiedad de juegos en lugar de licencias",
+   "Busca obligar a mantener los juegos funcionales incluso después de finalizar el soporte técnico",
+   "Existen dudas sobre cómo impactaría en desarrolladores independientes frente a grandes estudios"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends",
+  "fuente_dominio": "tomshardware.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50136536",
+  "score": 305,
+  "comentarios": 109
+ },
+ {
+  "id": "50132193",
+  "slug": "pele-libreria-ligera-para-convertir-diagramas-mermaid-a-svg-50132193",
+  "fecha": "2026-10-18T10:41:41+00:00",
+  "titulo": "Pele: librería ligera para convertir diagramas Mermaid a SVG temático",
+  "resumen": "Pele es una biblioteca de código abierto que transforma diagramas escritos en sintaxis Mermaid en gráficos SVG personalizables mediante variables CSS. Ofrece un tamaño significativamente menor que Mermaid.js (230 kB frente a 1.6 MB comprimido) y tiempos de renderizado más rápidos. La herramienta permite cambiar colores y fuentes sin necesidad de re-renderizar, facilitando la implementación de temas claros y oscuros.",
+  "por_que_importa": "Simplifica la creación de diagramas interactivos con menor impacto en el rendimiento y consumo de recursos. Resuelve limitaciones conocidas de Mermaid en cuanto a maquetación y gestión de estilos, mejorando la experiencia visual de la documentación técnica.",
+  "puntos_clave": [
+   "Reduce significativamente el tamaño del paquete y acelera el tiempo de renderizado comparado con Mermaid.js",
+   "Permite personalización de temas mediante CSS variables sin recargar los diagramas",
+   "Soluciona problemas de disposición topológica de elementos que usuarios reportan en Mermaid.js"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://pele.run/",
+  "fuente_dominio": "pele.run",
+  "hn_url": "https://news.ycombinator.com/item?id=50132193",
+  "score": 444,
+  "comentarios": 39
+ },
+ {
   "id": "50133150",
   "slug": "un-extranjero-relata-su-experiencia-al-obtener-la-ciudadania-50133150",
   "fecha": "2026-10-18T03:52:56+00:00",
