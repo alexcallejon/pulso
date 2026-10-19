@@ -1,5 +1,119 @@
 [
  {
+  "id": "50150927",
+  "slug": "las-alternativas-al-uso-de-animales-en-investigacion-biomedi-50150927",
+  "fecha": "2026-10-19T22:10:20+00:00",
+  "titulo": "Las alternativas al uso de animales en investigación biomédica avanzan",
+  "resumen": "Tecnologías como los chips de órganos humanos en miniatura están emergiendo como alternativas viables a las pruebas con animales en investigación biomédica y desarrollo de fármacos. Estas plataformas, desarrolladas por instituciones como el Instituto Wyss de Harvard, permiten modelar la biología humana de manera más precisa. A pesar del potencial de estas soluciones, su adopción enfrenta resistencia en la comunidad científica tradicional.",
+  "por_que_importa": "Estos avances podrían reducir significativamente el sufrimiento animal en investigación científica, ofreciendo modelos que simulan mejor cómo los tratamientos afectarían al cuerpo humano. La transición hacia estas tecnologías representa un cambio fundamental en cómo se realiza la investigación biomédica.",
+  "puntos_clave": [
+   "Plataformas como chips de órganos humanos miniaturizados replican tejidos biológicos sin necesidad de animales",
+   "Los modelos biomédicos alternativos pueden predecir con mayor precisión los efectos en humanos comparado con pruebas tradicionales",
+   "La adopción de estas tecnologías enfrenta obstáculos culturales en la comunidad científica establecida"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://spectrum.ieee.org/alternatives-to-animal-testing",
+  "fuente_dominio": "spectrum.ieee.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50150927",
+  "score": 289,
+  "comentarios": 88
+ },
+ {
+  "id": "50154540",
+  "slug": "minimax-lanza-m3-1-flash-modelo-de-ia-mas-rapido-y-economico-50154540",
+  "fecha": "2026-10-19T22:10:16+00:00",
+  "titulo": "MiniMax lanza M3.1 Flash, modelo de IA más rápido y económico",
+  "resumen": "MiniMax presentó M3.1 Flash, una versión mejorada de su modelo de lenguaje que triplica la velocidad de inferencia y reduce costos operativos significativamente en comparación con su predecesor. El modelo destaca en tareas de automatización empresarial, desarrollo de código, uso de computadora y ciberseguridad, alcanzando rendimiento comparable al de modelos líderes en estos ámbitos. La tarificación plana de $0.15 por millón de tokens de entrada y $0.60 de salida posiciona la solución como una alternativa económica para aplicaciones de agentes de IA.",
+  "por_que_importa": "Los modelos más rápidos y económicos amplían el acceso a tecnología de IA avanzada para empresas de diferentes tamaños. La capacidad de ejecutar tareas complejas de automatización y seguridad a menor costo puede transformar la viabilidad económica de proyectos de IA en producción.",
+  "puntos_clave": [
+   "Velocidad de salida de 170-200 tokens por segundo, triplicando la inferencia respecto a versiones anteriores",
+   "Desempeño competitivo en automatización empresarial, coding, uso de computadora y análisis de vulnerabilidades según benchmarks internos",
+   "Reducción de costos operativos del 70% frente al modelo M3 anterior"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://www.minimax.io/blog/minimax-m31f",
+  "fuente_dominio": "minimax.io",
+  "hn_url": "https://news.ycombinator.com/item?id=50154540",
+  "score": 305,
+  "comentarios": 126
+ },
+ {
+  "id": "50134472",
+  "slug": "la-programacion-como-hobby-sigue-siendo-valiosa-mas-alla-del-50134472",
+  "fecha": "2026-10-19T22:10:10+00:00",
+  "titulo": "La programación como hobby sigue siendo valiosa más allá del trabajo",
+  "resumen": "Un programador defiende el derecho a disfrutar la programación fuera del ámbito laboral, argumentando que la diversión y el aprendizaje personal no requieren justificación económica. Reconoce que aunque las dinámicas profesionales han cambiado con las herramientas de IA, la exploración técnica por placer sigue siendo gratificante. Advierte contra la presión social y el pesimismo en línea que desalienta la práctica hobbyista.",
+  "por_que_importa": "Refleja la tensión actual en la comunidad programadora sobre el valor de la codificación manual frente a la automatización. Plantea una reflexión sobre cómo mantener la satisfacción personal en una profesión transformada por la IA.",
+  "puntos_clave": [
+   "El autor programa en su tiempo libre por diversión, incluso sin propósito profesional inmediato",
+   "Hay presión social que desalienta disfrutar la programación como actividad creativa personal",
+   "Los comentarios muestran perspectivas divididas: algunos ven valor en la artesanía, otros celebran que la IA democratiza la creación"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming",
+  "fuente_dominio": "chriskiehl.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50134472",
+  "score": 357,
+  "comentarios": 350
+ },
+ {
+  "id": "50154518",
+  "slug": "desarrollador-archiva-sus-proyectos-ruby-por-el-giro-hacia-i-50154518",
+  "fecha": "2026-10-19T22:10:05+00:00",
+  "titulo": "Desarrollador archiva sus proyectos Ruby por el giro hacia IA del lenguaje",
+  "resumen": "Un programador decidió archivar todos sus repositorios de gemas Ruby porque considera que el lenguaje ha abandonado su propósito original de priorizar la creatividad y la colaboración humana. Critica que Ruby se está reposicionando como un lenguaje para ser generado por agentes de IA y que las corporativas están extrayendo código humano de calidad para entrenar estos sistemas. El desarrollador expresa su desinterés en contribuir a un ecosistema que utiliza trabajos humanos para alimentar tecnologías que luego degradan la calidad del software.",
+  "por_que_importa": "Refleja una tensión creciente en comunidades de código abierto donde la integración de herramientas de IA está afectando la motivación de desarrolladores experimentados que valoraban la colaboración humana. Pone en evidencia un debate más amplio sobre el impacto de los sistemas de IA generativa en la sostenibilidad y la calidad de los proyectos de software comunitarios.",
+  "puntos_clave": [
+   "Ruby fue diseñado para priorizar la alegría y creatividad de los programadores, pero esa orientación ha cambiado hacia la generación automática mediante IA",
+   "El desarrollador critica que corporaciones utilizan código humano de calidad para entrenar agentes de IA que generan software de menor valor",
+   "Algunos comentaristas señalan que, a pesar de los avances en IA, no se han visto aplicaciones de software generadas por IA que realmente revolucionen el ecosistema"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://po-ru.com/2026/10/18/why-im-no-longer-updating-this-repository",
+  "fuente_dominio": "po-ru.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50154518",
+  "score": 380,
+  "comentarios": 360
+ },
+ {
+  "id": "50152307",
+  "slug": "wine-llega-a-openbsd-con-soporte-para-software-de-64-bits-50152307",
+  "fecha": "2026-10-19T22:10:00+00:00",
+  "titulo": "Wine llega a OpenBSD con soporte para software de 64 bits",
+  "resumen": "Se ha completado exitosamente la adaptación de Wine para OpenBSD, permitiendo ejecutar aplicaciones Windows de 64 bits en el sistema operativo. El proyecto resolvió desafíos técnicos relacionados con la emulación de registros de procesador y ha sido probado con éxito en decenas de juegos y aplicaciones, incluyendo títulos recientes como The Witcher 3 Remastered. La limitación principal es que no funciona WoW64, por lo que el software de 32 bits aún no es compatible.",
+  "por_que_importa": "Amplía significativamente las capacidades de OpenBSD al permitir ejecutar un amplio catálogo de software Windows moderno en 64 bits. Representa un hito importante para la comunidad de gaming en OpenBSD, que históricamente ha tenido opciones limitadas de juegos nativos.",
+  "puntos_clave": [
+   "Soluciona problemas de emulación de registros del procesador mediante software sin modificar el kernel",
+   "Probado con éxito en juegos AAA recientes y aplicaciones cotidianas como Notepad++",
+   "Software de 32 bits no funciona debido a la ausencia de soporte WoW64"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
+  "fuente_dominio": "marc.info",
+  "hn_url": "https://news.ycombinator.com/item?id=50152307",
+  "score": 463,
+  "comentarios": 152
+ },
+ {
+  "id": "50150434",
+  "slug": "mistral-presenta-timestral-modelos-base-especializados-en-se-50150434",
+  "fecha": "2026-10-19T22:09:55+00:00",
+  "titulo": "Mistral presenta Timestral, modelos base especializados en series temporales",
+  "resumen": "Mistral lanzó Timestral, su primera familia de modelos base para predicción de series temporales, con versiones que van desde 5 millones hasta 209 millones de parámetros. El modelo más grande lidera en los tres principales benchmarks del sector con un rendimiento superior al de competidores más grandes. La solución ejecuta de manera eficiente en procesadores estándar y permite realizar predicciones sin entrenamiento previo en nuevos dominios.",
+  "por_que_importa": "Las series temporales son datos críticos en empresas para decisiones operativas en planificación de capacidad, energía y cadenas de suministro. Los modelos base tradicionales requieren entrenamientos específicos para cada conjunto de datos, mientras que Timestral transfiere conocimiento entre diferentes dominios mejorando eficiencia.",
+  "puntos_clave": [
+   "Disponible en cuatro tamaños optimizados, posicionando cada versión en la frontera de desempeño versus eficiencia computacional",
+   "Soporta covariables conocidas del futuro y del pasado para mejorar la precisión de pronósticos",
+   "Funciona en infraestructura estándar sin requerir procesadores especializados"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://mistral.ai/news/timestral/",
+  "fuente_dominio": "mistral.ai",
+  "hn_url": "https://news.ycombinator.com/item?id=50150434",
+  "score": 506,
+  "comentarios": 96
+ },
+ {
   "id": "50150750",
   "slug": "policia-de-savannah-despedida-por-compartir-acceso-a-sistema-50150750",
   "fecha": "2026-10-19T12:40:54+00:00",
