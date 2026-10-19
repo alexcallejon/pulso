@@ -1,5 +1,119 @@
 [
  {
+  "id": "50093020",
+  "slug": "convierte-un-patinete-manual-en-electrico-usando-un-taladro-50093020",
+  "fecha": "2026-10-19T04:02:11+00:00",
+  "titulo": "Convierte un patinete manual en eléctrico usando un taladro inalámbrico",
+  "resumen": "Un entusiasta modificó su patinete Razor A5 Lux integrando un taladro inalámbrico Hercules de 20V para propulsarlo de forma eléctrica. Utilizó herramientas caseras, una impresora 3D y piezas de hardware para crear un sistema de tracción delantera que alcanza unos 10 km/h. El proyecto resultó funcional pero sin ahorrar costos respecto a comprar un patinete eléctrico comercial.",
+  "por_que_importa": "Demuestra cómo reutilizar herramientas comunes y técnicas de fabricación personal para resolver problemas cotidianos de forma creativa. Ilustra las posibilidades del movimiento maker al adaptar componentes existentes en aplicaciones no previstas.",
+  "puntos_clave": [
+   "Utiliza un taladro como motor principal conectado a la rueda delantera mediante un eje estriado",
+   "Autonomía de aproximadamente 3 kilómetros con batería de 5 amperios-hora",
+   "Propulsa el patinete hasta 10 km/h, aunque con dificultades en aceleraciones suaves debido al gatillo sensible"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://eddieabbondanz.io/post/shop/drill-powered-scooter/",
+  "fuente_dominio": "eddieabbondanz.io",
+  "hn_url": "https://news.ycombinator.com/item?id=50093020",
+  "score": 155,
+  "comentarios": 54
+ },
+ {
+  "id": "50136979",
+  "slug": "los-perros-asocian-bouba-con-formas-redondeadas-y-kiki-con-p-50136979",
+  "fecha": "2026-10-19T04:02:07+00:00",
+  "titulo": "Los perros asocian 'bouba' con formas redondeadas y 'kiki' con puntiagudas",
+  "resumen": "Un estudio con 70 perros domésticos demuestra que estos animales vinculan palabras inventadas con formas geométricas de manera similar a los humanos: relacionan 'bouba' con formas redondeadas y 'kiki' con formas angulares. Los perros fueron expuestos a sonidos mientras observaban diferentes formas en pantallas, y un sistema de seguimiento visual registró sus patrones de mirada. Los resultados sugieren que esta asociación podría ser universal en el reino animal, como lo indica la evidencia previa en pollos bebé.",
+  "por_que_importa": "El hallazgo refuerza la teoría de que existe un mecanismo universal que conecta información sensorial visual y auditiva, más allá del lenguaje específico de cada especie. Este descubrimiento abre líneas de investigación sobre cómo diferentes animales procesan y mapean el mundo físico mediante sus sentidos.",
+  "puntos_clave": [
+   "Los perros miraban significativamente más hacia formas redondeadas cuando escuchaban 'bouba' y hacia formas puntiagudas con 'kiki'",
+   "El efecto desapareció cuando los dueños llevaban auriculares, sugiriendo un papel de las señales involuntarias de los humanos",
+   "Estudios anteriores ya habían documentado el mismo patrón en pollos bebé, indicando un fenómeno potencialmente compartido entre especies"
+  ],
+  "categoria": "Ciencia",
+  "fuente_url": "https://www.sciencealert.com/dogs-seem-to-agree-with-humans-that-bouba-is-round-and-kiki-is-spiky",
+  "fuente_dominio": "sciencealert.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50136979",
+  "score": 157,
+  "comentarios": 91
+ },
+ {
+  "id": "50124730",
+  "slug": "teal-un-dialecto-tipado-de-lua-inspirado-en-typescript-50124730",
+  "fecha": "2026-10-19T04:02:02+00:00",
+  "titulo": "Teal: un dialecto tipado de Lua inspirado en TypeScript",
+  "resumen": "Teal es un lenguaje que extiende Lua con anotaciones de tipo estático, permitiendo especificar arrays, mapas, registros, interfaces, tipos unión y genéricos. Se distribuye como un compilador que transforma código Teal en archivos Lua estándar. El proyecto, iniciado por Hisham Muhammad y desarrollado colaborativamente, mantiene la filosofía de minimalismo y portabilidad característica de Lua, con licencia MIT.",
+  "por_que_importa": "Ofrece una solución para desarrolladores que desean la seguridad de tipos en Lua sin abandonar su naturaleza minimalista y embebible. Permite trabajar con proyectos grandes como LuaRocks manteniendo compatibilidad con el ecosistema Lua existente.",
+  "puntos_clave": [
+   "Añade sistema de tipos estático a Lua sin alejarse de su filosofía de diseño",
+   "El compilador traduce código .tl a .lua, manteniendo compatibilidad con herramientas Lua",
+   "Disponible en múltiples plataformas con soporte para editores populares como VS Code y NeoVim"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://teal-language.org/",
+  "fuente_dominio": "teal-language.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50124730",
+  "score": 169,
+  "comentarios": 68
+ },
+ {
+  "id": "50144005",
+  "slug": "las-asociaciones-de-propietarios-de-florida-agravan-la-crisi-50144005",
+  "fecha": "2026-10-19T04:01:58+00:00",
+  "titulo": "Las asociaciones de propietarios de Florida agravan la crisis de vivienda",
+  "resumen": "Un análisis de registros públicos en Florida documenta más de 10.000 demandas de ejecución hipotecaria iniciadas por asociaciones de propietarios contra sus propios miembros, junto con cientos de miles de gravámenes registrados. Estas acciones legales, que pueden comenzar por deudas de pocos cientos de dólares pero acumulan intereses y honorarios legales, presionan a los propietarios a vender bajo plazos forzados. El fenómeno afecta a casi 1,6 millones de viviendas en más de 104.000 asociaciones registradas en el estado.",
+  "por_que_importa": "Florida concentra la mayoría de demandas de ejecución hipotecaria iniciadas por asociaciones en el país, lo que intensifica la presión sobre un mercado de vivienda ya de por sí tenso. El mecanismo de cobranza de estas organizaciones impacta directamente en la disponibilidad y asequibilidad de viviendas, afectando a propietarios que enfrentan ventas forzadas por deudas inicialmente pequeñas.",
+  "puntos_clave": [
+   "Más de 10.000 demandas de ejecución hipotecaria presentadas por asociaciones contra residentes desde 2,695 comunidades distintas",
+   "Las deudas iniciales pequeñas se multiplican con intereses, sanciones y honorarios legales asegurados por gravámenes sobre la propiedad",
+   "Los registros incluyen también 460.000 reclamaciones de gravamen y 277.000 avisos de demanda registrados contra viviendas"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://hoaspy.com/hoa/fl/florida-hoa-housing-crisis.html",
+  "fuente_dominio": "hoaspy.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50144005",
+  "score": 171,
+  "comentarios": 316
+ },
+ {
+  "id": "50140769",
+  "slug": "la-cronologia-de-zelda-interpretaciones-sobre-la-historia-de-50140769",
+  "fecha": "2026-10-19T04:01:52+00:00",
+  "titulo": "La cronología de Zelda: interpretaciones sobre la historia de Hyrule",
+  "resumen": "Se ha publicado un recurso que organiza la cronología oficial de The Legend of Zelda incluyendo referencias a múltiples entregas de la saga. La compilación presenta los eventos desde Skyward Sword hasta Spirit Tracks, mostrando cómo la historia oficial se divide en tres ramas tras Ocarina of Time. Los comentarios cuestionan si esta estructura lineal refleja realmente la intención de la serie, sugiriendo que los juegos funcionan más como leyendas independientes que como una narrativa unificada.",
+  "por_que_importa": "Con el remake de Ocarina of Time en desarrollo, este tipo de recursos ayudan a nuevos jugadores a contextualizar la saga. El debate refleja una pregunta más amplia sobre cómo los medios orientales y occidentales abordan la continuidad narrativa en franquicias de larga trayectoria.",
+  "puntos_clave": [
+   "Nintendo estableció una cronología oficial que se ramifica en tres líneas temporales después de Ocarina of Time",
+   "Los usuarios debaten si la serie debe interpretarse como una narrativa conectada o como leyendas independientes con elementos comunes",
+   "Algunos comentaristas argumentan que forzar una coherencia temporal va contra la naturaleza mítica y de reinterpretación constante de Zelda"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://legendofhyrule.com/",
+  "fuente_dominio": "legendofhyrule.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50140769",
+  "score": 172,
+  "comentarios": 102
+ },
+ {
+  "id": "50145337",
+  "slug": "agentes-hibridos-que-razonan-en-espacio-latente-y-actuan-med-50145337",
+  "fecha": "2026-10-19T04:01:46+00:00",
+  "titulo": "Agentes híbridos que razonan en espacio latente y actúan mediante texto",
+  "resumen": "Investigadores presentan HybridAgents, un enfoque que permite a los agentes basados en modelos de lenguaje razonar internamente de forma eficiente en espacio latente mientras interactúan externamente mediante texto. La arquitectura utiliza un componente llamado HybridLink para transiciones entre modos de razonamiento latente y basado en texto, manteniendo un contexto unificado. Los resultados muestran mejoras de rendimiento del 10,4% frente a métodos existentes, con reducciones significativas en consumo de tokens, velocidad de inferencia y costos.",
+  "por_que_importa": "Este enfoque equilibra la eficiencia computacional del razonamiento latente con la capacidad de acceder a herramientas y la transparencia del procesamiento basado en texto. El avance es relevante para desarrollar agentes más rápidos y económicos sin sacrificar interpretabilidad.",
+  "puntos_clave": [
+   "Combina razonamiento interno eficiente en espacio latente con interacción externa mediante lenguaje natural",
+   "Logra 35-54% menos tokens, 1.8-2.6x más rápido y 2.7-3.7x más económico que métodos comparables",
+   "Incluye algoritmos de entrenamiento dedicados que estabilizan la generación híbrida y optimizan cuándo razonar latentemente o actuar mediante texto"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://arxiv.org/abs/2610.18861",
+  "fuente_dominio": "arxiv.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50145337",
+  "score": 271,
+  "comentarios": 153
+ },
+ {
   "id": "50142573",
   "slug": "la-perspectiva-del-creador-marca-el-caracter-del-software-50142573",
   "fecha": "2026-10-18T20:22:19+00:00",
