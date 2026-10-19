@@ -1,5 +1,119 @@
 [
  {
+  "id": "50150750",
+  "slug": "policia-de-savannah-despedida-por-compartir-acceso-a-sistema-50150750",
+  "fecha": "2026-10-19T12:40:54+00:00",
+  "titulo": "Policía de Savannah despedida por compartir acceso a sistema de lectura de placas",
+  "resumen": "Una oficial de policía de Savannah fue despedida tras permitir que su esposo, agente del Servicio de Inmigración, utilizara sus credenciales para acceder al sistema Flock de lectura de placas vehiculares. A través de la cuenta compartida, realizó casi mil búsquedas en seis estados, principalmente enfocadas en objetivos de investigaciones migratorias. El departamento concluyó que la oficial violó políticas internas y comprometió controles de seguridad diseñados para auditar el acceso a datos policiales.",
+  "por_que_importa": "El caso evidencia vulnerabilidades en sistemas de vigilancia cuando los controles de acceso dependen de la responsabilidad individual de los usuarios autorizados. Cuestiona la efectividad de las medidas de seguridad en herramientas de aplicación de la ley cuando personal con acceso legítimo puede compartir credenciales sin restricciones técnicas.",
+  "puntos_clave": [
+   "La oficial compartió voluntariamente usuario y contraseña sin autorización institucional",
+   "Se registraron 983 búsquedas desde la cuenta en seis meses, principalmente de vehículos de Carolina del Sur y propietarios hispanos",
+   "El sistema no contaba con autenticación de dos factores ni restricciones por dispositivo"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816",
+  "fuente_dominio": "wjcl.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50150750",
+  "score": 162,
+  "comentarios": 74
+ },
+ {
+  "id": "50144066",
+  "slug": "free-pascal-compiler-incorpora-soporte-completo-para-paquete-50144066",
+  "fecha": "2026-10-19T12:40:50+00:00",
+  "titulo": "Free Pascal Compiler incorpora soporte completo para paquetes dinámicos",
+  "resumen": "Se ha lanzado la primera versión con compatibilidad total de paquetes dinámicos para el compilador Free Pascal y el IDE Lazarus. Esta funcionalidad permite crear e instalar componentes y extensiones sin necesidad de recompilar toda la plataforma, y también facilita el desarrollo de sistemas de complementos en aplicaciones propias. La implementación incluye mejoras en el compilador, su entorno de ejecución y el IDE, con soporte en Windows, Linux y macOS.",
+  "por_que_importa": "Los paquetes dinámicos simplifican significativamente el flujo de trabajo de desarrollo al permitir actualizar componentes sin reconstruir sistemas completos, lo que ahorra tiempo y recursos. Esta capacidad, esperada durante más de dos décadas, abre nuevas posibilidades para crear arquitecturas modulares y sistemas de complementos en aplicaciones basadas en Free Pascal.",
+  "puntos_clave": [
+   "Permite instalar componentes y extensiones sin recompilar el IDE completo",
+   "Funciona como archivos de biblioteca compartida con metadatos que pueden inspeccionarse en tiempo de ejecución",
+   "Requiere nombres de unidades únicos entre paquetes y tiene restricciones de nomenclatura específicas"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://www.getlazarus.org/dynamic/",
+  "fuente_dominio": "getlazarus.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50144066",
+  "score": 170,
+  "comentarios": 44
+ },
+ {
+  "id": "50141579",
+  "slug": "clases-selladas-de-java-beneficios-y-riesgos-en-apis-publica-50141579",
+  "fecha": "2026-10-19T12:40:45+00:00",
+  "titulo": "Clases selladas de Java: beneficios y riesgos en APIs públicas",
+  "resumen": "Java 17 introdujo las clases selladas, que permiten definir explícitamente qué subtipos puede tener una interfaz o clase base, habilitando verificaciones de exhaustividad en tiempo de compilación. Esta característica ofrece ventajas significativas para el código interno de un componente, pero presenta riesgos cuando se expone en APIs públicas. Al agregar un nuevo subtipo a una clase sellada exportada, los consumidores que no recompilen su código pueden experimentar excepciones en tiempo de ejecución en lugar de errores de compilación.",
+  "por_que_importa": "Las clases selladas mejoran la seguridad en tiempo de compilación y reducen la necesidad de cláusulas default innecesarias en expresiones switch. Sin embargo, su uso en APIs públicas introduce un tipo de cambio incompatible que puede pasar desapercibido hasta la ejecución si el código consumidor no se recompila.",
+  "puntos_clave": [
+   "El compilador verifica que todos los casos de un tipo sellado estén cubiertos, eliminando la necesidad de cláusulas default.",
+   "Las clases selladas son más seguras cuando se usan internamente en un componente, donde todo se recompila junto.",
+   "Agregar nuevos subtipos a una clase sellada pública puede causar excepciones en runtime si los consumidores no recompilan su código."
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://neilmadden.blog/2026/04/24/java-sealed-classes-and-exhaustive-pattern-matching/",
+  "fuente_dominio": "neilmadden.blog",
+  "hn_url": "https://news.ycombinator.com/item?id=50141579",
+  "score": 178,
+  "comentarios": 138
+ },
+ {
+  "id": "50146625",
+  "slug": "el-mito-de-la-marca-registrada-de-cyberspace-entre-gibson-y-50146625",
+  "fecha": "2026-10-19T12:40:39+00:00",
+  "titulo": "El mito de la marca registrada de 'cyberspace' entre Gibson y Autodesk",
+  "resumen": "A finales de los años 80, Autodesk solicitó registrar como marca el término 'cyberspace' para su proyecto de realidad virtual, lo que molestó al escritor William Gibson. Timothy Leary, amigo de ambas partes, propagó la historia de que Gibson intentó registrar 'Eric Gullichsen' en represalia, un rumor que se convirtió en historia aceptada. Los creadores de Autodesk y Gibson posteriormente resolvieron la disputa de manera amistosa durante un evento en Barcelona en 1990.",
+  "por_que_importa": "Este episodio refleja cómo los mitos culturales se originan y se perpetúan en torno a figuras influyentes de la tecnología e ilustra la fricción entre la industria y la imaginación creativa en los primeros días de la realidad virtual. Demuestra cómo términos fundamentales del universo digital tienen historias más complejas y menos binarias de lo que comúnmente se asume.",
+  "puntos_clave": [
+   "Autodesk intentó registrar 'cyberspace' como marca para su laboratorio de realidad virtual en 1989",
+   "Timothy Leary inventó el rumor sobre Gibson intentando registrar 'Eric Gullichsen' como broma",
+   "Gibson y el equipo de Autodesk resolvieron las diferencias personalmente tras conocerse en un evento en Barcelona"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://colo.to/cyberspace.html",
+  "fuente_dominio": "colo.to",
+  "hn_url": "https://news.ycombinator.com/item?id=50146625",
+  "score": 209,
+  "comentarios": 86
+ },
+ {
+  "id": "50135762",
+  "slug": "crean-lenguaje-de-programacion-disenado-para-confundir-a-las-50135762",
+  "fecha": "2026-10-19T12:40:35+00:00",
+  "titulo": "Crean lenguaje de programación diseñado para confundir a las IA",
+  "resumen": "Un desarrollador creó KillSwitch, un lenguaje de programación esotérico pensado específicamente para dificultar que los modelos de lenguaje grande lo interpreten y utilicen. El lenguaje incluye características como especificaciones con información engañosa, reglas basadas en conteo de caracteres y frases diseñadas para activar mecanismos de seguridad de las IA. Los benchmarks muestran que el modelo con mejor desempeño alcanza una puntuación de 66.8, lo que sugiere que las IA aún no demuestran una comprensión profunda del código.",
+  "por_que_importa": "El experimento cuestiona si las capacidades de las IA para escribir código reflejan verdadera comprensión o simplemente recuperación de patrones del entrenamiento. Los resultados podrían informar investigaciones futuras sobre las limitaciones y fortalezas reales de los modelos de lenguaje en tareas cognitivas complejas.",
+  "puntos_clave": [
+   "KillSwitch es un lenguaje diseñado deliberadamente para ser adversarial a las IA, con trampas que explotan sus debilidades conocidas",
+   "Las pruebas comparativas muestran variación significativa entre modelos, con algunos limitados por guardarraíles de seguridad sensibles",
+   "El rendimiento máximo no necesariamente demuestra comprensión real del código, sino capacidad de pattern matching"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://blog.picheta.me/post/killswitch-lang/",
+  "fuente_dominio": "blog.picheta.me",
+  "hn_url": "https://news.ycombinator.com/item?id=50135762",
+  "score": 218,
+  "comentarios": 170
+ },
+ {
+  "id": "50149392",
+  "slug": "lanzamiento-del-kernel-linux-7-3-con-record-de-contribucione-50149392",
+  "fecha": "2026-10-19T12:40:29+00:00",
+  "titulo": "Lanzamiento del kernel Linux 7.3 con récord de contribuciones",
+  "resumen": "Se ha publicado la versión 7.3 del kernel de Linux, alcanzando números históricos con más de 18.700 cambios de código aportados por más de 3.000 desarrolladores, incluyendo más de 800 contribuyentes nuevos. Entre las mejoras principales se encuentran extensiones en el sistema de formatos binarios, optimizaciones de planificación de tareas para sistemas grandes, un nuevo sistema de archivos experimental, soporte para Wi-Fi HaLow de 900 MHz y avances en compatibilidad con procesadores Apple Silicon. La ventana de fusión para la versión 7.4 se abrirá al día siguiente del lanzamiento.",
+  "por_que_importa": "El crecimiento sin precedentes en contribuciones refleja el fortalecimiento del ecosistema de desarrollo del kernel Linux, con participación expandida de nuevos desarrolladores. Las mejoras en SMB y soporte para dispositivos de bajo consumo como Wi-Fi HaLow amplían las capacidades empresariales y de hardware del sistema.",
+  "puntos_clave": [
+   "Récord de 18.765 cambios de código de 3.021 desarrolladores, con 807 debutantes",
+   "Nuevas características incluyen failfs, fchroot(), sched_ext y soporte para Wi-Fi HaLow en 900 MHz",
+   "Mejoras significativas en servidores SMB, compatibilidad con Apple M3/Ultra y virtualización"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://lwn.net/Articles/1101143/",
+  "fuente_dominio": "lwn.net",
+  "hn_url": "https://news.ycombinator.com/item?id=50149392",
+  "score": 319,
+  "comentarios": 139
+ },
+ {
   "id": "50093020",
   "slug": "convierte-un-patinete-manual-en-electrico-usando-un-taladro-50093020",
   "fecha": "2026-10-19T04:02:11+00:00",
