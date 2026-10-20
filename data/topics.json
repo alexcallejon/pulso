@@ -1,5 +1,119 @@
 [
  {
+  "id": "50156206",
+  "slug": "postgresql-revierte-multiples-funciones-tras-detectar-defect-50156206",
+  "fecha": "2026-10-20T04:15:18+00:00",
+  "titulo": "PostgreSQL revierte múltiples funciones tras detectar defectos en fase beta",
+  "resumen": "PostgreSQL 19 ha revertido entre 8 y 10 funciones significativas durante su fase beta, un número inusualmente alto para un ciclo de desarrollo. Los desarrolladores atribuyen esto a una combinación de factores: complejidad arquitectónica de las características, una mayor capacidad de detección de defectos gracias a herramientas de revisión asistidas por IA, y la reducción de recursos de revisión debido a la Vulnpocalypse. La comunidad priorizó mantener el calendario de lanzamiento sobre aplazar la versión para permitir correcciones adicionales.",
+  "por_que_importa": "Las reversiones reflejan cómo las herramientas de revisión de código asistidas por IA están elevando los estándares de calidad y detectando problemas que antes tardaban años en identificarse. El episodio subraya la importancia de mantener la confianza de la comunidad mediante la remoción de código defectuoso antes del lanzamiento, incluso cuando implica revertir trabajo completado.",
+  "puntos_clave": [
+   "Herramientas de IA aceleran la detección de casos extremos y problemas menores que históricamente hubieran sido corregidos incrementalmente tras el lanzamiento.",
+   "Las restricciones en revisión técnica causadas por tareas de seguridad urgentes retrasaron el descubrimiento de defectos hasta fases avanzadas de beta.",
+   "La complejidad del sistema hace que ciertas características sean difíciles de implementar correctamente sin mecanismos de soporte arquitectónico suficientes."
+  ],
+  "categoria": "Programación",
+  "fuente_url": "http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves",
+  "fuente_dominio": "peter.eisentraut.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50156206",
+  "score": 205,
+  "comentarios": 38
+ },
+ {
+  "id": "50155245",
+  "slug": "mercury-3-el-modelo-de-difusion-mas-rapido-y-capaz-hasta-la-50155245",
+  "fecha": "2026-10-20T04:15:09+00:00",
+  "titulo": "Mercury 3: el modelo de difusión más rápido y capaz hasta la fecha",
+  "resumen": "Inception presenta Mercury 3, un modelo de lenguaje basado en difusión que supera en rendimiento a competidores como GPT-6 Luna y Claude Haiku 5.5, mientras mantiene velocidades de generación de más de mil tokens por segundo. El modelo amplia su contexto a un millón de tokens y demuestra que los modelos de difusión escalan eficientemente. Ya está siendo utilizado en producción para aplicaciones que requieren baja latencia, como agentes web, tutoreo interactivo y búsqueda en tiempo real.",
+  "por_que_importa": "Valida que los modelos de difusión pueden competir con arquitecturas autoregresivas tradicionales en casos de uso complejos, abriendo una alternativa tecnológica más rápida. Su velocidad y costo reducido lo hacen viable para aplicaciones sensibles a la latencia donde otros modelos actuales presentan limitaciones.",
+  "puntos_clave": [
+   "Genera más de mil tokens por segundo, entre 4 y 8 veces más rápido que modelos comparables.",
+   "Procesa un millón de tokens de contexto, más del triple que su versión anterior.",
+   "Se ofrece con descuento de lanzamiento a precios significativamente menores que modelos frontera convencionales."
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+  "fuente_dominio": "inceptionlabs.ai",
+  "hn_url": "https://news.ycombinator.com/item?id=50155245",
+  "score": 228,
+  "comentarios": 85
+ },
+ {
+  "id": "50150809",
+  "slug": "let-s-encrypt-ampliara-validacion-de-dominios-con-dos-perspe-50150809",
+  "fecha": "2026-10-20T04:15:01+00:00",
+  "titulo": "Let's Encrypt ampliará validación de dominios con dos perspectivas remotas adicionales",
+  "resumen": "Let's Encrypt implementará dos nuevas perspectivas remotas para validar dominios, aumentando el total de puntos de verificación de cuatro a seis perspectivas remotas más una principal. El cambio responde a un requisito de normativa que exige al menos cinco perspectivas remotas para mejorar la seguridad contra ataques de secuestro de rutas BGP. Las pruebas en entorno de staging comenzarán el 27 de octubre de 2026, con despliegue en producción previsto para el 11 de noviembre de 2026.",
+  "por_que_importa": "Aumentar el número de perspectivas de validación dificulta que los atacantes intercepten las solicitudes de validación de certificados desde múltiples ubicaciones simultáneamente. La medida es obligatoria según los requisitos de certificación y mejora la protección de la infraestructura crítica de internet.",
+  "puntos_clave": [
+   "Amplía de cuatro a seis perspectivas remotas más la principal, totalizando siete validaciones por dominio",
+   "Cumple con regulaciones que requieren mínimo cinco perspectivas remotas desde dos registros regionales distintos",
+   "Implementación gradual: pruebas en staging desde el 27 de octubre y producción desde el 11 de noviembre de 2026"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
+  "fuente_dominio": "community.letsencrypt.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50150809",
+  "score": 252,
+  "comentarios": 78
+ },
+ {
+  "id": "50154624",
+  "slug": "mac-apk-permite-ejecutar-aplicaciones-android-nativas-en-mac-50154624",
+  "fecha": "2026-10-20T04:14:57+00:00",
+  "titulo": "Mac.apk permite ejecutar aplicaciones Android nativas en Macs con Apple Silicon",
+  "resumen": "Un proyecto de código abierto llamado Mac.apk permite ejecutar aplicaciones de Android directamente en computadoras Mac con procesadores Apple Silicon sin necesidad de emuladores ni máquinas virtuales. Las aplicaciones se comportan como programas nativos de macOS, utilizando la GPU del Mac y ejecutándose a velocidad nativa, integrándose completamente con la experiencia del sistema operativo. El software se encuentra en fase alfa bajo desarrollo activo, con compatibilidad variable según la aplicación.",
+  "por_que_importa": "Amplía significativamente el ecosistema de software disponible para usuarios de Mac, permitiendo acceso a aplicaciones Android que de otro modo no estarían disponibles en macOS. Representa un enfoque técnico novedoso que implementa el entorno de Android directamente sobre macOS sin virtualización ni emulación.",
+  "puntos_clave": [
+   "Ejecuta aplicaciones Android como procesos nativos de macOS sin emuladores, máquinas virtuales ni kernel de Linux",
+   "Requiere macOS 26.4 o superior y cualquier Mac con Apple Silicon; ocupa aproximadamente 280 MB más el tamaño de cada aplicación",
+   "Se encuentra en fase alfa con compatibilidad variable; algunas aplicaciones funcionan completamente, otras parcialmente, y algunas aún no son compatibles"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://github.com/kksimp/Mac.apk",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50154624",
+  "score": 283,
+  "comentarios": 151
+ },
+ {
+  "id": "50153630",
+  "slug": "cern-y-mistral-firman-acuerdo-para-desarrollar-ia-aplicada-a-50153630",
+  "fecha": "2026-10-20T04:14:52+00:00",
+  "titulo": "CERN y Mistral firman acuerdo para desarrollar IA aplicada a la física",
+  "resumen": "El laboratorio europeo de física de partículas CERN y la empresa francesa de inteligencia artificial Mistral han establecido una asociación estratégica para crear modelos de fundación destinados al descubrimiento científico. El proyecto inicial se enfoca en desarrollar un modelo de IA para física de colisionadores entrenado con datos de miles de millones de colisiones de protones del Gran Colisionador de Hadrones. La colaboración combina la experiencia de CERN en física fundamental y análisis de datos masivos con la capacidad de Mistral en entrenamiento de modelos de gran escala.",
+  "por_que_importa": "Esta alianza representa un esfuerzo europeo para avanzar en aplicaciones de IA en investigación científica fundamental, buscando resolver desafíos complejos en análisis de colisiones de partículas. El volumen y la precisión de los datos disponibles en CERN ofrecen un entorno único para desarrollar y validar herramientas de IA de nueva generación.",
+  "puntos_clave": [
+   "El modelo de IA será entrenado con datos simulados de colisiones del LHC y podrá realizar múltiples tareas de análisis de partículas",
+   "CERN dispone de aproximadamente un exabyte de datos experimentales, con perspectiva de aumentar diez veces con la próxima fase del acelerador",
+   "La asociación busca generar capacidades de IA aplicables a toda la comunidad científica, no solo a física de altas energías"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+  "fuente_dominio": "home.cern",
+  "hn_url": "https://news.ycombinator.com/item?id=50153630",
+  "score": 323,
+  "comentarios": 57
+ },
+ {
+  "id": "50147233",
+  "slug": "starcraft-ashfall-el-juego-que-prometian-los-anuncios-movile-50147233",
+  "fecha": "2026-10-20T04:14:46+00:00",
+  "titulo": "StarCraft: Ashfall, el juego que prometían los anuncios móviles",
+  "resumen": "Un desarrollador independiente creó StarCraft: Ashfall, un minijuego basado en la franquicia de Blizzard que parodia los anuncios engañosos de aplicaciones móviles. El proyecto surgió como respuesta a la frustración por la ausencia de nuevos títulos oficiales de StarCraft hasta 2030. Se trata de una experiencia jugable con una mano, diseñada para ser accesible incluso a quienes desconocen la serie original.",
+  "por_que_importa": "Ejemplifica cómo los creadores independientes llenan vacíos en franquicias populares cuando no hay lanzamientos oficiales. Genera debate sobre propiedad intelectual, ya que usuarios cuestionan por qué proyectos fan-made de IP conocidas pueden permanecer activos.",
+  "puntos_clave": [
+   "Minijuego desarrollado por un creador independiente que simula los anuncios falsos de juegos móviles",
+   "Diseñado para ser jugable con una mano y accesible para principiantes en la franquicia",
+   "Incluye elementos adicionales como modo sin fin, cinemática promocional y sistema de actualizaciones"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://starcraft-shooter-2026.pages.dev/",
+  "fuente_dominio": "starcraft-shooter-2026.pages.dev",
+  "hn_url": "https://news.ycombinator.com/item?id=50147233",
+  "score": 363,
+  "comentarios": 113
+ },
+ {
   "id": "50150927",
   "slug": "las-alternativas-al-uso-de-animales-en-investigacion-biomedi-50150927",
   "fecha": "2026-10-19T22:10:20+00:00",
