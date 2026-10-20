@@ -1,5 +1,119 @@
 [
  {
+  "id": "50166257",
+  "slug": "investigador-logra-desactivar-333-nodos-de-salida-infectados-50166257",
+  "fecha": "2026-10-20T21:26:07+00:00",
+  "titulo": "Investigador logra desactivar 333 nodos de salida infectados en Tor",
+  "resumen": "Un investigador descubrió que 333 nodos de salida de Tor (aproximadamente el 10% del total) estaban comprometidos por malware Ebury, siendo utilizados para interceptar conexiones SSH y robar credenciales de usuarios. El ataque combinaba dos estrategias: captura de tráfico de correo sin cifrar e interceptación de sesiones SSH mediante servidores intermediarios. Tras reportar los hallazgos al equipo de salud de la red de Tor, los nodos infectados fueron marcados como maliciosos y desactivados en cuestión de días.",
+  "por_que_importa": "La Tor es una red crítica para la privacidad de millones de usuarios; un compromiso de esta magnitud representa una amenaza significativa a la seguridad de las comunicaciones cifradas. El incidente demuestra tanto la vulnerabilidad potencial de infraestructuras distribuidas como la importancia de la detección temprana para mitigar ataques coordinados.",
+  "puntos_clave": [
+   "El malware Ebury 1.8.3 se desplegó en los servidores comprometidos dos meses antes del ataque coordinado",
+   "Los atacantes fueron detectados gracias a las advertencias de SSH sobre cambios de identidad del servidor remoto",
+   "La respuesta fue rápida: en tres días los nodos fueron marcados como maliciosos y la operación se desmanteló"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://kaba.cx/posts/20261020_Tor/",
+  "fuente_dominio": "kaba.cx",
+  "hn_url": "https://news.ycombinator.com/item?id=50166257",
+  "score": 273,
+  "comentarios": 64
+ },
+ {
+  "id": "50165953",
+  "slug": "tsrs-cloudflare-porta-el-compilador-de-typescript-a-rust-50165953",
+  "fecha": "2026-10-20T21:26:00+00:00",
+  "titulo": "Tsrs: Cloudflare porta el compilador de TypeScript a Rust",
+  "resumen": "Cloudflare y VoidZero desarrollan tsrs, una reimplementación del compilador de TypeScript en Rust en colaboración con el equipo de TypeScript. Los primeros resultados muestran mejoras significativas en rendimiento y eficiencia de memoria respecto a la versión original. El proyecto se integra en la cadena de herramientas Oxc y busca hacer que TypeScript sea más rápido sin bifurcar el lenguaje.",
+  "por_que_importa": "La mayor velocidad y menor consumo de memoria permiten acelerar el desarrollo y llevar entornos completos de TypeScript a navegadores y entornos limitados como WebAssembly. Rust ofrece ventajas técnicas específicas para compilación a WebAssembly que Go no proporciona de forma tan eficiente.",
+  "puntos_clave": [
+   "Tsrs alcanza hasta 8 veces más velocidad y consume aproximadamente 70% menos memoria que TypeScript 7.0",
+   "La implementación en Rust se mantiene fiel al lenguaje original sin bifurcarlo ni cambiar su dirección",
+   "Rust permite compilar a WebAssembly sin incluir un recolector de basura, mejorando la eficiencia en navegadores y sandboxes"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://blog.cloudflare.com/typescript-rust-port/",
+  "fuente_dominio": "blog.cloudflare.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50165953",
+  "score": 290,
+  "comentarios": 136
+ },
+ {
+  "id": "50165801",
+  "slug": "investigador-publica-50-000-estadisticas-falsas-que-terminan-50165801",
+  "fecha": "2026-10-20T21:25:56+00:00",
+  "titulo": "Investigador publica 50.000 estadísticas falsas que terminan citadas por ChatGPT",
+  "resumen": "Un investigador creó un sitio web con decenas de miles de datos inventados para estudiar cómo los modelos de lenguaje grandes incorporan información en sus respuestas. Aunque Google desindexó rápidamente el dominio, ChatGPT continuó citando sus números falsos durante meses, generando miles de sesiones de IA. Las cifras fabricadas llegaron a ser incluidas en trabajos académicos y reportes de inversión de instituciones financieras.",
+  "por_que_importa": "Expone una vulnerabilidad crítica en cómo los sistemas de IA generativa validan y propagan información, permitiendo que datos inventados se difundan a través de múltiples capas de confiabilidad. Evidencia que el problema de desinformación puede amplificarse cuando contenido falso se reutiliza y se cita como fuente confiable en contextos profesionales.",
+  "puntos_clave": [
+   "El experimento consistió en generar 50.000 páginas con estadísticas completamente falsas en un dominio nuevo, con costo mínimo",
+   "Google eliminó el sitio de resultados tras actualizaciones, pero ChatGPT siguió citando sus datos durante meses, enviando más de 10.000 sesiones",
+   "El contenido falso fue reproducido por sitios de empresas conocidas y llegó a publicaciones académicas e informes bancarios"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+  "fuente_dominio": "peec.ai",
+  "hn_url": "https://news.ycombinator.com/item?id=50165801",
+  "score": 294,
+  "comentarios": 167
+ },
+ {
+  "id": "50170593",
+  "slug": "permit-pending-un-simulador-de-ciudades-donde-gobernar-requi-50170593",
+  "fecha": "2026-10-20T21:25:50+00:00",
+  "titulo": "Permit Pending: un simulador de ciudades donde gobernar requiere negociación política",
+  "resumen": "Permit Pending es un juego de simulación urbana gratuito que reimagina el género clásico introduciendo restricciones realistas: cada proyecto debe superar audiencias, revisiones y apelaciones. Los jugadores asumen el rol de alcalde electo y deben equilibrar demandas contradictorias de residentes, desarrolladores y grupos de interés. El objetivo no es ganar, sino mantener el cargo lo suficiente para implementar la visión de ciudad deseada.",
+  "por_que_importa": "El juego refleja cómo la democracia y los procesos regulatorios reales limitan la toma de decisiones urbana, algo que los simuladores tradicionales ignoran. Ofrece una perspectiva crítica sobre la complejidad de la política municipal y cómo las reglas acumuladas a lo largo del tiempo generan problemas no intencionados.",
+  "puntos_clave": [
+   "Cada construcción enfrenta trámites: audiencias públicas, apelaciones y demandas que pueden paralizar proyectos durante años.",
+   "Los vecinos no siempre actúan racionalmente; grupos organizados tienen poder desproporcionado en elecciones locales.",
+   "Las soluciones crean nuevos problemas: más vivienda baja renta pero enfurece propietarios; más industria genera empleo pero también contaminación."
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://permit.petercai.com/",
+  "fuente_dominio": "permit.petercai.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50170593",
+  "score": 316,
+  "comentarios": 160
+ },
+ {
+  "id": "50168396",
+  "slug": "voxtral-3-sdk-de-agentes-de-voz-con-modelos-de-lenguaje-en-5-50168396",
+  "fecha": "2026-10-20T21:25:44+00:00",
+  "titulo": "Voxtral 3: SDK de agentes de voz con modelos de lenguaje en 50 idiomas",
+  "resumen": "Mistral presenta Voxtral 3, una familia de modelos de transcripción y síntesis de voz junto con un SDK para crear agentes conversacionales en tiempo real. El sistema integra reconocimiento de voz, razonamiento, integración de herramientas y generación de audio natural en más de 50 idiomas. Está disponible a través de la API alojada en la UE de Mistral o para implementación autónoma, garantizando soberanía de datos.",
+  "por_que_importa": "Resuelve el desafío técnico de crear agentes de voz que escuchen, razonen, interactúen y ejecuten tareas complejas simultáneamente, mejorando aplicaciones en centros de contacto, asistentes virtuales y copilots sin manos. El enfoque en soberanía de datos permite a las organizaciones controlar dónde se procesan los audios y cómo se manejan los datos sensibles.",
+  "puntos_clave": [
+   "Modelos multilingües de transcripción y síntesis de voz con capacidad de adaptación emocional",
+   "SDK integrado que combina escucha, razonamiento, llamadas a herramientas y generación de voz en tiempo real",
+   "Opciones de implementación flexible: API de Mistral o despliegue autónomo en infraestructura propia"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://mistral.ai/news/voxtral-3/",
+  "fuente_dominio": "mistral.ai",
+  "hn_url": "https://news.ycombinator.com/item?id=50168396",
+  "score": 426,
+  "comentarios": 115
+ },
+ {
+  "id": "50166579",
+  "slug": "ocho-certificados-intermedios-de-emudhra-comprometidos-50166579",
+  "fecha": "2026-10-20T21:25:39+00:00",
+  "titulo": "Ocho certificados intermedios de eMudhra comprometidos",
+  "resumen": "Se descubrió que las claves privadas de ocho certificados intermedios de la autoridad certificadora eMudhra fueron comprometidas, afectando a navegadores y sistemas operativos que confían en raíces de Mozilla, Microsoft, Apple y Chrome. Los principales navegadores y sistemas bloquearon estos certificados entre el 17 y 19 de octubre, y se han publicado actualizaciones en múltiples plataformas y herramientas de desarrollo. Un atacante con acceso a estas claves podría suplantar cualquier sitio web, aunque la mayoría de usuarios de navegadores modernos ya están protegidos mediante sistemas automáticos de revocación.",
+  "por_que_importa": "El compromiso de autoridades certificadoras intermedias representa un riesgo crítico de seguridad, ya que permite falsificar certificados SSL de cualquier sitio web. Sin embargo, la respuesta reveló disparidades significativas en protección: mientras navegadores modernos se remedian automáticamente en horas, muchos clientes y sistemas heredados requieren actualizaciones manuales y carecen de mecanismos de revocación.",
+  "puntos_clave": [
+   "Ocho certificados intermedios de eMudhra tuvieron sus claves privadas expuestas, con algunos hallazgos señalando debilidades severas en su generación",
+   "Navegadores principales bloquearon los certificados en menos de 48 horas; distribuidores downstream de confianza liberan actualizaciones de forma gradual",
+   "Sistemas con herramientas modernas de revocación (OneCRL, CRLite) se protegieron automáticamente, mientras otros requieren actualización de software"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://emudhra.we-have-a-problem.com/",
+  "fuente_dominio": "emudhra.we-have-a-problem.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50166579",
+  "score": 472,
+  "comentarios": 257
+ },
+ {
   "id": "50152321",
   "slug": "vulnerabilidades-en-plex-explotadas-para-instalar-minadores-50152321",
   "fecha": "2026-10-20T16:37:43+00:00",
