@@ -1,5 +1,119 @@
 [
  {
+  "id": "50158100",
+  "slug": "instalan-linux-en-laptop-rtx-spark-para-evitar-requisitos-de-50158100",
+  "fecha": "2026-10-20T11:13:03+00:00",
+  "titulo": "Instalan Linux en laptop RTX Spark para evitar requisitos de cuenta Microsoft",
+  "resumen": "Una desarrolladora instaló Arch Linux en una laptop ASUS ProArt con procesador RTX Spark de 128 GB de RAM porque rechazaba los requisitos de Windows. El sistema operativo alternativo mantiene rendimiento comparable al de Windows en pruebas de compresión y acceso a memoria. La instalación requirió patches personalizados para compatibilidad con hardware específico como teclado, audio y firmware.",
+  "por_que_importa": "Demuestra que sistemas Linux pueden funcionar en hardware empresarial de gama alta sin depender de ecosistemas propietarios. Refleja frustraciones crecientes respecto a requisitos de login obligatorio y experiencia de usuario en Windows 11.",
+  "puntos_clave": [
+   "Rendimiento de CPU en 7-Zip solo 1.2% inferior a Windows en la misma arquitectura ARM",
+   "Se necesitaron patches para kernel, driver NVIDIA, audio y controles HID específicos del modelo",
+   "Comentarios cuestionan valor de laptops de US$6K cuando mini-PCs con specs similares cuestan menos y ofrecen mejor portabilidad"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://josie.lol/blog/linux-rtx-spark",
+  "fuente_dominio": "josie.lol",
+  "hn_url": "https://news.ycombinator.com/item?id=50158100",
+  "score": 246,
+  "comentarios": 122
+ },
+ {
+  "id": "50141581",
+  "slug": "nordwand-mono-una-tipografia-monoespaciada-de-codigo-abierto-50141581",
+  "fecha": "2026-10-20T11:12:58+00:00",
+  "titulo": "Nordwand Mono, una tipografía monoespaciada de código abierto para desarrolladores",
+  "resumen": "Se presenta Nordwand Mono, una fuente monoespaciada de código abierto diseñada específicamente para programadores. El proyecto, desarrollado en Python, permite a los usuarios personalizar métricas y características de la tipografía según sus preferencias. La comunidad señala similitudes con otras fuentes populares como JetBrains Mono y Berkeley Mono, aunque reconoce diferencias en el diseño de ciertos caracteres.",
+  "por_que_importa": "Ofrece una alternativa personalizable y gratuita para quienes buscan optimizar su experiencia visual en entornos de desarrollo y terminal. Su estructura modular en Python permite a programadores modificar y compilar versiones personalizadas sin necesidad de herramientas externas.",
+  "puntos_clave": [
+   "Fuente monoespaciada bajo licencia abierta inspirada en Univers y JetBrains Mono",
+   "Permite personalización de métricas y características mediante archivo de configuración",
+   "Incluye ligaduras mínimas y caracteres alternativos para adaptar la visualización"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://github.com/tywr/Nordwand-Mono",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50141581",
+  "score": 297,
+  "comentarios": 94
+ },
+ {
+  "id": "50153664",
+  "slug": "ucrania-realiza-primera-evacuacion-aerea-de-soldado-herido-m-50153664",
+  "fecha": "2026-10-20T11:12:53+00:00",
+  "titulo": "Ucrania realiza primera evacuación aérea de soldado herido mediante dron",
+  "resumen": "La brigada ucraniana 92 compartió un video que documenta la evacuación de un soldado herido desde la línea de combate utilizando un hexacóptero de carga pesada. La operación fue necesaria debido a la intensa actividad de drones enemigos y presencia de minas que hacían imposible usar vehículos convencionales. El incidente refleja cómo la guerra se ha convertido en una carrera tecnológica donde ambos bandos dependen cada vez más de drones para reducir bajas.",
+  "por_que_importa": "Demuestra los avances en tecnología de drones que Ucrania está implementando en operaciones de combate, destacando innovaciones que podrían cambiar tácticas militares convencionales. Ocurre en un momento crítico donde Ucrania enfrenta presiones internacionales para limitar ciertos usos de su tecnología de drones.",
+  "puntos_clave": [
+   "Un soldado herido fue evacuado en un hexacóptero ucraniano diseñado originalmente como bombardero",
+   "Las condiciones del terreno (drones enemigos y minas) hacían inviable la evacuación convencional",
+   "Ucrania ha intensificado innovaciones en drones este año, expandiendo su capacidad operativa"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310",
+  "fuente_dominio": "nbcnews.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50153664",
+  "score": 301,
+  "comentarios": 235
+ },
+ {
+  "id": "50160494",
+  "slug": "openbsd-8-0-llega-con-mejoras-en-multiples-arquitecturas-50160494",
+  "fecha": "2026-10-20T11:12:49+00:00",
+  "titulo": "OpenBSD 8.0 llega con mejoras en múltiples arquitecturas",
+  "resumen": "Se ha lanzado OpenBSD 8.0, la sexagésima primera versión del sistema operativo. La actualización incluye mejoras significativas en diferentes plataformas, como aumento del espacio de direcciones virtuales en amd64, soporte de hibernación en arm64, y optimizaciones en seguridad y rendimiento. También se han introducido mejoras en controladores gráficos, suspensión/hibernación y correcciones de errores en diversas arquitecturas.",
+  "por_que_importa": "OpenBSD es reconocido por su enfoque en seguridad y simplicidad, características que mantienen su relevancia para usuarios que valoran sistemas operativos predecibles y bien documentados. Esta versión continúa la evolución del proyecto con optimizaciones en rendimiento y soporte para nuevas características de hardware.",
+  "puntos_clave": [
+   "Expansión del espacio de direcciones virtuales de 4GB a 512GB en amd64 y mejoras en cifrado de swap",
+   "Nuevo soporte de hibernación en arm64 y mejoras en la arquitectura RISC-V con extensiones vectoriales",
+   "Actualizaciones en controladores gráficos, suspensión/hibernación y correcciones de seguridad en múltiples plataformas"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://www.openbsd.org/80.html",
+  "fuente_dominio": "openbsd.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50160494",
+  "score": 321,
+  "comentarios": 103
+ },
+ {
+  "id": "50163277",
+  "slug": "deepseek-libera-su-motor-de-inferencia-de-codigo-abierto-50163277",
+  "fecha": "2026-10-20T11:12:44+00:00",
+  "titulo": "DeepSeek libera su motor de inferencia de código abierto",
+  "resumen": "DeepSeek ha puesto a disposición pública DeepInfer, el marco de inferencia de alto rendimiento que utiliza en sus servicios de producción. La herramienta incluye optimizaciones de kernels, paralelismo avanzado y soporte para modelos como DeepSeek-V4.1-Flash en hardware NVIDIA y Huawei. La publicación permite a desarrolladores externos acceder a la tecnología de inferencia que respalda operaciones a escala, con capacidades como muestreo determinista y salidas estructuradas.",
+  "por_que_importa": "La apertura de esta tecnología democratiza el acceso a infraestructura de inferencia eficiente que antes era exclusiva de grandes laboratorios, potencialmente alterando el panorama competitivo de servicios de IA. Representa una estrategia diferente en la industria, donde empresas como DeepSeek optan por liberar componentes clave frente a la tendencia de modelos propietarios.",
+  "puntos_clave": [
+   "DeepInfer es el marco de inferencia que DeepSeek utiliza en producción para servir modelos a gran escala",
+   "Soporta optimizaciones específicas, paralelismo múltiple y características como verificación de confianza y planificación asincrónica",
+   "Compatible con GPUs NVIDIA SM100 y procesadores Huawei Ascend 950, disponible bajo licencia de código abierto"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://github.com/deepseek-ai/DeepInfer",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50163277",
+  "score": 366,
+  "comentarios": 123
+ },
+ {
+  "id": "50159341",
+  "slug": "whatsapp-ocultaba-instrucciones-en-sus-paginas-de-ayuda-para-50159341",
+  "fecha": "2026-10-20T11:12:39+00:00",
+  "titulo": "WhatsApp ocultaba instrucciones en sus páginas de ayuda para que la IA no recomendara reguladores",
+  "resumen": "Se descubrió que WhatsApp tenía bloques de texto invisible en 80 páginas de su centro de ayuda con instrucciones dirigidas a su chatbot de soporte. Dos de estos bloques contenían órdenes para que el asistente de IA no recomendara contactar a autoridades de protección de datos cuando usuarios no podían eliminar sus cuentas. WhatsApp atribuyó el problema a un fallo técnico y eliminó el texto oculto tras ser reportado.",
+  "por_que_importa": "Demuestra cómo las instrucciones invisibles pueden modificar las respuestas que reciben los usuarios a través de chatbots de IA, limitando acceso a información sobre derechos de protección de datos. Plantea preocupaciones sobre la transparencia en sistemas de IA y el control de información que entregan estos asistentes.",
+  "puntos_clave": [
+   "Se encontraron 102 bloques de texto oculto en 80 páginas de ayuda, visibles solo para máquinas",
+   "Las instrucciones impedían al chatbot sugerir contactar reguladores en casos de bloqueo de cuenta",
+   "WhatsApp eliminó el contenido oculto tras ser identificado, explicándolo como un error de funcionamiento"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+  "fuente_dominio": "redact.dev",
+  "hn_url": "https://news.ycombinator.com/item?id=50159341",
+  "score": 475,
+  "comentarios": 141
+ },
+ {
   "id": "50156206",
   "slug": "postgresql-revierte-multiples-funciones-tras-detectar-defect-50156206",
   "fecha": "2026-10-20T04:15:18+00:00",
