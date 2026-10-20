@@ -1,5 +1,119 @@
 [
  {
+  "id": "50152321",
+  "slug": "vulnerabilidades-en-plex-explotadas-para-instalar-minadores-50152321",
+  "fecha": "2026-10-20T16:37:43+00:00",
+  "titulo": "Vulnerabilidades en Plex explotadas para instalar minadores de criptomonedas",
+  "resumen": "Vulnerabilidades en Plex Media Server están siendo explotadas activamente en entornos reales para desplegar minadores de criptomonedas en dispositivos comprometidos. Un investigador de seguridad documentó la cadena de vulnerabilidades que permite ejecución remota de código y rastreó varios intentos de explotación provenientes de direcciones IP específicas. Los afectados reportan consumo anómalo de recursos en sus sistemas, aunque algunos atacantes también estarían desplegando otros tipos de malware como nodos para ataques distribuidos.",
+  "por_que_importa": "Plex es un servicio ampliamente utilizado en redes residenciales que podría servir como punto de entrada para comprometer infraestructura corporativa. La explotación activa de estas vulnerabilidades representa una amenaza inmediata para usuarios que no han actualizado su software desde las notificaciones de seguridad publicadas.",
+  "puntos_clave": [
+   "Se encadenaron múltiples CVE para lograr ejecución remota de código en sistemas Plex vulnerables",
+   "Los atacantes utilizan máquinas comprometidas para ejecutar minadores y posibles nodos de botnet",
+   "La explotación se detecta como consumo excesivo de CPU bajo procesos con nombres engañosos como 'mylovelyminer' o 'icloud-services'"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "http://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html",
+  "fuente_dominio": "boredhackerblog.info",
+  "hn_url": "https://news.ycombinator.com/item?id=50152321",
+  "score": 210,
+  "comentarios": 103
+ },
+ {
+  "id": "50159245",
+  "slug": "modelos-de-ia-modificados-pueden-ocultardesde-puertas-traser-50159245",
+  "fecha": "2026-10-20T16:37:38+00:00",
+  "titulo": "Modelos de IA modificados pueden ocultardesde puertas traseras sin detección",
+  "resumen": "Investigadores demostraron que cualquier modelo de lenguaje de código abierto cuyas ponderaciones han sido editadas puede contener puertas traseras maliciosas, incluyendo versiones abliteradas que eliminan las restricciones de seguridad. La prueba de concepto, realizada con un modelo de 7 mil millones de parámetros, logró exfiltrar credenciales de proyectos sin activar alarmas en sistemas de evaluación. El ataque aprovecha frases desencadenantes personalizables y carga útil remota, permitiendo cambiar el comportamiento malicioso después del despliegue sin necesidad de reentrenamiento.",
+  "por_que_importa": "La investigación expone un riesgo crítico en la cadena de suministro de IA: los modelos modificados pueden parecer seguros en las pruebas pero ejecutar código malicioso en producción cuando se activan. La barrera de entrada para crear estos ataques es extremadamente baja, con costos inferiores a 50 dólares, lo que democratiza la capacidad de comprometer sistemas que utilizan modelos abiertos.",
+  "puntos_clave": [
+   "Cualquier modelo de pesos abiertos modificado puede contener puertas traseras, no solo los abliterados",
+   "Las evaluaciones estándar no detectan comportamiento malicioso activado por frases desencadenantes específicas",
+   "El ataque requiere mínimos recursos: una base de modelo, datos públicos y una GPU alquilada"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
+  "fuente_dominio": "projectdiscovery.io",
+  "hn_url": "https://news.ycombinator.com/item?id=50159245",
+  "score": 211,
+  "comentarios": 127
+ },
+ {
+  "id": "50159616",
+  "slug": "francia-expone-miles-de-refrigeradores-de-supermercados-a-at-50159616",
+  "fecha": "2026-10-20T16:37:32+00:00",
+  "titulo": "Francia expone miles de refrigeradores de supermercados a ataques cibernéticos",
+  "resumen": "En octubre de 2026, sistemas de refrigeración de cientos de supermercados franceses fueron hackeados y forzados a modo descongelación, causando pérdidas millonarias. Un análisis previo al ataque reveló que Francia tenía más de mil paneles de control Danfoss accesibles en Internet sin protección, más que el resto del mundo combinado. La mayoría de estos equipos llevaba expuesta al menos seis meses y ejecutaba software con vulnerabilidades conocidas sin parches aplicados.",
+  "por_que_importa": "Demuestra cómo infraestructuras críticas como sistemas de refrigeración comercial permanecen conectadas a Internet sin protección básica, permitiendo ataques de gran escala. Revela una brecha generalizada entre la adopción de tecnología y las prácticas de seguridad, especialmente en el sector retail que opera con sistemas anticuados.",
+  "puntos_clave": [
+   "Francia concentraba el 53% de los paneles de control Danfoss expuestos globalmente, más que todos los demás países juntos",
+   "El 85% de los sistemas ejecutaba software con fallos de seguridad conocidos, incluyendo modelos sin soporte que no recibían actualizaciones",
+   "Más de 400 tiendas fueron afectadas en el ataque, con pérdidas que alcanzaban varios millones de euros"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://ipinfo.io/blog/france-fridges-hack",
+  "fuente_dominio": "ipinfo.io",
+  "hn_url": "https://news.ycombinator.com/item?id=50159616",
+  "score": 223,
+  "comentarios": 203
+ },
+ {
+  "id": "50165208",
+  "slug": "ipados-27-rompe-funcion-esencial-de-presentaciones-en-ipad-50165208",
+  "fecha": "2026-10-20T16:37:25+00:00",
+  "titulo": "iPadOS 27 rompe función esencial de presentaciones en iPad",
+  "resumen": "Apple modificó en iPadOS 27 el comportamiento de las ventanas durante presentaciones por AirPlay, causando que tocar cualquier aplicación que no sea la de presentación muestre toda la pantalla del iPad en la pantalla externa. Este cambio afecta principalmente a educadores y presentadores que necesitan consultar notas o controlar otros elementos sin que la audiencia lo vea. La solución de Apple, que prioriza la aplicación más recientemente tocada, resultó ser peor que el sistema anterior de iPadOS 26.",
+  "por_que_importa": "El cambio impide que profesores y presentadores trabajen de forma discreta con múltiples ventanas mientras proyectan contenido, comprometiendo tanto la privacidad como la experiencia educativa. La regresión en una función crítica de presentación afecta la viabilidad de usar iPad como herramienta profesional en estos contextos.",
+  "puntos_clave": [
+   "Tocar aplicaciones secundarias durante AirPlay ahora expone toda la pantalla del iPad en lugar de mantener solo la presentación visible",
+   "El comportamiento varía entre aplicaciones: GoodNotes vuelve a la vista de presentación, Keynote cierra la presentación, PowerPoint entra en un estado que requiere reiniciar",
+   "El autor propone que las aplicaciones en modo presentador mantengan prioridad en la pantalla externa hasta que se cierre explícitamente la presentación"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+  "fuente_dominio": "teddysvoronos.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50165208",
+  "score": 261,
+  "comentarios": 144
+ },
+ {
+  "id": "50162177",
+  "slug": "microg-alternativa-libre-a-los-servicios-de-google-en-androi-50162177",
+  "fecha": "2026-10-20T16:37:20+00:00",
+  "titulo": "MicroG: alternativa libre a los servicios de Google en Android",
+  "resumen": "MicroG GmsCore es una reimplementación de código abierto de Google Play Services que permite ejecutar aplicaciones en sistemas Android sin componentes propietarios de Google. El proyecto funciona en ROMs basadas en AOSP como LineageOS y actúa como reemplazo gratuito de Google Play Services, priorizando privacidad y eficiencia de recursos. Requiere que el sistema Android soporte suplantación de firma para funcionar correctamente.",
+  "por_que_importa": "Ofrece a usuarios de Android una forma de usar aplicaciones que dependen de APIs de Google sin ejecutar código propietario, recuperando privacidad en dispositivos móviles. Su implementación abierta permite una mayor transparencia sobre cómo se comunican las aplicaciones con los servicios de Google.",
+  "puntos_clave": [
+   "Reimplementación gratuita de Google Play Services bajo licencia Apache 2.0 compatible con ROMs como LineageOS",
+   "Requiere compatibilidad con suplantación de firma en el sistema operativo para funcionar",
+   "Algunos usuarios reportan limitaciones al usar ciertos servicios de pago con algunas aplicaciones"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://github.com/microg/GmsCore/wiki",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50162177",
+  "score": 286,
+  "comentarios": 42
+ },
+ {
+  "id": "50158942",
+  "slug": "como-eliminar-anuncios-de-android-tv-con-aplicaciones-altern-50158942",
+  "fecha": "2026-10-20T16:37:14+00:00",
+  "titulo": "Cómo eliminar anuncios de Android TV con aplicaciones alternativas",
+  "resumen": "Un usuario comparte su configuración para disfrutar de Android TV sin publicidad, reemplazando el lanzador de Google con Projectivy Launcher y usando aplicaciones como SmartTube en lugar de YouTube oficial. La solución incluye herramientas adicionales como Pi-hole para bloquear anuncios a nivel de red y Button Mapper para personalizar el control remoto. El método requiere conexión ADB y es compatible con la mayoría de dispositivos Android TV, aunque también ofrece alternativas para mantener el lanzador original.",
+  "por_que_importa": "Google ha añadido progresivamente más publicidad a la interfaz de Android TV, reduciendo la experiencia del usuario incluso en modo solo aplicaciones. Existen soluciones accesibles para eliminar estos anuncios y personalizar completamente la experiencia sin depender de las decisiones de Google.",
+  "puntos_clave": [
+   "Projectivy Launcher, SmartTube y otras aplicaciones alternativas permiten reemplazar las interfaces oficiales llenas de anuncios",
+   "Pi-hole bloquea anuncios y rastreo a nivel DNS para todos los dispositivos de la red, no solo la televisión",
+   "La configuración se realiza mediante ADB y es compatible con Chromecasts y televisores con Android TV"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://cretezy.com/2026/ad-free-android-tv",
+  "fuente_dominio": "cretezy.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50158942",
+  "score": 344,
+  "comentarios": 153
+ },
+ {
   "id": "50158100",
   "slug": "instalan-linux-en-laptop-rtx-spark-para-evitar-requisitos-de-50158100",
   "fecha": "2026-10-20T11:13:03+00:00",
