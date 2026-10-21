@@ -1,5 +1,119 @@
 [
  {
+  "id": "50168096",
+  "slug": "ikea-presenta-guia-interactiva-en-3d-para-armar-muebles-50168096",
+  "fecha": "2026-10-21T11:28:48+00:00",
+  "titulo": "IKEA presenta guía interactiva en 3D para armar muebles",
+  "resumen": "Un sitio web permite visualizar las instrucciones de montaje de muebles IKEA mediante modelos tridimensionales interactivos. Los usuarios pueden rotar cada paso de la construcción desde diferentes ángulos y navegar a través de la secuencia de armado. La iniciativa incluye manuales para productos como la estantería BILLY y la mesa LACK, con detalles sobre piezas, herrajes y advertencias de seguridad.",
+  "por_que_importa": "Ofrece una alternativa visual a los manuales tradicionales que permite examinar los pasos desde múltiples perspectivas. Aunque algunos usuarios consideran que las instrucciones estándar de IKEA ya son claras, esta herramienta podría resultar útil para quienes encuentran ambigüedades en ciertos pasos del proceso de montaje.",
+  "puntos_clave": [
+   "Los modelos 3D permiten rotar y examinar cada paso de construcción desde distintos ángulos",
+   "Incluye información completa sobre piezas, herrajes y procedimientos de seguridad del producto",
+   "Los comentarios señalan que la precisión del modelo tiene algunas inexactitudes respecto a las instrucciones originales"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://sael.net/flatpack/",
+  "fuente_dominio": "sael.net",
+  "hn_url": "https://news.ycombinator.com/item?id=50168096",
+  "score": 184,
+  "comentarios": 64
+ },
+ {
+  "id": "50174687",
+  "slug": "muse-de-meta-expone-datos-sensibles-al-compartir-conversacio-50174687",
+  "fecha": "2026-10-21T11:28:43+00:00",
+  "titulo": "Muse de Meta expone datos sensibles al compartir conversaciones",
+  "resumen": "Investigadores descubrieron que el agente de IA Muse de Meta permite acceder fácilmente a conversaciones compartidas que contienen información confidencial. La vulnerabilidad radica en el diseño de las URLs de compartición, que utilizan un dominio predecible y nombres de subdominio que pueden ser enumerados mediante búsquedas pasivas de DNS. Meta pausó la función de compartición mientras revisa el problema y evalúa cambios en el sistema.",
+  "por_que_importa": "La falla pone en riesgo datos empresariales y personales sensibles de usuarios que creían estar compartiendo información de forma segura. El incidente evidencia que las medidas de seguridad en servicios de IA requieren mayor rigor, especialmente cuando se trata de funcionalidades de compartición.",
+  "puntos_clave": [
+   "Investigadores encontraron 6.800 enlaces de conversaciones compartidas con información no destinada a ser pública",
+   "El problema surge de un diseño predecible de URLs que permite enumerar enlaces mediante registros DNS pasivos",
+   "Meta suspendió la función de compartición y se comprometió a revisar y modificar cómo se descubren estos enlaces"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+  "fuente_dominio": "arstechnica.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50174687",
+  "score": 202,
+  "comentarios": 94
+ },
+ {
+  "id": "50170917",
+  "slug": "los-academicos-deben-defender-sistemas-abiertos-de-conocimie-50170917",
+  "fecha": "2026-10-21T11:28:38+00:00",
+  "titulo": "Los académicos deben defender sistemas abiertos de conocimiento como Wikipedia",
+  "resumen": "Wikipedia enfrenta amenazas existenciales por parte de empresas de inteligencia artificial que desvían usuarios hacia sus productos, reduciendo el tráfico hacia la enciclopedia colaborativa. Los investigadores universitarios tienen una responsabilidad ética de proteger plataformas abiertas de conocimiento, dado su rol privilegiado en la generación y distribución de información. El declive de Wikipedia afectaría tanto a la humanidad como a la propia industria de IA, que depende de sus contenidos para entrenar sus sistemas.",
+  "por_que_importa": "Wikipedia es el proyecto colaborativo más influyente jamás creado y funciona como bien común independiente de controles comerciales, mientras que su desaparición comprometería una fuente esencial de conocimiento verificado. Las instituciones académicas tienen la capacidad y responsabilidad estructural de intervenir contra las prácticas injustas de grandes tecnológicas que se benefician de Wikipedia sin compensar adecuadamente a sus voluntarios.",
+  "puntos_clave": [
+   "Los usuarios de IA prefieren respuestas directas sobre verificar enlaces a Wikipedia, lo que reduce su audiencia",
+   "Algunas empresas de IA extraen contenido no autorizado de Wikipedia o pagan por acceso a través de APIs",
+   "La academia puede defender Wikipedia mediante citaciones académicas y reconociendo contribuciones a conocimiento abierto"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://blogs.lse.ac.uk/impactofsocialsciences/2026/10/19/academics-have-a-duty-to-defend-open-knowledge-systems-like-wikipedia/",
+  "fuente_dominio": "blogs.lse.ac.uk",
+  "hn_url": "https://news.ycombinator.com/item?id=50170917",
+  "score": 204,
+  "comentarios": 120
+ },
+ {
+  "id": "50173487",
+  "slug": "autoridades-sospechan-que-negociador-de-rescates-dirigia-sit-50173487",
+  "fecha": "2026-10-21T11:28:31+00:00",
+  "titulo": "Autoridades sospechan que negociador de rescates dirigía sitio de extorsión",
+  "resumen": "Investigadores federales estadounidenses han identificado ejecutivos de firmas de negociación de rescates que mantenían vínculos inusuales con ShinyHunters, grupo responsable del robo de datos del FBI. Uno de estos ejecutivos, un canadiense de 54 años, fue arrestado y acusado de amenazar con divulgar datos robados e interferir en el comercio interestatal. Los mensajes incautados sugieren que estos negociadores tenían conocimiento anticipado de nuevas víctimas y ocultaron información sobre el robo de datos del FBI.",
+  "por_que_importa": "Revela un conflicto de intereses potencial en la industria de negociación de rescates, donde ejecutivos podrían beneficiarse coordinando con criminales. El caso expone vulnerabilidades en las agencias federales, incluyendo el reciente compromiso de sistemas del FBI.",
+  "puntos_clave": [
+   "ShinyHunters ha extorsionado más de 70 millones de dólares este año",
+   "El grupo robó datos sensibles del sitio de reclutamiento del FBI incluyendo registros médicos y direcciones",
+   "La detención de un miembro clave permitió acceder a comunicaciones que vinculaban negociadores de rescates con el grupo criminal"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+  "fuente_dominio": "krebsonsecurity.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50173487",
+  "score": 215,
+  "comentarios": 99
+ },
+ {
+  "id": "50177911",
+  "slug": "el-objetivo-de-1-5c-del-acuerdo-de-paris-ya-no-es-alcanzable-50177911",
+  "fecha": "2026-10-21T11:28:26+00:00",
+  "titulo": "El objetivo de 1,5°C del Acuerdo de París ya no es alcanzable",
+  "resumen": "Según el informe de emisiones 2026 del Programa de las Naciones Unidas para el Medio Ambiente, la meta de limitar el calentamiento global a 1,5°C se ha vuelto inalcanzable. El reporte advierte que superar este umbral es ahora inevitable e inminente. El nuevo enfoque es mantener el calentamiento por debajo de 2°C e intentar volver a 1,5°C para finales de siglo.",
+  "por_que_importa": "Cada fracción de grado adicional de calentamiento incrementa el riesgo de cambios irreversibles en sistemas críticos como capas de hielo, permafrost y arrecifes de coral. Las políticas climáticas actuales son insuficientes: los gobiernos proyectan reducciones de emisiones del 5-15% para 2035, muy por debajo del 45% necesario según el informe de la ONU.",
+  "puntos_clave": [
+   "La ventana para evitar el sobrecalentamiento de 1,5°C sin consecuencias graves se cerró hace una década",
+   "Se requieren reducciones de emisiones del 18% para 2030, 45% para 2035 y 69% para 2040 respecto a 2025",
+   "Los compromisos actuales de los países alcanzan solo el 5-8% de reducción para 2030, cifra muy inferior a lo necesario"
+  ],
+  "categoria": "Ciencia",
+  "fuente_url": "https://unric.org/en/unep-emissions-gap-report-2026-1-5-degree-overshoot/",
+  "fuente_dominio": "unric.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50177911",
+  "score": 289,
+  "comentarios": 316
+ },
+ {
+  "id": "50175070",
+  "slug": "las-caracteristicas-css-que-podrian-llegar-en-2027-50175070",
+  "fecha": "2026-10-21T11:28:21+00:00",
+  "titulo": "Las características CSS que podrían llegar en 2027",
+  "resumen": "Mozilla lidera la planificación de Interop 2027, un proyecto colaborativo de navegadores para mejorar la compatibilidad web. Los desarrolladores pueden votar por las características CSS que desean ver implementadas universalmente el próximo año. Entre las propuestas destacan funciones personalizadas en CSS y nuevas opciones de estilos de esquinas como squircles y bevels.",
+  "por_que_importa": "Interop ha demostrado ser efectivo: cuando una tecnología se incluye en el programa, suele alcanzar compatibilidad cercana al 100% en todos los navegadores en menos de un año. La estandarización de estas características facilitaría el desarrollo web y reduciría la necesidad de soluciones alternativas.",
+  "puntos_clave": [
+   "Los navegadores principales colaboran en Interop para cerrar brechas de compatibilidad en tecnologías web",
+   "Se propone agregar funciones CSS personalizadas similares a las de JavaScript, ya disponibles en navegadores basados en Chromium",
+   "La propiedad corner-shape permitiría nuevas formas de esquinas más allá de border-radius, como squircles y bevels"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://www.joshwcomeau.com/css/interop-2027/",
+  "fuente_dominio": "joshwcomeau.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50175070",
+  "score": 406,
+  "comentarios": 165
+ },
+ {
   "id": "50166794",
   "slug": "el-legado-de-bob-cringely-a-traves-de-tres-decadas-de-colabo-50166794",
   "fecha": "2026-10-21T04:03:22+00:00",
@@ -9384,119 +9498,5 @@
   "hn_url": "https://news.ycombinator.com/item?id=49816374",
   "score": 351,
   "comentarios": 213
- },
- {
-  "id": "49815466",
-  "slug": "enfoque-en-soluciones-como-mejorar-analisis-de-incidentes-en-49815466",
-  "fecha": "2026-09-24T11:47:24+00:00",
-  "titulo": "Enfoque en soluciones: cómo mejorar análisis de incidentes en tecnología",
-  "resumen": "Un ejecutivo rechaza conocer los detalles de un incidente técnico, argumentando que ya confía en la competencia del equipo y prefiere enfocarse en qué cambios implementar para evitar problemas similares. El artículo propone que los análisis post-incidente deben priorizar preguntas sobre cambios sistémicos en lugar de solo investigar por qué ocurrió el problema. Las soluciones efectivas requieren modificar procesos y sistemas en lugar de depender de que las personas recuerden lecciones pasadas.",
-  "por_que_importa": "Las organizaciones suelen gastar recursos analizando incidentes sin traducir esos aprendizajes en cambios reales, permitiendo que fallos similares se repitan. Reorientar el análisis hacia soluciones sistémicas genera mejoras duraderas que funcionan independientemente de quién integre el equipo.",
-  "puntos_clave": [
-   "Cambiar el enfoque de análisis de incidentes de \"¿por qué pasó?\" a \"¿qué cambiamos para evitarlo?\"",
-   "Las soluciones basadas en cambios de comportamiento individual tienden a fallar si no se institucionalizan en procesos",
-   "Un buen análisis técnico no garantiza acción; la comprensión detallada puede hacer que el equipo se sienta satisfecho sin implementar mejoras"
-  ],
-  "categoria": "Negocio",
-  "fuente_url": "https://michaelheap.com/i-dont-want-the-details/",
-  "fuente_dominio": "michaelheap.com",
-  "hn_url": "https://news.ycombinator.com/item?id=49815466",
-  "score": 411,
-  "comentarios": 212
- },
- {
-  "id": "49817469",
-  "slug": "restauran-el-reloj-de-la-antigua-estacion-de-policia-de-port-49817469",
-  "fecha": "2026-09-24T11:32:28+00:00",
-  "titulo": "Restauran el reloj de la antigua estación de policía de Portobello",
-  "resumen": "Un grupo de voluntarios logró reparar y sincronizar el mecanismo del reloj de la torre de la estación de policía de Portobello, un edificio histórico de finales del siglo XIX que fue adquirido recientemente por la comunidad. El proceso incluyó identificar el sistema de engranajes que mueve las tres esferas del reloj y accionar un pawl para desconectar el motor y ajustar manualmente la hora. También inspeccionaron el sistema de campanadas, que contiene un circuito microcontrolador de principios de los años 2000 aún funcional.",
-  "por_que_importa": "La iniciativa forma parte de la restauración comunitaria de un edificio histórico de importancia local que ahora es de propiedad pública tras su adquisición mediante fondos de patrimonio. Ejemplifica cómo voluntarios pueden resolver problemas técnicos en estructuras antiguas combinando conocimiento mecánico y paciencia con la historia industrial.",
-  "puntos_clave": [
-   "El reloj original data de 1877 y funciona mediante motores eléctricos conectados a un sistema de engranajes que acciona tres esferas",
-   "El equipo de control de campanadas incorpora un microcontrolador PIC de alrededor de 2001 que sigue operativo",
-   "La reparación requirió acceso a través de escaleras de madera hacia la torre del reloj en el ático del edificio"
-  ],
-  "categoria": "Otros",
-  "fuente_url": "https://pointinthecloud.com/2026-04-11-211700.html",
-  "fuente_dominio": "pointinthecloud.com",
-  "hn_url": "https://news.ycombinator.com/item?id=49817469",
-  "score": 458,
-  "comentarios": 103
- },
- {
-  "id": "49814947",
-  "slug": "claude-code-no-leia-agents-md-sin-telemetria-activada-49814947",
-  "fecha": "2026-09-24T11:32:22+00:00",
-  "titulo": "Claude Code no leía AGENTS.md sin telemetría activada",
-  "resumen": "Claude Code 2.1.277 presentó soporte para leer archivos AGENTS.md como instrucciones de proyecto, pero la funcionalidad dependía de un indicador remoto vinculado al estado de telemetría. Los usuarios que desactivaban la telemetría no podían acceder a este archivo local sin ninguna advertencia del sistema. El problema fue identificado y corregido en la versión 2.1.281 lanzada el mismo día.",
-  "por_que_importa": "Afecta especialmente a equipos conscientes de privacidad que desactivan telemetría o usan servicios externos como Bedrock y Vertex, dejándoles sin una función anunciada como disponible. La falta de notificación sobre el bloqueo hace que los usuarios desconozcan por qué sus instrucciones de proyecto no se cargan.",
-  "puntos_clave": [
-   "La carga de AGENTS.md estaba condicionada a un indicador de características remoto que fallaba cuando se desactivaba la telemetría",
-   "Usuarios sin advertencias recibían respuestas del modelo sin las instrucciones de proyecto esperadas",
-   "La solución temporal requería crear un archivo CLAUDE.md adicional que importara AGENTS.md"
-  ],
-  "categoria": "Programación",
-  "fuente_url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
-  "fuente_dominio": "blog.szypowi.cz",
-  "hn_url": "https://news.ycombinator.com/item?id=49814947",
-  "score": 471,
-  "comentarios": 269
- },
- {
-  "id": "49812769",
-  "slug": "implementar-jev-en-python-clasificacion-con-probabilidades-l-49812769",
-  "fecha": "2026-09-24T11:32:17+00:00",
-  "titulo": "Implementar Jev en Python: clasificación con probabilidades locales",
-  "resumen": "Un desarrollador presenta una implementación simplificada de Jev, un modelo de clasificación que utiliza probabilidades basadas en logits de modelos de lenguaje. El código carga un modelo GGUF, procesa un prompt con opciones predefinidas y calcula las probabilidades de cada categoría de forma local, sin enviar datos a servidores externos. El artículo reconoce ser una parodia sobre las múltiples interpretaciones de Jev que circulan en la comunidad tecnológica.",
-  "por_que_importa": "Muestra un enfoque práctico y accesible para tareas de clasificación con modelos de lenguaje sin depender de APIs externas. Los comentarios destacan limitaciones técnicas importantes en el uso de logits directos con modelos de chat y la proliferación de implementaciones cuestionables de Jev que generan confusión.",
-  "puntos_clave": [
-   "Ejecuta clasificación de texto de forma local sin transferir datos",
-   "Convierte logits en probabilidades calibradas para múltiples opciones",
-   "Los comentarios advierten sobre problemas de dilución de probabilidades en modelos entrenados para prosa"
-  ],
-  "categoria": "IA",
-  "fuente_url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
-  "fuente_dominio": "nobodywho.ai",
-  "hn_url": "https://news.ycombinator.com/item?id=49812769",
-  "score": 654,
-  "comentarios": 204
- },
- {
-  "id": "49820134",
-  "slug": "claude-identifica-un-nuevo-sistema-enzimatico-con-caracteris-49820134",
-  "fecha": "2026-09-24T11:32:12+00:00",
-  "titulo": "Claude identifica un nuevo sistema enzimático con características similares a CRISPR",
-  "resumen": "Anthropic creó un grupo de investigación en biología que utiliza Claude para analizar bases de datos de secuencias de ADN y descubrir nuevas familias de proteínas. En su primer proyecto, el sistema de IA identificó de forma autónoma un novedoso sistema enzimático basado en una transcriptasa inversa, con características que recuerdan a CRISPR. El descubrimiento incluyó la identificación de patrones de repeticiones de ADN no codificante asociados a esta enzima, una combinación de rasgos que solo se había encontrado en sistemas biológicos programables conocidos.",
-  "por_que_importa": "El hallazgo demuestra que los modelos de IA pueden acelerar el descubrimiento científico fundamental en biología, un campo donde identificar nuevos sistemas moleculares puede llevar a innovaciones médicas transformadoras. Sin embargo, la noticia ha generado preocupación sobre la supervisión necesaria en investigación biológica realizada por empresas de IA y sobre la atribución de crédito a investigadores humanos.",
-  "puntos_clave": [
-   "Claude analizó millones de secuencias de ADN en 21 horas mediante 950 agentes para identificar el nuevo sistema enzimático",
-   "El descubrimiento combina una transcriptasa inversa conocida con patrones de repeticiones de ADN nunca antes descritos juntos",
-   "Investigadores como Feng Zhang, pionero de CRISPR, reconocen el potencial de los agentes de IA en descubrimientos biológicos"
-  ],
-  "categoria": "IA",
-  "fuente_url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-  "fuente_dominio": "anthropic.com",
-  "hn_url": "https://news.ycombinator.com/item?id=49820134",
-  "score": 668,
-  "comentarios": 680
- },
- {
-  "id": "49805509",
-  "slug": "openai-presenta-gpt-6-sol-y-luna-con-precios-50-mas-bajos-49805509",
-  "fecha": "2026-09-24T11:32:06+00:00",
-  "titulo": "OpenAI presenta GPT-6 Sol y Luna con precios 50% más bajos",
-  "resumen": "OpenAI lanzó dos nuevos modelos de la familia GPT-6 complementarios a su modelo estrella Astra. Sol y Luna ofrecen mejoras en inteligencia y reducen costos significativamente mediante optimizaciones en caché e inferencia. Los nuevos modelos mantienen avances en trabajo profesional, precisión factual y codificación, pero a un precio accesible para aplicaciones cotidianas.",
-  "por_que_importa": "La reducción de costos del 50% respecto a generaciones anteriores democratiza el acceso a modelos avanzados para más usuarios y empresas. La disponibilidad de opciones a diferentes escalas permite que aplicaciones con presupuestos limitados adopten inteligencia artificial de frontera.",
-  "puntos_clave": [
-   "GPT-6 Sol y Luna cuestan la mitad que sus predecesores de GPT-5.6",
-   "Sol supera a modelos competidores en automatización empresarial con menor costo por tarea",
-   "Luna reduce errores factuales aproximándose al desempeño de Astra a fracción del precio"
-  ],
-  "categoria": "IA",
-  "fuente_url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-  "fuente_dominio": "openai.com",
-  "hn_url": "https://news.ycombinator.com/item?id=49805509",
-  "score": 1751,
-  "comentarios": 831
  }
 ]
