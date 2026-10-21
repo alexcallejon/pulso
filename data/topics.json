@@ -1,5 +1,100 @@
 [
  {
+  "id": "50179828",
+  "slug": "centro-de-ciberseguridad-holandes-desconecta-su-web-por-vuln-50179828",
+  "fecha": "2026-10-21T16:55:45+00:00",
+  "titulo": "Centro de Ciberseguridad holandés desconecta su web por vulnerabilidades en PHP",
+  "resumen": "El Centro Nacional de Ciberseguridad de los Países Bajos (NCSC) desactivó temporalmente su sitio web como medida preventiva ante vulnerabilidades detectadas en PHP. La organización indicó que trabaja en una solución y que ya existen parches disponibles para remediar los fallos. Múltiples sitios de instituciones y servicios en Europa han adoptado medidas similares de desconexión preventiva.",
+  "por_que_importa": "Las vulnerabilidades en PHP afectan a una amplia gama de aplicaciones y sitios web en producción, generando una respuesta de emergencia en organizaciones críticas. La situación refleja el impacto potencial de un fallo en tecnología ampliamente utilizada en infraestructuras digitales.",
+  "puntos_clave": [
+   "El NCSC retiró su web de forma preventiva y ya dispone de información técnica y parches en su repositorio público",
+   "Otros organismos de seguridad europea y múltiples plataformas populares también se desconectaron de manera preventiva",
+   "Se estima que la vulnerabilidad afecta especialmente a aplicaciones desarrolladas en PHP como gestores de contenidos"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://www.ncsc.nl/actueel",
+  "fuente_dominio": "ncsc.nl",
+  "hn_url": "https://news.ycombinator.com/item?id=50179828",
+  "score": 245,
+  "comentarios": 86
+ },
+ {
+  "id": "50180836",
+  "slug": "modelos-de-ia-descubren-vulnerabilidades-criticas-en-php-que-50180836",
+  "fecha": "2026-10-21T16:55:39+00:00",
+  "titulo": "Modelos de IA descubren vulnerabilidades críticas en PHP que afectan al 70% de internet",
+  "resumen": "Investigadores utilizaron inteligencia artificial de frontera para identificar múltiples vulnerabilidades críticas en el núcleo de PHP, lenguaje que potencia la mayoría de sitios web mundiales. Los fallos, presentes durante más de una década, permiten ejecutar código remoto y acceder a datos sensibles en servidores afectados. La complejidad de explotar estas vulnerabilidades se redujo significativamente mediante herramientas de IA, lo que subraya cómo estas tecnologías pueden transformar la evaluación práctica del riesgo de seguridad.",
+  "por_que_importa": "PHP impulsa plataformas fundamentales como WordPress, Drupal y Wikipedia, por lo que vulnerabilidades en su motor central pueden comprometer millones de sitios independientemente de la seguridad de sus aplicaciones. El descubrimiento ilustra cómo los modelos de IA frontera pueden convertir defectos teóricos de larga data en amenazas explotables actualmente.",
+  "puntos_clave": [
+   "Las vulnerabilidades afectan a todas las versiones de PHP desde hace al menos una década, incluidas versiones 5.4 y posteriores.",
+   "Los fallos permiten divulgación de memoria y ejecución remota de código sin autenticación en el motor PHP.",
+   "Múltiples organizaciones incluidas Wiz, Calif y OpenAI utilizaron modelos de IA para descubrir y desarrollar exploits de estas flaws."
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://www.wiz.io/blog/php2shell-php-rce",
+  "fuente_dominio": "wiz.io",
+  "hn_url": "https://news.ycombinator.com/item?id=50180836",
+  "score": 366,
+  "comentarios": 125
+ },
+ {
+  "id": "50181137",
+  "slug": "por-que-no-deberias-depender-de-plataformas-centralizadas-pa-50181137",
+  "fecha": "2026-10-21T16:55:34+00:00",
+  "titulo": "Por qué no deberías depender de plataformas centralizadas para tu activismo",
+  "resumen": "La suspensión temporal de la cuenta de Instagram del movimiento No Kings durante una campaña de votación reavivó el debate sobre la vulnerabilidad de depender de plataformas controladas por terceros. Aunque la causa exacta de la caída sigue siendo incierta, el incidente expone un problema más profundo: los activistas carecen de control sobre sus canales de comunicación. Expertos enfatizan la necesidad de diversificar espacios de organización digital, usar plataformas abiertas y tener planes de contingencia ante posibles bloqueos.",
+  "por_que_importa": "Confiar en redes sociales centralizadas para movilización política o activismo expone a los usuarios a censura, ya sea intencional o accidental, sin recourse legal. La solución requiere herramientas descentralizadas y mayor control individual sobre espacios de expresión para garantizar libertad cognitiva real.",
+  "puntos_clave": [
+   "Las plataformas centralizadas permiten que terceros controlen o interrumpan canales de comunicación críticos para el activismo",
+   "Prepararse incluye mantener comunicación alternativa, usar plataformas abiertas y tener protocolos de respuesta ante suspensiones",
+   "La descentralización y el cifrado son necesarios para recuperar control sobre la propia expresión y datos"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.techdirt.com/2026/10/20/accident-or-not-the-no-kings-takedown-is-why-you-shouldnt-rent-your-megaphone-from-zuck/",
+  "fuente_dominio": "techdirt.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50181137",
+  "score": 375,
+  "comentarios": 290
+ },
+ {
+  "id": "50177916",
+  "slug": "claves-de-autoridad-certificadora-de-emudhra-comprometidas-p-50177916",
+  "fecha": "2026-10-21T16:55:29+00:00",
+  "titulo": "Claves de autoridad certificadora de eMudhra comprometidas por debilidad crítica",
+  "resumen": "Ocho certificados intermedios de eMudhra fueron revocados tras descubrirse que sus claves privadas de curva elíptica P-384 consistían en números de un solo byte, lo que permitía recuperarlas en milisegundos. Los navegadores Chrome y Firefox bloquearon estos certificados de inmediato y Mozilla eliminó la raíz de eMudhra de su almacén. La vulnerabilidad afecta a autoridades de certificación de TLS y firma de código creadas en abril de 2025.",
+  "por_que_importa": "El compromiso pone en riesgo cualquier certificado emitido por estas autoridades desde su creación, sin forma de limitar el acceso a las claves privadas recuperadas. Los dispositivos no actualizables como routers, impresoras y electrodomésticos presentan un desafío particular para mitigar el impacto.",
+  "puntos_clave": [
+   "Las claves privadas eran números simples (4, 56, 115) en lugar de números aleatorios de 384 bits",
+   "Cualquiera podía recuperar las claves analizando los certificados públicos disponibles en segundos",
+   "Afecta a seis autoridades de certificación TLS y dos de firma de código creadas en abril de 2025"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+  "fuente_dominio": "scotthelme.co.uk",
+  "hn_url": "https://news.ycombinator.com/item?id=50177916",
+  "score": 612,
+  "comentarios": 269
+ },
+ {
+  "id": "50180873",
+  "slug": "php-8-2-35-corrige-vulnerabilidades-criticas-de-ejecucion-re-50180873",
+  "fecha": "2026-10-21T16:55:25+00:00",
+  "titulo": "PHP 8.2.35 corrige vulnerabilidades críticas de ejecución remota",
+  "resumen": "Se lanzó la versión 8.2.35 de PHP para reparar dos vulnerabilidades críticas que permiten la ejecución remota de código sin autenticación. Los desarrolladores recomiendan actualizar de inmediato, ya que no existen mitigaciones alternativas. PHP 8.2 dejará de recibir actualizaciones de seguridad el 31 de diciembre de 2026.",
+  "por_que_importa": "Las vulnerabilidades afectan a aplicaciones en producción y requieren actualización urgente para evitar compromisos de seguridad. El lanzamiento fue coordinado entre múltiples organizaciones de seguridad para minimizar el riesgo de explotación durante la divulgación.",
+  "puntos_clave": [
+   "Se corrigen dos vulnerabilidades críticas de ejecución remota de código",
+   "No hay soluciones alternativas; la actualización es obligatoria",
+   "PHP 8.2 alcanzará fin de vida el 31 de diciembre de 2026"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50180873",
+  "score": 672,
+  "comentarios": 267
+ },
+ {
   "id": "50168096",
   "slug": "ikea-presenta-guia-interactiva-en-3d-para-armar-muebles-50168096",
   "fecha": "2026-10-21T11:28:48+00:00",
@@ -9403,100 +9498,5 @@
   "hn_url": "https://news.ycombinator.com/item?id=49825642",
   "score": 315,
   "comentarios": 380
- },
- {
-  "id": "49817404",
-  "slug": "gpt-6-astra-completa-una-ruta-de-conduccion-en-pruebas-de-be-49817404",
-  "fecha": "2026-09-24T11:47:54+00:00",
-  "titulo": "GPT-6 Astra completa una ruta de conducción en pruebas de benchmark",
-  "resumen": "Un modelo de lenguaje consiguió completar un circuito de conducción en una prueba de rendimiento, superando significativamente a otros modelos como Claude y Grok. Los resultados muestran capacidades avanzadas en visión por computadora y razonamiento espacial. Sin embargo, expertos señalan limitaciones críticas para su aplicación en conducción real, principalmente relacionadas con la latencia.",
-  "por_que_importa": "Demuestra avances en la integración de visión y control de sistemas por parte de modelos de lenguaje grandes. Plantea interrogantes sobre el futuro de los sistemas de conducción autónoma convencionales frente a enfoques basados en inteligencia artificial generativa.",
-  "puntos_clave": [
-   "GPT-6 Astra logró completar la ruta en su segundo intento, mientras que otros modelos solo alcanzaron porcentajes mucho menores de progreso",
-   "Los especialistas destacan que la latencia en entrega en la nube hace inviable esta aproximación para conducción real",
-   "El desempeño sugiere que un único modelo de visión podría reemplazar arquitecturas complejas de conducción autónoma en el futuro"
-  ],
-  "categoria": "IA",
-  "fuente_url": "https://drivingbench.com/",
-  "fuente_dominio": "drivingbench.com",
-  "hn_url": "https://news.ycombinator.com/item?id=49817404",
-  "score": 292,
-  "comentarios": 228
- },
- {
-  "id": "49824686",
-  "slug": "gobierno-estadounidense-acusa-a-criticos-de-ia-de-actuar-com-49824686",
-  "fecha": "2026-09-24T11:47:50+00:00",
-  "titulo": "Gobierno estadounidense acusa a críticos de IA de actuar como agentes extranjeros",
-  "resumen": "La administración Trump ha vinculado la oposición pública a centros de datos de IA con influencia china, amenazando con responsabilidad criminal a quienes avancen objetivos de potencias extranjeras. El Departamento de Justicia advirtió que cualquier actividad pública, incluyendo manifestaciones, que promueva los intereses de gobiernos externos requiere notificación formal al gobierno. El presidente y legisladores republicanos han identificado a críticos de la infraestructura de IA como conspiradores traidores, citando como evidencia a un empresario tecnológico basado en Shanghái.",
-  "por_que_importa": "La acusación plantea preocupaciones sobre libertades democráticas fundamentales, permitiendo al gobierno clasificar la disidencia tecnológica como traición. Los comentarios sugieren que existen críticas legítimas sobre IA independientemente de cualquier influencia extranjera, cuestionando la justificación de estas medidas.",
-  "puntos_clave": [
-   "Trump vinculó públicamente la oposición a IA con conspiración china y amenazó con consecuencias legales",
-   "El DOJ requiere notificación formal de ciudadanos que participen en actividades públicas favoreciendo intereses extranjeros",
-   "Legisladores republicanos investigaron a activistas y organizaciones sin fines de lucro por presunta influencia del gobierno chino"
-  ],
-  "categoria": "Negocio",
-  "fuente_url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
-  "fuente_dominio": "kenklippenstein.com",
-  "hn_url": "https://news.ycombinator.com/item?id=49824686",
-  "score": 301,
-  "comentarios": 314
- },
- {
-  "id": "49813482",
-  "slug": "el-costo-de-usar-modelos-de-lenguaje-se-reduce-drasticamente-49813482",
-  "fecha": "2026-09-24T11:47:44+00:00",
-  "titulo": "El costo de usar modelos de lenguaje se reduce drásticamente y podría volverse negligible",
-  "resumen": "El precio de procesar tokens mediante inteligencia artificial está bajando varios órdenes de magnitud anualmente, sin signos de desaceleración. Los modelos de lenguaje se integrarán progresivamente como infraestructura en todos los sistemas computacionales en los próximos años. Los límites del uso de IA pasarán de ser la capacidad de procesamiento a factores como la calidad y el acceso.",
-  "por_que_importa": "Esta tendencia de abaratamiento transformará cómo se desarrolla y despliega software, permitiendo que capacidades avanzadas estén disponibles de forma ubicua. Sin embargo, genera interrogantes sobre la viabilidad financiera de los modelos de negocio actuales, considerando las inversiones masivas en infraestructura que requieren retorno.",
-  "puntos_clave": [
-   "La eficiencia de los procesadores gráficos se duplica aproximadamente cada dos años, comparable al crecimiento histórico de la Ley de Moore.",
-   "El costo por tarea completada disminuye significativamente, aunque el precio por token individual se mantiene relativamente estable.",
-   "Modelos de menor escala podrían ejecutarse en hardware convencional con calidad similar a las versiones actuales de frontera en 3 a 6 años."
-  ],
-  "categoria": "IA",
-  "fuente_url": "https://jyn.dev/tokens-too-cheap-to-meter/",
-  "fuente_dominio": "jyn.dev",
-  "hn_url": "https://news.ycombinator.com/item?id=49813482",
-  "score": 311,
-  "comentarios": 211
- },
- {
-  "id": "49817615",
-  "slug": "google-presenta-nuevos-modelos-de-sintesis-de-voz-en-gemini-49817615",
-  "fecha": "2026-09-24T11:47:39+00:00",
-  "titulo": "Google presenta nuevos modelos de síntesis de voz en Gemini 3.8",
-  "resumen": "Google ha lanzado dos nuevos modelos de conversión de texto a voz dentro de la familia Gemini: el Flash TTS, diseñado para crear voces personalizadas desde cero con control detallado, y el Flash-Lite TTS, optimizado para producción a gran escala. Los usuarios pueden generar voces originales mediante indicaciones en lenguaje natural, replicar perfiles vocales existentes a partir de muestras de audio, e incluye medidas de seguridad como marcas de agua. Estos modelos estarán disponibles en Google AI Studio, la API de Gemini, Gemini Enterprise, Gemini Notebook y Google Vids.",
-  "por_que_importa": "Amplía significativamente las capacidades de generación de audio creativo para desarrolladores y empresas, permitiendo producir contenido de audiobooks, podcasts y agentes de voz sin depender de voces pregrabadas. Representa un paso en la democratización de herramientas de síntesis de voz expresiva, aunque usuarios señalan inconsistencias en la disponibilidad y capacidades entre plataformas de Google.",
-  "puntos_clave": [
-   "Dos modelos: Flash TTS para creatividad y control detallado; Flash-Lite TTS para producción a escala",
-   "Capacidad de crear voces desde cero o replicarlas desde muestras de 30 segundos, con soporte en más de 100 idiomas y dialectos",
-   "Incluye herramientas de seguridad como verificación de consentimiento, marca de agua SynthID y credenciales C2PA"
-  ],
-  "categoria": "IA",
-  "fuente_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
-  "fuente_dominio": "blog.google",
-  "hn_url": "https://news.ycombinator.com/item?id=49817615",
-  "score": 313,
-  "comentarios": 139
- },
- {
-  "id": "49816374",
-  "slug": "seattle-prohibe-los-precios-personalizados-en-la-venta-de-al-49816374",
-  "fecha": "2026-09-24T11:47:33+00:00",
-  "titulo": "Seattle prohíbe los precios personalizados en la venta de alimentos",
-  "resumen": "El Consejo Municipal de Seattle aprobó una ley que prohibe el uso de datos personales para establecer precios diferenciados en productos de primera necesidad como alimentos. La medida, la primera de este tipo a nivel municipal en Estados Unidos, impide que minoristas utilicen información sobre historial de navegación, ubicación, ingresos o condiciones de salud para modificar el precio que ve cada consumidor. La iniciativa requiere mayor transparencia en descuentos y limita la creación de perfiles de consumidores, y ahora espera la firma del alcalde.",
-  "por_que_importa": "Los estudios documentados revelan que plataformas como Instacart aplicaban diferencias de precio de hasta el 23% para los mismos productos en el mismo momento, afectando significativamente el gasto familiar. Esta regulación pionera podría servir de modelo para otras ciudades y estados interesados en frenar prácticas de discriminación de precios basadas en vigilancia de datos.",
-  "puntos_clave": [
-   "Prohibe ajustar precios según datos personales como ingresos, ubicación o historial de navegación",
-   "Permite descuentos pero exige mayor transparencia y limita la creación de perfiles de consumidores",
-   "Otros estados como Maryland, Connecticut y Nueva Jersey ya tienen leyes similares"
-  ],
-  "categoria": "Negocio",
-  "fuente_url": "https://advocacy.consumerreports.org/press_release/seattle-city-council-votes-to-ban-surveillance-pricing-in-sale-of-groceries/",
-  "fuente_dominio": "advocacy.consumerreports.org",
-  "hn_url": "https://news.ycombinator.com/item?id=49816374",
-  "score": 351,
-  "comentarios": 213
  }
 ]
