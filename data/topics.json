@@ -1,5 +1,119 @@
 [
  {
+  "id": "50198675",
+  "slug": "openshell-entorno-seguro-de-nvidia-para-agentes-de-ia-autono-50198675",
+  "fecha": "2026-10-22T21:22:43+00:00",
+  "titulo": "OpenShell: entorno seguro de NVIDIA para agentes de IA autónomos",
+  "resumen": "NVIDIA presentó OpenShell, un entorno de ejecución diseñado para controlar y limitar los permisos de agentes de IA autónomos. El sistema utiliza aislamiento a nivel de kernel y verificación formal para asegurar que los agentes solo accedan a los recursos autorizados mediante políticas predefinidas. OpenShell permite que los agentes realicen tareas complejas como acceder a archivos y APIs sin comprometer la seguridad de datos y credenciales.",
+  "por_que_importa": "A medida que los agentes de IA autónomos ganan capacidades, controlar sus permisos es crítico para evitar accesos no autorizados a datos sensibles. Esta solución aborda una brecha de seguridad que las propias empresas de IA no han resuelto adecuadamente.",
+  "puntos_clave": [
+   "Implementa sandboxes con control de kernel que supervisan acceso a archivos, llamadas del sistema y conexiones de red",
+   "Utiliza verificación formal para revisar cambios de políticas antes de aplicarlos y evitar riesgos de seguridad",
+   "Disponible en Linux, macOS con Apple Silicon y Windows con WSL 2, compatible con Docker y Podman"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://github.com/NVIDIA/OpenShell",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50198675",
+  "score": 192,
+  "comentarios": 97
+ },
+ {
+  "id": "50176082",
+  "slug": "por-que-no-se-puede-confiar-en-las-puntuaciones-de-confianza-50176082",
+  "fecha": "2026-10-22T21:22:38+00:00",
+  "titulo": "Por qué no se puede confiar en las puntuaciones de confianza de los LLM",
+  "resumen": "Un artículo cuestiona la fiabilidad de las puntuaciones de confianza generadas directamente por modelos de lenguaje, argumentando que carecen de base probabilística real. Explica que la confianza verdadera debe estar calibrada: cuando se afirma un nivel de certeza, ese resultado debe ocurrir en la misma proporción de casos. Los LLM no son entrenados explícitamente para este tipo de calibración y simplemente generan números sin garantía de precisión estadística.",
+  "por_que_importa": "Muchos diseñadores de agentes basados en IA utilizan estas puntuaciones de confianza sin validación, lo que puede llevar a decisiones incorrectas basadas en números no confiables. Es fundamental entender que la confianza requiere un proceso de validación riguroso sobre múltiples casos, no una generación arbitraria de valores.",
+  "puntos_clave": [
+   "La confianza debe ser calibrada: si se dice 70% de certeza, debe ocurrir en aproximadamente el 70% de los casos similares",
+   "Los LLM generan números de confianza sin ser entrenados específicamente para mantener calibración estadística",
+   "Descomponer problemas en múltiples dimensiones con escalas más simples y aplicar puntuación ponderada es más efectivo que pedir directamente un porcentaje"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
+  "fuente_dominio": "rumple.github.io",
+  "hn_url": "https://news.ycombinator.com/item?id=50176082",
+  "score": 195,
+  "comentarios": 97
+ },
+ {
+  "id": "50194070",
+  "slug": "amazon-detecto-intentos-de-explotacion-de-php2shell-antes-de-50194070",
+  "fecha": "2026-10-22T21:22:21+00:00",
+  "titulo": "Amazon detectó intentos de explotación de PHP2Shell antes de su divulgación pública",
+  "resumen": "Amazon identificó mediante inteligencia de amenazas intentos de explotación de PHP2Shell el 17 de octubre de 2026, cuatro días antes de la divulgación pública de las vulnerabilidades CVE-2026-109618 y CVE-2026-109619. Los intentos provenían de direcciones IP anonimizadas, lo que sugiere participación de actores de amenaza, aunque permanece incierto cómo obtuvieron información sobre el exploit antes de su revelación. Tras levantarse el embargo, múltiples pruebas de concepto y nuevos intentos de explotación aparecieron en cuestión de horas, indicando que PHP2Shell está siendo explotado ampliamente.",
+  "por_que_importa": "El descubrimiento revela que el tiempo entre la divulgación de un parche y la explotación activa se está reduciendo debido a herramientas impulsadas por inteligencia artificial, lo que obliga a los equipos de seguridad a replantear sus cronogramas de parcheo y respuesta. Demuestra que los periodos de embargo solo protegen a los defensores hasta que otros encuentran la misma vulnerabilidad de forma independiente.",
+  "puntos_clave": [
+   "Explotación confirmada cuatro días antes de la divulgación oficial, proveniente de infraestructuras anonimizadas",
+   "Múltiples actores de amenaza utilizaron variaciones de payload y diferentes redes de anonimización tras el levantamiento del embargo",
+   "Amazon recomienda cambiar métricas de parche a escala de horas en lugar de días para vulnerabilidades críticas en sistemas accesibles desde internet"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+  "fuente_dominio": "aws.amazon.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50194070",
+  "score": 244,
+  "comentarios": 88
+ },
+ {
+  "id": "50196718",
+  "slug": "ejecutan-ios-16-5-completo-en-dispositivos-android-mediante-50196718",
+  "fecha": "2026-10-22T21:22:15+00:00",
+  "titulo": "Ejecutan iOS 16.5 completo en dispositivos Android mediante kernel XNU",
+  "resumen": "Un proyecto de investigación logra arrancar el kernel de código abierto XNU de Apple (utilizado en iOS 16.5) en hardware Android, específicamente en el POCO X5 Pro 5G y mediante emulación en QEMU. El sistema funciona sin necesidad de flashear el dispositivo y permite ejecutar aplicaciones nativas de iOS como Configuración, Calendario, Fotos y Safari. Se trata de un entorno de demostración temporal que devuelve el control al cargador tras un período de tiempo determinado.",
+  "por_que_importa": "Demuestra la viabilidad técnica de portar componentes críticos del sistema operativo de Apple a arquitecturas diferentes, lo que tiene implicaciones para la investigación en compatibilidad de sistemas operativos. Genera debate sobre la capacidad de ejecutar sistemas operativos alternativos en dispositivos móviles y las libertades de usuario que esto implica.",
+  "puntos_clave": [
+   "Funciona en POCO X5 Pro 5G y QEMU sin requerir modificaciones permanentes del dispositivo",
+   "Soporta funcionalidades básicas como pantalla de bloqueo, aplicaciones nativas y conexión Wi-Fi, aunque faltan características como celular y Bluetooth",
+   "Es un proyecto de investigación independiente con duración limitada por sesión, no un sistema operativo operativo permanente"
+  ],
+  "categoria": "Hardware",
+  "fuente_url": "https://github.com/oosexgang/hackios-xnu-kernel",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50196718",
+  "score": 246,
+  "comentarios": 83
+ },
+ {
+  "id": "50194833",
+  "slug": "mujer-enfrenta-seis-anos-de-prision-por-cuenta-cash-app-que-50194833",
+  "fecha": "2026-10-22T21:22:10+00:00",
+  "titulo": "Mujer enfrenta seis años de prisión por cuenta Cash App que nunca abrió",
+  "resumen": "Una mujer de Pensilvania fue arrestada por fraude relacionado con una cuenta Cash App creada fraudulentamente a su nombre, aunque nunca la utilizó ni autorizó su creación. Un estafador utilizó su número de seguro social y fecha de nacimiento para abrir la cuenta y recibir $1,000 en un esquema de suplantación en Facebook Marketplace. Aunque existen discrepancias claras (dirección diferente, accesos desde conexiones Verizon cuando ella usa AT&T), las autoridades la acusan de fraude informático, uso ilegal de dispositivo de comunicación y robo de propiedad.",
+  "por_que_importa": "El caso evidencia vulnerabilidades críticas en cómo las plataformas de pago y autoridades manejan el fraude de identidad digital, permitiendo que inocentes enfrenten penas severas. Refleja un problema sistémico donde la carga de la prueba recae sobre la víctima y los acusados enfrentan presión para aceptar acuerdos de culpabilidad incluso siendo inocentes.",
+  "puntos_clave": [
+   "La cuenta fue creada con datos personales de Smith pero nunca bajo su control",
+   "Autoridades ofrecieron un acuerdo que incluye multa, restitución y tres años de libertad condicional, que ella rechazó",
+   "Existen pruebas técnicas que contradicen que ella operara la cuenta, como ubicaciones y proveedores de internet diferentes"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html",
+  "fuente_dominio": "techspot.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50194833",
+  "score": 286,
+  "comentarios": 282
+ },
+ {
+  "id": "50195543",
+  "slug": "vigilancia-de-incidentes-de-seguridad-activos-40-vulnerabili-50195543",
+  "fecha": "2026-10-22T21:22:01+00:00",
+  "titulo": "Vigilancia de incidentes de seguridad activos: 40 vulnerabilidades sin resolver completamente",
+  "resumen": "Un sitio de monitoreo de seguridad registra actualmente 40 incidentes activos, de los cuales 19 son críticos y la mayoría aún no cuenta con parches disponibles. Entre los casos destacados figuran una falla de inyección SQL en sistemas de Arista, la detección de agentes de IA no autorizados en bancos estadounidenses, y vulnerabilidades de ejecución remota de código en GitLab. Los comentarios subrayan una tasa acelerada de descubrimiento de vulnerabilidades y expresan preocupación sobre cómo los sistemas de IA están generando nuevas superficies de ataque.",
+  "por_que_importa": "El volumen y la severidad de incidentes sin resolver representan un riesgo significativo para infraestructuras críticas y servicios financieros. La confluencia entre agentes de IA y sistemas bancarios evidencia un desafío emergente en seguridad que las instituciones aún no saben gestionar completamente.",
+  "puntos_clave": [
+   "De 40 incidentes activos, 19 son críticos y 21 aún carecen de parche completo",
+   "Bancos detectan agentes de IA usando credenciales de clientes sin mecanismos claros de identificación",
+   "Expertos alertan que la generación actual de modelos de lenguaje está acelerando la tasa de incidentes de seguridad"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://pwn.watch/",
+  "fuente_dominio": "pwn.watch",
+  "hn_url": "https://news.ycombinator.com/item?id=50195543",
+  "score": 300,
+  "comentarios": 141
+ },
+ {
   "id": "50193804",
   "slug": "vulnerabilidades-criticas-del-kernel-linux-divulgadas-accide-50193804",
   "fecha": "2026-10-22T16:55:45+00:00",
@@ -9384,119 +9498,5 @@
   "hn_url": "https://news.ycombinator.com/item?id=49848269",
   "score": 193,
   "comentarios": 52
- },
- {
-  "id": "49845133",
-  "slug": "factorio-crea-modelos-fisicos-imprimibles-de-su-juego-49845133",
-  "fecha": "2026-09-25T21:20:00+00:00",
-  "titulo": "Factorio crea modelos físicos imprimibles de su juego",
-  "resumen": "El equipo de desarrollo de Factorio diseñó y produjo modelos tridimensionales imprimibles basados en elementos del juego, partiendo de una idea surgida durante un evento de pruebas del DLC Space Age. Tras meses de prototipado, iteración y ajustes de precisión, lograron finalizar 15 conjuntos de modelos con un total de 65 piezas individuales en distintos formatos. Los modelos incluyen cintas transportadoras, enemigos, muebles y otros elementos del juego temprano, disponibles en dos versiones según el nivel de precisión requerido.",
-  "por_que_importa": "Representa un esfuerzo único de un estudio de desarrollo por trasladar su juego al mundo físico, demostrando la dedicación del equipo hacia su comunidad. Permite a los jugadores interactuar de forma tangible con elementos icónicos de Factorio más allá del entorno digital.",
-  "puntos_clave": [
-   "Los modelos surgieron de un evento de playtesting del DLC Space Age en colaboración con Prusa Research",
-   "El proyecto incluye 65 modelos en 247 archivos STL, enfocados en la etapa temprana del juego",
-   "Cada modelo fue desarrollado en dos versiones: una con precisión para encaje sin adhesivo y otra con holgura para pegado permanente"
-  ],
-  "categoria": "Negocio",
-  "fuente_url": "https://factorio.com/blog/post/fff-447",
-  "fuente_dominio": "factorio.com",
-  "hn_url": "https://news.ycombinator.com/item?id=49845133",
-  "score": 272,
-  "comentarios": 81
- },
- {
-  "id": "49845977",
-  "slug": "tribunal-estadounidense-mantiene-el-veto-del-pentagono-a-ant-49845977",
-  "fecha": "2026-09-25T21:19:54+00:00",
-  "titulo": "Tribunal estadounidense mantiene el veto del Pentágono a Anthropic",
-  "resumen": "Una corte federal de apelaciones en Washington confirmó la decisión del Departamento de Defensa de clasificar a Anthropic como riesgo de cadena de suministro, bloqueando el uso de sus modelos de inteligencia artificial por parte del ejército y contratistas de defensa. La sentencia rechazó los argumentos de la empresa de que la prohibición era arbitraria e inconstitucional. Anthropic manifestó su desacuerdo y señaló que otro tribunal federal ya había declarado ilegal una designación paralela del gobierno.",
-  "por_que_importa": "La decisión limita significativamente el acceso de Anthropic al mercado de defensa estadounidense y marca un precedente sobre cómo se pueden aplicar designaciones de seguridad nacional contra empresas privadas de tecnología. El caso refleja tensiones más amplias entre la administración Trump y Anthropic respecto al desarrollo y control de modelos de inteligencia artificial.",
-  "puntos_clave": [
-   "La corte de apelaciones confirmó que el Pentágono tenía justificación para considerar a Anthropic un riesgo de seguridad nacional",
-   "El veto impide que militares y contratistas de defensa usen los modelos de Claude de Anthropic",
-   "Un tribunal de San Francisco ya había declarado ilegal una de las dos designaciones que fundamentan la decisión"
-  ],
-  "categoria": "Negocio",
-  "fuente_url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
-  "fuente_dominio": "cnbc.com",
-  "hn_url": "https://news.ycombinator.com/item?id=49845977",
-  "score": 308,
-  "comentarios": 498
- },
- {
-  "id": "49843174",
-  "slug": "git-bug-rastreador-de-errores-distribuido-e-integrado-en-rep-49843174",
-  "fecha": "2026-09-25T16:55:32+00:00",
-  "titulo": "Git-bug: rastreador de errores distribuido e integrado en repositorios Git",
-  "resumen": "Git-bug es una herramienta que convierte los repositorios Git en rastreadores de errores descentralizados, permitiendo gestionar problemas sin depender de servicios externos. Funciona completamente sin conexión y se sincroniza entre equipos mediante los mismos mecanismos de colaboración que se usan para código. El proyecto ofrece múltiples interfaces de usuario (línea de comandos, terminal interactiva y web) y puede integrarse con otros rastreadores mediante puentes.",
-  "por_que_importa": "Elimina la dependencia de plataformas externas y reduce el riesgo de pérdida de datos al almacenar todo en el repositorio local. Facilita la colaboración offline y permite trabajar con errores usando las mismas herramientas y flujos que ya se emplean para gestionar código.",
-  "puntos_clave": [
-   "Funciona completamente embebido en Git y no requiere servicios adicionales",
-   "Permite sincronizar errores entre equipos mediante push y pull, igual que con código",
-   "Ofrece múltiples interfaces (CLI, terminal interactiva, web) y acceso vía GraphQL API"
-  ],
-  "categoria": "Programación",
-  "fuente_url": "https://github.com/git-bug/git-bug",
-  "fuente_dominio": "github.com",
-  "hn_url": "https://news.ycombinator.com/item?id=49843174",
-  "score": 177,
-  "comentarios": 50
- },
- {
-  "id": "49841285",
-  "slug": "mac-mini-m6-emula-pentium-ii-a-600mhz-con-precision-de-hardw-49841285",
-  "fecha": "2026-09-25T16:55:27+00:00",
-  "titulo": "Mac Mini M6 emula Pentium II a 600MHz con precisión de hardware",
-  "resumen": "Un análisis técnico demuestra que el Mac Mini M6 puede emular un ordenador retro con procesador Pentium II a 600MHz utilizando 86Box, un emulador que replica el comportamiento de hardware antiguo a nivel de chipset, buses y periféricos. El rendimiento depende casi exclusivamente del desempeño de un único núcleo, donde Apple Silicon destaca especialmente. La actualización de 86Box 6.0 incluyó mejoras en la emulación de CPU en arquitecturas ARM y un compilador optimizado para la tarjeta gráfica Voodoo 3.",
-  "por_que_importa": "La capacidad de emular sistemas retro con alta fidelidad permite preservar software histórico y experiencias informáticas antiguas en hardware moderno. El resultado evidencia cómo el diseño de Apple Silicon, enfocado en núcleos muy rápidos, se adapta mejor a tareas que requieren máximo desempeño monohilo.",
-  "puntos_clave": [
-   "86Box emula hardware a nivel de chipset, buses y periféricos para reproducir fidedignamente sistemas antiguos",
-   "El rendimiento depende del desempeño de un único núcleo, no del número total de núcleos disponibles",
-   "La versión 6.0 de 86Box optimizó la emulación de CPU en ARM e incorporó un recompilador para gráficos Voodoo 3"
-  ],
-  "categoria": "Hardware",
-  "fuente_url": "https://nyaa.sh/reviews/mac-mini-m6-emulation",
-  "fuente_dominio": "nyaa.sh",
-  "hn_url": "https://news.ycombinator.com/item?id=49841285",
-  "score": 189,
-  "comentarios": 85
- },
- {
-  "id": "49843269",
-  "slug": "go-1-26-y-1-27-incorporan-apis-experimentales-para-operacion-49843269",
-  "fecha": "2026-09-25T16:55:22+00:00",
-  "titulo": "Go 1.26 y 1.27 incorporan APIs experimentales para operaciones SIMD",
-  "resumen": "Las nuevas versiones de Go introducen interfaces de programación para acceder a operaciones SIMD (instrucciones múltiples sobre datos múltiples), una capacidad nativa de procesadores modernos que acelera tareas computacionales intensivas. Mientras Go 1.26 añadió soporte para arquitecturas amd64, la versión 1.27 expandió el alcance a arm64, WebAssembly y presentó una interfaz portable agnóstica a la arquitectura. Esta aproximación busca permitir código de alto rendimiento sin depender de ensamblador, con emulación para plataformas sin SIMD nativo.",
-  "por_que_importa": "Hasta ahora, acceder a SIMD desde Go requería escribir ensamblador, limitando su uso a kernels críticos y dejando capacidades de procesamiento sin explotar en muchas aplicaciones. Un ejemplo práctico muestra que SIMD portable es aproximadamente cinco veces más rápido que código sin SIMD, con un costo de rendimiento mínimo respecto a variantes no portables.",
-  "puntos_clave": [
-   "Interfaz portable SIMD agnóstica a arquitectura complementa APIs específicas para amd64, arm64 y WebAssembly",
-   "Soporta AVX/AVX2/AVX512 en amd64, NEON en arm64, e incluye emulación para plataformas sin SIMD nativo",
-   "Aborda variaciones arquitectónicas significativas en tamaños vectoriales, manejo de máscaras y operaciones disponibles"
-  ],
-  "categoria": "Programación",
-  "fuente_url": "https://go.dev/blog/simd-experiment",
-  "fuente_dominio": "go.dev",
-  "hn_url": "https://news.ycombinator.com/item?id=49843269",
-  "score": 199,
-  "comentarios": 75
- },
- {
-  "id": "49839664",
-  "slug": "rails-pierde-protagonismo-en-la-estrategia-de-su-creador-49839664",
-  "fecha": "2026-09-25T16:55:16+00:00",
-  "titulo": "Rails pierde protagonismo en la estrategia de su creador",
-  "resumen": "David Heinemeier Hansson, creador de Ruby on Rails, presentó en la conferencia Rails World 2026 una visión donde los modelos de lenguaje generativo reemplazan la codificación manual, reduciendo la importancia de Rails. La empresa 37signals está reescribiendo su aplicación Hey usando aplicaciones nativas y Rust en lugar del stack Rails tradicional, argumentando que las limitaciones tecnológicas ya no existen. Hansson señala que la generación de código por IA será dominante en todas las empresas antes de fin de año, reposicionando Rails como una herramienta para aplicaciones web específicas.",
-  "por_que_importa": "Rails ha sido durante dos décadas el marco de referencia para que equipos pequeños crearan productos ambiciosos; su desplazamiento indica un cambio fundamental en cómo se concibe el desarrollo de software. La postura de Hansson sobre depender de código generado sin revisión humana genera debate sobre la viabilidad y riesgos de esta estrategia en la industria.",
-  "puntos_clave": [
-   "Hansson propone que los LLMs generen código sin necesidad de que los desarrolladores lo lean",
-   "Ruby representa apenas el 3% del trabajo anual de Hansson, frente al 50% histórico",
-   "37signals abandona Rails para Hey, usando aplicaciones nativas y Rust en su lugar"
-  ],
-  "categoria": "Programación",
-  "fuente_url": "https://jardo.dev/what-about-rails",
-  "fuente_dominio": "jardo.dev",
-  "hn_url": "https://news.ycombinator.com/item?id=49839664",
-  "score": 202,
-  "comentarios": 126
  }
 ]
