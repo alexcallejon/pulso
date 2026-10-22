@@ -1,5 +1,119 @@
 [
  {
+  "id": "50162044",
+  "slug": "descubren-dos-especies-de-marsupiales-que-se-creian-extintas-50162044",
+  "fecha": "2026-10-22T11:28:56+00:00",
+  "titulo": "Descubren dos especies de marsupiales que se creían extintas en Nueva Guinea",
+  "resumen": "Científicos han localizado en las selvas remotas de Papúa Occidental dos especies de marsupiales que se presumían desaparecidas hace 6.000 años: una pequeña zarigüeya con un dedo anormalmente largo y un planeador de cola anillada. El hallazgo fue posible gracias al análisis de fósiles antiguos, fotografías y especímenes históricos, además de la colaboración con ancianos locales de las comunidades Tambrauw y Maybrat. Los expertos denominan estos descubrimientos como «lazarus taxon» y los califican de «notables» por tratarse de dos especies redescubiertas simultáneamente.",
+  "por_que_importa": "El redescubrimiento de especies consideradas extintas es extremadamente raro, y encontrar dos al mismo tiempo representa un hito científico significativo. El rol fundamental de los conocimientos tradicionales de las poblaciones locales en la identificación de estas especies subraya la importancia de integrar saberes indígenas en la investigación científica.",
+  "puntos_clave": [
+   "La zarigüeya posee un cuarto dedo de cada mano el doble de largo, que utiliza para extraer larvas de insectos xilófagos",
+   "El planeador de cola anillada habita en oquedades de árboles altos y es considerado sagrado por las comunidades locales",
+   "El descubrimiento fue publicado en la revista Records of the Australian Museum tras años de investigación con fósiles y testimonios locales"
+  ],
+  "categoria": "Ciencia",
+  "fuente_url": "https://www.bbc.com/news/articles/cp814l80pw2o",
+  "fuente_dominio": "bbc.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50162044",
+  "score": 227,
+  "comentarios": 51
+ },
+ {
+  "id": "50190363",
+  "slug": "entrenan-modelo-de-lenguaje-de-360m-parametros-para-simular-50190363",
+  "fecha": "2026-10-22T11:28:51+00:00",
+  "titulo": "Entrenan modelo de lenguaje de 360M parámetros para simular un terminal",
+  "resumen": "Un desarrollador ajustó un modelo de lenguaje basado en Qwen2.5-Coder para que funcione como un terminal, prediciendo cómo cambia la pantalla con cada pulsación de tecla sin ejecutar un shell real. El modelo fue entrenado con sesiones de terminal grabadas en Docker y puede realizar operaciones como crear archivos, ejecutar vim o jugar a snake. La demostración funciona en navegadores de escritorio con WebGPU y permite experimentar directamente con la interfaz.",
+  "por_que_importa": "Demuestra que es posible entrenar modelos de lenguaje para simular sistemas complejos sin necesidad de infraestructura masiva de GPU. Abre nuevas posibilidades sobre cómo los modelos pueden aprender a mantener entornos virtuales consistentes más allá de solo generar texto convincente.",
+  "puntos_clave": [
+   "El modelo predice cambios en una grilla de caracteres en lugar de generar flujo de texto continuo",
+   "Fue entrenado con datos de sesiones reales de terminal capturadas en contenedores Docker",
+   "Incluye optimizaciones como operaciones de copia de filas para reducir tokens necesarios por pulsación"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://simedw.com/2026/10/21/world-model-terminal/",
+  "fuente_dominio": "simedw.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50190363",
+  "score": 262,
+  "comentarios": 82
+ },
+ {
+  "id": "50180079",
+  "slug": "modelos-de-openai-llegan-a-google-cloud-a-traves-de-acuerdo-50180079",
+  "fecha": "2026-10-22T11:28:46+00:00",
+  "titulo": "Modelos de OpenAI llegan a Google Cloud a través de acuerdo estratégico",
+  "resumen": "OpenAI y Google Cloud establecen una alianza para integrar los modelos avanzados de OpenAI y sus flujos de trabajo con Codex en el Model Garden de Google Cloud. Los clientes empresariales podrán acceder a estos modelos dentro de su entorno habitual, con opciones de compra a través del Google Cloud Marketplace y compatibilidad con compromisos de gasto existentes. La disponibilidad general está prevista para las próximas semanas.",
+  "por_que_importa": "La integración amplía las opciones disponibles para empresas que desarrollan aplicaciones con IA, permitiendo elegir el modelo más adecuado según cada tarea. Para organizaciones en sectores regulados, la solución combina los modelos de OpenAI con los controles de acceso y gobernanza de datos que proporciona Google Cloud.",
+  "puntos_clave": [
+   "Los modelos frontera de OpenAI se integran en el Model Garden de Google Cloud con acceso nativo",
+   "Las empresas pueden utilizar sus compromisos de gasto en GCP para adquirir modelos de OpenAI",
+   "La solución incluye controles de acceso y gobernanza de datos para cumplimiento normativo"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://openai.com/index/openai-models-google-cloud/",
+  "fuente_dominio": "openai.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50180079",
+  "score": 296,
+  "comentarios": 122
+ },
+ {
+  "id": "50186010",
+  "slug": "google-publica-guia-de-estilo-para-rust-con-recomendaciones-50186010",
+  "fecha": "2026-10-22T11:28:41+00:00",
+  "titulo": "Google publica guía de estilo para Rust con recomendaciones de diseño",
+  "resumen": "Google ha lanzado una guía de estilo integral para el lenguaje Rust que abarca desde normas de formato hasta decisiones de diseño de APIs. El documento, aplicable en proyectos como Android, Chromium y Fuchsia, busca establecer consistencia y estándares de calidad en el uso de Rust dentro de la empresa. La guía cubre organización del código, manejo de memoria, concurrencia, tipado y otras características del lenguaje.",
+  "por_que_importa": "Proporciona criterios unificados para equipos que trabajan con Rust en múltiples proyectos de Google, mejorando la mantenibilidad y legibilidad del código. Algunas recomendaciones generan debate en la comunidad, como el uso obligatorio de enums sobre booleanos y la aplicación de atributos de no exhaustividad en enumeraciones públicas.",
+  "puntos_clave": [
+   "Cubre organización del código, APIs, diseño, concurrencia y características específicas de Rust",
+   "Será adoptada de forma variable según cada proyecto (Android, Chromium, Fuchsia, Chrome)",
+   "Prioriza legibilidad y mantenibilidad sobre facilidad de escritura"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://google.github.io/styleguide/rustguide.html",
+  "fuente_dominio": "google.github.io",
+  "hn_url": "https://news.ycombinator.com/item?id=50186010",
+  "score": 322,
+  "comentarios": 193
+ },
+ {
+  "id": "50161346",
+  "slug": "apple-abandona-los-iconos-en-todos-los-menus-tras-reconocer-50161346",
+  "fecha": "2026-10-22T11:28:37+00:00",
+  "titulo": "Apple abandona los iconos en todos los menús tras reconocer el error de diseño",
+  "resumen": "Apple revertió su decisión de incluir iconos por defecto en cada elemento de menú, una práctica que introdujo en macOS Tahoe pero eliminó en Golden Gate. La compañía reconoció públicamente en sus nuevas directrices de interfaz que el enfoque anterior era incorrecto, contradiciendo su propia orientación de hace dos décadas. Este cambio sirve como ejemplo de cómo los desarrolladores pueden aprender de sus errores al vivir con las decisiones durante cierto tiempo.",
+  "por_que_importa": "El caso ilustra la importancia de cuestionar decisiones de diseño establecidas y de aprender de la experiencia práctica en lugar de asumir que las nuevas prácticas son mejores. Además, evidencia que incluso empresas líderes en tecnología cometen errores y necesitan revisar sus propias directrices históricas.",
+  "puntos_clave": [
+   "Apple eliminó iconos obligatorios en menús tras reconocer que Tahoe fue un error de diseño",
+   "Las nuevas directrices de interfaz mencionan explícitamente el enfoque anterior como ejemplo de lo que no debe hacerse",
+   "El cambio demuestra que la experiencia práctica es más valiosa que evitar hacer algo que nunca se intentó"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://blog.jim-nielsen.com/2026/icons-in-every-menu/",
+  "fuente_dominio": "blog.jim-nielsen.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50161346",
+  "score": 340,
+  "comentarios": 208
+ },
+ {
+  "id": "50173716",
+  "slug": "pingcap-sufre-brecha-de-seguridad-con-10-6-tb-de-datos-exfil-50173716",
+  "fecha": "2026-10-22T11:28:32+00:00",
+  "titulo": "PingCAP sufre brecha de seguridad con 10.6 TB de datos exfiltrados",
+  "resumen": "PingCAP, empresa proveedora de la base de datos TiDB Cloud, fue víctima de una brecha de seguridad que comprometió aproximadamente 10.6 terabytes de información sensible. Los atacantes lograron acceder a datos de 180,000 organizaciones clientes, incluyendo credenciales de API, consultas SQL y registros de conexiones durante casi dos meses sin ser detectados. Según reportes, los responsables utilizaron credenciales encontradas en repositorios para configurar un sistema de replicación automática que exportaba información cada seis horas.",
+  "por_que_importa": "PingCAP ofrece servicios de base de datos en la nube a bancos, estudios de videojuegos y plataformas de comercio electrónico que confían en la seguridad de sus servidores; una brecha de esta magnitud expone a múltiples empresas críticas a riesgos de seguridad. Los comentarios señalan que la respuesta oficial de la compañía minimiza el incidente a pesar de evidencia clara de acceso prolongado y exfiltración sistemática de datos.",
+  "puntos_clave": [
+   "Se extrajeron credenciales de API en texto plano, registros completos de usuarios y 20 millones de consultas SQL de clientes",
+   "El acceso no autorizado ocurrió durante 22 días consecutivos con 88 exportaciones automáticas sin generar alertas de detección",
+   "La compañía aparentemente tenía visibilidad limitada sobre sus propios servicios en la nube y credenciales comprometidas almacenadas en repositorios accesibles"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://fulcrumsec.vg/pingcap/",
+  "fuente_dominio": "fulcrumsec.vg",
+  "hn_url": "https://news.ycombinator.com/item?id=50173716",
+  "score": 363,
+  "comentarios": 59
+ },
+ {
   "id": "50188948",
   "slug": "la-vulnerabilidad-php-es-menos-explotable-de-lo-que-parece-50188948",
   "fecha": "2026-10-22T04:03:48+00:00",
@@ -9384,119 +9498,5 @@
   "hn_url": "https://news.ycombinator.com/item?id=49836374",
   "score": 287,
   "comentarios": 147
- },
- {
-  "id": "49836419",
-  "slug": "california-apunta-a-los-billonarios-cuando-la-riqueza-real-e-49836419",
-  "fecha": "2026-09-25T04:17:41+00:00",
-  "titulo": "California apunta a los billonarios cuando la riqueza real está en la tierra",
-  "resumen": "California busca gravar a los multimillonarios con un impuesto del 5% para recaudar $20 mil millones anuales, pero el análisis del Center for Land Economics muestra que el estado posee aproximadamente $8,14 billones en valor de tierra, una base fiscal inmóvil y significativamente mayor. El impuesto sobre la riqueza fallará porque los billonarios pueden mudarse, mientras que la tierra no puede abandonar el estado. Un impuesto a la tierra del 0,25% recaudaría la misma cantidad sin riesgo de evasión.",
-  "por_que_importa": "Revela que California persigue una base fiscal móvil cuando dispone de activos territoriales enormes y no escapables. Plantea una alternativa de política fiscal que no incentiva la reubicación de contribuyentes.",
-  "puntos_clave": [
-   "La tierra de California vale $8,14 billones, ocho veces más que la base billonaria gravable",
-   "Ya seis billonarios se han reubicado antes de que entrara en vigor el impuesto a la riqueza",
-   "Un impuesto a la tierra del 0,25% recaudaría los $20 mil millones sin posibilidad de evasión"
-  ],
-  "categoria": "Negocio",
-  "fuente_url": "https://blog.landeconomics.org/p/california-is-chasing-wealth-that",
-  "fuente_dominio": "blog.landeconomics.org",
-  "hn_url": "https://news.ycombinator.com/item?id=49836419",
-  "score": 179,
-  "comentarios": 504
- },
- {
-  "id": "49800085",
-  "slug": "fearless-simd-v1-0-abstraccion-segura-para-operaciones-vecto-49800085",
-  "fecha": "2026-09-25T04:17:36+00:00",
-  "titulo": "Fearless SIMD v1.0: abstracción segura para operaciones vectoriales en Rust",
-  "resumen": "Se lanzó la versión 1.0 de Fearless SIMD, una librería que permite usar instrucciones vectoriales en Rust sin código inseguro, tras ocho años de desarrollo. La herramienta combina rendimiento optimizado, seguridad de memoria garantizada y facilidad de uso mediante macros que simplifican la optimización entre plataformas. Desarrolladores ya la utilizan en proyectos como FFT y búsqueda de patrones de bytes, logrando ejecutar código en Rust estable que antes requería versiones experimentales.",
-  "por_que_importa": "SIMD es crucial para aplicaciones de alto rendimiento, pero tradicionalmente requería código inseguro y complejo. Esta solución elimina esa barrera al proporcionar seguridad verificada sin sacrificar velocidad, permitiendo que más desarrolladores accedan a optimizaciones vectoriales de forma confiable.",
-  "puntos_clave": [
-   "Eliminó el uso de código inseguro en operaciones SIMD mediante el macro kernel! y un módulo de transmute seguro",
-   "Ofrece flexibilidad: autovectorización, abstracción portátil o acceso directo a intrinsics sin sobrecarga",
-   "Incluye macro #[simd] que simplifica la multiversión de funciones sin requerir anotaciones manuales complejas"
-  ],
-  "categoria": "Programación",
-  "fuente_url": "https://linebender.org/blog/fearless-simd-1-0/",
-  "fuente_dominio": "linebender.org",
-  "hn_url": "https://news.ycombinator.com/item?id=49800085",
-  "score": 212,
-  "comentarios": 32
- },
- {
-  "id": "49833867",
-  "slug": "whiteboard-ide-de-codigo-abierto-para-diseno-de-software-con-49833867",
-  "fecha": "2026-09-25T04:17:31+00:00",
-  "titulo": "Whiteboard: IDE de código abierto para diseño de software con agentes IA",
-  "resumen": "Whiteboard es una aplicación de escritorio de código abierto que permite a humanos y agentes de IA colaborar en la arquitectura de software mediante un lienzo visual común. La herramienta se integra con modelos como Claude y GPT, ofreciendo visualizaciones interactivas como diagramas de secuencia y vistas de diferencias semánticas que conectan directamente con el código. El proyecto está disponible para macOS y Fedora, y busca mejorar la comunicación visual entre desarrolladores y agentes de IA durante el proceso de diseño.",
-  "por_que_importa": "Aborda la brecha entre la planificación de arquitectura de software y su implementación, proporcionando un espacio de trabajo visual que facilita la iteración colaborativa con agentes de IA. Representa un enfoque innovador para aprovechar herramientas de IA en tareas de diseño, donde la visualización y el contexto son críticos para tomar mejores decisiones técnicas.",
-  "puntos_clave": [
-   "Permite colaboración visual entre desarrolladores y agentes IA mediante diagramas interactivos",
-   "Incluye visor de diferencias sensible a la sintaxis AST para enfocarse en cambios relevantes",
-   "Se integra con agentes existentes como Claude Code y Codex mediante SDK"
-  ],
-  "categoria": "Programación",
-  "fuente_url": "https://github.com/devdotfast/whiteboard",
-  "fuente_dominio": "github.com",
-  "hn_url": "https://news.ycombinator.com/item?id=49833867",
-  "score": 232,
-  "comentarios": 87
- },
- {
-  "id": "49805344",
-  "slug": "explorar-ciudades-antiguas-en-google-street-view-se-conviert-49805344",
-  "fecha": "2026-09-25T04:17:25+00:00",
-  "titulo": "Explorar ciudades antiguas en Google Street View se convierte en pasatiempo viral",
-  "resumen": "Un usuario comparte su afición de navegar por Street View en ciudades como Tokio, observando detalles arquitectónicos y personajes congelados en el tiempo. La plataforma permite retroceder años atrás para ver cómo han evolucionado los barrios, transformando imágenes satelitales en narrativas sobre vidas reales. Un ejemplo llamó la atención: un automóvil que permaneció en el mismo lugar durante 17 años según los registros, aunque posteriormente fue removido.",
-  "por_que_importa": "Destaca una forma creativa de consumir tecnología cartográfica enfocada en la contemplación y la nostalgia, alejada de su propósito original de navegación. Muestra cómo herramientas digitales pueden convertirse en ventanas para reflexionar sobre el paso del tiempo y la impermanencia en espacios urbanos reales.",
-  "puntos_clave": [
-   "Google Street View permite retroceder décadas en el tiempo para observar cambios urbanos",
-   "Tokio destaca como lugar favorito por su densidad de detalles arquitectónicos y callejuelas",
-   "El archivo histórico actúa como cápsula del tiempo de lugares que desaparecen o se transforman"
-  ],
-  "categoria": "Otros",
-  "fuente_url": "https://ahmedhossamdev.com/writing/my-weird-new-hobby-wandering-around-tokyo/",
-  "fuente_dominio": "ahmedhossamdev.com",
-  "hn_url": "https://news.ycombinator.com/item?id=49805344",
-  "score": 255,
-  "comentarios": 108
- },
- {
-  "id": "49823568",
-  "slug": "toyota-prepara-una-version-electrica-del-corolla-para-2028-49823568",
-  "fecha": "2026-09-25T04:17:20+00:00",
-  "titulo": "Toyota prepara una versión eléctrica del Corolla para 2028",
-  "resumen": "Toyota presentará una nueva generación del Corolla que incluirá versiones eléctricas, híbridas enchufables e híbridas convencionales, además de motores de gasolina. El modelo se espera para 2027 como versión 2028, con un rediseño completo que incluye plataforma renovada e interior tecnológico. La compañía aún no ha confirmado si el Corolla eléctrico llegará al mercado estadounidense, aunque se estima que los precios oscilarán entre 25.000 y 30.000 dólares según el tipo de propulsión.",
-  "por_que_importa": "El Corolla es el automóvil más vendido de la historia con más de 57 millones de unidades, por lo que su transición hacia la electrificación representa un cambio significativo en la estrategia de Toyota. La decisión refleja la presión competitiva que enfrenta la industria automotriz ante nuevas tecnologías y competencia global.",
-  "puntos_clave": [
-   "Se ofrecerán múltiples opciones de propulsión: gasolina, híbrida, híbrida enchufable y eléctrica pura",
-   "El Corolla eléctrico tendrá configuraciones de uno y dos motores con autonomía mínima de 250 millas",
-   "El debut está previsto para 2027 como modelo 2028, con disponibilidad en EE.UU. aún sin confirmar"
-  ],
-  "categoria": "Negocio",
-  "fuente_url": "https://electrek.co/2026/09/23/toyota-best-selling-corolla-electric/",
-  "fuente_dominio": "electrek.co",
-  "hn_url": "https://news.ycombinator.com/item?id=49823568",
-  "score": 264,
-  "comentarios": 436
- },
- {
-  "id": "49829960",
-  "slug": "fallo-de-actualizacion-inutiliza-refrigeradores-inteligentes-49829960",
-  "fecha": "2026-09-25T04:17:15+00:00",
-  "titulo": "Fallo de actualización inutiliza refrigeradores inteligentes Samsung en Corea",
-  "resumen": "Un error durante una actualización de firmware dejó sin funcionar varios refrigeradores inteligentes Samsung de la línea Bespoke AI, principalmente modelos de cuatro puertas de 2024 en adelante. Los aparatos perdieron potencia tras intentar instalar la actualización a través de la plataforma SmartThings, lo que causó pérdida de alimentos en múltiples hogares. El problema se limitó a Corea del Sur y ocurrió el 22 de septiembre durante pruebas internas de Samsung.",
-  "por_que_importa": "El incidente afectó a cientos de clientes durante Chuseok, una festividad coreana importante centrada en la gastronomía, agravando las molestias. Expone los riesgos de integrar sistemas inteligentes con funciones críticas como la refrigeración, donde fallos de software pueden destruir alimentos y generar pérdidas significativas.",
-  "puntos_clave": [
-   "El fallo afectó principalmente refrigeradores Samsung Bespoke AI de 2024 o posteriores en Corea",
-   "Samsung activó un protocolo de emergencia y se disculpó, aunque no especificó el número exacto de equipos afectados ni medidas preventivas",
-   "Usuarios reportaron largos tiempos de espera para reparaciones y cuestionaron la necesidad de refrigeradores conectados"
-  ],
-  "categoria": "Hardware",
-  "fuente_url": "https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges/",
-  "fuente_dominio": "arstechnica.com",
-  "hn_url": "https://news.ycombinator.com/item?id=49829960",
-  "score": 279,
-  "comentarios": 285
  }
 ]
