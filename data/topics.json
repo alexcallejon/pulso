@@ -1,5 +1,119 @@
 [
  {
+  "id": "50193804",
+  "slug": "vulnerabilidades-criticas-del-kernel-linux-divulgadas-accide-50193804",
+  "fecha": "2026-10-22T16:55:45+00:00",
+  "titulo": "Vulnerabilidades críticas del kernel Linux divulgadas accidentalmente en lista pública",
+  "resumen": "Múltiples reportes de seguridad del kernel Linux fueron enviados por error a la lista de correo pública en lugar de al canal privado de seguridad, revelando vulnerabilidades con puntuaciones de severidad de hasta 9.0. Los reportes, provenientes de Trend Micro's Zero Day Initiative, incluyen fallos en SMB Direct, KSMBD y otros componentes del kernel que permiten ejecución remota de código y escalada de privilegios. Algunos de estos problemas ya contaban con parches en desarrollo o pruebas, aunque aún no se han integrado en la versión principal del kernel.",
+  "por_que_importa": "La exposición pública de estos reportes acelera potencialmente el riesgo de explotación antes de que se implementen correcciones generalizadas. La severidad de las vulnerabilidades, especialmente las de puntuación 9.0, afecta componentes críticos del kernel utilizados en sistemas de producción.",
+  "puntos_clave": [
+   "Seis vulnerabilidades diferentes fueron divulgadas públicamente, algunas con puntuaciones CVSS de 9.0",
+   "Los fallos afectan SMB Direct, KSMBD, código de red y controladores de gráficos, permitiendo ejecución remota y escalada de privilegios",
+   "Algunos parches ya estaban en testing o en ramas de desarrollo previo a la divulgación accidental"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
+  "fuente_dominio": "phoronix.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50193804",
+  "score": 203,
+  "comentarios": 63
+ },
+ {
+  "id": "50191507",
+  "slug": "openai-lanza-herramienta-cli-oficial-para-acceder-a-su-api-50191507",
+  "fecha": "2026-10-22T16:55:39+00:00",
+  "titulo": "OpenAI lanza herramienta CLI oficial para acceder a su API",
+  "resumen": "OpenAI ha publicado una interfaz de línea de comandos oficial que permite interactuar con su API REST de forma directa. La herramienta sigue una estructura basada en recursos y requiere credenciales de API para funcionar. Se puede instalar mediante Homebrew o Go, y está diseñada para usuarios técnicos que necesitan acceso de bajo nivel a los servicios de OpenAI.",
+  "por_que_importa": "Proporciona a desarrolladores una alternativa nativa y oficial para integrar los servicios de OpenAI sin depender de herramientas de terceros. Complementa otras soluciones de OpenAI al ofrecer un acceso más directo y granular a la API para casos de uso específicos.",
+  "puntos_clave": [
+   "Se instala mediante Homebrew o Go, con requisitos mínimos de versión establecidos",
+   "Utiliza estructura de comandos basada en recursos que requiere autenticación mediante clave API",
+   "Incluye notificaciones automáticas de actualizaciones, deshabilitables mediante variable de entorno"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://github.com/openai/openai-cli",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50191507",
+  "score": 210,
+  "comentarios": 100
+ },
+ {
+  "id": "50153531",
+  "slug": "la-programacion-se-vuelve-moldeable-con-la-codificacion-impu-50153531",
+  "fecha": "2026-10-22T16:55:35+00:00",
+  "titulo": "La programación se vuelve moldeable con la codificación impulsada por agentes",
+  "resumen": "Un desarrollador reflexiona sobre cómo las herramientas de codificación basadas en agentes han transformado el trabajo con código, reduciendo drásticamente el costo de realizar cambios y permitiendo iteraciones rápidas. Compara este cambio con pasar de trabajar con piedra (difícil de modificar) a trabajar con arcilla (fácil de remodelar). Emergen dos enfoques: el del artesano que permanece en el bucle de decisiones y el de la fábrica que automatiza el proceso.",
+  "por_que_importa": "Esta transformación afecta fundamentalmente cómo se desarrolla software, comprimiendo ciclos completos de producto e ingeniería en tiempos mucho más cortos. El criterio humano sigue siendo crítico para evitar que el código se deteriore, por lo que la pregunta central es cómo equilibrar la automatización con el juicio técnico.",
+  "puntos_clave": [
+   "Las herramientas de codificación con agentes hacen que modificar código sea casi sin costo, permitiendo prototipado y refinamiento iterativo rápido",
+   "El éxito depende del juicio humano aplicado en cada iteración, no solo de delegar completamente a la IA",
+   "Surgen dos modelos: artesanos que mantienen control total del proceso y fábricas que buscan automatizar sistemáticamente"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://www.albertodenia.com/writing/code-is-clay-now",
+  "fuente_dominio": "albertodenia.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50153531",
+  "score": 235,
+  "comentarios": 155
+ },
+ {
+  "id": "50195959",
+  "slug": "quad9-abandona-francia-tras-sentencia-sobre-bloqueo-de-domin-50195959",
+  "fecha": "2026-10-22T16:55:30+00:00",
+  "titulo": "Quad9 abandona Francia tras sentencia sobre bloqueo de dominios",
+  "resumen": "El servicio de resolución DNS Quad9 se retirará de Francia a partir del 24 de noviembre tras una sentencia judicial que le ordena bloquear ciertos dominios. La corte francesa rechazó los argumentos de Quad9 sobre la neutralidad técnica del servicio DNS, aunque redujo la multa diaria de 580.000 a 1.000 euros. La fundación suiza argumenta que cumplir la orden es técnicamente incompatible con su misión de proteger la privacidad y que el bloqueo debe dirigirse a la fuente del contenido, no a terceros neutrales.",
+  "por_que_importa": "Esta decisión afecta a usuarios franceses que pierden una alternativa de protección de ciberseguridad compatible con la privacidad europea. El caso refleja una creciente tendencia de tribunales europeos a ordenar a proveedores de servicios DNS que actúen como árbitros de contenido, con implicaciones para la estabilidad de Internet.",
+  "puntos_clave": [
+   "Quad9 deja de operar en Francia por imposibilidad de cumplir fallo que ordena bloquear dominios sin identificar usuarios",
+   "Empresa suiza sin ánimo de lucro considera la sentencia contraria a principios fundamentales de Internet y su misión de protección",
+   "Otros proveedores como Google y Cloudflare ya han acatado órdenes similares en Francia relacionadas con piratería de derechos deportivos"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://quad9.net/news/blog/au-revoir-france/",
+  "fuente_dominio": "quad9.net",
+  "hn_url": "https://news.ycombinator.com/item?id=50195959",
+  "score": 275,
+  "comentarios": 92
+ },
+ {
+  "id": "50192536",
+  "slug": "desarrollan-primer-jailbreak-solo-software-para-nintendo-swi-50192536",
+  "fecha": "2026-10-22T16:55:22+00:00",
+  "titulo": "Desarrollan primer jailbreak solo software para Nintendo Switch 2",
+  "resumen": "Un investigador ha creado ns2jb, el primer jailbreak de solo software para la Nintendo Switch 2, que permite ejecutar código arbitrario y acceder a funciones del sistema. La herramienta aprovecha una vulnerabilidad en WebKit mediante un portal cautivo personalizado y también explora alternativas a través de juegos de Switch 1. Como demostración, se modificó Mario Kart World para incluir nuevos personajes jugables.",
+  "por_que_importa": "Este jailbreak permite ejecutar homebrew, descargar copias de seguridad de juegos y acceder a periféricos de la consola, lo que podría facilitar la distribución de exclusivas de consola en hardware arbitrario. El desarrollo representa un hito técnico en la modificación de la consola de última generación de Nintendo.",
+  "puntos_clave": [
+   "ns2jb es un jailbreak atado por software que funciona en firmware 23.0.1",
+   "Utiliza una vulnerabilidad en WebKit a través de un portal Wi-Fi personalizado",
+   "El investigador empleó configuraciones automatizadas con KVM para presionar botones y reiniciar la consola remotamente"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+  "fuente_dominio": "pepsipu.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50192536",
+  "score": 484,
+  "comentarios": 177
+ },
+ {
+  "id": "50195110",
+  "slug": "emudhra-abandona-su-negocio-global-de-certificados-ssl-tls-50195110",
+  "fecha": "2026-10-22T16:55:17+00:00",
+  "titulo": "eMudhra abandona su negocio global de certificados SSL/TLS",
+  "resumen": "La compañía india de confianza digital eMudhra ha decidido retirarse del mercado global de certificados SSL/TLS tras un incidente de seguridad reciente. La empresa argumenta que este negocio representa solo el 1% de sus ingresos globales y enfrenta crecientes requisitos de cumplimiento normativo y competencia de grandes proveedores que ofrecen estos certificados gratuitamente. eMudhra se comprometió a realizar una transición ordenada para sus clientes y mantener los servicios hasta que todos los certificados expiren o sean reemplazados.",
+  "por_que_importa": "El retiro de eMudhra refleja los desafíos estructurales que enfrentan las autoridades certificadoras más pequeñas en el ecosistema de infraestructura de clave pública, particularmente tras incidentes de seguridad que generan escrutinio público desproporcionado. La decisión pone de relieve tensiones más amplias sobre la confiabilidad y sostenibilidad de las actuales autoridades certificadoras globales.",
+  "puntos_clave": [
+   "eMudhra manejó el incidente reciente revocando las autoridades certificadoras afectadas en 14 horas sin que se emitieran certificados finales comprometidos",
+   "Los servicios de identidad digital, firma electrónica y soluciones empresariales de eMudhra continúan operando normalmente sin afectación",
+   "La compañía se compromete a trabajar con navegadores y clientes para asegurar una transición sin interrupciones mediante certificados de reemplazo gratuitos"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+  "fuente_dominio": "emudhra.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50195110",
+  "score": 507,
+  "comentarios": 396
+ },
+ {
   "id": "50162044",
   "slug": "descubren-dos-especies-de-marsupiales-que-se-creian-extintas-50162044",
   "fecha": "2026-10-22T11:28:56+00:00",
@@ -9384,119 +9498,5 @@
   "hn_url": "https://news.ycombinator.com/item?id=49839664",
   "score": 202,
   "comentarios": 126
- },
- {
-  "id": "49829650",
-  "slug": "generacion-alpha-usa-that-s-so-ai-como-insulto-hacia-lo-inau-49829650",
-  "fecha": "2026-09-25T11:31:51+00:00",
-  "titulo": "Generación Alpha usa \"That's so AI\" como insulto hacia lo inauténtico",
-  "resumen": "Entre jóvenes de primaria circula la expresión \"That's so AI\" para referirse a algo falso, de baja calidad o sospechoso, ampliando el significado de inteligencia artificial más allá de su definición técnica. La frase refleja la percepción negativa que tiene la generación Alpha sobre la tecnología, asociando las características de contenido generado por IA —convincente en apariencia pero sin valor real— con otras manifestaciones de falta de autenticidad. Según comentarios de padres, mientras algunos jóvenes descartan críticamente contenido de IA, otros lo usan como herramienta útil para aprender, especialmente en programación.",
-  "por_que_importa": "El término revela cómo la generación más joven percibe la inteligencia artificial no como algo revolucionario, sino como sinónimo de lo superficial e inauténtico, lo que puede influir en la adopción futura de estas tecnologías. Simultáneamente, sugiere que empresas que promocionan productos como impulsados por IA podrían enfrentar rechazo del público joven en los próximos meses.",
-  "puntos_clave": [
-   "La expresión \"That's so AI\" se utiliza para calificar cualquier cosa falsa, barata o de dudoso valor",
-   "Gen Alpha ha redefinido el término IA para equipararlo con lo inauténtico, independientemente de si está realmente generado por máquinas",
-   "Jóvenes muestran capacidad para detectar lo inauténtico, aunque con perspectivas divididas sobre la utilidad práctica de las herramientas de IA"
-  ],
-  "categoria": "IA",
-  "fuente_url": "https://www.theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us",
-  "fuente_dominio": "theguardian.com",
-  "hn_url": "https://news.ycombinator.com/item?id=49829650",
-  "score": 164,
-  "comentarios": 225
- },
- {
-  "id": "49837006",
-  "slug": "koi-rest-un-estanque-virtual-para-encontrar-calma-y-equilibr-49837006",
-  "fecha": "2026-09-25T11:31:45+00:00",
-  "titulo": "Koi.rest: un estanque virtual para encontrar calma y equilibrio",
-  "resumen": "Un desarrollador creó un sitio web que simula un estanque con peces koi como espacio de relajación compartida en internet. Utilizó inteligencia artificial para desarrollar el proyecto sin conocimientos previos en JavaScript, priorizando que fuera \"suficientemente bueno\" sobre la perfección. La plataforma permite a los visitantes observar peces de manera tranquila, con opciones de temporizador personalizable.",
-  "por_que_importa": "Ejemplifica cómo las herramientas de IA pueden democratizar la creación de proyectos para personas con limitaciones técnicas o de tiempo. Aborda la creciente demanda de espacios digitales orientados al bienestar mental y la reducción de estrés.",
-  "puntos_clave": [
-   "Sitio web que ofrece visualización pasiva de peces como mecanismo de relajación",
-   "Desarrollado con ayuda de IA por alguien sin experiencia previa en JavaScript",
-   "Los usuarios reportan problemas de rendimiento y lag en la carga y navegación"
-  ],
-  "categoria": "Negocio",
-  "fuente_url": "https://koi.rest",
-  "fuente_dominio": "koi.rest",
-  "hn_url": "https://news.ycombinator.com/item?id=49837006",
-  "score": 189,
-  "comentarios": 54
- },
- {
-  "id": "49830606",
-  "slug": "google-prueba-infraestructura-de-ia-en-orbita-con-project-su-49830606",
-  "fecha": "2026-09-25T11:31:40+00:00",
-  "titulo": "Google prueba infraestructura de IA en órbita con Project Suncatcher",
-  "resumen": "Google lanzará un satélite prototipo para evaluar si sus procesadores de inteligencia artificial pueden funcionar en las condiciones extremas del espacio. La misión busca determinar cómo sus chips soportan radiación, vibraciones intensas y desafíos de enfriamiento en órbita terrestre baja. El objetivo a largo plazo es establecer constelaciones de satélites interconectados que gestionen cargas de trabajo de IA a mayor escala, aprovechando la energía solar casi constante del espacio.",
-  "por_que_importa": "El proyecto explora si el espacio puede albergar infraestructura escalable de aprendizaje automático, potencialmente ofreciendo ventajas energéticas significativas. Los resultados de esta prueba inicial sentarán las bases para futuras misiones previstas para 2027 y el desarrollo de sistemas de IA más potentes en órbita.",
-  "puntos_clave": [
-   "Prototipo de satélite probará rendimiento de procesadores TPU de Google bajo radiación, vibración térmica extrema y vacío",
-   "Satélites en órbita baja accederían a energía solar casi continua, generando hasta ocho veces más potencia que en tierra",
-   "Planes futuros incluyen conectar múltiples constelaciones satelitales para gestionar cargas de trabajo masivas de inteligencia artificial"
-  ],
-  "categoria": "Negocio",
-  "fuente_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
-  "fuente_dominio": "blog.google",
-  "hn_url": "https://news.ycombinator.com/item?id=49830606",
-  "score": 194,
-  "comentarios": 391
- },
- {
-  "id": "49801436",
-  "slug": "galeria-de-arte-pixel-2d-con-tutoriales-mantiene-viva-la-tra-49801436",
-  "fecha": "2026-09-25T11:31:36+00:00",
-  "titulo": "Galería de arte pixel 2D con tutoriales mantiene viva la tradición de sprites",
-  "resumen": "Un sitio web recopila y exhibe trabajos de arte pixel y sprites de videojuegos clásicos, con énfasis en personajes de títulos de luchas, aventuras y arcade de décadas pasadas. La colección incluye trabajos originales y reinterpretaciones de franquicias como Metroid, Mega Man, King of Fighters y Street Fighter. Los comentarios destacan que aunque el arte pixel envejece mejor que la gráfica 3D antigua, la animación de sprites requiere un trabajo manual considerable en comparación con técnicas 3D modernas.",
-  "por_que_importa": "El arte pixel representa un legado técnico que muchos consideran superior en durabilidad estética frente a los primeros intentos de gráfica tridimensional, lo que mantiene relevante este formato décadas después. La documentación y preservación de estas técnicas artísticas es importante dado que el conocimiento especializado en animación sprite tradicional se considera una habilidad cada vez más escasa en la industria.",
-  "puntos_clave": [
-   "Recopilación de sprites de videojuegos clásicos con énfasis en personajes que no aparecieron en versiones finales de juegos populares",
-   "Los comentaristas señalan que la animación de sprites por métodos tradicionales es más laboriosa que generar assets 3D modernos",
-   "El arte pixel mantiene mejor apariencia visual con el paso del tiempo comparado con gráfica 3D temprana"
-  ],
-  "categoria": "Otros",
-  "fuente_url": "https://2dwillneverdie.com/",
-  "fuente_dominio": "2dwillneverdie.com",
-  "hn_url": "https://news.ycombinator.com/item?id=49801436",
-  "score": 256,
-  "comentarios": 56
- },
- {
-  "id": "49841563",
-  "slug": "paises-bajos-desarrolla-alternativa-a-microsoft-usando-nixos-49841563",
-  "fecha": "2026-09-25T11:31:30+00:00",
-  "titulo": "Países Bajos desarrolla alternativa a Microsoft usando NixOS",
-  "resumen": "El gobierno holandés impulsa DAWO, una iniciativa comunitaria para construir un entorno de trabajo digital autónomo basado en NixOS, un sistema operativo de código abierto. El proyecto reúne a organismos públicos, empresas e industria con el objetivo de reducir la dependencia tecnológica de proveedores estadounidenses. La plataforma se estructura en componentes modulares e intercambiables enfocados en autonomía digital, seguridad, verificabilidad e innovación.",
-  "por_que_importa": "Representa un movimiento europeo hacia la soberanía digital y la reducción de dependencia de grandes tecnológicas. Se suma a iniciativas similares de otros gobiernos europeos como Francia y Alemania que buscan alternativas de código abierto verificables.",
-  "puntos_clave": [
-   "DAWO utiliza componentes modulares reemplazables en lugar de soluciones monolíticas de un único proveedor",
-   "El proyecto incluye bloques de construcción para sistema operativo, nube, inteligencia artificial y herramientas de colaboración",
-   "Es una iniciativa colaborativa abierta donde gobierno, industria y sociedad civil participan conjuntamente en su desarrollo"
-  ],
-  "categoria": "Negocio",
-  "fuente_url": "https://www.dawo.community/en/",
-  "fuente_dominio": "dawo.community",
-  "hn_url": "https://news.ycombinator.com/item?id=49841563",
-  "score": 285,
-  "comentarios": 127
- },
- {
-  "id": "49836374",
-  "slug": "opus-5-5-genera-videos-explicativos-automaticamente-desde-co-49836374",
-  "fecha": "2026-09-25T11:31:25+00:00",
-  "titulo": "Opus 5.5 genera videos explicativos automáticamente desde código",
-  "resumen": "Se ha desarrollado una herramienta que utiliza el modelo Opus 5.5 para generar videos explicativos de forma automática a partir de URLs o descripciones textuales. El sistema funciona sin edición manual, convirtiendo instrucciones en videos MP4 mediante un agente serverless que ejecuta tareas de captura web, validación y renderizado. Los usuarios pueden desplegar su propia versión del proyecto en minutos utilizando una plataforma de infraestructura serverless.",
-  "por_que_importa": "Reduce significativamente el tiempo y costo de producción de contenido video explicativo, permitiendo que pequeños equipos generen videos de producto profesionales sin conocimientos especializados en edición. Demuestra las capacidades de generación de código de los modelos de lenguaje actuales aplicadas a la creación de contenido multimedia.",
-  "puntos_clave": [
-   "El modelo genera videos en resolución 1920x1080 a 30fps sin intervención manual en el proceso",
-   "La infraestructura se basa en máquinas virtuales efímeras que se descartan tras cada ejecución, minimizando costos",
-   "El proyecto está disponible como código abierto para que usuarios creen sus propias versiones personalizadas"
-  ],
-  "categoria": "IA",
-  "fuente_url": "https://launchvideo.io",
-  "fuente_dominio": "launchvideo.io",
-  "hn_url": "https://news.ycombinator.com/item?id=49836374",
-  "score": 287,
-  "comentarios": 147
  }
 ]
