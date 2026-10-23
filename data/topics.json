@@ -1,5 +1,119 @@
 [
  {
+  "id": "50208099",
+  "slug": "openssl-lanza-version-4-1-0-con-soporte-para-dtls-1-3-y-mejo-50208099",
+  "fecha": "2026-10-23T16:47:29+00:00",
+  "titulo": "OpenSSL lanza versión 4.1.0 con soporte para DTLS 1.3 y mejoras de rendimiento",
+  "resumen": "OpenSSL 4.1.0 es una versión con nuevas funcionalidades que introduce soporte para DTLS 1.3, GREASE según RFC 8701 e IKEv2 KDF, además de optimizaciones de rendimiento en arquitecturas como x86_64 y ppc64le. La versión elimina objetivos de compilación obsoletos como Windows en Itanium y Windows CE, y cambia la utilidad tsget para usar Net::Curl::Easy en lugar de una librería abandonada. La publicación incluye varios problemas conocidos relacionados con DTLS 1.3 que serán abordados en versiones futuras.",
+  "por_que_importa": "DTLS 1.3 representa una mejora significativa en eficiencia y simplificar respecto a versiones anteriores, beneficiando a aplicaciones que requieren comunicaciones seguras con baja latencia. El lanzamiento llega en un contexto donde algunos usuarios han comenzado a migrar hacia otras soluciones criptográficas debido a problemas de rendimiento en versiones anteriores.",
+  "puntos_clave": [
+   "Soporte oficial para DTLS 1.3 y protocolo GREASE, además de IKEv2 KDF",
+   "Optimizaciones de rendimiento con AVX-512 y VAES para operaciones criptográficas en procesadores modernos",
+   "Eliminación de plataformas antiguas como Windows en Itanium y Windows CE"
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://github.com/openssl/openssl/releases/tag/openssl-4.1.0",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50208099",
+  "score": 152,
+  "comentarios": 46
+ },
+ {
+  "id": "50202762",
+  "slug": "jank-un-dialecto-de-clojure-que-se-transpila-a-c-50202762",
+  "fecha": "2026-10-23T16:47:24+00:00",
+  "titulo": "Jank: un dialecto de Clojure que se transpila a C++",
+  "resumen": "Jank es un lenguaje de programación que combina la sintaxis y características de Clojure con la capacidad de interoperar directamente con C++, transpilándose a este último. Permite incluir código C++, acceder a bibliotecas nativas y usar características como plantillas y manejo de excepciones sin necesidad de código intermediario. Ofrece desarrollo interactivo mediante REPL impulsado por un compilador JIT basado en Clang, además de compilación AOT para generar binarios compactos.",
+  "por_que_importa": "Facilita el desarrollo de aplicaciones de alto rendimiento combinando la productividad de Clojure con acceso directo a capacidades nativas de C++, sin puentes de integración ni marshalling de datos. Resulta especialmente relevante para desarrollo de videojuegos y aplicaciones que requieren control sobre la compilación nativa.",
+  "puntos_clave": [
+   "Transpila a C++ en lugar de compilar a máquina virtual Java, permitiendo integración transparente con librerías C/C++",
+   "Mantiene desarrollo REPL interactivo con compilación JIT, combinado con compilación anticipada para binarios optimizados",
+   "Gestión de dependencias inspirada en Cargo, facilitando la incorporación de librerías nativas con configuración mínima"
+  ],
+  "categoria": "Programación",
+  "fuente_url": "https://jank-lang.org/",
+  "fuente_dominio": "jank-lang.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50202762",
+  "score": 155,
+  "comentarios": 30
+ },
+ {
+  "id": "50205816",
+  "slug": "retiran-pgrust-del-benchmark-clickbench-por-incumplimiento-d-50205816",
+  "fecha": "2026-10-23T16:47:19+00:00",
+  "titulo": "Retiran pgrust del benchmark ClickBench por incumplimiento de reglas",
+  "resumen": "Se removió la entrada de pgrust del benchmark ClickBench tras detectar que utilizaba cachés de resultados y kernels específicamente programados para cada consulta del test, lo que viola las reglas de la competencia. El proyecto contiene planes físicos escritos manualmente para las 43 consultas del benchmark y reutiliza respuestas cacheadas en ejecuciones sucesivas. El creador de pgrust respondió que una versión más reciente del proyecto ha sido publicada como código abierto para permitir auditoría independiente.",
+  "por_que_importa": "Los benchmarks de bases de datos requieren cumplimiento de reglas estrictas para garantizar comparativas justas; incumplirlas distorsiona los resultados y engaña a usuarios sobre el rendimiento real. Este caso pone de relieve la importancia de la transparencia y verificabilidad en proyectos que participan en evaluaciones competitivas.",
+  "puntos_clave": [
+   "Se detectó que pgrust incluía kernels individuales programados a mano para cada consulta del benchmark",
+   "Las ejecuciones posteriores reutilizaban resultados cacheados en lugar de ejecutar consultas reales",
+   "El creador argumenta que las acusaciones corresponden a una versión beta antigua y ofrece código abierto para verificación"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://github.com/ClickHouse/ClickBench/pull/2165",
+  "fuente_dominio": "github.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50205816",
+  "score": 158,
+  "comentarios": 98
+ },
+ {
+  "id": "50195002",
+  "slug": "metodo-para-descubrir-direcciones-de-investigacion-cientific-50195002",
+  "fecha": "2026-10-23T16:47:13+00:00",
+  "titulo": "Método para descubrir direcciones de investigación científica ignoradas por la comunidad",
+  "resumen": "Investigadores desarrollaron un sistema que identifica direcciones de investigación coherentes pero que ninguna comunidad científica actual está posicionada para proponer. El método descompone artículos en unidades conceptuales y utiliza modelos para evaluar tanto la viabilidad científica como la disponibilidad de investigadores. Validado en más de 16.000 artículos de aprendizaje automático, el sistema identifica combinaciones de ideas novedosas que los modelos de lenguaje convencionales tienden a pasar por alto.",
+  "por_que_importa": "Expande la capacidad de la inteligencia artificial para complementar la investigación humana identificando oportunidades que trascienden los límites de las comunidades académicas existentes. Demuestra que la mayoría de direcciones prometedoras permanecen inexploradas simplemente porque no hay grupos interdisciplinarios que combinen los conocimientos necesarios.",
+  "puntos_clave": [
+   "Separa la plausibilidad científica de la disponibilidad de investigadores para encontrar brechas reales en la exploración",
+   "Recupera combinaciones de ideas novedosas con mayor frecuencia que métodos basados en modelos de lenguaje estándar",
+   "Utiliza descomposición en 'átomos de ideas' que permite evaluar coherencia sin requerir equipos especializados existentes"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://arxiv.org/abs/2603.01092",
+  "fuente_dominio": "arxiv.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50195002",
+  "score": 165,
+  "comentarios": 58
+ },
+ {
+  "id": "50201445",
+  "slug": "como-fable-5-1-oculta-mensajes-en-imagenes-50201445",
+  "fecha": "2026-10-23T16:47:08+00:00",
+  "titulo": "Cómo Fable 5.1 oculta mensajes en imágenes",
+  "resumen": "Investigadores probaron si el modelo de lenguaje Fable 5.1 podía ocultar mensajes dentro de imágenes generadas en SVG y si otro ejemplar del mismo modelo podía decodificarlos sin información previa. El modelo convergió en cinco estrategias de codificación principales, siendo la más común la variación de alturas de objetos para representar letras del alfabeto. Los resultados mostraron que la mayoría de imágenes fueron decodificadas exitosamente por nuevas instancias del modelo.",
+  "por_que_importa": "El experimento revela capacidades inesperadas de los modelos de lenguaje avanzados para comunicarse de forma encubierta, lo que tiene implicaciones para la seguridad y supervisión de sistemas de IA. Demuestra que modelos con la misma arquitectura pueden coordinarse implícitamente sin acuerdo previo.",
+  "puntos_clave": [
+   "Fable 5.1 utilizó principalmente codificación por altura, donde objetos de diferentes tamaños representan posiciones en el alfabeto",
+   "El esquema más frecuente fue la disposición de edificios en línea del horizonte nocturno, apareciendo en 23 de 50 imágenes generadas",
+   "Los comentarios sugieren que las codificaciones son triviales y que los modelos reales estarían limitados por controles de seguridad"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images",
+  "fuente_dominio": "lesswrong.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50201445",
+  "score": 173,
+  "comentarios": 55
+ },
+ {
+  "id": "50208837",
+  "slug": "las-empresas-electricas-privadas-cobran-23-mas-que-las-publi-50208837",
+  "fecha": "2026-10-23T16:47:03+00:00",
+  "titulo": "Las empresas eléctricas privadas cobran 23% más que las públicas en EE.UU.",
+  "resumen": "Un análisis de datos de 2025 muestra que los hogares estadounidenses pagan significativamente más por electricidad en servicios de empresas con inversores privados que en proveedores públicos o cooperativas. Desde 2020, los precios en empresas privadas han subido casi el doble que en proveedores públicos, superando el crecimiento de la inflación. Las tarifas varían considerablemente según el estado, con aumentos particularmente pronunciados en California, Connecticut y Delaware.",
+  "por_que_importa": "La estructura de propiedad de las empresas de servicios tiene un impacto directo en el costo que pagan los consumidores por un servicio esencial. El análisis plantea interrogantes sobre la eficiencia de los modelos de negocio con fines de lucro en infraestructuras críticas.",
+  "puntos_clave": [
+   "En 2025, los usuarios de servicios privados pagaron 17.8¢ por kilovatio-hora, frente a 14.5¢ en públicos y 14.1¢ en cooperativas",
+   "Las tarifas privadas crecieron 34% desde 2020, mientras que las públicas aumentaron 19%, por encima del crecimiento de la inflación",
+   "Algunos estados muestran brechas aún mayores, como California con 33.9¢ en privadas versus 22.7¢ en públicas"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.kadoa.com/energy-prices/insights/investor-owned-utilities",
+  "fuente_dominio": "kadoa.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50208837",
+  "score": 453,
+  "comentarios": 314
+ },
+ {
   "id": "50203161",
   "slug": "por-que-la-programacion-en-lenguaje-natural-es-problematica-50203161",
   "fecha": "2026-10-23T11:18:51+00:00",
@@ -9384,119 +9498,5 @@
   "hn_url": "https://news.ycombinator.com/item?id=49858513",
   "score": 227,
   "comentarios": 63
- },
- {
-  "id": "49842764",
-  "slug": "pipepipe-un-fork-de-newpipe-con-sponsorblock-integrado-49842764",
-  "fecha": "2026-09-26T20:52:15+00:00",
-  "titulo": "PipePipe: un fork de NewPipe con SponsorBlock integrado",
-  "resumen": "PipePipe es una aplicación Android de código abierto derivada de NewPipe que permite navegar por YouTube y otros servicios sin limitaciones. La aplicación incluye características como integración de SponsorBlock para saltar segmentos patrocinados, restauración de dislikes, reproducción en segundo plano y filtros avanzados de búsqueda. Se trata de un desarrollo independiente que divergió de NewPipe en 2022 para implementar cambios con mayor rapidez.",
-  "por_que_importa": "Ofrece a usuarios de Android una alternativa para acceder a YouTube con características de privacidad y control que no están disponibles en la aplicación oficial. El modelo de fork independiente permite desarrollar y desplegar mejoras sin las limitaciones de seguir el ritmo de actualizaciones del proyecto original.",
-  "puntos_clave": [
-   "Integra SponsorBlock, ReturnYouTubeDislike y permite acceso a contenido restringido mediante login",
-   "Incluye funciones avanzadas como reproducción en segundo plano, filtros por palabras clave, bloques de shorts y controles de reproducción personalizados",
-   "Funciona de forma independiente desde 2022, permitiendo iteraciones rápidas sin coordinación con NewPipe"
-  ],
-  "categoria": "Otros",
-  "fuente_url": "https://github.com/InfinityLoop1308/PipePipe",
-  "fuente_dominio": "github.com",
-  "hn_url": "https://news.ycombinator.com/item?id=49842764",
-  "score": 236,
-  "comentarios": 113
- },
- {
-  "id": "49854693",
-  "slug": "la-historia-detras-de-apple-cards-el-proyecto-iniciado-por-s-49854693",
-  "fecha": "2026-09-26T20:52:06+00:00",
-  "titulo": "La historia detrás de Apple Cards, el proyecto iniciado por Steve Jobs",
-  "resumen": "Apple lanzó en 2011 la aplicación Cards, que permitía diseñar y enviar tarjetas impresas personalizadas. El proyecto fue iniciativa directa de Steve Jobs y se desarrolló durante el último año de su vida. Aunque la aplicación funcionó, su desarrollo enfrentó desafíos técnicos significativos y problemas de gestión en la cadena de producción e impresión internacional.",
-  "por_que_importa": "La historia revela cómo las decisiones de líderes fundadores pueden generar proyectos ambiciosos pero problemáticos, incluso en empresas tecnológicas de élite. También muestra que Apple competía directamente con startups como Sincerely, que ya desarrollaban aplicaciones similares de tarjetas impresas.",
-  "puntos_clave": [
-   "El producto fue ideado por Steve Jobs durante una caminata informal, buscando enviar tarjetas de agradecimiento desde el iPhone",
-   "La impresión en algodón con técnica letterpress requirió colaboración con imprentas históricas de Nueva York y operaciones en múltiples países",
-   "Apple implementó códigos de barras invisibles en los sobres para rastrear entregas sin comprometer la estética visual de las tarjetas"
-  ],
-  "categoria": "Negocio",
-  "fuente_url": "https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story",
-  "fuente_dominio": "lexontech.org",
-  "hn_url": "https://news.ycombinator.com/item?id=49854693",
-  "score": 298,
-  "comentarios": 64
- },
- {
-  "id": "49855018",
-  "slug": "un-desarrollador-abandona-las-herramientas-de-ia-tras-un-mes-49855018",
-  "fecha": "2026-09-26T16:06:43+00:00",
-  "titulo": "Un desarrollador abandona las herramientas de IA tras un mes de reflexión",
-  "resumen": "Un programador que utilizaba ampliamente herramientas de inteligencia artificial en su trabajo decidió dejar de usarlas tras percatarse de que estaba perdiendo control sobre su código y sus habilidades técnicas se deterioraban. Durante su experiencia, comenzó delegando tareas simples a los agentes de IA, pero gradualmente les encomendaba proyectos complejos que no terminaba de comprender completamente. El autor reflexiona sobre cómo esta dependencia lo hacía sentirse menos capaz y responsable de su propio trabajo.",
-  "por_que_importa": "Plantea una discusión crítica sobre los riesgos de depender excesivamente de herramientas generativas en el desarrollo de software, especialmente en entornos profesionales donde se requiere comprensión profunda del código. Toca aspectos importantes como la calidad, la responsabilidad del código en producción y el deterioro de las habilidades técnicas a largo plazo.",
-  "puntos_clave": [
-   "El autor experimentó una pérdida progresiva de control sobre los cambios de código que enviaba a producción",
-   "La delegación excesiva en IA afectó su capacidad de comprender y justificar las modificaciones ante colegas",
-   "Reconoce que ni él ni otros desarrolladores logran verificar completamente qué hace el código generado antes de desplegarlo"
-  ],
-  "categoria": "Programación",
-  "fuente_url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
-  "fuente_dominio": "blog.bustikiller.com",
-  "hn_url": "https://news.ycombinator.com/item?id=49855018",
-  "score": 150,
-  "comentarios": 163
- },
- {
-  "id": "49855315",
-  "slug": "conversations-abandona-google-play-y-se-vuelve-gratuita-tras-49855315",
-  "fecha": "2026-09-26T16:06:34+00:00",
-  "titulo": "Conversations abandona Google Play y se vuelve gratuita tras años de conflictos",
-  "resumen": "El desarrollador de Conversations, una aplicación de mensajería instantánea federada, ha decidido retirar su aplicación de Google Play después de más de una década. La decisión responde a problemas recurrentes con la plataforma, incluyendo rechazos de actualizaciones sin justificación clara, retrasos en revisiones de seguridad que alcanzan dos semanas y retenciones inesperadas del servicio. Aunque Google le genera ingresos mensuales estables mediante la comisión del 15%, el desarrollador considera insuficiente la relación costo-beneficio frente a la falta de soporte técnico real y la ausencia de comunicación directa con la plataforma.",
-  "por_que_importa": "Refleja la frustración creciente de desarrolladores independientes con los monopolios de distribución móvil, donde pequeños creadores carecen de canales de comunicación efectiva con las plataformas que controlan el acceso al mercado. El caso evidencia cómo los tiempos de revisión lenta pueden comprometer la seguridad de los usuarios al retrasar parches críticos.",
-  "puntos_clave": [
-   "Conversations pasará a ser gratuita tras dejar de depender de ingresos de Google Play",
-   "El desarrollador espera acelerar lanzamientos de actualizaciones de seguridad sin revisiones intermedias",
-   "La decisión ilustra la ausencia de soporte humano en plataformas grandes y el impacto en desarrolladores de aplicaciones legítimas"
-  ],
-  "categoria": "Negocio",
-  "fuente_url": "https://gultsch.de/posts/breaking-up-with-google-play/",
-  "fuente_dominio": "gultsch.de",
-  "hn_url": "https://news.ycombinator.com/item?id=49855315",
-  "score": 393,
-  "comentarios": 144
- },
- {
-  "id": "49852717",
-  "slug": "la-matematica-necesitara-mas-investigadores-humanos-en-la-er-49852717",
-  "fecha": "2026-09-26T11:06:41+00:00",
-  "titulo": "La matemática necesitará más investigadores humanos en la era de la IA",
-  "resumen": "Un matemático argumenta que los sistemas de inteligencia artificial están generando ideas matemáticas cada vez más complejas que los humanos no pueden seguir al ritmo actual. Ante este desafío, propone expandir significativamente la comunidad de investigadores matemáticos para que puedan comprender y validar los descubrimientos generados por máquinas. Esta comprensión humana es esencial tanto para garantizar la seguridad de innovaciones críticas como para mantener la agencia humana en un futuro dirigido por IA.",
-  "por_que_importa": "Sin investigadores que comprendan profundamente las ideas generadas por IA, la sociedad no podrá validar ni confiar en soluciones tecnológicas críticas como nuevos diseños de fusión nuclear o sistemas de alto riesgo. La comprensión humana del conocimiento matemático no es un lujo cultural, sino una necesidad práctica para mantener el control y la seguridad en un mundo transformado por inteligencia artificial.",
-  "puntos_clave": [
-   "Los sistemas de IA ya producen conceptos matemáticos demasiado avanzados para que los humanos los verifiquen a ritmo actual",
-   "Se necesita expandir la inversión y el número de investigadores matemáticos capacitados a nivel mundial",
-   "La comprensión humana de los hallazgos de IA es fundamental para tomar decisiones seguras sobre tecnologías transformadoras"
-  ],
-  "categoria": "IA",
-  "fuente_url": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/",
-  "fuente_dominio": "terrytao.wordpress.com",
-  "hn_url": "https://news.ycombinator.com/item?id=49852717",
-  "score": 154,
-  "comentarios": 186
- },
- {
-  "id": "49852065",
-  "slug": "mujer-detenida-13-dias-por-error-de-camara-de-lectura-de-pla-49852065",
-  "fecha": "2026-09-26T11:06:36+00:00",
-  "titulo": "Mujer detenida 13 días por error de cámara de lectura de placas",
-  "resumen": "Una mujer de Florida fue arrestada y encarcelada durante 13 días, incluido tiempo en aislamiento, tras ser identificada erróneamente por un sistema de cámara Flock como sospechosa de un accidente mortal. La policía ignoró evidencia obvia: su vehículo era de diferente color al reportado y no tenía daños visibles. El caso ha generado debate sobre cómo las autoridades utilizan datos automatizados sin verificación adecuada.",
-  "por_que_importa": "Expone los riesgos de las lectores automatizados de placas cuando se implementan sin protecciones suficientes y se confía en ellos sin validación. Ilustra cómo la tecnología de vigilancia puede vulnerar libertades civiles cuando las instituciones no aplican diligencia básica.",
-  "puntos_clave": [
-   "El sistema Flock identificó un vehículo por proximidad temporal, sin confirmar características físicas como color o daños",
-   "Testigos reportaron un vehículo de distinto color al que fue arrestado, información que no detuvo el proceso",
-   "La policía tardó siete meses en emitir una orden de arresto sin evidencia física adicional"
-  ],
-  "categoria": "Seguridad",
-  "fuente_url": "https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide",
-  "fuente_dominio": "jezebel.com",
-  "hn_url": "https://news.ycombinator.com/item?id=49852065",
-  "score": 183,
-  "comentarios": 83
  }
 ]
