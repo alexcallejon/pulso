@@ -1,5 +1,81 @@
 [
  {
+  "id": "50203759",
+  "slug": "heinlein-reflexiona-sobre-la-bondad-humana-y-el-futuro-de-la-50203759",
+  "fecha": "2026-10-24T04:00:17+00:00",
+  "titulo": "Heinlein reflexiona sobre la bondad humana y el futuro de la especie",
+  "resumen": "El escritor de ciencia ficción Robert A. Heinlein expone su fe en la naturaleza humana, destacando la prevalencia de la honestidad, la caridad y el trabajo bien hecho sobre el crimen y la corrupción. Sostiene que la decencia fundamenta el funcionamiento de la sociedad, desde vecinos que ayudan sin esperar recompensa hasta trabajadores que construyen con integridad. Concluye con optimismo sobre la capacidad de la humanidad para sobrevivir y expandirse hacia el espacio, llevando consigo sus valores esenciales.",
+  "por_que_importa": "El texto, publicado en 1952, presenta una perspectiva sobre la confianza interpersonal que contrasta con preocupaciones modernas sobre la criminalidad y la corrupción institucional. Los comentarios posteriores cuestionan si estas creencias siguen siendo válidas, especialmente respecto a la honestidad política y la viabilidad técnica de la expansión espacial.",
+  "puntos_clave": [
+   "Heinlein argumenta que la bondad y la caridad superan ampliamente al crimen en la sociedad cotidiana",
+   "Resalta el valor del trabajo honesto y el sacrificio desinteresado en profesiones como enfermería y docencia",
+   "Expresa confianza en que la humanidad sobrevivirá y se expandirá hacia el espacio preservando sus valores"
+  ],
+  "categoria": "Otros",
+  "fuente_url": "https://www.awakin.org/v2/read/view.php?tid=468",
+  "fuente_dominio": "awakin.org",
+  "hn_url": "https://news.ycombinator.com/item?id=50203759",
+  "score": 150,
+  "comentarios": 79
+ },
+ {
+  "id": "50207115",
+  "slug": "es-esta-la-nueva-realidad-de-la-ciberseguridad-50207115",
+  "fecha": "2026-10-24T04:00:12+00:00",
+  "titulo": "¿Es esta la nueva realidad de la ciberseguridad?",
+  "resumen": "La última semana ha concentrado múltiples vulnerabilidades críticas en software que afectan a miles de sitios importantes, generando alarma en la industria. La situación ha sido agravada por la combinación de vulnerabilidades teóricas convertidas en exploits mediante modelos de lenguaje, y la filtración de información que aceleró su divulgación pública. Los expertos señalan que se ha establecido una nueva dinámica: un ritmo más acelerado de descubrimiento de vulnerabilidades y una ventana de tiempo mucho más corta entre su identificación y su explotación masiva.",
+  "por_que_importa": "Los modelos de lenguaje pueden convertir vulnerabilidades teóricas en exploits funcionales rápidamente, reduciendo drásticamente el tiempo de respuesta disponible para aplicar parches. Esta transformación representa un cambio fundamental en el panorama de la seguridad informática que probablemente permanecerá a medida que aumente la generación de código asistida por IA.",
+  "puntos_clave": [
+   "Vulnerabilidades de ejecución remota en PHP afectaron aproximadamente al 70% de internet, incluyendo sitios de gobierno y servicios bancarios.",
+   "Los sistemas de IA pueden automatizar la búsqueda de exploits basándose en anuncios de parches, comprimiendo el tiempo entre descubrimiento y ataque.",
+   "La industria de seguridad considera esta nueva dinámica como la norma operativa futura, requiriendo estrategias de mitigación más robustas."
+  ],
+  "categoria": "Seguridad",
+  "fuente_url": "https://drew.silcock.dev/blog/is-this-the-new-cyber-normal/",
+  "fuente_dominio": "drew.silcock.dev",
+  "hn_url": "https://news.ycombinator.com/item?id=50207115",
+  "score": 151,
+  "comentarios": 166
+ },
+ {
+  "id": "50213925",
+  "slug": "dessa-modelo-de-inteligencia-artificial-que-conversa-en-tiem-50213925",
+  "fecha": "2026-10-24T04:00:06+00:00",
+  "titulo": "Dessa: modelo de inteligencia artificial que conversa en tiempo real solo con audio",
+  "resumen": "Un equipo ha desarrollado Dessa, un modelo de inteligencia artificial entrenado exclusivamente a partir de conversaciones humanas sin pasar por texto. A diferencia de los asistentes de voz convencionales, Dessa mantiene diálogos en tiempo real, capaz de captar emociones, sarcasmo, risas y pausas naturales. El modelo funciona localmente en computadoras de alto rendimiento y procesa información más rápidamente que otros sistemas similares.",
+  "por_que_importa": "Representa un avance en cómo los sistemas de inteligencia artificial pueden interpretar y reproducir la comunicación humana natural, conservando matices que se pierden al convertir voz a texto. Su capacidad para ejecutarse en dispositivos locales sin dependencia de servidores remotos plantea nuevas posibilidades en eficiencia y privacidad.",
+  "puntos_clave": [
+   "Entrenamiento solo con audio humano, sin datos textuales ni modelos preentrenados",
+   "Capacidad de duplex completo: escucha y habla simultáneamente con latencia muy baja",
+   "Requiere significativamente menos datos que los modelos de lenguaje tradicionales para aprender idioma y expresión"
+  ],
+  "categoria": "IA",
+  "fuente_url": "https://block.xyz/dessa",
+  "fuente_dominio": "block.xyz",
+  "hn_url": "https://news.ycombinator.com/item?id=50213925",
+  "score": 284,
+  "comentarios": 113
+ },
+ {
+  "id": "50214218",
+  "slug": "google-podria-usar-datos-de-gmail-y-google-photos-para-dirig-50214218",
+  "fecha": "2026-10-24T04:00:01+00:00",
+  "titulo": "Google podría usar datos de Gmail y Google Photos para dirigir anuncios personalizados",
+  "resumen": "Google ha modificado su política de privacidad para permitir el uso de información de Gmail, Google Photos y Google Drive en la segmentación de anuncios, siempre que el usuario haya conectado estos servicios a funciones de IA personalizadas como Search o Gemini. La compañía aclaró que los anunciantes no tendrán acceso directo a estos datos ni a información identificable, ni utilizará categorías sensibles para dirigirse a usuarios. Los usuarios pueden desactivar esta práctica a través de la configuración de personalización de búsqueda.",
+  "por_que_importa": "Esta política amplía significativamente cómo Google monetiza los datos personales de sus usuarios, fusionando servicios de almacenamiento personal con publicidad dirigida. La medida afecta especialmente a quienes utilizan funciones de inteligencia artificial personalizadas, que dependen del acceso a información privada.",
+  "puntos_clave": [
+   "El cambio permite dirigir anuncios basados en contenido de servicios personales si el usuario habilitó funciones de IA personalizadas",
+   "La política entró en vigor el 16 de octubre y se aplica a nivel mundial, aunque la UE tiene restricciones adicionales por la Ley de Mercados Digitales",
+   "Los usuarios pueden desconectar servicios individuales o desactivar completamente las recomendaciones personalizadas desde la configuración"
+  ],
+  "categoria": "Negocio",
+  "fuente_url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+  "fuente_dominio": "theverge.com",
+  "hn_url": "https://news.ycombinator.com/item?id=50214218",
+  "score": 319,
+  "comentarios": 163
+ },
+ {
   "id": "50206840",
   "slug": "despido-laboral-y-los-efectos-secundarios-del-tratamiento-co-50206840",
   "fecha": "2026-10-23T21:13:42+00:00",
@@ -9422,81 +9498,5 @@
   "hn_url": "https://news.ycombinator.com/item?id=49857729",
   "score": 157,
   "comentarios": 42
- },
- {
-  "id": "49858810",
-  "slug": "japon-endurece-requisitos-para-residencia-permanente-de-extr-49858810",
-  "fecha": "2026-09-27T11:45:25+00:00",
-  "titulo": "Japón endurece requisitos para residencia permanente de extranjeros",
-  "resumen": "Japón implementará nuevas normas a partir de octubre que exigen a los solicitantes de residencia permanente demostrar ingresos superiores al promedio nacional, competencia en idioma japonés y poseer fondos de pensión equivalentes a 30 años de prestaciones. Los cambios, aplicables retroactivamente desde abril, generan incertidumbre entre residentes extranjeros de larga data que temen no calificar y consideran abandonar el país. Las nuevas reglas reflejan un giro hacia una política migratoria selectiva que contrasta con la necesidad de mano de obra que tiene Japón ante su población en declive.",
-  "por_que_importa": "Japón enfrenta una contradicción entre atraer trabajadores extranjeros para compensar su escasez laboral y simultáneamente implementar restricciones que podrían ahuyentar talento internacional. Los cambios afectan directamente a profesionales establecidos desde hace años que corren riesgo de perder su estatus migratorio.",
-  "puntos_clave": [
-   "Nuevas exigencias incluyen ingresos superiores al promedio nacional y acreditación de idioma japonés",
-   "Residentes de larga data enfrentan rechazo potencial y consideran dejar Japón o renunciar a su ciudadanía anterior",
-   "Economistas advierten que las restricciones pueden reducir el atractivo de Japón para trabajadores extranjeros a largo plazo"
-  ],
-  "categoria": "Negocio",
-  "fuente_url": "https://www.aljazeera.com/economy/2026/9/25/japan-moves-to-tighten-rules-for-foreigners-throwing-futures-into-doubt",
-  "fuente_dominio": "aljazeera.com",
-  "hn_url": "https://news.ycombinator.com/item?id=49858810",
-  "score": 175,
-  "comentarios": 490
- },
- {
-  "id": "49829202",
-  "slug": "guia-moderna-de-object-pascal-para-programadores-experimenta-49829202",
-  "fecha": "2026-09-27T11:45:20+00:00",
-  "titulo": "Guía moderna de Object Pascal para programadores experimentados",
-  "resumen": "Se ha publicado una introducción comprehensiva a Object Pascal moderno, dirigida a desarrolladores con experiencia previa en programación. El documento cubre desde conceptos básicos hasta características avanzadas como clases, interfaces, genéricos y manejo de excepciones. La guía enfatiza cómo Pascal ha evolucionado significativamente y ahora incluye capacidades comparables a lenguajes contemporáneos como C++ o Java.",
-  "por_que_importa": "Object Pascal sigue siendo relevante para desarrollo de software, con un legado que incluye aplicaciones notables como Photoshop 1.0 y herramientas modernas que permiten compilar a código nativo y JavaScript. El recurso facilita que desarrolladores familiarizados con otros lenguajes accedan a las capacidades actuales de Pascal sin comenzar desde conceptos elementales.",
-  "puntos_clave": [
-   "La guía estructura el aprendizaje en temas progresivos: desde lo básico hasta características avanzadas como interfaces y genéricos",
-   "Pascal moderno es compilado a código nativo rápido, fuertemente tipado y compatible con herramientas contemporáneas como Lazarus",
-   "El lenguaje ha evolucionado significativamente desde versiones antiguas como Turbo Pascal, incorporando paradigmas modernos de programación"
-  ],
-  "categoria": "Programación",
-  "fuente_url": "https://castle-engine.io/modern_pascal",
-  "fuente_dominio": "castle-engine.io",
-  "hn_url": "https://news.ycombinator.com/item?id=49829202",
-  "score": 176,
-  "comentarios": 77
- },
- {
-  "id": "49856988",
-  "slug": "guia-interactiva-sobre-concurrencia-en-go-49856988",
-  "fecha": "2026-09-27T11:45:15+00:00",
-  "titulo": "Guía interactiva sobre concurrencia en Go",
-  "resumen": "Se ha publicado un mini-libro que ofrece una revisión de los conceptos principales de concurrencia en Go, incluyendo gorrutinas, canales, sincronización y patrones avanzados. El material incluye ejemplos interactivos que permiten experimentar modificando el código, además de una versión en PDF con ejemplos estáticos. La guía está dirigida a quienes ya tienen conocimientos previos de concurrencia en Go, no a principiantes.",
-  "por_que_importa": "La concurrencia es fundamental en Go y su modelo de gorrutinas es considerado diferente al de otros lenguajes de programación. Contar con recursos educativos que combinen teoría e interactividad facilita el aprendizaje y refuerzo de conceptos que muchos desarrolladores encuentran desafiantes.",
-  "puntos_clave": [
-   "El recurso cubre gorrutinas, canales, select, pipelines, context, mutexes y otros temas de concurrencia con ejemplos ejecutables",
-   "Los usuarios pueden modificar y ejecutar código interactivamente para experimentar con los conceptos",
-   "Está disponible tanto en formato web interactivo como en PDF estático"
-  ],
-  "categoria": "Programación",
-  "fuente_url": "https://antonz.org/go-concurrency-distilled/",
-  "fuente_dominio": "antonz.org",
-  "hn_url": "https://news.ycombinator.com/item?id=49856988",
-  "score": 236,
-  "comentarios": 94
- },
- {
-  "id": "49863864",
-  "slug": "documentos-judiciales-revelan-que-openai-conocia-los-danos-l-49863864",
-  "fecha": "2026-09-27T11:45:09+00:00",
-  "titulo": "Documentos judiciales revelan que OpenAI conocía los daños legales de entrenar modelos con libros pirateados",
-  "resumen": "Escritos desclasificados en el litigio de la Authors Guild contra OpenAI muestran que ejecutivos de la empresa sabían que entrenaban sus modelos con libros obtenidos ilegalmente de fuentes cuestionables y que sus sistemas reemplazarían a autores humanos. Los documentos citan a empleados de OpenAI expresando preocupación por cómo se vería públicamente usar datos de sitios no autorizados, además de reconocer que sus productos causarían desempleo en la industria editorial. La empresa continuó adelante con sus planes a pesar de estas advertencias internas sobre el daño cultural y económico.",
-  "por_que_importa": "El caso evidencia tensiones entre el desarrollo de tecnología disruptiva y la protección legal de derechos de autor, con implicaciones para cómo se regulará el entrenamiento de sistemas de IA en el futuro. Los hallazgos podrían sentar precedentes importantes sobre responsabilidad corporativa cuando las empresas tienen conocimiento previo del impacto negativo de sus acciones.",
-  "puntos_clave": [
-   "Directivos de OpenAI reconocieron internamente que sus modelos sustituirían el trabajo de escritores y generarían desempleo en la industria creativa.",
-   "La empresa utilizó materiales de fuentes no autorizadas para entrenar sus sistemas mientras se preocupaba por la percepción pública de estas prácticas.",
-   "Los documentos judiciales incluyen testimonios de empleados que caracterizaban las consecuencias negativas para autores como una 'disrupción económica aceptable'."
-  ],
-  "categoria": "Negocio",
-  "fuente_url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
-  "fuente_dominio": "authorsguild.org",
-  "hn_url": "https://news.ycombinator.com/item?id=49863864",
-  "score": 265,
-  "comentarios": 234
  }
 ]
